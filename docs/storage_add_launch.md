@@ -1,0 +1,23 @@
+---
+title: "storage_add_launch"
+source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/storage_add_launch.html"
+last_updated: "7/29/2025"
+product_version: "10.0.0.232"
+---
+
+
+In this article
+
+To launch the Add Storage Template wizard, do the following:
+
+1. Switch to the Configuration page.
+
+1. Navigate to Policy Templates > Storage.
+
+1. Click Add.
+
+[![Adding Storage Template](images/storage_add_launch.webp)](images/storage_add_launch.webp "Adding Storage Template")
+
+Page updated 7/29/2025
+
+Page content applies to build 10.0.0.232
