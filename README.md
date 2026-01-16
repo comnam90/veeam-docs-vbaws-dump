@@ -14,7 +14,7 @@ Markdown conversions of Veeam Backup for AWS documentation, optimized for Contex
 
 |                  |                                                      |
 | ---------------- | ---------------------------------------------------- |
-| **Source**       | https://helpcenter.veeam.com/docs/vbaws/             |
+| **Source**       | https://helpcenter.veeam.com/docs/vbaws/guide/       |
 | **Last Updated** | 2025-01-15                                           |
 | **Maintainer**   | [@comnam90](https://github.com/comnam90)             |
 
