@@ -1,0 +1,26 @@
+---
+title: "config_backup"
+product: "vbaws"
+doc_type: "guide"
+source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/config_backup.html"
+last_updated: "9/15/2025"
+product_version: "10.0.0.232"
+---
+
+
+In this article
+
+You can back up and restore the configuration database that stores data collected from Veeam Backup for AWS for the existing backup policies, protected AWS resources, created worker instance configurations and profiles, added IAM roles and users, logged session records and so on. If the backup appliance goes down for some reason, you can reinstall it and quickly restore its configuration from a backup. You can also use a configuration backup to migrate the configuration of one backup appliance to another backup appliance in AWS.
+
+It is recommended that you regularly perform configuration backup for every backup appliance present in AWS. Periodic configuration backups reduce the risk of data loss and minimize the administrative overhead costs in case any problems with the backup appliances occur.
+
+You can run configuration backup manually on demand, or instruct Veeam Backup for AWS to do it automatically on a regular basis.
+
+In This Section
+
+* [Performing Configuration Backup](perform_config_backup.md)
+* [Performing Configuration Restore](perform_config_restore.md)
+
+Page updated 9/15/2025
+
+Page content applies to build 10.0.0.232
