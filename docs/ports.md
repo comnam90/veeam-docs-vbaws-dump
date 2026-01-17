@@ -1,16 +1,15 @@
 ---
-title: "ports"
+title: "Ports"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/ports.html"
-last_updated: "1/6/2026"
+last_updated: "1/16/2026"
 product_version: "10.0.0.232"
 ---
 
 
-In this article
 
-As Veeam Plug-In for AWS is installed on the same machine where Veeam Backup & Replication runs, it uses the same ports as those described in the Veeam Backup & Replication User Guide, section [Ports](https://helpcenter.veeam.com/docs/vbr/userguide/used_ports.html?ver=13). In addition, the Veeam Backup for AWS architecture components require the ports listed in the following table.
+As Veeam Plug-In for AWS is installed on the same machine where Veeam Backup & Replication runs, it uses the same ports as those described in the Veeam Backup & Replication User Guide, section [Ports](https://helpcenter.veeam.com/docs/vbr/userguide/used_ports.html?ver=13) —  in addition to the ports listed in the following table.
 
 | From | To | Protocol | Port | Notes |
 | --- | --- | --- | --- | --- |
@@ -39,6 +38,4 @@ To open network ports, you must add rules to security groups associated with Vee
 
 To learn how to add security groups rules, see [AWS Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/security-group-rules.html).
 
-Page updated 1/6/2026
 
-Page content applies to build 10.0.0.232
