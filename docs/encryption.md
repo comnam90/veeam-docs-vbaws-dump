@@ -1,16 +1,16 @@
 ---
-title: "encryption"
+title: "Data Encryption"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/encryption.html"
-last_updated: "7/3/2025"
+last_updated: "1/16/2026"
 product_version: "10.0.0.232"
 ---
 
+# Data Encryption
 
-In this article
 
-By default, Amazon S3 Buckets are encrypted by default with Amazon S3 managed keys (SSE-S3). For more information on S3 encryption, see [AWS Documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingEncryption.html).
+By default, Amazon S3 Buckets are encrypted with Amazon S3 managed keys (SSE-S3). For more information on S3 encryption, see [AWS Documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingEncryption.html).
 
 For enhanced data security, Veeam Backup for AWS allows you to encrypt backed-up data in backup repositories using Veeam encryption mechanisms. Additionally, Veeam Backup for AWS supports native AWS KMS encryption of EC2 and RDS instance volumes, including cloud-native snapshots, as well as encryption of EFS and FSx file systems, DynamoDB tables, Redshift clusters and Redshift Serverless namespaces. To encrypt data, Veeam Backup for AWS uses the 256-bit Advanced Encryption Standard (AES). For more information about AES, see [Advanced Encryption Standard (AES)](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf).
 
@@ -24,6 +24,4 @@ In This Section
 * [Backup Repository Encryption](encryption_repository_level.md)
 * [AWS KMS Encryption](encryption_aws_cmks.md)
 
-Page updated 7/3/2025
 
-Page content applies to build 10.0.0.232
