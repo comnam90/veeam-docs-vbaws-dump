@@ -38,24 +38,24 @@ Since 7:00 AM, Monday is specified in weekly scheduling settings, Veeam Backup f
 
 1. On the same week, after backup sessions run on Tuesday and Wednesday, the created restore points will be marked with the (D) flag.
 
-[![Enabling Harmonized Scheduling](images/retention_snapshots_daily_weekly_fsx.PNG)](images/retention_snapshots_daily_weekly_fsx.PNG)
+[![Enabling Harmonized Scheduling](images/retention_snapshots_daily_weekly_fsx.webp)](images/retention_snapshots_daily_weekly_fsx.webp)
 
 1. On the fourth work day (Thursday), after a backup session runs at 7:00 AM, the created restore point will be marked with the (D) flag.
 
 By this moment, the earliest restore point in the backup chain will get older than the specified retention limit. However, Veeam Backup for AWS will not remove the earliest restore point (7:00 AM, Monday) with the (D) flag from the backup chain as this restore point is also marked with a flag of a less-frequent schedule. Instead, Veeam Backup for AWS will unassign the (D) flag from the restore point. This restore point will be kept for the retention period specified in the weekly scheduling settings (that is, for 2 weeks).
 
-[![Enabling Harmonized Scheduling](images/retention_snapshots_daily_removed_fsx.PNG)](images/retention_snapshots_daily_removed_fsx.PNG)
+[![Enabling Harmonized Scheduling](images/retention_snapshots_daily_removed_fsx.webp)](images/retention_snapshots_daily_removed_fsx.webp)
 
 1. On the fifth working day (Friday), after a backup session runs at 7:00 AM, the created restore point will be marked with the (D) flag.
 
 By this moment, the restore point created on Tuesday with the (D) flag will get older than the specified retention limit. Veeam Backup for AWS will remove from the backup chain the restore point created at 7:00 AM on Tuesday as no flags of a less-frequent schedule are assigned to this restore point.
 
-[![Enabling Harmonized Scheduling](images/retention_snapshots_daily_rp_removed_fsx.PNG)](images/retention_snapshots_daily_rp_removed_fsx.PNG)
+[![Enabling Harmonized Scheduling](images/retention_snapshots_daily_rp_removed_fsx.webp)](images/retention_snapshots_daily_rp_removed_fsx.webp)
 
 1. Veeam Backup for AWS will continue creating restore points for the next week in the same way as described in steps 1–4.
 2. On week 3, after a backup session runs at 7:00 AM on Monday, the earliest weekly restore point in the backup chain will get older than the specified retention limit. Veeam Backup for AWS will unassign the (W) flag from the earliest weekly restore point. Since no other flags are assigned to this restore point, Veeam Backup for AWS will remove this restore point from the backup chain.
 
-[![Enabling Harmonized Scheduling](images/retention_snapshots_weekly_rp_removed_fsx.PNG)](images/retention_snapshots_weekly_rp_removed_fsx.PNG)
+[![Enabling Harmonized Scheduling](images/retention_snapshots_weekly_rp_removed_fsx.webp)](images/retention_snapshots_weekly_rp_removed_fsx.webp)
 
 Page updated 9/26/2025
 

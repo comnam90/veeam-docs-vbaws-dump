@@ -22,7 +22,7 @@ The creation of the first backup may take significant time to complete since Vee
 
 The creation of subsequent backups typically takes less time to complete, compared to the first backup in the chain. Note, however, that the completion time still depends on the amount of processed data.
 
-[![FSx Backup Chain](images/fsx_backup_chain.PNG)](images/fsx_backup_chain.PNG "FSx Backup Chain")
+[![FSx Backup Chain](images/fsx_backup_chain.webp)](images/fsx_backup_chain.webp "FSx Backup Chain")
 
 Each FSx backup in the backup chain contains encrypted metadata. Metadata stores information about the protected file system, the backup policy that created the backup, and the date, time and applied retention settings. Veeam Backup for AWS uses metadata to identify outdated backups, to load the configuration of source file systems during recovery operations, and so on.
 

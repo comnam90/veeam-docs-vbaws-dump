@@ -14,7 +14,7 @@ For FSx file system backups, Veeam Backup for AWS retains restore points for the
 
 During every successful backup session, Veeam Backup for AWS creates a restore point and saves the date, time and applied retention settings in the restore point metadata. If Veeam Backup for AWS detects that the period of time for which the restore point was stored exceeds the period specified in the retention settings, it automatically removes the restore point from the FSx backup chain. You can also remove unnecessary FSx backups manually as described in section [Removing FSx Backups](backups_remove_fsx.md).
 
-[![FSx Backup Retention](images/fsx_backups_retention.PNG)](images/fsx_backups_retention.PNG "FSx Backup Retention")
+[![FSx Backup Retention](images/fsx_backups_retention.webp)](images/fsx_backups_retention.webp "FSx Backup Retention")
 
 |  |
 | --- |
