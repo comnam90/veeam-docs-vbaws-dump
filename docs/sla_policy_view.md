@@ -35,8 +35,8 @@ The SLA compliance ratio can acquire the following statuses:
 | --- | --- | --- |
 | Not configured | — | The SLA compliance ratio cannot be calculated as no corresponding backup schedule is configured in the SLA template applied to the policy. |
 | Not available | — | The SLA compliance ratio has not been calculated yet. |
-| SLA Met | ![Viewing SLA-Based Policy Details](images/checkmarkcircle.png "Icon for databases") | The SLA compliance ratio equals or is greater than the target SLA value. |
-| SLA Missed | ![Viewing SLA-Based Policy Details](images/error_circle.png "Icon for databases") | The SLA compliance ratio is less than the target SLA value. |
+| SLA Met | ![Viewing SLA-Based Policy Details](images/checkmarkcircle.webp "Icon for databases") | The SLA compliance ratio equals or is greater than the target SLA value. |
+| SLA Missed | ![Viewing SLA-Based Policy Details](images/error_circle.webp "Icon for databases") | The SLA compliance ratio is less than the target SLA value. |
 
 To learn how the SLA compliance ratio is calculated, see [How Veeam Backup for AWS Estimates SLA Compliance](sla_calculation.md).
 
