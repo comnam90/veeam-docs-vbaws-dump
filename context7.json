@@ -1,12 +1,4 @@
 {
-  "$schema": "https://context7.com/schema/context7.json",
-  "projectTitle": "Veeam Backup for AWS Docs",
-  "description": "Unofficial documentation dump for Veeam Backup for AWS (VBAWS). Cloud-native backup for EC2 instances, RDS, EFS, and VPC configurations.",
-  "folders": ["docs"],
-  "excludeFolders": [],
-  "excludeFiles": [],
-  "rules": [
-    "This is unofficial documentation - always verify against official Veeam Help Center",
-    "Covers AWS-native backup appliance deployment and management"
-  ]
+  "url": "https://context7.com/comnam90/veeam-docs-vbaws-dump",
+  "public_key": "pk_vgr5FzV3CQdIPvTbuNnlU"
 }
