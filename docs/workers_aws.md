@@ -1,14 +1,14 @@
 ---
-title: "workers_aws"
+title: "Worker Instances"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/workers_aws.html"
-last_updated: "12/4/2025"
+last_updated: "1/22/2026"
 product_version: "10.0.0.232"
 ---
 
+# Worker Instances
 
-In this article
 
 If you want initial full backups to be processed quickly, it is recommended that you use a larger worker instance profile, and then change it to a smaller profile for incremental backup. You can change worker instance profile settings on a regional basis, so make sure that the worker instance size is appropriate to process the largest workload within the required time.
 
@@ -26,9 +26,7 @@ For more information on AWS pricing, see [AWS Documentation](https://docs.aws.am
 
 Related Topics
 
-* [Managing Worker Profiles](https://helpcenter.veeam.com/docs/vbaws/guide/worker_edit_profile.html?ver=70)
+* [Managing Worker Profiles](worker_profiles.md)
 * [Solution Architecture](overview.md)
 
-Page updated 12/4/2025
 
-Page content applies to build 10.0.0.232
