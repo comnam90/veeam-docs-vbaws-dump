@@ -1,5 +1,5 @@
 ---
-title: "organization_permissions"
+title: "Organization Rescan IAM Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/organization_permissions.html"
@@ -7,8 +7,8 @@ last_updated: "4/28/2025"
 product_version: "10.0.0.232"
 ---
 
+# Organization Rescan IAM Permissions
 
-In this article
 
 To allow Veeam Backup for AWS to collect information on AWS Organizations, the Organization rescan IAM role specified in the [organization settings](organization_add_settings.md) must meet the following requirements:
 
@@ -22,6 +22,4 @@ To allow Veeam Backup for AWS to collect information on AWS Organizations, the O
 
 To learn how to create IAM roles and assign them the required permissions, see [Appendix A. Creating IAM Roles in AWS](create_iam_policy_role.md).
 
-Page updated 4/28/2025
 
-Page content applies to build 10.0.0.232

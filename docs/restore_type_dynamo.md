@@ -1,5 +1,5 @@
 ---
-title: "restore_type_dynamo"
+title: "Step 6. Configure General Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_type_dynamo.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 6. Configure General Settings
 
-In this article
 
 [This step applies only if you have selected the Restore to new location, or with different settings option at the Restore Mode step of the wizard]
 
@@ -25,6 +25,4 @@ For more information on deletion protection, see [AWS Documentation](https://doc
 
 [![Restoring DynamoDB Tables](images/restore_general_settings_dynamodb.webp)](images/restore_general_settings_dynamodb.webp "Restoring DynamoDB Tables")
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

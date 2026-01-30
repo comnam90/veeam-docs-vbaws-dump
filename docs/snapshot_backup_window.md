@@ -1,5 +1,5 @@
 ---
-title: "snapshot_backup_window"
+title: "Data Protection Windows"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/snapshot_backup_window.html"
@@ -7,8 +7,8 @@ last_updated: "11/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Data Protection Windows
 
-In this article
 
 A data protection window is a time interval during which SLA-based backup policies are allowed to create restore points of protected resources. Data protection windows can be helpful if you do not want SLA-based backup policies to produce unwanted overhead for the production environment or do not want the policies to overlap production hours.
 
@@ -30,6 +30,4 @@ Related Topics
 
 [Adding SLA Templates](sla_add.md)
 
-Page updated 11/21/2025
 
-Page content applies to build 10.0.0.232

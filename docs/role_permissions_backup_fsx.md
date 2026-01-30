@@ -1,5 +1,5 @@
 ---
-title: "role_permissions_backup_fsx"
+title: "FSx Backup IAM Role Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/role_permissions_backup_fsx.html"
@@ -7,8 +7,8 @@ last_updated: "4/28/2025"
 product_version: "10.0.0.232"
 ---
 
+# FSx Backup IAM Role Permissions
 
-In this article
 
 Veeam Backup for AWS uses FSx Backup IAM roles to perform the following operations:
 
@@ -46,6 +46,4 @@ To learn how to modify role trust policies, see [AWS Documentation](https://docs
 
 To learn how to create IAM roles and assign them the required permissions, see [Appendix A. Creating IAM Roles in AWS](create_iam_policy_role.md).
 
-Page updated 4/28/2025
 
-Page content applies to build 10.0.0.232

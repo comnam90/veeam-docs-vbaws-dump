@@ -1,5 +1,5 @@
 ---
-title: "policies_create_rds"
+title: "Creating RDS Backup Policies"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/policies_create_rds.html"
@@ -7,8 +7,8 @@ last_updated: "10/15/2025"
 product_version: "10.0.0.232"
 ---
 
+# Creating RDS Backup Policies
 
-In this article
 
 To create a backup policy, do the following:
 
@@ -24,6 +24,4 @@ To create a backup policy, do the following:
 10. [Review estimated cost of the selected RDS resources](add_policy_cost_rds.md).
 11. [Finish working with the wizard](add_policy_finish_rds.md).
 
-Page updated 10/15/2025
 
-Page content applies to build 10.0.0.232

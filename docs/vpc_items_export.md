@@ -1,5 +1,5 @@
 ---
-title: "vpc_items_export"
+title: "Performing Selected Items Export"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/vpc_items_export.html"
@@ -7,8 +7,8 @@ last_updated: "2/28/2025"
 product_version: "10.0.0.232"
 ---
 
+# Performing Selected Items Export
 
-In this article
 
 |  |
 | --- |
@@ -24,6 +24,4 @@ To export specific VPC configuration items to a CloudFormation template, do the 
 5. [Specify a reason for the export](export_items_vpc_reason.md).
 6. [Finish working with the wizard](export_items_vpc_finish.md).
 
-Page updated 2/28/2025
 
-Page content applies to build 10.0.0.232

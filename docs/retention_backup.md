@@ -1,5 +1,5 @@
 ---
-title: "retention_backup"
+title: "EC2 Backup Retention"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/retention_backup.html"
@@ -7,8 +7,8 @@ last_updated: "12/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# EC2 Backup Retention
 
-In this article
 
 For image-level backups, Veeam Backup for AWS retains restore points for the number of days defined in backup scheduling settings as described in sections [Creating EC2 Backup Policies](add_policy_schedule_retention.md) and [Adding SLA Templates](sla_add.md).
 
@@ -47,6 +47,4 @@ Related Topics
 * [CBT Impact on Snapshot Retention](cbt_retention.md)
 * [Retention Policy for Archived Backups](retention_archive.md)
 
-Page updated 12/10/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "backup_hiw_fsx"
+title: "FSx Backup"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_hiw_fsx.html"
@@ -7,8 +7,8 @@ last_updated: "4/24/2024"
 product_version: "10.0.0.232"
 ---
 
+# FSx Backup
 
-In this article
 
 Veeam Backup for AWS performs FSx backup in the following way:
 
@@ -23,6 +23,4 @@ Related Topics
 * [Backup Chain](backup_chain_fsx.md)
 * [FSx Backup Retention](retention_backup_fsx.md)
 
-Page updated 4/24/2024
 
-Page content applies to build 10.0.0.232

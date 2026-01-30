@@ -1,5 +1,5 @@
 ---
-title: "connecting_existing_repository"
+title: "Connecting to Existing Repositories"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/connecting_existing_repository.html"
@@ -7,8 +7,8 @@ last_updated: "11/30/2023"
 product_version: "10.0.0.232"
 ---
 
+# Connecting to Existing Repositories
 
-In this article
 
 When you connect to a backup appliance, all repositories that have already been configured on the appliance are automatically added to the backup infrastructure.
 
@@ -33,6 +33,4 @@ Open the Backup Infrastructure view to verify that the repository is displayed u
 | Note |
 | If you do not specify access keys of an IAM user for a standard backup repository, you will only be able to use the Veeam Backup & Replication console to perform [entire EC2 instance restore](restore_to_google.md) from backups stored in this repository. Moreover, information on the repository displayed in the Backup Infrastructure view under the External Repositories node will not include statistics on the amount of storage space that is currently consumed by restore points created by Veeam Backup for AWS. |
 
-Page updated 11/30/2023
 
-Page content applies to build 10.0.0.232

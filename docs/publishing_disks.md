@@ -1,5 +1,5 @@
 ---
-title: "publishing_disks"
+title: "Publishing Disks"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/publishing_disks.html"
@@ -7,8 +7,8 @@ last_updated: "1/5/2026"
 product_version: "10.0.0.232"
 ---
 
+# Publishing Disks
 
-In this article
 
 Veeam Backup & Replication allows you to publish point-in-time disks, that is, to mount specific EBS volumes of backed-up EC2 instances to any server to instantly access data in the read-only mode. You can copy the necessary files and folders to the target server, and perform an antivirus scan of the backed-up data. For more information, see the Veeam Backup & Replication User Guide, section [Disk Publishing (Data Integration API)](https://helpcenter.veeam.com/docs/vbr/userguide/data_integration_api.html?ver=13).
 
@@ -26,6 +26,4 @@ To publish volumes of an EC2 instance, do the following:
 
 [![Publishing Disks](images/disk_publishing.webp)](images/disk_publishing.webp "Publishing Disks")
 
-Page updated 1/5/2026
 
-Page content applies to build 10.0.0.232

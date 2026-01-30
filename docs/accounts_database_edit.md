@@ -1,5 +1,5 @@
 ---
-title: "accounts_database_edit"
+title: "Editing Database Accounts"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/accounts_database_edit.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Editing Database Accounts
 
-In this article
 
 For each database account added to the Veeam Backup for AWS configuration database, you can modify settings configured while adding the account:
 
@@ -25,6 +25,4 @@ For each database account added to the Veeam Backup for AWS configuration databa
 
 [![Editing Database Account Settings](images/database_accounts_edit.webp)](images/database_accounts_edit.webp "Editing Database Account Settings")
 
-Page updated 8/20/2025
 
-Page content applies to build 10.0.0.232

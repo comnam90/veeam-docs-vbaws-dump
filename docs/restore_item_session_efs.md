@@ -1,5 +1,5 @@
 ---
-title: "restore_item_session_efs"
+title: "Step 8. Open FLR Browser"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_item_session_efs.html"
@@ -7,8 +7,8 @@ last_updated: "10/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 8. Open FLR Browser
 
-In this article
 
 [This step applies only if you have selected the Browse files option at the Restore Type step of the wizard]
 
@@ -29,6 +29,4 @@ In the FLR Running Sessions window you can track the progress of the recovery se
 
 [![Restoring EFS Files and Folders](images/restore_item_flr_session_view_efs.webp)](images/restore_item_flr_session_view_efs.webp "Restoring EFS Files and Folders")
 
-Page updated 10/2/2025
 
-Page content applies to build 10.0.0.232

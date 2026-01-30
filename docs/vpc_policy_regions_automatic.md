@@ -1,5 +1,5 @@
 ---
-title: "vpc_policy_regions_automatic"
+title: "Enabling Automatic Protection"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/vpc_policy_regions_automatic.html"
@@ -7,8 +7,8 @@ last_updated: "12/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Enabling Automatic Protection
 
-In this article
 
 To instruct Veeam Backup for AWS to protect VPC configuration of all AWS Regions specified in EC2, RDS, DynamoDB, Redshift Clusters, Redshift Serverless, EFS and FSx backup policy settings, in the Automatically protected regions section, set the Automatically collect VPC settings toggle to On. To retrieve VPC configurations of all automatically protected AWS Regions, Veeam Backup for AWS will use the permissions of IAM roles specified either in the [organization settings](organization_add_settings.md) (if you back up resources within an AWS Organization), or in the backup policy settings (if you back up resources belonging to a single AWS account).
 
@@ -38,6 +38,4 @@ The IAM user whose access keys are used to update the IAM role must have the fol
 
 [![Editing VPC Configuration Backup Policy](images/vpc_policy_role_check.webp)](images/vpc_policy_role_check.webp "Editing VPC Configuration Backup Policy")
 
-Page updated 12/2/2025
 
-Page content applies to build 10.0.0.232

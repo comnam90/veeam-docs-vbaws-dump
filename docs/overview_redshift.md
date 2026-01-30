@@ -1,5 +1,5 @@
 ---
-title: "overview_redshift"
+title: "Protecting Redshift Clusters"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/overview_redshift.html"
@@ -7,8 +7,8 @@ last_updated: "11/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# Protecting Redshift Clusters
 
-In this article
 
 Veeam Backup for AWS allows you to create cloud-native backups of Redshift clusters and store them in any backup vault in the source AWS Region. An Amazon Redshift backup captures the whole image of the Redshift cluster at a specific point of time. Redshift backups are taken using native [AWS capabilities](https://docs.aws.amazon.com/redshift/latest/mgmt/managing-aws-backup.html).
 
@@ -60,6 +60,4 @@ Related Topics
 
 [Redshift Restore](restore_hiw_redshift.md)
 
-Page updated 11/26/2025
 
-Page content applies to build 10.0.0.232

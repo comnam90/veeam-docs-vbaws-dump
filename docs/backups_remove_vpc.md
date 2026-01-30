@@ -1,5 +1,5 @@
 ---
-title: "backups_remove_vpc"
+title: "Removing VPC Configuration Backups"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backups_remove_vpc.html"
@@ -7,8 +7,8 @@ last_updated: "9/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# Removing VPC Configuration Backups
 
-In this article
 
 Veeam Backup for AWS applies the [configured retention policy settings](vpc_policy_retention.md) to automatically remove VPC configuration backups and backup copies created by the VPC Configuration Backup policy. If necessary, you can also remove these backups manually — from the configuration database or from the repository. Keep in mind, that:
 
@@ -29,6 +29,4 @@ Each configuration record contains a whole set of all virtual network configurat
 
 [![Removing VPC Configuration Backups](images/vpc_backup_remove.webp)](images/vpc_backup_remove.webp "Removing VPC Configuration Backups")
 
-Page updated 9/26/2025
 
-Page content applies to build 10.0.0.232

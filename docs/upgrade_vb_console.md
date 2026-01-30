@@ -1,5 +1,5 @@
 ---
-title: "upgrade_vb_console"
+title: "Upgrading to Version 10 from Version 6 or Earlier"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/upgrade_vb_console.html"
@@ -7,8 +7,8 @@ last_updated: "11/3/2025"
 product_version: "10.0.0.232"
 ---
 
+# Upgrading to Version 10 from Version 6 or Earlier
 
-In this article
 
 To upgrade Veeam Backup for AWS to version 10, a backup appliance must be running version 4.0 or later. To upgrade the appliance, check the [prerequisites](#Prerequisites) and follow the instructions provided in section [Updating Appliances Using Console](upgrade_appliance_console.md).
 
@@ -73,6 +73,4 @@ If you remove the upgraded backup appliance that previously used a marketplace l
 | Note |
 | Veeam Backup & Replication does not store the provided one-time access keys in the configuration database. |
 
-Page updated 11/3/2025
 
-Page content applies to build 10.0.0.232

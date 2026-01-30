@@ -1,5 +1,5 @@
 ---
-title: "restore_items_vpc_account"
+title: "Step 3. Specify Account Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_items_vpc_account.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Specify Account Settings
 
-In this article
 
 At the Account step of the wizard, choose whether you want to use an IAM role, an AWS account or one-time access keys of an IAM user to allow Veeam Backup for AWS to perform the restore operation. For information on the permissions that the IAM role or IAM user must have to perform the restore operation, see [VPC Configuration Restore IAM Permissions](role_permissions_restore_vpc.md).
 
@@ -45,6 +45,4 @@ To specify one-time access keys to be used for the restore operation, select the
 
 [![Restoring VPC Configuration Items](images/restore_account_vpc_items.webp)](images/restore_account_vpc_items.webp "Restoring VPC Configuration Items")
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

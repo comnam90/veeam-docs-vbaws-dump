@@ -1,5 +1,5 @@
 ---
-title: "lic_view"
+title: "Viewing License Information"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/lic_view.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Viewing License Information
 
-In this article
 
 After you add a backup appliance to the backup infrastructure, you can view the number of protected workloads in the Veeam Backup & Replication console.
 
@@ -69,6 +69,4 @@ Related Topics
 
 [Revoking License Units](lic_revoke.md)
 
-Page updated 9/2/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "schedule_yearly"
+title: "Specifying Yearly Schedule"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/schedule_yearly.html"
@@ -7,8 +7,8 @@ last_updated: "9/22/2025"
 product_version: "10.0.0.232"
 ---
 
+# Specifying Yearly Schedule
 
-In this article
 
 [This step applies only if you have instructed Veeam Backup for AWS to create image-level backups at the Targets step of the wizard]
 
@@ -41,6 +41,4 @@ If a restore point is older than the specified time limit, Veeam Backup for AWS 
 
 [![Creating EC2 Backup Policy](images/schedule_yearly.webp)](images/schedule_yearly.webp "Creating EC2 Backup Policy")
 
-Page updated 9/22/2025
 
-Page content applies to build 10.0.0.232

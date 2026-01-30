@@ -1,5 +1,5 @@
 ---
-title: "restore_rds_instance_settings"
+title: "Configuring Settings for DB Instances"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_rds_instance_settings.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Settings for DB Instances
 
-In this article
 
 To configure settings for a restored DB instance, at the Settings step of the wizard, select the necessary instance and click Edit. In the opened window, do the following:
 
@@ -46,6 +46,4 @@ For an option group to be displayed in the list of available groups, the group m
 
 [![Restoring RDS Resources](images/rds_restore_settings_instance.webp)](images/rds_restore_settings_instance.webp "Restoring RDS Resources")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

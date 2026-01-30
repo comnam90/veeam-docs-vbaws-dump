@@ -1,5 +1,5 @@
 ---
-title: "add_policy"
+title: "Creating Backup Policies"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy.html"
@@ -7,8 +7,8 @@ last_updated: "11/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Creating Backup Policies
 
-In this article
 
 You can create backup policies in the Veeam Backup for AWS Web UI only. However, you can launch the Add Policy wizard directly from the Veeam Backup & Replication console — to do that, use either of the following options:
 
@@ -24,6 +24,4 @@ Veeam Backup & Replication will open the Add EC2 Policy, Add RDS Policy, Add EFS
 
 [![Add backup policy](images/backup_policy_add.webp)](images/backup_policy_add.webp "Add backup policy")
 
-Page updated 11/4/2025
 
-Page content applies to build 10.0.0.232

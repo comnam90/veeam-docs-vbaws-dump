@@ -1,5 +1,5 @@
 ---
-title: "backup_chain_redshift"
+title: "Backup Chain"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_chain_redshift.html"
@@ -7,8 +7,8 @@ last_updated: "11/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# Backup Chain
 
-In this article
 
 During every backup session, Veeam Backup for AWS creates a new cloud-native backup for each Redshift cluster added to the backup policy. To create the backup, Veeam Backup for AWS uses the [AWS Backup service](https://docs.aws.amazon.com/redshift/latest/mgmt/managing-aws-backup.html). A sequence of cloud-native backups created during a set of backup sessions makes up a backup chain.
 
@@ -23,6 +23,4 @@ Each Redshift backup in the backup chain contains encrypted metadata. Metadata s
 
 Redshift backups act as independent restore points for backed-up clusters. If you remove any backup, it will not break the Redshift backup chain — you will still be able to roll back cluster data to any existing restore point. The period of time during which Redshift backups are kept in the Redshift backup chain is defined by retention policy settings. For more information, see [Redshift Backup Retention](retention_backup_redshift.md).
 
-Page updated 11/26/2025
 
-Page content applies to build 10.0.0.232

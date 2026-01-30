@@ -1,5 +1,5 @@
 ---
-title: "glossary"
+title: "Glossary"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/glossary.html"
@@ -7,8 +7,8 @@ last_updated: "12/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Glossary
 
-In this article
 
 This section describes product-specific terms and abbreviations that appear in the User Guide.
 
@@ -121,6 +121,4 @@ W
 * workgroup — a collection of compute resources in Amazon Redshift Serverless. See also [Protecting Redshift Serverless](overview_redshift_serverless.md).
 * workload — any AWS resource (for example, an EC2 instance, a RDS resource, a DynamoDB table and so on) that can be protected by Veeam Backup for AWS. See also [Managing Backed-Up Data](managing_data_console.md).
 
-Page updated 12/10/2025
 
-Page content applies to build 10.0.0.232

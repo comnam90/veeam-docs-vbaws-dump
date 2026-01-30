@@ -1,5 +1,5 @@
 ---
-title: "system_requirements"
+title: "System Requirements"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/system_requirements.html"
@@ -7,8 +7,8 @@ last_updated: "11/28/2025"
 product_version: "10.0.0.232"
 ---
 
+# System Requirements
 
-In this article
 
 When you plan to install Veeam Plug-In for AWS, consider the following hardware and software requirements.
 
@@ -49,6 +49,4 @@ The following table lists compatible versions of Veeam Backup & Replication, Vee
 | 12.1.6.93 |
 | 12.0.6.956 | 6.0.0, 6.0.1, 6.0.2 |
 
-Page updated 11/28/2025
 
-Page content applies to build 10.0.0.232

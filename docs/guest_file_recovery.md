@@ -1,5 +1,5 @@
 ---
-title: "guest_file_recovery"
+title: "Performing Guest OS File Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/guest_file_recovery.html"
@@ -7,8 +7,8 @@ last_updated: "8/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Performing Guest OS File Restore
 
-In this article
 
 Veeam Backup & Replication allows you to use image-level backups to restore files and folders of various EC2 guest OS file systems from the Veeam Backup & Replication console. For more information, see the Veeam Backup & Replication User Guide, section [Guest OS File Restore](https://helpcenter.veeam.com/docs/vbr/userguide/guest_file_recovery.html?ver=13).
 
@@ -31,6 +31,4 @@ To restore guest OS files and folders, do the following:
 
 [![Restore guest OS files](images/guest_os_win.webp)](images/guest_os_win.webp "Restore guest OS files")
 
-Page updated 8/8/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "restoring_to_amazon"
+title: "Performing Instance Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restoring_to_amazon.html"
@@ -7,8 +7,8 @@ last_updated: "10/6/2025"
 product_version: "10.0.0.232"
 ---
 
+# Performing Instance Restore
 
-In this article
 
 You can recover corrupted EC2 instances in the Veeam Backup for AWS Web UI only. However, you can launch the EC2 Restore wizard directly from the Veeam Backup & Replication console to start the restore operation:
 
@@ -22,6 +22,4 @@ Veeam Backup & Replication will open the EC2 Restore wizard in a web browser. Co
 
 [![Restore to Amazon EC2](images/restore_ec2.webp)](images/restore_ec2.webp "Restore to Amazon EC2")
 
-Page updated 10/6/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "export_entire_vpc_connection"
+title: "Step 6. Review Peering Connection Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/export_entire_vpc_connection.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 6. Review Peering Connection Settings
 
-In this article
 
 [This step applies only if you have selected the Export to a new location option at the Export Mode step of the wizard]
 
@@ -25,6 +25,4 @@ At the Peering Connection step of the wizard, review VPC peering connection sett
 
 [![Exporting VPC Configuration](images/vpc_restore_entire_connection.webp)](images/vpc_restore_entire_connection.webp "Exporting VPC Configuration")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

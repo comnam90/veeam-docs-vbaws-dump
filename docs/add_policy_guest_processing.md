@@ -1,5 +1,5 @@
 ---
-title: "add_policy_guest_processing"
+title: "Step 5. Specify Guest Processing Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_guest_processing.html"
@@ -7,8 +7,8 @@ last_updated: "5/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Specify Guest Processing Settings
 
-In this article
 
 If you want to back up EC2 instances that are currently running, you can configure guest processing settings at the Guest Processing step of the wizard. These settings allow you to specify what actions Veeam Backup for AWS will perform when communicating with the guest OSes.
 
@@ -39,6 +39,4 @@ Note that SSM Agent is already preinstalled on EC2 instances launched from certa
 
 For more information on the SSM service, see [AWS Documentation](https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html).
 
-Page updated 5/21/2025
 
-Page content applies to build 10.0.0.232

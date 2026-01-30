@@ -1,5 +1,5 @@
 ---
-title: "restore_to_nutanix"
+title: "Restoring to Nutanix AHV"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_to_nutanix.html"
@@ -7,8 +7,8 @@ last_updated: "11/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Restoring to Nutanix AHV
 
-In this article
 
 Veeam Backup & Replication allows you to restore EC2 instances from image-level backups created with Veeam Backup for AWS to Nutanix AHV as Nutanix AHV VMs. You can restore EC2 instances to any available restore point. For more information, see the Veeam Backup for Nutanix AHV User Guide, section [Performing Restore](https://helpcenter.veeam.com/docs/vbahv/userguide/data_recovery.html?ver=9).
 
@@ -34,6 +34,4 @@ To restore an EC2 instance to a Nutanix AHV cluster, do the following:
 
 [![Restore to Nutanix AHV](images/restore_to_nutanix.webp)](images/restore_to_nutanix.webp "Restore to Nutanix AHV")
 
-Page updated 11/20/2025
 
-Page content applies to build 10.0.0.232

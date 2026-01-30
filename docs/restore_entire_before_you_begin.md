@@ -1,5 +1,5 @@
 ---
-title: "restore_entire_before_you_begin"
+title: "Before You Begin"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_before_you_begin.html"
@@ -7,8 +7,8 @@ last_updated: "12/15/2025"
 product_version: "10.0.0.232"
 ---
 
+# Before You Begin
 
-In this article
 
 Before you restore EC2 instances, consider the following limitations:
 
@@ -34,6 +34,4 @@ For more information on Amazon EBS Multi-Attach, see [AWS Documentation](https:/
 
 Note that EBS volumes excluded from the backup scope and volumes for which the DeleteOnTermination attribute is set to false will also be deleted from AWS.
 
-Page updated 12/15/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "ec2_restore_console"
+title: "EC2 Restore Using Console"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/ec2_restore_console.html"
@@ -7,8 +7,8 @@ last_updated: "10/6/2025"
 product_version: "10.0.0.232"
 ---
 
+# EC2 Restore Using Console
 
-In this article
 
 Veeam Backup & Replication offers the following restore operations:
 
@@ -23,6 +23,4 @@ You can restore EC2 instance data to the most recent state or to any available r
 | Important |
 | You can use restore points stored in standard backup repositories to perform all the listed recovery operations, while restore points stored in archive backup repositories can only be used to perform restore of EC2 to the original or to a new location. |
 
-Page updated 10/6/2025
 
-Page content applies to build 10.0.0.232

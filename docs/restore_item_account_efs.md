@@ -1,5 +1,5 @@
 ---
-title: "restore_item_account_efs"
+title: "Step 4. Specify Account Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_item_account_efs.html"
@@ -7,8 +7,8 @@ last_updated: "10/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Specify Account Settings
 
-In this article
 
 At the Account step of the wizard, choose whether you want to use an IAM role of a standalone AWS account, an AWS account of an AWS Organization, or one-time access keys of an IAM user to allow Veeam Backup & Replication to perform the restore operation. For information on the permissions that the IAM role or IAM user must have to perform the restore operation, see [EFS Restore IAM Permissions](role_permissions_restore_efs.md).
 
@@ -45,6 +45,4 @@ To specify one-time access keys to be used for the restore operation, select the
 
 [![Restoring EFS Files and Folders](images/restore_item_account_efs_files.webp)](images/restore_item_account_efs_files.webp "Restoring EFS Files and Folders")
 
-Page updated 10/2/2025
 
-Page content applies to build 10.0.0.232

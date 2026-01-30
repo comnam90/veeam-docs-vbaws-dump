@@ -1,5 +1,5 @@
 ---
-title: "sla_storage_remove"
+title: "Removing SLA and Storage Templates"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/sla_storage_remove.html"
@@ -7,8 +7,8 @@ last_updated: "11/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Removing SLA and Storage Templates
 
-In this article
 
 Veeam Backup for AWS allows you to permanently remove a policy template from the configuration database if you no longer need it:
 
@@ -24,6 +24,4 @@ Veeam Backup for AWS allows you to permanently remove a policy template from the
 
 [![Removing Policy Templates](images/policy_templates_remove.webp)](images/policy_templates_remove.webp "Removing Policy Templates")
 
-Page updated 11/4/2025
 
-Page content applies to build 10.0.0.232

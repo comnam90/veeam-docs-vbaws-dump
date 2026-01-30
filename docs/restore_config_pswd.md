@@ -1,5 +1,5 @@
 ---
-title: "restore_config_pswd"
+title: "Step 4. Specify Password"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_config_pswd.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Specify Password
 
-In this article
 
 At the Password step of the wizard, specify a password used to encrypt the configuration backup.
 
@@ -21,6 +21,4 @@ If you do not remember the password, you can restore configuration backup data w
 
 ![Step 4. Specify Password](images/restore_config_pswd.webp)
 
-Page updated 9/2/2025
 
-Page content applies to build 10.0.0.232

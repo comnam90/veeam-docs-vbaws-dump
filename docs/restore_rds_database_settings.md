@@ -1,5 +1,5 @@
 ---
-title: "restore_rds_database_settings"
+title: "Step 5. Configure Target Instance Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_rds_database_settings.html"
@@ -7,8 +7,8 @@ last_updated: "12/12/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Configure Target Instance Settings
 
-In this article
 
 At the Instance step of the wizard, specify the target AWS Region where a DB instance will host the restored databases, and choose the target DB instance. For an instance to be displayed in the list of available instances, it must reside in the selected AWS Region and belong to the AWS account specified at [step 3](restore_rds_database_workers.md) of the wizard.
 
@@ -39,6 +39,4 @@ When you restore databases, consider the following:
 
 [![Restoring RDS Databases](images/rds_restore_database_target.webp)](images/rds_restore_database_target.webp "Restoring RDS Databases")
 
-Page updated 12/12/2025
 
-Page content applies to build 10.0.0.232

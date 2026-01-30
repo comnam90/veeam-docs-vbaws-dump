@@ -1,5 +1,5 @@
 ---
-title: "update_security_group"
+title: "Step 4. Update Security Group"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/update_security_group.html"
@@ -7,8 +7,8 @@ last_updated: "10/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Update Security Group
 
-In this article
 
 To allow inbound traffic to the backup appliance from the on-premises network, update the security group for the appliance VPC:
 
@@ -18,6 +18,4 @@ To allow inbound traffic to the backup appliance from the on-premises network, u
 
 To learn how to add security group rules, see [AWS Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/security-group-rules.html#working-with-security-group-rules).
 
-Page updated 10/10/2025
 
-Page content applies to build 10.0.0.232

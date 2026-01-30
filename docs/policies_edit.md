@@ -1,5 +1,5 @@
 ---
-title: "policies_edit"
+title: "Editing Policy Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/policies_edit.html"
@@ -7,8 +7,8 @@ last_updated: "8/6/2025"
 product_version: "10.0.0.232"
 ---
 
+# Editing Policy Settings
 
-In this article
 
 For each backup policy, you can modify settings configured while creating the policy:
 
@@ -26,6 +26,4 @@ For each backup policy, you can modify settings configured while creating the po
 
 [![Editing Backup Policy Settings](images/policies_edit.webp)](images/policies_edit.webp "Editing Backup Policy Settings")
 
-Page updated 8/6/2025
 
-Page content applies to build 10.0.0.232

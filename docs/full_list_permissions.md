@@ -1,5 +1,5 @@
 ---
-title: "full_list_permissions"
+title: "Full List of IAM Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/full_list_permissions.html"
@@ -7,8 +7,8 @@ last_updated: "12/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Full List of IAM Permissions
 
-In this article
 
 If you want Veeam Backup for AWS to use a single IAM role to perform all restore and backup operations, you can use the Default Backup Restore IAM role created during Veeam Backup for AWS installation or a custom IAM role that must meet the following requirements:
 
@@ -52,6 +52,4 @@ To learn how to modify role trust policies, see [AWS Documentation](https://docs
 
 To learn how to create IAM roles and assign them the required permissions, see [Appendix A. Creating IAM Roles in AWS](create_iam_policy_role.md).
 
-Page updated 12/4/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "add_policy_scripting"
+title: "Enabling Guest Scripting"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_scripting.html"
@@ -7,8 +7,8 @@ last_updated: "10/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Enabling Guest Scripting
 
-In this article
 
 Before you enable guest scripting for processed EC2 instances, check [limitations and requirements](#limitations).
 
@@ -57,6 +57,4 @@ If you plan to instruct Veeam Backup for AWS to run custom scripts on the proces
 
 [![Creating EC2 Backup Policy](images/guest_processing.webp)](images/guest_processing.webp "Creating EC2 Backup Policy")
 
-Page updated 10/8/2025
 
-Page content applies to build 10.0.0.232

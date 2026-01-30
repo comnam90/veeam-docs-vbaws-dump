@@ -1,5 +1,5 @@
 ---
-title: "sla_add_backup_settings"
+title: "Step 4. Configure Backup Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/sla_add_backup_settings.html"
@@ -7,8 +7,8 @@ last_updated: "11/24/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Configure Backup Settings
 
-In this article
 
 At the Backups step of the wizard, you can configure the following backup settings:
 
@@ -40,6 +40,4 @@ When you combine multiple types of backup schedules, Veeam Backup for AWS re-use
 
 [![Adding SLA Template](images/sla_add_backup_settings.webp)](images/sla_add_backup_settings.webp "Adding SLA Template")
 
-Page updated 11/24/2025
 
-Page content applies to build 10.0.0.232

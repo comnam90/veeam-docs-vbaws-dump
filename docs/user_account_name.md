@@ -1,5 +1,5 @@
 ---
-title: "user_account_name"
+title: "Step 3. Specify Account Name and Description"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/user_account_name.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Specify Account Name and Description
 
-In this article
 
 At the Account Info step of the wizard, use the Name and Description fields to enter a name for the new user account and to provide a description for future reference. The maximum length of the name is 32 characters for the Veeam Backup for AWS user and 125 characters for the user identity from your identity provider. The following characters are supported: lowercase Latin letters, numeric characters, underscores and dashes; the dollar sign ($) is supported but only if it the last character of the name.
 
@@ -19,6 +19,4 @@ At the Account Info step of the wizard, use the Name and Description fields to e
 
 [![Adding User Account](images/user_account_info.webp)](images/user_account_info.webp "Adding User Account")
 
-Page updated 8/20/2025
 
-Page content applies to build 10.0.0.232

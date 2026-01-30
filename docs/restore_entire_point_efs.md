@@ -1,5 +1,5 @@
 ---
-title: "restore_entire_point_efs"
+title: "Step 2. Select Restore Point"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_point_efs.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 2. Select Restore Point
 
-In this article
 
 At the File System step of the wizard, you can add EFS file systems to the restore session and select restore points to be used to perform the restore operation for each added file system. By default, Veeam Backup for AWS uses the most recent valid restore point. However, you can restore a file system to an earlier state.
 
@@ -32,6 +32,4 @@ To help you choose a restore point, Veeam Backup for AWS provides the following 
 
 [![Restoring EFS File Systems](images/restore_entire_point_efs.webp)](images/restore_entire_point_efs.webp "Restoring EFS File Systems")
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "vpc_policy_retention"
+title: "Step 4. Configure Retention Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/vpc_policy_retention.html"
@@ -7,8 +7,8 @@ last_updated: "8/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Configure Retention Settings
 
-In this article
 
 At the Retention step of the wizard, specify retention settings for VPC configuration backups:
 
@@ -24,6 +24,4 @@ If a restore point is older than the specified time limit, Veeam Backup for AWS 
 
 [![Editing VPC Configuration Backup Policy](images/vpc_policy_retention.webp)](images/vpc_policy_retention.webp "Editing VPC Configuration Backup Policy")
 
-Page updated 8/21/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "backups_view_fsx"
+title: "FSx Data"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backups_view_fsx.html"
@@ -7,8 +7,8 @@ last_updated: "9/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# FSx Data
 
-In this article
 
 After a backup policy successfully creates a restore point of an FSx file system according to the specified schedule, or after you create a backup of an FSx file system manually, Veeam Backup for AWS adds the file system to the resource list on the Protected Data page.
 
@@ -36,6 +36,4 @@ On the Protected Data page, you can also perform the following actions:
 
 [![Managing Backed-Up FSx Data](images/fsx_backedup_data.webp)](images/fsx_backedup_data.webp "Managing Backed-Up FSx Data")
 
-Page updated 9/26/2025
 
-Page content applies to build 10.0.0.232

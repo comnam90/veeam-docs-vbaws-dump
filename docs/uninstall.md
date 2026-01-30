@@ -1,5 +1,5 @@
 ---
-title: "uninstall"
+title: "Appendix F. Uninstalling Backup Appliances Deployed from AWS Marketplace"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/uninstall.html"
@@ -7,8 +7,8 @@ last_updated: "10/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Appendix F. Uninstalling Backup Appliances Deployed from AWS Marketplace
 
-In this article
 
 Starting from version 8.0, you can deploy Veeam Backup for AWS from the Veeam Backup & Replication console only. However, if an appliance was previously deployed from the AWS Marketplace or is running Veeam Backup for AWS version 3.x (or earlier), use one of the following options to uninstall the solution:
 
@@ -39,6 +39,4 @@ Note that you cannot remove immutable backups stored in the Amazon S3 bucket wit
 * To remove EC2 cloud-native snapshots, navigate to Services > EC2 > Snapshots, select the necessary Veeam snapshots, and click Actions > Delete snapshot.
 * To remove EFS, FSx, DynamoDB or Redshift cloud-native backups, navigate to Services > AWS Backup > Vaults, select the necessary recovery points, and click Actions > Delete.
 
-Page updated 10/10/2025
 
-Page content applies to build 10.0.0.232

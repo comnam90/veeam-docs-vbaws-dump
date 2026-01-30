@@ -1,5 +1,5 @@
 ---
-title: "backup_hiw_dynamo"
+title: "DynamoDB Backup"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_hiw_dynamo.html"
@@ -7,8 +7,8 @@ last_updated: "2/9/2024"
 product_version: "10.0.0.232"
 ---
 
+# DynamoDB Backup
 
-In this article
 
 Veeam Backup for AWS performs DynamoDB backup in the following way:
 
@@ -23,6 +23,4 @@ Related Topics
 * [Backup Chain](backup_chain_dynamo.md)
 * [DynamoDB Backup Retention](retention_backup_dynamo.md)
 
-Page updated 2/9/2024
 
-Page content applies to build 10.0.0.232

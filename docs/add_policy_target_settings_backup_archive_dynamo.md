@@ -1,5 +1,5 @@
 ---
-title: "add_policy_target_settings_backup_archive_dynamo"
+title: "Configuring Archive Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_target_settings_backup_archive_dynamo.html"
@@ -7,8 +7,8 @@ last_updated: "8/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Archive Settings
 
-In this article
 
 If you want to reduce the cost of storing backups that you plan to access infrequently, you can instruct Veeam Backup for AWS to move backups from a high-available warm storage tier to a low-cost cold storage tier:
 
@@ -27,6 +27,4 @@ Keep in mind that once moved to a cold storage tier in an AWS Region, backups ca
 
 [![Creating DynamoDB Backup Policy](images/backup_add_backup_archive_dynamodb.webp)](images/backup_add_backup_archive_dynamodb.webp "Creating DynamoDB Backup Policy")
 
-Page updated 8/21/2025
 
-Page content applies to build 10.0.0.232

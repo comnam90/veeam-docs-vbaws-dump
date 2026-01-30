@@ -1,5 +1,5 @@
 ---
-title: "restore_rds_launch"
+title: "Step 1. Launch RDS Restore Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_rds_launch.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 1. Launch RDS Restore Wizard
 
-In this article
 
 To launch the RDS Restore wizard, do the following:
 
@@ -20,6 +20,4 @@ Alternatively, click the link in the Restore Points column. Then, in the Availab
 
 [![Restoring RDS Resources](images/rds_restore_launch.webp)](images/rds_restore_launch.webp "Restoring RDS Resources")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "organization_template_specify_permissions"
+title: "Step 3. Specify IAM Role Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/organization_template_specify_permissions.html"
@@ -7,8 +7,8 @@ last_updated: "7/25/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Specify IAM Role Permissions
 
-In this article
 
 [This step applies only if you have selected the Backup and restore IAM role name check box at the IAM Role Settings step of the wizard]
 
@@ -38,6 +38,4 @@ Note that if you do not specify any management role and resource permissions for
 
 [![Creating IAM Role Template for AWS Organization](images/organization_template_permissions.webp)](images/organization_template_permissions.webp "Creating IAM Role Template for AWS Organization")
 
-Page updated 7/25/2025
 
-Page content applies to build 10.0.0.232

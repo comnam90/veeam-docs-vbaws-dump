@@ -1,5 +1,5 @@
 ---
-title: "verify_backups"
+title: "Verifying Backups"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/verify_backups.html"
@@ -7,8 +7,8 @@ last_updated: "11/11/2025"
 product_version: "10.0.0.232"
 ---
 
+# Verifying Backups
 
-In this article
 
 To perform an integrity check of backups, Veeam Backup & Replication offers the SureBackup technology that allows you to ensure that the created restore points are not corrupted. You can also scan the restore points with antivirus software installed on the backup server, and run YARA rules to detect malware and sensitive data.
 
@@ -27,6 +27,4 @@ If any of the verification checks fail for a restore point, Veeam Backup & Repli
 
 [![Verifying Backups](images/verifying_backups.webp)](images/verifying_backups.webp "Verifying Backups")
 
-Page updated 11/11/2025
 
-Page content applies to build 10.0.0.232

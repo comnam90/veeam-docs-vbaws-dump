@@ -1,5 +1,5 @@
 ---
-title: "restore_entire_vpc_point"
+title: "Step 2. Select Restore Point"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_vpc_point.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 2. Select Restore Point
 
-In this article
 
 At the Restore List step of the wizard, select a restore point that will be used to restore the selected VPC configuration. By default, Veeam Backup for AWS uses the most recent valid restore point. However, you can restore the VPC configuration data to an earlier state.
 
@@ -20,6 +20,4 @@ To select a restore point, do the following:
 
 [![Restoring VPC Configuration](images/vpc_restore_entire_point.webp)](images/vpc_restore_entire_point.webp "Restoring VPC Configuration")
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

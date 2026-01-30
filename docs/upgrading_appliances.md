@@ -1,5 +1,5 @@
 ---
-title: "upgrading_appliances"
+title: "Upgrading Appliances"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/upgrading_appliances.html"
@@ -7,8 +7,8 @@ last_updated: "11/6/2025"
 product_version: "10.0.0.232"
 ---
 
+# Upgrading Appliances
 
-In this article
 
 Upgrade to Veeam Backup for AWS version 10 is supported from Veeam Backup for AWS version 4.0 or later. To upgrade from an earlier version, you must first perform upgrade to version 4 as described in section [Installing Updates](updates_install.md).
 
@@ -42,6 +42,4 @@ If you remove the backup appliance from the backup infrastructure, you will no l
 | Note |
 | When you upgrade to Veeam Backup for AWS version 10 from Veeam Backup for AWS version 6 or earlier, the backup appliance operating system is upgraded to Ubuntu 22.04 LTS and the configuration database is upgraded to PostgreSQL 15. For more information on the upgrade process, see [Upgrading to Version 10 from Version 6.0 or Earlier](upgrade_vb_console.md). |
 
-Page updated 11/6/2025
 
-Page content applies to build 10.0.0.232

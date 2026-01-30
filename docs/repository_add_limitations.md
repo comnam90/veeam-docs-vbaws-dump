@@ -1,5 +1,5 @@
 ---
-title: "repository_add_limitations"
+title: "Before You Begin"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/repository_add_limitations.html"
@@ -7,8 +7,8 @@ last_updated: "8/19/2024"
 product_version: "10.0.0.232"
 ---
 
+# Before You Begin
 
-In this article
 
 When adding a backup repository to Veeam Backup for AWS, keep in mind the following limitations and considerations.
 
@@ -66,6 +66,4 @@ If a KMS key is scheduled for deletion, it will acquire the Pending deletion sta
 
 For more information on managing AWS KMS keys, see [AWS Documentation](https://docs.aws.amazon.com/kms/latest/developerguide/enabling-keys.html).
 
-Page updated 8/19/2024
 
-Page content applies to build 10.0.0.232

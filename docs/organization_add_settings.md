@@ -1,5 +1,5 @@
 ---
-title: "organization_add_settings"
+title: "Step 3. Specify IAM Roles"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/organization_add_settings.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Specify IAM Roles
 
-In this article
 
 At the IAM Roles step of the wizard, do the following:
 
@@ -35,6 +35,4 @@ If you do not enter a Production worker IAM role name, Veeam Backup for AWS will
 
 [![Adding AWS Organization](images/organization_add_roles.webp)](images/organization_add_roles.webp "Adding AWS Organization")
 
-Page updated 12/9/2025
 
-Page content applies to build 10.0.0.232

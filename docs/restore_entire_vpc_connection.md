@@ -1,5 +1,5 @@
 ---
-title: "restore_entire_vpc_connection"
+title: "Step 6. Review Peering Connection Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_vpc_connection.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 6. Review Peering Connection Settings
 
-In this article
 
 [This step applies only if you have selected the Restore to a new location, or with different settings option at the Restore Mode step of the wizard]
 
@@ -25,6 +25,4 @@ At the Peering Connection step of the wizard, review preconfigured VPC peering c
 
 [![Restoring VPC Configuration](images/vpc_restore_entire_connection2.webp)](images/vpc_restore_entire_connection2.webp "Restoring VPC Configuration")
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

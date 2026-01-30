@@ -1,5 +1,5 @@
 ---
-title: "deploy_appliance_instance"
+title: "Step 4. Specify EC2 Instance Name and Description"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/deploy_appliance_instance.html"
@@ -7,8 +7,8 @@ last_updated: "8/11/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Specify EC2 Instance Name and Description
 
-In this article
 
 At the EC2 Instance step of the wizard, specify a name and description for the EC2 instance where Veeam Backup for AWS will be deployed.
 
@@ -19,6 +19,4 @@ At the EC2 Instance step of the wizard, specify a name and description for the E
 
 ![Step 4. Specify EC2 Instance Name and Description](images/add_new_aws_server_instance.webp "Deploy appliance - Instance")
 
-Page updated 8/11/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "config_restore_web_ui"
+title: "Restoring Configuration Data Using Web UI"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/config_restore_web_ui.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Restoring Configuration Data Using Web UI
 
-In this article
 
 To restore the configuration database of a backup appliance using the Veeam Backup for AWS Web UI, do the following:
 
@@ -25,6 +25,4 @@ To restore the configuration database of a backup appliance using the Veeam Back
 6. [View the results of verification steps](config_restore_verification.md).
 7. [Finish working with the wizard](config_restore_finish.md).
 
-Page updated 8/20/2025
 
-Page content applies to build 10.0.0.232

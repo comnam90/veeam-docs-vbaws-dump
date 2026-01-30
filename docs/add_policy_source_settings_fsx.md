@@ -1,5 +1,5 @@
 ---
-title: "add_policy_source_settings_fsx"
+title: "Step 4. Configure Backup Source Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_source_settings_fsx.html"
@@ -7,8 +7,8 @@ last_updated: "9/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Configure Backup Source Settings
 
-In this article
 
 At the Resources step of the wizard, select AWS Regions where FSx file systems that you plan to back up reside and choose FSx file systems to back up.
 
@@ -60,6 +60,4 @@ If you add an AWS tag to the backup scope, Veeam Backup for AWS will regularly c
 
 [![Creating FSx Backup Policy](images/backup_add_instances_fsx.webp)](images/backup_add_instances_fsx.webp "Creating FSx Backup Policy")
 
-Page updated 9/26/2025
 
-Page content applies to build 10.0.0.232

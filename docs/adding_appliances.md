@@ -1,5 +1,5 @@
 ---
-title: "adding_appliances"
+title: "Adding Appliances"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/adding_appliances.html"
@@ -7,8 +7,8 @@ last_updated: "7/9/2025"
 product_version: "10.0.0.232"
 ---
 
+# Adding Appliances
 
-In this article
 
 After you install Veeam Plug-In for AWS, you must add backup appliances to the backup infrastructure. To do that, use either of the following options:
 
@@ -20,6 +20,4 @@ After you install Veeam Plug-In for AWS, you must add backup appliances to the b
 | Note |
 | One backup appliance can be managed by one backup server only. If you add the appliance to the backup infrastructure of another backup server, the synchronization between the appliance and the previous backup server will be terminated, and appliance will be displayed as unavailable. |
 
-Page updated 7/9/2025
 
-Page content applies to build 10.0.0.232

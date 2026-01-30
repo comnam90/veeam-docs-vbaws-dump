@@ -1,5 +1,5 @@
 ---
-title: "worker_edit_profile"
+title: "Editing Profiles"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/worker_edit_profile.html"
@@ -7,8 +7,8 @@ last_updated: "1/13/2026"
 product_version: "10.0.0.232"
 ---
 
+# Editing Profiles
 
-In this article
 
 For each set of worker profiles created for an AWS Region, you can modify settings specified while creating the profile set:
 
@@ -27,6 +27,4 @@ For each set of worker profiles created for an AWS Region, you can modify settin
 
 [![Editing Worker Profiles](images/worker_profile_edit.webp)](images/worker_profile_edit.webp "Editing Worker Profiles")
 
-Page updated 1/13/2026
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "deploy_ip_settings"
+title: "Step 5. Specify Connection Type"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/deploy_ip_settings.html"
@@ -7,8 +7,8 @@ last_updated: "8/11/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Specify Connection Type
 
-In this article
 
 At the Connection Type step of the wizard, choose whether you want to assign a dynamic or a static (Elastic) public IP address, or a private IP address to the backup appliance. After the backup appliance is deployed, Veeam Backup & Replication will use the specified connection type to connect to the appliance.
 
@@ -28,6 +28,4 @@ For more information on Elastic IP addresses, see [AWS Documentation](https://do
 
 ![Step 5. Specify Connection Type](images/add_aws_connection_type.webp "Deploy appliance - Connection Type")
 
-Page updated 8/11/2025
 
-Page content applies to build 10.0.0.232

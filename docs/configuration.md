@@ -1,5 +1,5 @@
 ---
-title: "configuration"
+title: "Configuring Veeam Backup for AWS"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/configuration.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Veeam Backup for AWS
 
-In this article
 
 To start working with Veeam Backup for AWS, perform a number of steps for its configuration:
 
@@ -35,6 +35,4 @@ If you do not configure settings for worker instances, Veeam Backup for AWS will
 | Note |
 | Even after you add IAM roles or AWS Organizations that manage your AWS resources and configure all the necessary settings, Veeam Backup for AWS will not populate [the list of resources on the Resources page](aws_resources.md) — unless you create backup policies and specify regions where the AWS resources belong, as described in section [Performing Backup](backup.md). |
 
-Page updated 12/9/2025
 
-Page content applies to build 10.0.0.232

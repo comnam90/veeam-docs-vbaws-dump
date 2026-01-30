@@ -1,5 +1,5 @@
 ---
-title: "retention_archive_rds"
+title: "Retention Policy for Archived Backups"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/retention_archive_rds.html"
@@ -7,8 +7,8 @@ last_updated: "12/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Retention Policy for Archived Backups
 
-In this article
 
 For archived backups of PostgreSQL DB instances, Veeam Backup for AWS retains restore points for the number of days defined in [backup scheduling settings](backup_archiving_rds.md).
 
@@ -42,6 +42,4 @@ By default, Veeam Backup for AWS uses the default network settings of AWS Region
 | Note |
 | * The retention task processes only one backup chain.  * Each worker instance can process only one retention task at a time.  * The number of retention tasks that Veeam Backup for AWS can handle simultaneously depends on the amount of RAM available on the backup appliance:  * If the RAM is below 8 GB, Veeam Backup for AWS will be able to handle up to 32 retention tasks at a time. * If the RAM equals 9–32 GB, Veeam Backup for AWS will be able to handle up to 64 retention tasks at a time. * If the RAM exceeds 33 GB, Veeam Backup for AWS will be able to handle up to 128 retention tasks at a time.   If the number of retention tasks exceeds the specified limit, the remaining tasks will be queued. |
 
-Page updated 12/10/2025
 
-Page content applies to build 10.0.0.232

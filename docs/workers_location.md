@@ -1,5 +1,5 @@
 ---
-title: "workers_location"
+title: "Worker Instance Locations"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/workers_location.html"
@@ -7,8 +7,8 @@ last_updated: "1/13/2026"
 product_version: "10.0.0.232"
 ---
 
+# Worker Instance Locations
 
-In this article
 
 To minimize cross-region traffic charges and to speed up the data transfer, depending on the data protection and disaster recovery operation, Veeam Backup for AWS deploys worker instances in the following locations:
 
@@ -30,6 +30,4 @@ To minimize cross-region traffic charges and to speed up the data transfer, depe
 
 Worker instances are deployed based on worker configurations and profiles. For more information, see [Managing Worker Instances](workers.md).
 
-Page updated 1/13/2026
 
-Page content applies to build 10.0.0.232

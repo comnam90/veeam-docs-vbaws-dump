@@ -1,5 +1,5 @@
 ---
-title: "retention_snapshots_rds"
+title: "RDS Snapshot Retention"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/retention_snapshots_rds.html"
@@ -7,8 +7,8 @@ last_updated: "10/13/2025"
 product_version: "10.0.0.232"
 ---
 
+# RDS Snapshot Retention
 
-In this article
 
 For cloud-native snapshots and snapshot replicas, Veeam Backup for AWS retains the number of latest restore points defined in backup scheduling settings.
 
@@ -21,6 +21,4 @@ During every successful backup session, Veeam Backup for AWS creates a new resto
 | Note |
 | Veeam Backup for AWS does not apply retention policy to cloud-native snapshots created manually. To learn how to remove them, see [Managing Backed-Up Data](snapshots_remove_individual_rds.md). |
 
-Page updated 10/13/2025
 
-Page content applies to build 10.0.0.232

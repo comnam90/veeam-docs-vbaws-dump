@@ -1,5 +1,5 @@
 ---
-title: "deploy_appliance_account"
+title: "Step 3. Specify AWS Account"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/deploy_appliance_account.html"
@@ -7,8 +7,8 @@ last_updated: "8/11/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Specify AWS Account
 
-In this article
 
 At the Account step of the wizard, do the following:
 
@@ -29,6 +29,4 @@ For more information on regions and availability zones, see [AWS Documentation](
 
 ![Step 3. Specify AWS Account](images/add_new_aws_server_account.webp "Deploy appliance - Account")
 
-Page updated 8/11/2025
 
-Page content applies to build 10.0.0.232

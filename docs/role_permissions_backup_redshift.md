@@ -1,5 +1,5 @@
 ---
-title: "role_permissions_backup_redshift"
+title: "Redshift Cluster Backup IAM Role Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/role_permissions_backup_redshift.html"
@@ -7,8 +7,8 @@ last_updated: "3/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Redshift Cluster Backup IAM Role Permissions
 
-In this article
 
 Veeam Backup for AWS uses Redshift Backup IAM roles to perform the following operations:
 
@@ -44,6 +44,4 @@ To learn how to modify role trust policies, see [AWS Documentation](https://docs
 
 To learn how to create IAM roles and assign them the required permissions, see [Appendix A. Creating IAM Roles in AWS](create_iam_policy_role.md).
 
-Page updated 3/20/2025
 
-Page content applies to build 10.0.0.232

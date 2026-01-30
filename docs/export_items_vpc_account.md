@@ -1,5 +1,5 @@
 ---
-title: "export_items_vpc_account"
+title: "Step 3. Specify IAM Identity"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/export_items_vpc_account.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Specify IAM Identity
 
-In this article
 
 At the Account step of the wizard, choose whether you want to use an IAM role or an AWS account to allow Veeam Backup for AWS to perform the export operation. For more information on permissions required for the IAM role, see [VPC Configuration Restore IAM Permissions](role_permissions_restore_vpc.md).
 
@@ -38,6 +38,4 @@ For an AWS account to be displayed in the list of available accounts, it must be
 
 [![Exporting VPC Configuration Items](images/vpc_export_items_role.webp)](images/vpc_export_items_role.webp "Exporting VPC Configuration Items")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

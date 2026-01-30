@@ -1,5 +1,5 @@
 ---
-title: "upgrade_appliance_ui"
+title: "Updating Appliances Using Web UI"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/upgrade_appliance_ui.html"
@@ -7,8 +7,8 @@ last_updated: "11/6/2025"
 product_version: "10.0.0.232"
 ---
 
+# Updating Appliances Using Web UI
 
-In this article
 
 Veeam Backup for AWS automatically notifies you about newly released product versions and software package updates available for the operating system running on the backup appliance. However, starting from Veeam Backup for AWS version 6a, you can use the Veeam Backup for AWS Web UI to install software package updates only. To upgrade Veeam Backup for AWS to new versions, follow the instructions provided in section [Upgrading Appliances](upgrading_appliances.md).
 
@@ -26,6 +26,4 @@ In This Section
 * [Viewing Updates History](updates_history.md)
 * [Configuring HTTP Proxy for Veeam Updater](web_proxy.md)
 
-Page updated 11/6/2025
 
-Page content applies to build 10.0.0.232

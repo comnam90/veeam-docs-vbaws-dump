@@ -1,5 +1,5 @@
 ---
-title: "role_permissions_flr_prod"
+title: "FLR Worker IAM Role Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/role_permissions_flr_prod.html"
@@ -7,8 +7,8 @@ last_updated: "6/17/2024"
 product_version: "10.0.0.232"
 ---
 
+# FLR Worker IAM Role Permissions
 
-In this article
 
 To allow Veeam Backup for AWS to deploy worker instances in production accounts to perform EC2 file-level recovery operations, attach IAM roles to the instances and further to communicate with these instances, [IAM roles specified in the file-level recovery settings](restore_item_mode.md#workers) must meet the following requirements:
 
@@ -32,6 +32,4 @@ To learn how to modify role trust policies, see [AWS Documentation](https://docs
 
 To learn how to create IAM roles and assign them the required permissions, see [Appendix A. Creating IAM Roles in AWS](create_iam_policy_role.md).
 
-Page updated 6/17/2024
 
-Page content applies to build 10.0.0.232

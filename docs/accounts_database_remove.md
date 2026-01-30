@@ -1,5 +1,5 @@
 ---
-title: "accounts_database_remove"
+title: "Removing Database Accounts"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/accounts_database_remove.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Removing Database Accounts
 
-In this article
 
 Veeam Backup for AWS allows you to permanently remove a database account from the configuration database if you no longer need it:
 
@@ -23,6 +23,4 @@ Veeam Backup for AWS allows you to permanently remove a database account from th
 
 [![Remove Database Account](images/database_account_remove.webp)](images/database_account_remove.webp "Remove Database Account")
 
-Page updated 8/20/2025
 
-Page content applies to build 10.0.0.232

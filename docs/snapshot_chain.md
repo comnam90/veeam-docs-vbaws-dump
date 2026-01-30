@@ -1,5 +1,5 @@
 ---
-title: "snapshot_chain"
+title: "Snapshot Chain"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/snapshot_chain.html"
@@ -7,8 +7,8 @@ last_updated: "12/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Snapshot Chain
 
-In this article
 
 During every backup session, Veeam Backup for AWS creates a cloud-native snapshot for each instance added to the backup policy. The cloud-native snapshot itself is a collection of point-in-time snapshots that Veeam Backup for AWS takes using native AWS capabilities.
 
@@ -45,6 +45,4 @@ Related Topics
 
 [EC2 Snapshot Retention](retention_snapshots.md)
 
-Page updated 12/8/2025
 
-Page content applies to build 10.0.0.232

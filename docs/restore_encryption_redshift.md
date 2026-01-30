@@ -1,5 +1,5 @@
 ---
-title: "restore_encryption_redshift"
+title: "Step 5. Enable Encryption"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_encryption_redshift.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Enable Encryption
 
-In this article
 
 [This step applies only if you have selected the Restore to original location with different settings option at the Restore Mode step of the wizard]
 
@@ -26,6 +26,4 @@ For a KMS key to be displayed in the list of available encryption keys, it must 
 
 [![Restoring Redshift Clusters](images/restore_encryption_redshift.webp)](images/restore_encryption_redshift.webp "Restoring Redshift Clusters")
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

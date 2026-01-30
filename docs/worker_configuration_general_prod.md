@@ -1,5 +1,5 @@
 ---
-title: "worker_configuration_general_prod"
+title: "Step 2. Specify General Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/worker_configuration_general_prod.html"
@@ -7,8 +7,8 @@ last_updated: "7/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 2. Specify General Settings
 
-In this article
 
 At the General step of the wizard, select either of the following options:
 
@@ -31,6 +31,4 @@ For an IAM role to be displayed in the IAM role list, it must be added to Veeam 
 
 [![Adding Worker Configuration](images/worker_config_prod_general.webp)](images/worker_config_prod_general.webp "Adding Worker Configuration")
 
-Page updated 7/4/2025
 
-Page content applies to build 10.0.0.232

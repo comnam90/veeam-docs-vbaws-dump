@@ -1,5 +1,5 @@
 ---
-title: "sla_add_general_settings"
+title: "Step 5. Configure Template General Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/sla_add_general_settings.html"
@@ -7,8 +7,8 @@ last_updated: "11/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Configure Template General Settings
 
-In this article
 
 At the Settings step of the wizard, you can specify SLA threshold settings and schedule health checks for the SLA template.
 
@@ -27,6 +27,4 @@ To instruct Veeam Backup for AWS to perform a health check, do the following:
 
 [![Adding SLA Template](images/sla_add_general_template_settings.webp)](images/sla_add_general_template_settings.webp "Adding SLA Template")
 
-Page updated 11/21/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "restore_item_finish_efs"
+title: "Step 7. Finish Working with Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_item_finish_efs.html"
@@ -7,8 +7,8 @@ last_updated: "10/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 7. Finish Working with Wizard
 
-In this article
 
 At the Summary step of the wizard, review summary information and click Finish.
 
@@ -16,6 +16,4 @@ At the Summary step of the wizard, review summary information and click Finish.
 
 [![Restoring EFS Files and Folders](images/restore_item_finish_efs.webp)](images/restore_item_finish_efs.webp "Restoring EFS Files and Folders")
 
-Page updated 10/2/2025
 
-Page content applies to build 10.0.0.232

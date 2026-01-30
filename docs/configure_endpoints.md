@@ -1,5 +1,5 @@
 ---
-title: "configure_endpoints"
+title: "Appendix C. Configuring Endpoints in AWS"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/configure_endpoints.html"
@@ -7,8 +7,8 @@ last_updated: "10/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Appendix C. Configuring Endpoints in AWS
 
-In this article
 
 |  |
 | --- |
@@ -112,6 +112,4 @@ For more information on gateway endpoints for Amazon S3, see [AWS Documentation]
 | Important |
 | When you create an S3 gateway endpoint, consider that a VPC and a service for which you create the endpoint must belong to the same AWS Region. That is, when you perform backup operations using endpoints, the processed source instances must reside in the region in which a repository where the backups will be stored is located; when you perform restore operations using endpoints, the instances must be restored to the region in which a repository where the backup files are stored is located.  This limitation is only region-specific-services and VPCs can belong to different AWS accounts. |
 
-Page updated 10/10/2025
 
-Page content applies to build 10.0.0.232

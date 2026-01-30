@@ -1,5 +1,5 @@
 ---
-title: "repositories_remove"
+title: "Removing Backup Repositories"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/repositories_remove.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Removing Backup Repositories
 
-In this article
 
 The consequences of actions performed with a backup repository depend on whether the repository has been added to the backup infrastructure using the Veeam Backup & Replication console or the Veeam Backup for AWS Web UI.
 
@@ -52,6 +52,4 @@ To remove a backup repository, do the following:
 
 [![Removing Repositories](images/repo_remove.webp)](images/repo_remove.webp "Removing Repositories")
 
-Page updated 8/20/2025
 
-Page content applies to build 10.0.0.232

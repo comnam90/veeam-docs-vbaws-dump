@@ -1,5 +1,5 @@
 ---
-title: "redshift_serverless_new_namespace"
+title: "Restoring to New Namespace"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/redshift_serverless_new_namespace.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Restoring to New Namespace
 
-In this article
 
 [This step applies only if you have selected the Restore to new namespace option at the Restore Mode step of the wizard]
 
@@ -48,6 +48,4 @@ The new namespace will be added to the AWS infrastructure only after you complet
 
 [![Restoring Redshift Serverless](images/redshift_serverless_restore_settings_new_namespace.webp)](images/redshift_serverless_restore_settings_new_namespace.webp "Restoring Redshift Serverless")
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

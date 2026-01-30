@@ -1,5 +1,5 @@
 ---
-title: "redshift_serverless_existing_namespace"
+title: "Restoring to Existing Namespace"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/redshift_serverless_existing_namespace.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Restoring to Existing Namespace
 
-In this article
 
 [This step applies only if you have selected the Restore to original or any existing namespace option at the Restore Mode step of the wizard]
 
@@ -23,6 +23,4 @@ For a namespace to be displayed in the Namespace drop-down list, it must be crea
 
 [![Restoring Redshift Serverless](images/redshift_serverless_restore_settings.webp)](images/redshift_serverless_restore_settings.webp "Restoring Redshift Serverless")
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

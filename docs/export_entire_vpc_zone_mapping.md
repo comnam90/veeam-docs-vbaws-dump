@@ -1,5 +1,5 @@
 ---
-title: "export_entire_vpc_zone_mapping"
+title: "Step 5. Configure Availability Zone Mapping"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/export_entire_vpc_zone_mapping.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Configure Availability Zone Mapping
 
-In this article
 
 [This step applies only if you have selected the Export to a new location option at the Export Mode step of the wizard]
 
@@ -25,6 +25,4 @@ At the Availability Zones step of the wizard, for each source Availability Zone,
 
 [![Exporting VPC Configuration](images/vpc_export_entire_az_mapping.webp)](images/vpc_export_entire_az_mapping.webp "Exporting VPC Configuration")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

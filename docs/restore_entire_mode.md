@@ -1,5 +1,5 @@
 ---
-title: "restore_entire_mode"
+title: "Step 5. Choose Restore Mode"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_mode.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Choose Restore Mode
 
-In this article
 
 At the Restore Mode step of the wizard, choose whether you want to restore the selected EC2 instance to the original or to a custom location. If you select the Restore to new location, or with different settings option, specify the target AWS Region where the restored EC2 instance will operate.
 
@@ -19,6 +19,4 @@ At the Restore Mode step of the wizard, choose whether you want to restore the s
 
 [![Restoring Entire EC2 Instance](images/restore_entire_mode.webp)](images/restore_entire_mode.webp "Restoring Entire EC2 Instance")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

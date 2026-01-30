@@ -1,5 +1,5 @@
 ---
-title: "repositories_add_console"
+title: "Adding Backup Repositories Using Console"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/repositories_add_console.html"
@@ -7,8 +7,8 @@ last_updated: "9/30/2025"
 product_version: "10.0.0.232"
 ---
 
+# Adding Backup Repositories Using Console
 
-In this article
 
 Depending on whether you want to store backups in a high-performance, high-cost and short-term storage, or a secure, low-cost and long-term storage, you can configure repositories of the following storage classes:
 
@@ -40,6 +40,4 @@ After you add a backup appliance to the backup infrastructure, you can configure
 * [Create new repositories](add_s3_repository.md).
 * [Add existing repositories to the backup infrastructure](connecting_existing_repository.md) if you have already configured them on the backup appliance.
 
-Page updated 9/30/2025
 
-Page content applies to build 10.0.0.232

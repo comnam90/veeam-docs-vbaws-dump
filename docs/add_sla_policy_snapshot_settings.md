@@ -1,5 +1,5 @@
 ---
-title: "add_sla_policy_snapshot_settings"
+title: "Step 7. Configure Snapshot Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_sla_policy_snapshot_settings.html"
@@ -7,8 +7,8 @@ last_updated: "11/24/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 7. Configure Snapshot Settings
 
-In this article
 
 At the Snapshot Settings step of the wizard, you can enable tag assignment for cloud-native snapshots and snapshot replicas created by the policy and select a custom target location for the snapshot replicas.
 
@@ -50,6 +50,4 @@ For a KMS key to be displayed in the list of available encryption keys, it must 
 
 [![Creating SLA-Based EC2 Policy](images/add_sla_replication_mapping.webp)](images/add_sla_replication_mapping.webp "Creating SLA-Based EC2 Policy")
 
-Page updated 11/24/2025
 
-Page content applies to build 10.0.0.232

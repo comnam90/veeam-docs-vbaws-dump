@@ -1,5 +1,5 @@
 ---
-title: "ec2_sla_create"
+title: "Creating SLA-Based EC2 Backup Policies"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/ec2_sla_create.html"
@@ -7,8 +7,8 @@ last_updated: "1/8/2026"
 product_version: "10.0.0.232"
 ---
 
+# Creating SLA-Based EC2 Backup Policies
 
-In this article
 
 To create an SLA-based backup policy, do the following:
 
@@ -24,6 +24,4 @@ To create an SLA-based backup policy, do the following:
 10. [Review the estimated cost of protecting the selected EC2 instances](add_sla_policy_cost.md).
 11. [Finish working with the wizard](add_sla_policy_finish.md).
 
-Page updated 1/8/2026
 
-Page content applies to build 10.0.0.232

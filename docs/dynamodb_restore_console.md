@@ -1,5 +1,5 @@
 ---
-title: "dynamodb_restore_console"
+title: "DynamoDB Restore Using Console"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/dynamodb_restore_console.html"
@@ -7,8 +7,8 @@ last_updated: "10/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# DynamoDB Restore Using Console
 
-In this article
 
 You can recover corrupted DynamoDB tables in the Veeam Backup for AWS Web UI only. However, you can launch the DynamoDB Table Restore wizard directly from the Veeam Backup & Replication console to start the restore operation:
 
@@ -27,6 +27,4 @@ Veeam Backup & Replication will open the DynamoDB Table Restore wizard in a web 
 
 [![Restore to Amazon DynamoDB](images/restore_dynamodb.webp)](images/restore_dynamodb.webp "Restore to Amazon DynamoDB")
 
-Page updated 10/8/2025
 
-Page content applies to build 10.0.0.232

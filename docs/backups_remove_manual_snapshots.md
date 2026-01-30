@@ -1,5 +1,5 @@
 ---
-title: "backups_remove_manual_snapshots"
+title: "Removing EC2 Snapshots Created Manually"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backups_remove_manual_snapshots.html"
@@ -7,8 +7,8 @@ last_updated: "9/16/2025"
 product_version: "10.0.0.232"
 ---
 
+# Removing EC2 Snapshots Created Manually
 
-In this article
 
 To remove all cloud-native snapshots created for an EC2 instance manually, follow the instructions provided in the [Removing EC2 Backups and Snapshots](backups_remove.md) section. If you want to remove a specific snapshot created manually, do the following:
 
@@ -23,6 +23,4 @@ Related Topics
 * [Creating EC2 Snapshots Manually](snapshot_manual.md)
 * [Removing EC2 Backups and Snapshots](backups_remove.md)
 
-Page updated 9/16/2025
 
-Page content applies to build 10.0.0.232

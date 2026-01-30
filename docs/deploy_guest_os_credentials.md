@@ -1,5 +1,5 @@
 ---
-title: "deploy_guest_os_credentials"
+title: "Step 7. Specify User Credentials"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/deploy_guest_os_credentials.html"
@@ -7,8 +7,8 @@ last_updated: "8/11/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 7. Specify User Credentials
 
-In this article
 
 At the Guest OS step of the wizard, do the following:
 
@@ -27,6 +27,4 @@ For a key pair to be displayed in the list of available keys, it must be created
 
 ![Step 7. Specify User Credentials](images/add_aws_guest_os_credentials.webp "Deploy appliance - User Credentials")
 
-Page updated 8/11/2025
 
-Page content applies to build 10.0.0.232

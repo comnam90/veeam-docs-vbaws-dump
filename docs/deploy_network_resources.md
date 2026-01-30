@@ -1,5 +1,5 @@
 ---
-title: "deploy_network_resources"
+title: "Step 6. Specify Network Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/deploy_network_resources.html"
@@ -7,8 +7,8 @@ last_updated: "8/11/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 6. Specify Network Settings
 
-In this article
 
 At the Networking step of the wizard, do the following:
 
@@ -60,6 +60,4 @@ Veeam Backup & Replication will verify whether the specified security group allo
 
 ![Step 6. Specify Network Settings](images/add_aws_network_resources.webp "Deploy appliance - Network Settings")
 
-Page updated 8/11/2025
 
-Page content applies to build 10.0.0.232

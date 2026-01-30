@@ -1,5 +1,5 @@
 ---
-title: "logs"
+title: "Getting Technical Support"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/logs.html"
@@ -7,8 +7,8 @@ last_updated: "11/6/2025"
 product_version: "10.0.0.232"
 ---
 
+# Getting Technical Support
 
-In this article
 
 If you have any questions or issues with Veeam Backup for AWS, you can search for a resolution on [Veeam R&D Forums](https://forums.veeam.com/) or submit a support case in the [Veeam Customer Support Portal](https://www.veeam.com/support.html).
 
@@ -66,6 +66,4 @@ To export the product logs, do the following:
 
 ![Getting Technical Support](images/export_logs.webp)
 
-Page updated 11/6/2025
 
-Page content applies to build 10.0.0.232

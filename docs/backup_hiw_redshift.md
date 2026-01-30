@@ -1,5 +1,5 @@
 ---
-title: "backup_hiw_redshift"
+title: "Redshift Clusters Backup"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_hiw_redshift.html"
@@ -7,8 +7,8 @@ last_updated: "4/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Redshift Clusters Backup
 
-In this article
 
 Veeam Backup for AWS performs Redshift clusters backup in the following way:
 
@@ -20,6 +20,4 @@ Related Topics
 * [Backup Chain](backup_chain_redshift.md)
 * [Redshift Backup Retention](retention_backup_redshift.md)
 
-Page updated 4/2/2025
 
-Page content applies to build 10.0.0.232

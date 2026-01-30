@@ -1,5 +1,5 @@
 ---
-title: "backup_chain"
+title: "Backup Chain"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_chain.html"
@@ -7,8 +7,8 @@ last_updated: "11/24/2025"
 product_version: "10.0.0.232"
 ---
 
+# Backup Chain
 
-In this article
 
 If you enable image-level backups for an EC2 backup policy, Veeam Backup for AWS creates a new backup in a backup repository during every backup session according to the backup policy schedule. A sequence of backups created during a set of backup sessions makes up a backup chain.
 
@@ -39,6 +39,4 @@ Related Topics
 * [Archive Backup Chain](archive_chain.md)
 * [EC2 Backup Retention](retention_backup.md)
 
-Page updated 11/24/2025
 
-Page content applies to build 10.0.0.232

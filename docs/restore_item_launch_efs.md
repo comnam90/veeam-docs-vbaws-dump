@@ -1,5 +1,5 @@
 ---
-title: "restore_item_launch_efs"
+title: "Step 1. Launch EFS File-level Recovery Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_item_launch_efs.html"
@@ -7,8 +7,8 @@ last_updated: "10/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 1. Launch EFS File-level Recovery Wizard
 
-In this article
 
 To launch the EFS File-level Recovery wizard, do the following:
 
@@ -19,6 +19,4 @@ Alternatively, click the link in the Restore Points column. Then, in the Availab
 
 [![Restoring EFS Files and Folders](images/restore_item_launch_efs.webp)](images/restore_item_launch_efs.webp "Restoring EFS Files and Folders")
 
-Page updated 10/2/2025
 
-Page content applies to build 10.0.0.232

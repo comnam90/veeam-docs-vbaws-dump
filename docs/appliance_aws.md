@@ -1,5 +1,5 @@
 ---
-title: "appliance_aws"
+title: "Backup Appliance"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/appliance_aws.html"
@@ -7,8 +7,8 @@ last_updated: "6/25/2025"
 product_version: "10.0.0.232"
 ---
 
+# Backup Appliance
 
-In this article
 
 You can choose the type of the EC2 instance running Veeam Backup for AWS during the deployment, or change it later as the environment grows.
 
@@ -138,6 +138,4 @@ When you connect an existing backup appliance to the backup infrastructure, the 
 | Note |
 | The process of synchronizing data between the backup appliance and Veeam Backup & Replication database runs every 2 minutes after you add the backup appliance to the backup infrastructure. Creating new backup policies, updating policy settings, running backup and restore sessions may also trigger the synchronization process. |
 
-Page updated 6/25/2025
 
-Page content applies to build 10.0.0.232

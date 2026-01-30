@@ -1,5 +1,5 @@
 ---
-title: "restore_hiw_vpc"
+title: "VPC Configuration Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_hiw_vpc.html"
@@ -7,8 +7,8 @@ last_updated: "12/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# VPC Configuration Restore
 
-In this article
 
 Veeam Backup for AWS offers the following disaster recovery operations:
 
@@ -22,6 +22,4 @@ You can restore the VPC configuration data to the most recent state or to any av
 | Important |
 | When restoring VPC route tables, consider that routes that had the blackhole state when a restore point was created will not be restored and a restore session will complete with warning. In this case, it is recommended that you check the restored target route table configurations in the AWS Management Console to ensure that all traffic flows correctly. To learn how to configure routes in route tables, see [AWS Documentation](https://docs.aws.amazon.com/vpc/latest/tgw/tgw-route-tables.html). |
 
-Page updated 12/4/2025
 
-Page content applies to build 10.0.0.232

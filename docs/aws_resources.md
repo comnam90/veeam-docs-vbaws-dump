@@ -1,5 +1,5 @@
 ---
-title: "aws_resources"
+title: "Viewing Available Resources"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/aws_resources.html"
@@ -7,8 +7,8 @@ last_updated: "9/22/2025"
 product_version: "10.0.0.232"
 ---
 
+# Viewing Available Resources
 
-In this article
 
 After you create a backup policy to protect a specific type of AWS resources, Veeam Backup for AWS rescans AWS Regions specified in the policy settings and populates the resource list on the Resources page with all resources of that type residing in these regions. If an AWS Region is no longer specified in any configured backup policy, Veeam Backup for AWS removes all resources residing in the region from the list of available resources.
 
@@ -74,6 +74,4 @@ To extend time for which you want to keep the retrieved data available for resto
 
 [![Viewing Available Resources](images/available_resources.webp)](images/available_resources.webp "Viewing Available Resources")
 
-Page updated 9/22/2025
 
-Page content applies to build 10.0.0.232

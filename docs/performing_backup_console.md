@@ -1,5 +1,5 @@
 ---
-title: "performing_backup_console"
+title: "Performing Backup Using Console"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/performing_backup_console.html"
@@ -7,8 +7,8 @@ last_updated: "11/11/2025"
 product_version: "10.0.0.232"
 ---
 
+# Performing Backup Using Console
 
-In this article
 
 Veeam Backup for AWS runs backup policies for every data protection operation. A backup policy is a collection of settings that define the way backup operations are performed: what data to back up, where backups must be stored, when the backup process must start, and so on.
 
@@ -27,6 +27,4 @@ In This Section
 * [Creating Backup Copy Jobs](backup_copy.md)
 * [Copying Backups to Tapes](copy_to_tape.md)
 
-Page updated 11/11/2025
 
-Page content applies to build 10.0.0.232

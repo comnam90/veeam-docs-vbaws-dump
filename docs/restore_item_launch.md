@@ -1,5 +1,5 @@
 ---
-title: "restore_item_launch"
+title: "Step 1. Launch EC2 File-level Recovery Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_item_launch.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 1. Launch EC2 File-level Recovery Wizard
 
-In this article
 
 To launch the EC2 File-level Recovery wizard, do the following:
 
@@ -25,6 +25,4 @@ Alternatively, click the link in the Restore Points column. Then, in the Availab
 
 [![Restoring EC2 Files and Folders](images/restore_item_launch.webp)](images/restore_item_launch.webp "Restoring EC2 Files and Folders")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

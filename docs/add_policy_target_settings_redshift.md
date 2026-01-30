@@ -1,5 +1,5 @@
 ---
-title: "add_policy_target_settings_redshift"
+title: "Step 5. Configure Backup Target Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_target_settings_redshift.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Configure Backup Target Settings
 
-In this article
 
 At the Targets step of the wizard, specify backup vaults that will be used to store backups of the selected Redshift clusters:
 
@@ -35,6 +35,4 @@ To configure mapping for all AWS Regions within the selected organization at onc
 
 [![Creating Redshift Backup Policy](images/backup_add_backup_settings_redshift.webp)](images/backup_add_backup_settings_redshift.webp "Creating Redshift Backup Policy")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "restore_entire_vpc_launch"
+title: "Step 1. Launch VPC Restore Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_vpc_launch.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 1. Launch VPC Restore Wizard
 
-In this article
 
 To launch the VPC Restore wizard, do the following:
 
@@ -18,6 +18,4 @@ To launch the VPC Restore wizard, do the following:
 
 [![Restoring VPC Configuration](images/vpc_restore_entire_launch.webp)](images/vpc_restore_entire_launch.webp "Restoring VPC Configuration")
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "policies_aws"
+title: "Backup Policies"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/policies_aws.html"
@@ -7,8 +7,8 @@ last_updated: "6/25/2025"
 product_version: "10.0.0.232"
 ---
 
+# Backup Policies
 
-In this article
 
 Since one backup policy can be used to protect multiple wokloads at the same time, it is recommended that you limit the number of processed workloads to simplify the backup schedule and to optimize the backup performance.
 
@@ -51,6 +51,4 @@ Maximizing Throughput
 
 The number of worker instances simultaneously deployed to process workloads added to a backup policy is defined by the speed of data upload to the backup repository specified for the policy. To maximize policy processing throughput, consider that every backup and archive session started during policy execution requires a separate worker instance to be deployed. For more details, see [Worker Instances](worker_instances.md).
 
-Page updated 6/25/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "add_policy_target_settings_tags_redshift"
+title: "Step 7. Enable AWS Tags Assignment"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_target_settings_tags_redshift.html"
@@ -7,8 +7,8 @@ last_updated: "11/24/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 7. Enable AWS Tags Assignment
 
-In this article
 
 At the Tags step of the wizard, you can choose whether you want to assign to backups and backup copies of the selected Redshift clusters already existing AWS tags and your own custom tags.
 
@@ -16,6 +16,4 @@ If you set the Add custom tags to created backups toggle to On, you must also sp
 
 [![Creating Redshift Backup Policy](images/backup_add_tags_redshift.webp)](images/backup_add_tags_redshift.webp "Creating Redshift Backup Policy")
 
-Page updated 11/24/2025
 
-Page content applies to build 10.0.0.232

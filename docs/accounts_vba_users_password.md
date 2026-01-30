@@ -1,5 +1,5 @@
 ---
-title: "accounts_vba_users_password"
+title: "Changing User Passwords"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/accounts_vba_users_password.html"
@@ -7,8 +7,8 @@ last_updated: "8/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Changing User Passwords
 
-In this article
 
 For Veeam Backup for AWS user accounts, you can change the password specified while creating the account:
 
@@ -27,6 +27,4 @@ For Veeam Backup for AWS user accounts, you can change the password specified wh
 
 [![Changing User Password](images/users_change_password.webp)](images/users_change_password.webp "Changing User Password")
 
-Page updated 8/8/2025
 
-Page content applies to build 10.0.0.232

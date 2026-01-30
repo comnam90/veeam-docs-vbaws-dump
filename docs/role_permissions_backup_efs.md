@@ -1,5 +1,5 @@
 ---
-title: "role_permissions_backup_efs"
+title: "EFS Backup IAM Role Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/role_permissions_backup_efs.html"
@@ -7,8 +7,8 @@ last_updated: "4/28/2025"
 product_version: "10.0.0.232"
 ---
 
+# EFS Backup IAM Role Permissions
 
-In this article
 
 Veeam Backup for AWS uses EFS Backup IAM roles to perform the following operations:
 
@@ -54,6 +54,4 @@ Permissions Required to Create Indexes of EFS File Systems
 | --- |
 | {     "Version": "2012-10-17",     "Statement": [         {             "Effect": "Allow",             "Action": [                 "ec2:TerminateInstances",                 "ec2:StartInstances"             ],             "Resource": "\*",             "Condition": {                 "StringEquals": {                     "ec2:ResourceTag/EfsIndexWorker": "EfsIndexWorker"                 }             }         },         {             "Effect": "Allow",             "Action": "ec2:CreateTags",             "Resource": "\*",             "Condition": {                 "StringEquals": {                     "ec2:CreateAction": "RunInstances",                     "aws:RequestTag/EfsIndexWorker": "EfsIndexWorker"                 }             }         },         {             "Effect": "Allow",             "Action": [                 "ec2:RunInstances",                 "servicequotas:ListServiceQuotas"             ],             "Resource": "\*"         }     ]  } |
 
-Page updated 4/28/2025
 
-Page content applies to build 10.0.0.232

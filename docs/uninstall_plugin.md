@@ -1,5 +1,5 @@
 ---
-title: "uninstall_plugin"
+title: "Uninstalling Plug-In"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/uninstall_plugin.html"
@@ -7,8 +7,8 @@ last_updated: "12/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Uninstalling Plug-In
 
-In this article
 
 Before you uninstall Veeam Plug-In for AWS, it is recommended that you [remove all connected backup appliances](remove_appliance.md) from the backup infrastructure. If you keep the backup appliances in the backup infrastructure, the following will happen:
 
@@ -32,6 +32,4 @@ To uninstall Veeam Plug-In for AWS, do the following:
 | Note |
 | After you uninstall Veeam Plug-In for AWS, you will be no longer able to add backup appliances and new external repositories to the backup infrastructure. |
 
-Page updated 12/4/2025
 
-Page content applies to build 10.0.0.232

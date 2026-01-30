@@ -1,5 +1,5 @@
 ---
-title: "properties_export"
+title: "Collecting Object Properties"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/properties_export.html"
@@ -7,8 +7,8 @@ last_updated: "8/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Collecting Object Properties
 
-In this article
 
 You can export properties of objects managed by Veeam Backup for AWS as a single file in the CSV or XML format. To do that, navigate to the necessary tab and click Export to. Veeam Backup for AWS will save the file with the exported data to the default download directory on the local machine.
 
@@ -19,6 +19,4 @@ You can export properties of objects managed by Veeam Backup for AWS as a single
 
 [![Exporting Data](images/iam_roles_export.webp)](images/iam_roles_export.webp "Exporting Data")
 
-Page updated 8/21/2025
 
-Page content applies to build 10.0.0.232

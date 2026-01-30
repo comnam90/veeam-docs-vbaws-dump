@@ -1,5 +1,5 @@
 ---
-title: "role_permissions_backup_ec2"
+title: "EC2 Backup IAM Role Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/role_permissions_backup_ec2.html"
@@ -7,8 +7,8 @@ last_updated: "2/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# EC2 Backup IAM Role Permissions
 
-In this article
 
 Veeam Backup for AWS uses EC2 Backup IAM roles to perform the following operations:
 
@@ -41,6 +41,4 @@ Permissions Required to Deploy Worker Instances in Production Account
 | --- |
 | {     "Version": "2012-10-17",     "Statement": [         {             "Effect": "Allow",             "Action": [                 "ec2:AttachVolume",                 "ec2:CreateKeyPair",                 "ec2:CreateVolume",                 "ec2:DeleteKeyPair",                 "ec2:DeleteVolume",                 "ec2:DescribeAccountAttributes",                 "ec2:DescribeKeyPairs",                 "ec2:DescribeSecurityGroups",                 "ec2:DetachVolume",                 "ec2:ModifyInstanceAttribute",                 "ec2:RunInstances",                 "ec2:TerminateInstances",                 "iam:GetRole",                 "iam:ListInstanceProfilesForRole",                 "iam:PassRole",                 "ssm:GetParameter",                 "sqs:SendMessage"             ],             "Resource": "\*"         }     ]  } |
 
-Page updated 2/10/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "backups_view_vpc"
+title: "VPC Configuration Data"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backups_view_vpc.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# VPC Configuration Data
 
-In this article
 
 After the VPC Configuration Backup policy successfully creates a restore point for the VPC configuration of an AWS Region within an AWS account, the configuration record is automatically added to the resource list on the Protected Data page.
 
@@ -33,6 +33,4 @@ On the Protected Data page, you can perform the following actions:
 
 [![Managing Backed-Up VPC Configuration Data](images/vpc_config_details.webp)](images/vpc_config_details.webp "Managing Backed-Up VPC Configuration Data")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

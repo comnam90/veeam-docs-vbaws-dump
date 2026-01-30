@@ -1,5 +1,5 @@
 ---
-title: "restore_entire_finish"
+title: "Step 10. Finish Working with Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_finish.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 10. Finish Working with Wizard
 
-In this article
 
 At the Summary step of the wizard, review summary information and click Finish.
 
@@ -24,6 +24,4 @@ If you have selected the Restore to original location option at the Restore Mode
 
 [![Restoring Entire EC2 Instance](images/restore_entire_finish.webp)](images/restore_entire_finish.webp "Restoring Entire EC2 Instance")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

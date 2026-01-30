@@ -1,5 +1,5 @@
 ---
-title: "backup_hiw_efs"
+title: "EFS Backup"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_hiw_efs.html"
@@ -7,8 +7,8 @@ last_updated: "9/6/2024"
 product_version: "10.0.0.232"
 ---
 
+# EFS Backup
 
-In this article
 
 Veeam Backup for AWS performs EFS backup in the following way:
 
@@ -39,6 +39,4 @@ Related Topics
 * [Backup Chain](backup_chain_efs.md)
 * [EFS Backup Retention](retention_backup_efs.md)
 
-Page updated 9/6/2024
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "block_generation"
+title: "Block Generation"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/block_generation.html"
@@ -7,8 +7,8 @@ last_updated: "12/15/2025"
 product_version: "10.0.0.232"
 ---
 
+# Block Generation
 
-In this article
 
 If you choose a repository with immutability settings enabled as the target location for image-level backups, Veeam Backup for AWS creates an immutable backup chain in the repository instead of a regular backup chain. Immutable backup chains are built the same way as the chains of standard and archived EC2 and RDS backups, which means that each immutability chain is composed of a set of backups produced during a sequence of backup sessions, and that the same retention policies apply to these chains. The only difference is that objects in immutable backup chains can be neither removed nor modified until the immutability period is over. Therefore, every time Veeam Backup for AWS creates a new incremental backup containing modified data blocks, the immutability period of the dependent unchanged data blocks (in the preceding incremental and full backups) is supposed to be extended. This can cause a substantial increase in I/O operations and incur additional associated costs in Amazon S3.
 
@@ -52,6 +52,4 @@ According to the specified scheduling settings, Veeam Backup for AWS will create
 4. On March 29, Veeam Backup for AWS will create a new backup at 7:00 AM. During the backup session, Veeam Backup for AWS will initiate a new block generation period, and apply the new generation to the newly created backup. Thus, the immutability period of the data blocks in the backup will calculated as 55 days, and the immutability expiration date of these blocks will become May 23. The backup will be removed according to the retention policy on April 29.
 5. On March 31, Veeam Backup for AWS will apply the retention policy and remove the full backup created on March 1 from the chain. Unused data blocks of the removed backup will be deleted on April 26 after the immutability period expires.
 
-Page updated 12/15/2025
 
-Page content applies to build 10.0.0.232

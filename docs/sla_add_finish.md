@@ -1,5 +1,5 @@
 ---
-title: "sla_add_finish"
+title: "Step 6. Finish Working With Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/sla_add_finish.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 6. Finish Working With Wizard
 
-In this article
 
 At the Summary step of the wizard, review summary information and click Finish.
 
@@ -19,6 +19,4 @@ At the Summary step of the wizard, review summary information and click Finish.
 
 [![Adding SLA Template](images/sla_add_template_finish.webp)](images/sla_add_template_finish.webp "Adding SLA Template")
 
-Page updated 8/20/2025
 
-Page content applies to build 10.0.0.232

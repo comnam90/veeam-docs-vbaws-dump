@@ -1,5 +1,5 @@
 ---
-title: "perform_ec2_backup"
+title: "Performing EC2 Backup"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/perform_ec2_backup.html"
@@ -7,8 +7,8 @@ last_updated: "12/15/2025"
 product_version: "10.0.0.232"
 ---
 
+# Performing EC2 Backup
 
-In this article
 
 One backup policy can be used to process one or more instances either within one AWS account or within an entire AWS Organization. The scope of data that you can protect in an AWS account is limited by permissions of an IAM role that is specified in the backup policy settings, whereas the scope of data that you can protect in an AWS Organization is limited by permissions of an IAM role that is specified in the organization settings.
 
@@ -26,6 +26,4 @@ Related Topics
 
 [SLA-Based Backup Policies](overview_ec2.md#policies)
 
-Page updated 12/15/2025
 
-Page content applies to build 10.0.0.232

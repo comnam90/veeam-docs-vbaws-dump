@@ -1,5 +1,5 @@
 ---
-title: "restore_entire_perform"
+title: "Performing EC2 Instance Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_perform.html"
@@ -7,8 +7,8 @@ last_updated: "12/15/2025"
 product_version: "10.0.0.232"
 ---
 
+# Performing EC2 Instance Restore
 
-In this article
 
 In case of a disaster, you can restore an entire EC2 instance from a cloud-native snapshot, snapshot replica or image-level backup. Veeam Backup for AWS allows you to restore one or more EC2 instances at a time, to the original location or to a new location.
 
@@ -32,6 +32,4 @@ To restore a protected EC2 instance, do the following:
 9. [Specify a restore reason](restore_entire_reason.md).
 10. [Finish working with the wizard](restore_entire_finish.md).
 
-Page updated 12/15/2025
 
-Page content applies to build 10.0.0.232

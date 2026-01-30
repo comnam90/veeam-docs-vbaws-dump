@@ -1,5 +1,5 @@
 ---
-title: "access_backup_appliances"
+title: "Configuring Access to Backup Appliances in AWS"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/access_backup_appliances.html"
@@ -7,8 +7,8 @@ last_updated: "4/25/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Access to Backup Appliances in AWS
 
-In this article
 
 |  |
 | --- |
@@ -23,6 +23,4 @@ To allow a Veeam Backup & Replication server to communicate with a backup applia
 4. [Allow inbound traffic to the backup appliance](update_security_group.md).
 5. [Create a VPN connection](create_vpn_connection.md).
 
-Page updated 4/25/2025
 
-Page content applies to build 10.0.0.232

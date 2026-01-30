@@ -1,5 +1,5 @@
 ---
-title: "backups_remove_individual_redshift_serverless"
+title: "Removing Redshift Serverless Backups Created Manually"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backups_remove_individual_redshift_serverless.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Removing Redshift Serverless Backups Created Manually
 
-In this article
 
 To remove all cloud-native backups created for a Redshift Serverless namespace manually, follow the instructions provided in the [Removing Redshift Serverless Backups](backups_remove_redshift_serverless.md) section. If you want to remove a specific backups created manually, do the following:
 
@@ -23,6 +23,4 @@ Related Topics
 * [Creating Redshift Serverless Backups Manually](backup_manual_redshift_serverless.md)
 * [Removing Redshift Serverless Backups](backups_remove_redshift_serverless.md)
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "config_backup_ui"
+title: "Performing Configuration Backup Using Web UI"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/config_backup_ui.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Performing Configuration Backup Using Web UI
 
-In this article
 
 While performing configuration backup, Veeam Backup for AWS exports data from the configuration database and saves it to a backup file in a backup repository. You can back up the configuration database of a backup appliance either manually or automatically.
 
@@ -55,6 +55,4 @@ If a restore point is older than the specified time limit, Veeam Backup for AWS 
 
 [![Configuring Configuration Backup Schedule](images/config_backup_auto.webp)](images/config_backup_auto.webp "Configuring Configuration Backup Schedule")
 
-Page updated 8/20/2025
 
-Page content applies to build 10.0.0.232

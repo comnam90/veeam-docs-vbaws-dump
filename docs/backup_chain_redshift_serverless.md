@@ -1,5 +1,5 @@
 ---
-title: "backup_chain_redshift_serverless"
+title: "Backup Chain"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_chain_redshift_serverless.html"
@@ -7,8 +7,8 @@ last_updated: "12/12/2024"
 product_version: "10.0.0.232"
 ---
 
+# Backup Chain
 
-In this article
 
 During every backup session, Veeam Backup for AWS creates a new cloud-native backup for each Redshift Serverless namespace added to the backup policy. To create the backup, Veeam Backup for AWS uses the [Amazon Redshift Serverless service](https://docs.aws.amazon.com/redshift/latest/mgmt/serverless-snapshots-recovery-points.html). A sequence of cloud-native backups created during a set of backup sessions makes up a backup chain.
 
@@ -23,6 +23,4 @@ Each Redshift Serverless backup in the backup chain contains encrypted metadata.
 
 Redshift Serverless backups act as independent restore points for backed-up namespaces. If you remove any backup, it will not break the Redshift Serverless backup chain — you will still be able to roll back namespace data to any existing restore point. The period of time during which Redshift Serverless backups are kept in the Redshift Serverless backup chain is defined by retention policy settings. For more information, see [Redshift Serverless Backup Retention](retention_backup_redshift_serverless.md).
 
-Page updated 12/12/2024
 
-Page content applies to build 10.0.0.232

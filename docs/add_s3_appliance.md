@@ -1,5 +1,5 @@
 ---
-title: "add_s3_appliance"
+title: "Step 2. Specify Repository Details"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_s3_appliance.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 2. Specify Repository Details
 
-In this article
 
 At the Veeam Backup for AWS step of the wizard, do the following:
 
@@ -22,6 +22,4 @@ Veeam Backup & Replication will create a folder with the specified name in the s
 
 ![Step 2. Specify Repository Details](images/add_s3_appliance.webp "Add Amazon S3 repository - Appliance")
 
-Page updated 9/2/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "restore_rds_database_account_2"
+title: "Configuring Worker Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_rds_database_account_2.html"
@@ -7,8 +7,8 @@ last_updated: "11/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Worker Settings
 
-In this article
 
 Depending on the option that you specify for the restore operation, the following will happen:
 
@@ -43,6 +43,4 @@ If you want worker instances to operate in a private network, enable the [privat
 
 [![Restoring RDS Databases](images/rds_restore_database_role.webp)](images/rds_restore_database_role.webp "Restoring RDS Databases")
 
-Page updated 11/21/2025
 
-Page content applies to build 10.0.0.232

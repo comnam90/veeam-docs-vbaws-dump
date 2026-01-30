@@ -1,5 +1,5 @@
 ---
-title: "retention_snapshots"
+title: "EC2 Snapshot Retention"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/retention_snapshots.html"
@@ -7,8 +7,8 @@ last_updated: "12/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# EC2 Snapshot Retention
 
-In this article
 
 Depending on the data protection scenario, Veeam Backup for AWS retains cloud-native snapshots as follows:
 
@@ -34,6 +34,4 @@ Related Topics
 * [CBT Impact on Snapshot Retention](cbt_retention.md)
 * [Configuring Global Retention Settings](retention_settings.md#snapshots)
 
-Page updated 12/8/2025
 
-Page content applies to build 10.0.0.232

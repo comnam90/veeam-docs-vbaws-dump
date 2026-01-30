@@ -1,5 +1,5 @@
 ---
-title: "snapshot_manual_rds"
+title: "Creating RDS Snapshots Manually"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/snapshot_manual_rds.html"
@@ -7,8 +7,8 @@ last_updated: "7/9/2025"
 product_version: "10.0.0.232"
 ---
 
+# Creating RDS Snapshots Manually
 
-In this article
 
 Veeam Backup for AWS allows you to manually create snapshots of RDS resources. You can instruct Veeam Backup for AWS to store the created snapshots in the same AWS Regions where the processed DB instances and DB clusters reside, or in a different AWS Region or AWS account.
 
@@ -60,6 +60,4 @@ If you choose to add custom tags to the created snapshots, Veeam Backup for AWS 
 
 [![Creating RDS Snapshot Manually](images/rds_take_snapshot_tags.webp)](images/rds_take_snapshot_tags.webp "Creating RDS Snapshot Manually")
 
-Page updated 7/9/2025
 
-Page content applies to build 10.0.0.232

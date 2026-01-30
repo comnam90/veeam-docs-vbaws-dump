@@ -1,5 +1,5 @@
 ---
-title: "restore_hiw_dynamodb"
+title: "DynamoDB Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_hiw_dynamodb.html"
@@ -7,8 +7,8 @@ last_updated: "11/28/2025"
 product_version: "10.0.0.232"
 ---
 
+# DynamoDB Restore
 
-In this article
 
 |  |
 | --- |
@@ -23,6 +23,4 @@ To restore a DynamoDB table from a backup, Veeam Backup for AWS performs the fol
 
 To learn how to restore a DynamoDB table from a DynamoDB backup or a backup copy, see [DynamoDB Restore](dynamo_restore.md).
 
-Page updated 11/28/2025
 
-Page content applies to build 10.0.0.232

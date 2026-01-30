@@ -1,5 +1,5 @@
 ---
-title: "backup_hiw_redshift_serverless"
+title: "Redshift Serverless Backup"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_hiw_redshift_serverless.html"
@@ -7,8 +7,8 @@ last_updated: "12/12/2024"
 product_version: "10.0.0.232"
 ---
 
+# Redshift Serverless Backup
 
-In this article
 
 Veeam Backup for AWS performs Redshift Serverless backup in the following way:
 
@@ -20,6 +20,4 @@ Related Topics
 * [Backup Chain](backup_chain_redshift_serverless.md)
 * [Redshift Serverless Backup Retention](retention_backup_redshift_serverless.md)
 
-Page updated 12/12/2024
 
-Page content applies to build 10.0.0.232

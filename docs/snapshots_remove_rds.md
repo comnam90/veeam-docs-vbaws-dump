@@ -1,5 +1,5 @@
 ---
-title: "snapshots_remove_rds"
+title: "Removing RDS Backups and Snapshots"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/snapshots_remove_rds.html"
@@ -7,8 +7,8 @@ last_updated: "12/11/2025"
 product_version: "10.0.0.232"
 ---
 
+# Removing RDS Backups and Snapshots
 
-In this article
 
 Veeam Backup for AWS applies the [configured retention policy settings](add_policy_schedule_retention_rds.md) to automatically remove cloud-native snapshots and snapshot replicas and image-level backups created by backup policies. If necessary, you can also remove the backed-up data manually.
 
@@ -38,6 +38,4 @@ If you want to remove only specific cloud-native snapshots, follow the instructi
 
 [![Removing RDS Snapshots](images/remove_snapshot_rds.webp)](images/remove_snapshot_rds.webp "Removing RDS Snapshots")
 
-Page updated 12/11/2025
 
-Page content applies to build 10.0.0.232

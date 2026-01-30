@@ -1,5 +1,5 @@
 ---
-title: "limitations"
+title: "Considerations and Limitations"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/limitations.html"
@@ -7,8 +7,8 @@ last_updated: "12/15/2025"
 product_version: "10.0.0.232"
 ---
 
+# Considerations and Limitations
 
-In this article
 
 When you plan to deploy and configure Veeam Backup for AWS, keep in mind the following limitations and considerations.
 
@@ -302,6 +302,4 @@ Starting from version 10, Veeam Backup for AWS supports the SureBackup functiona
 
 For more information on SureBackup, see the Veeam Backup & Replication User Guide, section [Recovery Verification](https://helpcenter.veeam.com/docs/vbr/userguide/surebackup_hiw.html?ver=13).
 
-Page updated 12/15/2025
 
-Page content applies to build 10.0.0.232

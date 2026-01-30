@@ -1,5 +1,5 @@
 ---
-title: "role_permissions_backup_vpc"
+title: "VPC Configuration Backup IAM Role Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/role_permissions_backup_vpc.html"
@@ -7,8 +7,8 @@ last_updated: "2/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# VPC Configuration Backup IAM Role Permissions
 
-In this article
 
 Veeam Backup for AWS uses VPC Configuration Backup IAM roles to perform the following operations:
 
@@ -29,6 +29,4 @@ To perform these operations, IAM roles specified in the [organization settings](
 
 To learn how to create IAM roles and assign them the required permissions, see [Appendix A. Creating IAM Roles in AWS](create_iam_policy_role.md).
 
-Page updated 2/10/2025
 
-Page content applies to build 10.0.0.232

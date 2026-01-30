@@ -1,5 +1,5 @@
 ---
-title: "restore_entire_type"
+title: "Restoring to New Location"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_type.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Restoring to New Location
 
-In this article
 
 [This step applies only if you have selected the Restore to new location, or with different settings option at the Restore Mode step of the wizard]
 
@@ -36,6 +36,4 @@ Note that Veeam Backup for AWS automatically chooses either the AMI that was use
 
 [![Restoring Entire EC2 Instance](images/restore_entire_type.webp)](images/restore_entire_type.webp "Restoring Entire EC2 Instance")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "archive_chain"
+title: "Archive Backup Chain"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/archive_chain.html"
@@ -7,8 +7,8 @@ last_updated: "11/24/2025"
 product_version: "10.0.0.232"
 ---
 
+# Archive Backup Chain
 
-In this article
 
 If you enable backup archiving for a backup policy, Veeam Backup for AWS creates a new backup in an archive backup repository during every archive session according to the backup policy schedule. A sequence of backups created during a set of archive sessions makes up an archive backup chain.
 
@@ -37,6 +37,4 @@ Related Topics
 
 [Enabling Backup Archiving](backup_archiving.md)
 
-Page updated 11/24/2025
 
-Page content applies to build 10.0.0.232

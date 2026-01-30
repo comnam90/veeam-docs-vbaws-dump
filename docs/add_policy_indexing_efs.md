@@ -1,5 +1,5 @@
 ---
-title: "add_policy_indexing_efs"
+title: "Step 5. Enable EFS Indexing"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_indexing_efs.html"
@@ -7,8 +7,8 @@ last_updated: "9/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Enable EFS Indexing
 
-In this article
 
 At the Indexing step of the wizard, you can instruct Veeam Backup for AWS to perform indexing of the processed EFS file systems. EFS indexing allows you to perform EFS file-level recovery operations without specifying the exact paths to the necessary files folders and to restore them using different restore points during one restore session. While performing EFS indexing of a file system, Veeam Backup for AWS creates a catalog of all files and directories (an index) and saves the index to a backup repository. This index is further used to reproduce the file system structure and to enable browsing and searching for specific files within an EFS backup.
 
@@ -64,6 +64,4 @@ For Veeam Backup for AWS to be able to choose an IAM role automatically, it must
 
 [![Creating EFS Backup Policy](images/backup_add_indexing_efs.webp)](images/backup_add_indexing_efs.webp "Creating EFS Backup Policy")
 
-Page updated 9/26/2025
 
-Page content applies to build 10.0.0.232

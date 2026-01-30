@@ -1,5 +1,5 @@
 ---
-title: "export_entire_vpc_mode"
+title: "Step 4. Choose Export Mode"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/export_entire_vpc_mode.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Choose Export Mode
 
-In this article
 
 At the Export Mode step of the wizard, choose whether you plan to restore the exported VPC configuration to the original or to a custom location. If you select the Export to a new location option, specify the target AWS Region where the VPC configuration will be restored.
 
@@ -19,6 +19,4 @@ At the Export Mode step of the wizard, choose whether you plan to restore the ex
 
 [![Exporting VPC Configuration](images/vpc_export_entire_mode.webp)](images/vpc_export_entire_mode.webp "Exporting VPC Configuration")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

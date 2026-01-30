@@ -1,5 +1,5 @@
 ---
-title: "configuring_proxy"
+title: "Appendix E. Configuring HTTP Proxy for Backup Appliances"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/configuring_proxy.html"
@@ -7,8 +7,8 @@ last_updated: "5/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Appendix E. Configuring HTTP Proxy for Backup Appliances
 
-In this article
 
 To manage the outbound traffic from your backup appliance, you can route connections through an HTTP proxy. Using an HTTP proxy helps control access to the required services and resources, enhancing the security, efficiency, and privacy of your backup environment.
 
@@ -52,6 +52,4 @@ The list must include the following addresses: 169.254.169.254 — the IP addres
 | Note |
 | After you configure the HTTP proxy, backup policies execution may take more time to complete due to network latency. |
 
-Page updated 5/20/2025
 
-Page content applies to build 10.0.0.232

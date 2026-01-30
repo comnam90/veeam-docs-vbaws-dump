@@ -1,5 +1,5 @@
 ---
-title: "iam_roles_edit"
+title: "Editing IAM Role Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/iam_roles_edit.html"
@@ -7,8 +7,8 @@ last_updated: "7/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Editing IAM Role Settings
 
-In this article
 
 For each IAM role added to Veeam Backup for AWS, you can modify settings configured while adding the role:
 
@@ -39,6 +39,4 @@ If some of the required permissions are missing, the check will complete with er
 
 [![Editing IAM Role Settings](images/iam_roles_edit.webp)](images/iam_roles_edit.webp "Editing IAM Role Settings")
 
-Page updated 7/4/2025
 
-Page content applies to build 10.0.0.232

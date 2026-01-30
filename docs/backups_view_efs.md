@@ -1,5 +1,5 @@
 ---
-title: "backups_view_efs"
+title: "EFS Data"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backups_view_efs.html"
@@ -7,8 +7,8 @@ last_updated: "9/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# EFS Data
 
-In this article
 
 After a backup policy successfully creates a restore point of an EFS file system according to the specified schedule, or after you create a backup of an EFS file system manually, Veeam Backup for AWS adds the file system to the resource list on the Protected Data page.
 
@@ -41,6 +41,4 @@ On the Protected Data page, you can also perform the following actions:
 
 [![Managing Backed-Up EFS Data](images/efs_backedup_data.webp)](images/efs_backedup_data.webp "Managing Backed-Up EFS Data")
 
-Page updated 9/26/2025
 
-Page content applies to build 10.0.0.232

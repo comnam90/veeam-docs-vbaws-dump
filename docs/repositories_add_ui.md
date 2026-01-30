@@ -1,5 +1,5 @@
 ---
-title: "repositories_add_ui"
+title: "Adding Backup Repositories Using Web UI"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/repositories_add_ui.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Adding Backup Repositories Using Web UI
 
-In this article
 
 |  |
 | --- |
@@ -25,6 +25,4 @@ To add a backup repository, do the following:
 6. [Specify an S3 interface endpoint](repositories_add_s3endpoint.md).
 7. [Finish working with the wizard](repository_add_finish.md).
 
-Page updated 8/20/2025
 
-Page content applies to build 10.0.0.232

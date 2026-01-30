@@ -1,5 +1,5 @@
 ---
-title: "create_iam_policy_role"
+title: "Appendix A. Creating IAM Roles in AWS"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/create_iam_policy_role.html"
@@ -7,8 +7,8 @@ last_updated: "10/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Appendix A. Creating IAM Roles in AWS
 
-In this article
 
 |  |
 | --- |
@@ -48,6 +48,4 @@ For an IAM policy to be displayed in the list, it must be created beforehand as 
 
 1. Add the created IAM role to the Veeam Backup for AWS configuration database as described in section [Adding IAM Roles](iam_roles_add.md).
 
-Page updated 10/10/2025
 
-Page content applies to build 10.0.0.232

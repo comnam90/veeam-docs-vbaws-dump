@@ -1,5 +1,5 @@
 ---
-title: "installing_plugin"
+title: "Deploying Plug-In"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/installing_plugin.html"
@@ -7,8 +7,8 @@ last_updated: "11/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Deploying Plug-In
 
-In this article
 
 If your installation package of Veeam Backup & Replication does not provide features that allow you to protect AWS resources, you must install Veeam Plug-In for AWS on the backup server to be able to add your backup appliances to the backup infrastructure.
 
@@ -37,6 +37,4 @@ Related Topics
 * [Upgrading Plug-In](upgrading_plugin.md)
 * [Uninstalling Plug-In](uninstall_plugin.md)
 
-Page updated 11/20/2025
 
-Page content applies to build 10.0.0.232

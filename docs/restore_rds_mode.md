@@ -1,5 +1,5 @@
 ---
-title: "restore_rds_mode"
+title: "Step 4. Choose Restore Mode"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_rds_mode.html"
@@ -7,8 +7,8 @@ last_updated: "12/12/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Choose Restore Mode
 
-In this article
 
 At the Restore Mode step of the wizard, choose whether you want to restore the selected RDS resources to the original or to a custom location. If you select the Restore to new location, or with different settings option, specify the target AWS Region where the restored DB instances and Aurora DB clusters will operate.
 
@@ -29,6 +29,4 @@ To learn how to add DB instances to Amazon Aurora DB clusters, see [AWS Document
 
 [![Restoring RDS Resources](images/rds_restore_mode.webp)](images/rds_restore_mode.webp "Restoring RDS Resources")
 
-Page updated 12/12/2025
 
-Page content applies to build 10.0.0.232

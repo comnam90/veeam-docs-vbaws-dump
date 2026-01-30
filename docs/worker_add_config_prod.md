@@ -1,5 +1,5 @@
 ---
-title: "worker_add_config_prod"
+title: "Adding Configurations for Production Accounts"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/worker_add_config_prod.html"
@@ -7,8 +7,8 @@ last_updated: "1/5/2026"
 product_version: "10.0.0.232"
 ---
 
+# Adding Configurations for Production Accounts
 
-In this article
 
 By design, Veeam Backup for AWS deploys worker instances in production accounts to perform EFS indexing, RDS backup and RDS restore operations. You can [specify network settings](worker_configurations_prod.md#region) that will be used to deploy these worker instances.
 
@@ -41,6 +41,4 @@ Related Topics
 * [Editing Configurations](worker_settings_edit.md)
 * [Removing Configurations](worker_remove_config.md)
 
-Page updated 1/5/2026
 
-Page content applies to build 10.0.0.232

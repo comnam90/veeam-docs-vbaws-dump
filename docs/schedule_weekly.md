@@ -1,5 +1,5 @@
 ---
-title: "schedule_weekly"
+title: "Specifying Weekly Schedule"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/schedule_weekly.html"
@@ -7,8 +7,8 @@ last_updated: "9/22/2025"
 product_version: "10.0.0.232"
 ---
 
+# Specifying Weekly Schedule
 
-In this article
 
 To create a weekly schedule for the backup policy, at the Schedule step of the wizard, do the following:
 
@@ -52,6 +52,4 @@ To learn how the CBT mechanism works, see [Changed Block Tracking](cbt.md).
 
 [![Creating EC2 Backup Policy](images/schedule_weekly.webp)](images/schedule_weekly.webp "Creating EC2 Backup Policy")
 
-Page updated 9/22/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "worker_options"
+title: "Worker Deployment Options"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/worker_options.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "10.0.0.232"
 ---
 
+# Worker Deployment Options
 
-In this article
 
 Veeam Backup for AWS provides the following options for deploying worker instances:
 
@@ -79,6 +79,4 @@ To perform a data protection or disaster recovery operation, Veeam Backup for AW
 
 [![Worker Deployment in Production Accounts](images/production_acc.webp)](images/production_acc.webp "Worker Deployment in Production Accounts")
 
-Page updated 12/9/2025
 
-Page content applies to build 10.0.0.232

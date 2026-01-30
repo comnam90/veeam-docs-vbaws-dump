@@ -1,5 +1,5 @@
 ---
-title: "policies_create"
+title: "Creating Schedule-Based EC2 Backup Policies"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/policies_create.html"
@@ -7,8 +7,8 @@ last_updated: "7/31/2025"
 product_version: "10.0.0.232"
 ---
 
+# Creating Schedule-Based EC2 Backup Policies
 
-In this article
 
 To create a schedule-based backup policy, do the following:
 
@@ -24,6 +24,4 @@ To create a schedule-based backup policy, do the following:
 10. [Review estimated cost of the selected EC2 instances](add_policy_cost.md).
 11. [Finish working with the wizard](add_policy_finish.md).
 
-Page updated 7/31/2025
 
-Page content applies to build 10.0.0.232

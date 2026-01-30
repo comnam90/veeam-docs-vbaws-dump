@@ -1,5 +1,5 @@
 ---
-title: "worker_configuration_network"
+title: "Step 3. Specify Network Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/worker_configuration_network.html"
@@ -7,8 +7,8 @@ last_updated: "8/11/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Specify Network Settings
 
-In this article
 
 At the Network step of the wizard, select an Amazon VPC network and a subnet to which you want to connect worker instances, and specify a security group that must be associated with the instances. For an Amazon VPC network, a subnet and a security group to be displayed in the lists of available network specifications, they must be created in AWS as described in [AWS Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html).
 
@@ -29,6 +29,4 @@ For the list of specific endpoints required to perform backup and restore operat
 
 [![Adding Worker Configuration](images/worker_config_networks.webp)](images/worker_config_networks.webp "Adding Worker Configuration")
 
-Page updated 8/11/2025
 
-Page content applies to build 10.0.0.232

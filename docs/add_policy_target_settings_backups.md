@@ -1,5 +1,5 @@
 ---
-title: "add_policy_target_settings_backups"
+title: "Configuring Image-Level Backup Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_target_settings_backups.html"
@@ -7,8 +7,8 @@ last_updated: "11/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Image-Level Backup Settings
 
-In this article
 
 In the Backups section of the Targets step of the wizard, you can instruct Veeam Backup for AWS to create image-level backups of the processed EC2 instances, to copy backups to a long-term archive storage, and to deploy worker instances used for backup operations in a [production account](worker_options.md#production).
 
@@ -60,6 +60,4 @@ For Veeam Backup for AWS to be able to choose an IAM role automatically, it must
 
 [![Creating EC2 Backup Policy](images/backup_add_backup.webp)](images/backup_add_backup.webp "Creating EC2 Backup Policy")
 
-Page updated 11/21/2025
 
-Page content applies to build 10.0.0.232

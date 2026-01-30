@@ -1,5 +1,5 @@
 ---
-title: "appliance_in_private"
+title: "Backup Appliances in Private Environment"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/appliance_in_private.html"
@@ -7,8 +7,8 @@ last_updated: "11/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# Backup Appliances in Private Environment
 
-In this article
 
 Starting from Veeam Backup for AWS version 7.0, you can deploy backup appliances in private networks to increase the security of your environment. When a backup appliance is deployed in a private environment, it is not assigned any public IPv4 address, and you will have to perform a number of additional configuration actions to allow private network access.
 
@@ -41,6 +41,4 @@ For a backup appliance to be able to operate in a private environment, the follo
 
 [![Private Network Deployment](images/backup_appliance_in_private.webp)](images/backup_appliance_in_private.webp "Private Network Deployment")
 
-Page updated 11/26/2025
 
-Page content applies to build 10.0.0.232

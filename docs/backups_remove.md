@@ -1,5 +1,5 @@
 ---
-title: "backups_remove"
+title: "Removing EC2 Backups and Snapshots"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backups_remove.html"
@@ -7,8 +7,8 @@ last_updated: "9/16/2025"
 product_version: "10.0.0.232"
 ---
 
+# Removing EC2 Backups and Snapshots
 
-In this article
 
 Veeam Backup for AWS applies the [configured retention policy settings](add_policy_schedule_retention.md) to automatically remove cloud-native snapshots, snapshot replicas and image-level backups created by backup policies. If necessary, you can also remove the backed-up data manually.
 
@@ -38,6 +38,4 @@ If you want to remove only specific cloud-native snapshots, follow the instructi
 
 [![Removing EC2 Backups and Snapshots](images/backups_remove.webp)](images/backups_remove.webp "Removing EC2 Backups and Snapshots")
 
-Page updated 9/16/2025
 
-Page content applies to build 10.0.0.232

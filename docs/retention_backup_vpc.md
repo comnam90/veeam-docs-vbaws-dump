@@ -1,5 +1,5 @@
 ---
-title: "retention_backup_vpc"
+title: "VPC Configuration Backup Retention"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/retention_backup_vpc.html"
@@ -7,8 +7,8 @@ last_updated: "5/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# VPC Configuration Backup Retention
 
-In this article
 
 For VPC configuration backups, Veeam Backup for AWS retains restore points for the period of time specified in [backup retention settings](vpc_policy_retention.md).
 
@@ -21,6 +21,4 @@ During every successful backup session, Veeam Backup for AWS creates a restore p
 
 [![VPC Backup Retention](images/vpc_backups_retention.webp)](images/vpc_backups_retention.webp "VPC Backup Retention")
 
-Page updated 5/21/2025
 
-Page content applies to build 10.0.0.232

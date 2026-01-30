@@ -1,5 +1,5 @@
 ---
-title: "backups_remove_individual_fsx"
+title: "Removing FSx Backups Created Manually"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backups_remove_individual_fsx.html"
@@ -7,8 +7,8 @@ last_updated: "9/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# Removing FSx Backups Created Manually
 
-In this article
 
 To remove all backups created for an FSx file system manually, follow the instructions provided in the [Removing FSx Backups](backups_remove_fsx.md) section. If you want to remove a specific FSx backup created manually, do the following:
 
@@ -23,6 +23,4 @@ Related Topics
 * [Creating FSx Backups Manually](backup_manual_fsx.md)
 * [Removing FSx Backups](backups_remove_fsx.md)
 
-Page updated 9/26/2025
 
-Page content applies to build 10.0.0.232

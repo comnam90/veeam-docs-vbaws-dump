@@ -1,5 +1,5 @@
 ---
-title: "req_permissions"
+title: "Plug-In Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/req_permissions.html"
@@ -7,8 +7,8 @@ last_updated: "8/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Plug-In Permissions
 
-In this article
 
 To perform backup and restore operations, accounts that Veeam Plug-In for AWS uses to perform data protection and disaster recovery operations must be granted the following permissions.
 
@@ -113,6 +113,4 @@ Google Cloud Service Account Permissions
 
 A service account that you plan to use to restore EC2 instances to Google Cloud must have permissions described in the Veeam Backup & Replication User Guide, section [Google Compute Engine IAM User Permissions](https://helpcenter.veeam.com/docs/vbr/userguide/gcp_iam_permissions.html?ver=13).
 
-Page updated 8/8/2025
 
-Page content applies to build 10.0.0.232

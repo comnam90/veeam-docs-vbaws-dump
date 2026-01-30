@@ -1,5 +1,5 @@
 ---
-title: "planning_and_preparation"
+title: "Planning and Preparation"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/planning_and_preparation.html"
@@ -7,8 +7,8 @@ last_updated: "11/6/2025"
 product_version: "10.0.0.232"
 ---
 
+# Planning and Preparation
 
-In this article
 
 Before you start using Veeam Backup for AWS, consider the following requirements:
 
@@ -20,6 +20,4 @@ Before you start using Veeam Backup for AWS, consider the following requirements
 * [Considerations and limitations that should be kept in mind before you deploy Veeam Backup for AWS](limitations.md).
 * [Sizing and Scalability Guidelines](sizing_guide.md).
 
-Page updated 11/6/2025
 
-Page content applies to build 10.0.0.232

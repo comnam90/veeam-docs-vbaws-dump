@@ -1,5 +1,5 @@
 ---
-title: "add_policy_target_settings_backups_fsx"
+title: "Configuring Backup Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_target_settings_backups_fsx.html"
@@ -7,8 +7,8 @@ last_updated: "9/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Backup Settings
 
-In this article
 
 To specify backup vaults used to store backups of the selected FSx file systems, do the following:
 
@@ -35,6 +35,4 @@ To configure mapping for all AWS Regions within the selected organization at onc
 
 [![Creating FSx Backup Policy](images/backup_add_backup_settings_fsx.webp)](images/backup_add_backup_settings_fsx.webp "Creating FSx Backup Policy")
 
-Page updated 9/26/2025
 
-Page content applies to build 10.0.0.232

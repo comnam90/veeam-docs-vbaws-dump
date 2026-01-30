@@ -1,5 +1,5 @@
 ---
-title: "dashboard"
+title: "Reviewing Dashboard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/dashboard.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Reviewing Dashboard
 
-In this article
 
 Veeam Backup for AWS comes with an Overview dashboard that provides at-a-glance real-time overview of the protected AWS resources and allows you to estimate the overall backup performance. The dashboard includes the following widgets:
 
@@ -47,6 +47,4 @@ The Appliance disk usage widget analyzes memory usage on the backup appliance, a
 
 [![Reviewing Dashboard](images/reviewing_dashboard.webp)](images/reviewing_dashboard.webp "Reviewing Dashboard")
 
-Page updated 8/20/2025
 
-Page content applies to build 10.0.0.232

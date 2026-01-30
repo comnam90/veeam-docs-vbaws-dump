@@ -1,5 +1,5 @@
 ---
-title: "lic_revoke"
+title: "Revoking License Units"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/lic_revoke.html"
@@ -7,8 +7,8 @@ last_updated: "7/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Revoking License Units
 
-In this article
 
 By default, Veeam Backup for AWS automatically revokes a license unit from a protected instance if no new restore points have been created by the backup policy during the past 31 days. However, you can manually revoke license units from protected instances — this can be helpful, for example, if you remove a number of instances from a backup policy and do not want to protect them anymore.
 
@@ -35,6 +35,4 @@ To revoke a license unit from a protected instance in the Veeam Backup for AWS W
 
 [![Revoking License Units](images/lic_revoke.webp)](images/lic_revoke.webp "Revoking License Units")
 
-Page updated 7/8/2025
 
-Page content applies to build 10.0.0.232

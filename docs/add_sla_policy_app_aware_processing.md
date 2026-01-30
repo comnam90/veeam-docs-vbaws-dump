@@ -1,5 +1,5 @@
 ---
-title: "add_sla_policy_app_aware_processing"
+title: "Enabling Application-Aware Processing"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_sla_policy_app_aware_processing.html"
@@ -7,8 +7,8 @@ last_updated: "10/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Enabling Application-Aware Processing
 
-In this article
 
 Veeam Backup for AWS takes transactionally consistent EC2 snapshots while no write operations occur on volume disks — to do that, it quiesces applications on the processed EC2 instances and creates a consistent view of application data. To enable application-aware processing, set the Enable application-aware snapshots toggle to On.
 
@@ -34,6 +34,4 @@ To learn how to create IAM roles for VSS-enabled snapshots and grant permissions
 
 [![Creating SLA-Based EC2 Policy](images/add_sla_policy_application_aware_processing.webp)](images/add_sla_policy_application_aware_processing.webp "Creating SLA-Based EC2 Policy")
 
-Page updated 10/29/2025
 
-Page content applies to build 10.0.0.232

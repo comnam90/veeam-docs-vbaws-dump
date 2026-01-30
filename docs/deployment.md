@@ -1,5 +1,5 @@
 ---
-title: "deployment"
+title: "Deployment"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/deployment.html"
@@ -7,8 +7,8 @@ last_updated: "9/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Deployment
 
-In this article
 
 To deploy Veeam Backup for AWS, do the following:
 
@@ -32,6 +32,4 @@ Related Topics
 * [Failure and Recovery](failure_recovery.md)
 * [Appendix E. Uninstalling Backup Appliances Deployed from AWS Marketplace](uninstall.md)
 
-Page updated 9/1/2025
 
-Page content applies to build 10.0.0.232

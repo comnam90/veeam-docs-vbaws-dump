@@ -1,5 +1,5 @@
 ---
-title: "policies_create_redshift"
+title: "Creating Redshift Clusters Backup Policies"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/policies_create_redshift.html"
@@ -7,8 +7,8 @@ last_updated: "7/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Creating Redshift Clusters Backup Policies
 
-In this article
 
 To create a backup policy, do the following:
 
@@ -23,6 +23,4 @@ To create a backup policy, do the following:
 9. [Review estimated cost of the selected Redshift clusters](add_policy_cost_redshift.md).
 10. [Finish working with the wizard](add_policy_finish_redshift.md).
 
-Page updated 7/29/2025
 
-Page content applies to build 10.0.0.232

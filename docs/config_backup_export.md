@@ -1,5 +1,5 @@
 ---
-title: "config_backup_export"
+title: "Exporting Configuration Backup Data"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/config_backup_export.html"
@@ -7,8 +7,8 @@ last_updated: "9/15/2025"
 product_version: "10.0.0.232"
 ---
 
+# Exporting Configuration Backup Data
 
-In this article
 
 Once Veeam Backup for AWS creates a successful configuration backup, you can export the configuration backup file and use it to [restore configuration data](config_restore_web_ui.md) on another backup appliance.
 
@@ -34,6 +34,4 @@ As soon as you click Export, Veeam Backup for AWS will save the exported backup 
 
 [![Exporting Configuration Backup](images/config_backup_export.webp)](images/config_backup_export.webp "Exporting Configuration Backup")
 
-Page updated 9/15/2025
 
-Page content applies to build 10.0.0.232

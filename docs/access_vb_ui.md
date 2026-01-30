@@ -1,5 +1,5 @@
 ---
-title: "access_vb_ui"
+title: "Accessing Web UI from Workstation"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/access_vb_ui.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Accessing Web UI from Workstation
 
-In this article
 
 To access Veeam Backup for AWS, in a web browser, navigate to the Veeam Backup for AWS web address. The address consists of a public IPv4 address or DNS hostname of the backup appliance. Note that the website is available over HTTPS only.
 
@@ -63,6 +63,4 @@ Logging Out
 
 To log out, at the top right corner of the Veeam Backup for AWS window, click the user name and then click Log out.
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

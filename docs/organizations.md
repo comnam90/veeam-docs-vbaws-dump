@@ -1,5 +1,5 @@
 ---
-title: "organizations"
+title: "AWS Organizations"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/organizations.html"
@@ -7,8 +7,8 @@ last_updated: "5/30/2025"
 product_version: "10.0.0.232"
 ---
 
+# AWS Organizations
 
-In this article
 
 Veeam Backup for AWS allows you to protect AWS resources that belong to AWS accounts within AWS Organizations. To ensure flexibility in data protection, you can provide Veeam Backup for AWS full or limited access to account resources across organizational units.
 
@@ -40,6 +40,4 @@ As soon as you create the templates, Veeam Backup for AWS will export them to yo
 | Note |
 | To learn how to perform disaster recovery operations with AWS resources within protected AWS Organizations, see [Performing Restore](recovery.md). |
 
-Page updated 5/30/2025
 
-Page content applies to build 10.0.0.232

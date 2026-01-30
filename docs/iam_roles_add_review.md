@@ -1,5 +1,5 @@
 ---
-title: "iam_roles_add_review"
+title: "Step 5. Finish Working with Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/iam_roles_add_review.html"
@@ -7,8 +7,8 @@ last_updated: "7/17/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Finish Working with Wizard
 
-In this article
 
 At the Summary step of the wizard, review configuration information and click Finish.
 
@@ -19,6 +19,4 @@ At the Summary step of the wizard, review configuration information and click Fi
 
 [![Step 5. Finish Working with Wizard](images/iam_roles_add_finish.webp)](images/iam_roles_add_finish.webp)
 
-Page updated 7/17/2025
 
-Page content applies to build 10.0.0.232

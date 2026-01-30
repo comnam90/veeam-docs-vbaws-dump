@@ -1,5 +1,5 @@
 ---
-title: "data_retrieval_database"
+title: "Step 4. Specify Data Retrieval Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/data_retrieval_database.html"
@@ -7,8 +7,8 @@ last_updated: "10/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Specify Data Retrieval Settings
 
-In this article
 
 [This step applies only if you have selected to restore from the archived restore point]
 
@@ -48,6 +48,4 @@ If you want to receive an email notification when the data is about to expire, s
 
 [![Restoring RDS Databases](images/rds_restore_database_retrieve.webp)](images/rds_restore_database_retrieve.webp "Restoring RDS Databases")
 
-Page updated 10/2/2025
 
-Page content applies to build 10.0.0.232

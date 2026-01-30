@@ -1,5 +1,5 @@
 ---
-title: "restore_hiw_vpc_entire"
+title: "Entire VPC Configuration Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_hiw_vpc_entire.html"
@@ -7,8 +7,8 @@ last_updated: "11/10/2023"
 product_version: "10.0.0.232"
 ---
 
+# Entire VPC Configuration Restore
 
-In this article
 
 To restore the entire VPC configuration from a backup, Veeam Backup for AWS performs the following steps:
 
@@ -22,6 +22,4 @@ To restore the entire VPC configuration from a backup, Veeam Backup for AWS perf
 
 To learn how to restore an entire VPC configuration from a VPC configuration backup, see [Performing Entire Configuration Restore](vpc_entire_restore.md).
 
-Page updated 11/10/2023
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "add_sla_policy_worker_settings"
+title: "Step 8. Configure Worker Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_sla_policy_worker_settings.html"
@@ -7,8 +7,8 @@ last_updated: "11/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 8. Configure Worker Settings
 
-In this article
 
 By default, Veeam Backup for AWS deploys worker instances used to perform backup operations in the [backup account](worker_options.md). However, you can instruct Veeam Backup for AWS to deploy worker instances in a production account — that is, the same AWS account to which the processed resources belong. To do that, set the Deploy workers in production account toggle to On.
 
@@ -29,6 +29,4 @@ For Veeam Backup for AWS to be able to choose an IAM role automatically, it must
 
 [![Creating SLA-Based EC2 Policy](images/add_sla_policy_worker_settings.webp)](images/add_sla_policy_worker_settings.webp "Creating SLA-Based EC2 Policy")
 
-Page updated 11/21/2025
 
-Page content applies to build 10.0.0.232

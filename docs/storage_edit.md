@@ -1,5 +1,5 @@
 ---
-title: "storage_edit"
+title: "Editing Storage Templates"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/storage_edit.html"
@@ -7,8 +7,8 @@ last_updated: "11/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Editing Storage Templates
 
-In this article
 
 |  |
 | --- |
@@ -32,6 +32,4 @@ For each storage template, you can modify settings configured while creating the
 
 [![Editing Storage Template](images/storage_edit.webp)](images/storage_edit.webp "Editing Storage Template")
 
-Page updated 11/21/2025
 
-Page content applies to build 10.0.0.232

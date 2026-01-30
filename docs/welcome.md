@@ -1,5 +1,5 @@
 ---
-title: "welcome"
+title: "Overview"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/welcome.html"
@@ -7,8 +7,8 @@ last_updated: "1/8/2026"
 product_version: "10.0.0.232"
 ---
 
+# Overview
 
-In this article
 
 Veeam Backup for Amazon Web Services (Veeam Backup for AWS) is a solution developed for protection and disaster recovery tasks for AWS environments: Amazon Elastic Compute Cloud (EC2), Amazon Relational Database Service (RDS), Amazon Redshift, Amazon DynamoDB, Amazon Elastic File System (EFS) and Amazon FSx File System. Veeam Backup for AWS also allows you to back up and restore Amazon Virtual Private Cloud (VPC) configurations.
 
@@ -51,6 +51,4 @@ For backup appliances managed by Veeam Backup & Replication, you can perform the
 
 [![Data Protection Operations](images/data_protection.webp)](images/data_protection.webp "Data Protection Operations")
 
-Page updated 1/8/2026
 
-Page content applies to build 10.0.0.232

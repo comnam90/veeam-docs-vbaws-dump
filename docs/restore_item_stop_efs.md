@@ -1,5 +1,5 @@
 ---
-title: "restore_item_stop_efs"
+title: "Step 11. Stop Recovery Session"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_item_stop_efs.html"
@@ -7,8 +7,8 @@ last_updated: "3/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 11. Stop Recovery Session
 
-In this article
 
 [This step applies only if you have selected the Browse files option at the Restore Type step of the wizard]
 
@@ -21,6 +21,4 @@ After you finish working with the file-level recovery browser, it is recommended
 
 [![Restoring EFS Files and Folders](images/restore_item_flr_session_stop_efs.webp)](images/restore_item_flr_session_stop_efs.webp "Restoring EFS Files and Folders")
 
-Page updated 3/10/2025
 
-Page content applies to build 10.0.0.232

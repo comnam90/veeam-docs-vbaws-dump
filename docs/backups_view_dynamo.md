@@ -1,5 +1,5 @@
 ---
-title: "backups_view_dynamo"
+title: "DynamoDB Data"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backups_view_dynamo.html"
@@ -7,8 +7,8 @@ last_updated: "9/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# DynamoDB Data
 
-In this article
 
 After a backup policy successfully creates a restore point of a DynamoDB table according to the specified schedule, or after you create a backup of a DynamoDB table manually, Veeam Backup for AWS adds the table to the resource list on the Protected Data page.
 
@@ -36,6 +36,4 @@ On the Protected Data page, you can also perform the following actions:
 
 [![Managing Backed-Up DynamoDB Data](images/dynamodb_backedup_data.webp)](images/dynamodb_backedup_data.webp "Managing Backed-Up DynamoDB Data")
 
-Page updated 9/26/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "add_to_policy"
+title: "Adding Resources to Policy"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_to_policy.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Adding Resources to Policy
 
-In this article
 
 If you want to protect additional resources by configured backup policies, you can either [edit the backup policy settings](policies_edit.md), or quickly add the resources to the backup policies on the Resources tab.
 
@@ -35,6 +35,4 @@ For a backup policy to be displayed in the list of available policies, an AWS Re
 
 [![Adding Resources to Policy](images/add_to_policy.webp)](images/add_to_policy.webp "Adding Resources to Policy")
 
-Page updated 8/20/2025
 
-Page content applies to build 10.0.0.232

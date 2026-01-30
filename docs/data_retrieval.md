@@ -1,5 +1,5 @@
 ---
-title: "data_retrieval"
+title: "Retrieving EC2 Data From Archive"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/data_retrieval.html"
@@ -7,8 +7,8 @@ last_updated: "10/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Retrieving EC2 Data From Archive
 
-In this article
 
 Backups stored in archive backup repositories are not immediately accessible. If you want to restore an EC2 instance from a backup that is stored in a repository of the S3 Glacier Flexible Retrieval or S3 Glacier Deep Archive storage class, you must first retrieve the archived data. During the data retrieval process, a temporary copy of the archived data is created in an Amazon S3 bucket where the repository located. This copy is stored in the S3 standard storage class for a period of time that you specify when launching the data retrieval process. If the time period expires while a restore operation is still running, Veeam Backup for AWS automatically extends the period to keep the retrieved data available for 1 more day. You can also [extend the availability period manually](#extend).
 
@@ -87,6 +87,4 @@ Related Topics
 * [Performing File-Level Recovery](restore_item_perform.md)
 * [Performing RDS Database Restore](performing_rds_database_restore.md)
 
-Page updated 10/8/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "snapshot_manual"
+title: "Creating EC2 Snapshots Manually"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/snapshot_manual.html"
@@ -7,8 +7,8 @@ last_updated: "9/22/2025"
 product_version: "10.0.0.232"
 ---
 
+# Creating EC2 Snapshots Manually
 
-In this article
 
 Veeam Backup for AWS allows you to manually create snapshots of EC2 instances. You can instruct Veeam Backup for AWS to store the created snapshots in the same AWS Regions where the processed EC2 instances reside, or in a different AWS Region or AWS account.
 
@@ -68,6 +68,4 @@ If you choose to add custom tags to created snapshots, Veeam Backup for AWS will
 
 [![Creating EC2 Snapshots Manually](images/snapshot_manual_tags.webp)](images/snapshot_manual_tags.webp "Creating EC2 Snapshots Manually")
 
-Page updated 9/22/2025
 
-Page content applies to build 10.0.0.232

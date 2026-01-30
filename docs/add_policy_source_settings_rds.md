@@ -1,5 +1,5 @@
 ---
-title: "add_policy_source_settings_rds"
+title: "Step 4. Configure Backup Source Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_source_settings_rds.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Configure Backup Source Settings
 
-In this article
 
 At the Resources step of the wizard, select AWS Regions where RDS resources that you plan to back up reside, and choose DB instances and Aurora DB clusters to back up.
 
@@ -60,6 +60,4 @@ If you add an AWS tag to the backup scope, Veeam Backup for AWS will regularly c
 
 [![Creating RDS Backup Policy](images/rds_backup_resources.webp)](images/rds_backup_resources.webp "Creating RDS Backup Policy")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

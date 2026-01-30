@@ -1,5 +1,5 @@
 ---
-title: "connect_appliance_finish"
+title: "Step 9. Finish Working with Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/connect_appliance_finish.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 9. Finish Working with Wizard
 
-In this article
 
 At the Summary step of the wizard, review summary information and click Finish.
 
@@ -16,6 +16,4 @@ After the backup appliance is added to the backup infrastructure, you can config
 
 ![Step 9. Finish Working with Wizard](images/add_server_summary.webp "Add appliance - Summary")
 
-Page updated 9/2/2025
 
-Page content applies to build 10.0.0.232

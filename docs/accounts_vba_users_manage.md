@@ -1,5 +1,5 @@
 ---
-title: "accounts_vba_users_manage"
+title: "Editing User Account Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/accounts_vba_users_manage.html"
@@ -7,8 +7,8 @@ last_updated: "2/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Editing User Account Settings
 
-In this article
 
 For each user account added to the Veeam Backup for AWS configuration database, you can modify settings configured while adding the account:
 
@@ -25,6 +25,4 @@ For each user account added to the Veeam Backup for AWS configuration database, 
 
 [![Editing User Account Settings](images/users_manage.webp)](images/users_manage.webp "Editing User Account Settings")
 
-Page updated 2/21/2025
 
-Page content applies to build 10.0.0.232

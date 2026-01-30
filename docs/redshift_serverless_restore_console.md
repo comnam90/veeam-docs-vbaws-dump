@@ -1,5 +1,5 @@
 ---
-title: "redshift_serverless_restore_console"
+title: "Redshift Serverless Restore Using Console"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/redshift_serverless_restore_console.html"
@@ -7,8 +7,8 @@ last_updated: "10/6/2025"
 product_version: "10.0.0.232"
 ---
 
+# Redshift Serverless Restore Using Console
 
-In this article
 
 You can recover corrupted Redshift Serverless namespaces in the Veeam Backup for AWS Web UI only. However, you can launch the Redshift Serverless Restore wizard directly from the Veeam Backup & Replication console to start the restore operation:
 
@@ -27,6 +27,4 @@ Veeam Backup & Replication will open the Redshift Serverless Restore wizard in a
 
 [![Restore to Amazon Redshift Serverless](images/restore_serverless.webp)](images/restore_serverless.webp "Restore to Amazon Redshift Serverless")
 
-Page updated 10/6/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "role_permissions_backup_acc"
+title: "Worker Deployment Role Permissions in Backup Account"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/role_permissions_backup_acc.html"
@@ -7,8 +7,8 @@ last_updated: "4/28/2025"
 product_version: "10.0.0.232"
 ---
 
+# Worker Deployment Role Permissions in Backup Account
 
-In this article
 
 The worker deployment role (service IAM role) is used to deploy worker instances in the [backup account](worker_options.md#backup) to perform backup and restore operations, and to create IAM roles that are attached to the deployed instances and used by Veeam Backup for AWS to communicate with them. The IAM role is specified in the [worker instance settings](worker_add_config_backup.md#identity) and must be granted the following permissions:
 
@@ -18,6 +18,4 @@ The worker deployment role (service IAM role) is used to deploy worker instances
 
 To learn how to create IAM roles and assign them the required permissions, see [Appendix A. Creating IAM Roles in AWS](create_iam_policy_role.md).
 
-Page updated 4/28/2025
 
-Page content applies to build 10.0.0.232

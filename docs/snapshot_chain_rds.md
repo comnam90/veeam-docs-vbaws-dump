@@ -1,5 +1,5 @@
 ---
-title: "snapshot_chain_rds"
+title: "Snapshot Chain"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/snapshot_chain_rds.html"
@@ -7,8 +7,8 @@ last_updated: "11/28/2025"
 product_version: "10.0.0.232"
 ---
 
+# Snapshot Chain
 
-In this article
 
 During every backup session, Veeam Backup for AWS creates a cloud-native snapshot for each instance added to the backup policy. The cloud-native snapshot is taken using native AWS capabilities.
 
@@ -50,6 +50,4 @@ Related Topics
 
 [RDS Snapshot Retention](retention_snapshots_rds.md)
 
-Page updated 11/28/2025
 
-Page content applies to build 10.0.0.232

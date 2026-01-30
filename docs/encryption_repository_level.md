@@ -1,5 +1,5 @@
 ---
-title: "encryption_repository_level"
+title: "Backup Repository Encryption"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/encryption_repository_level.html"
@@ -7,8 +7,8 @@ last_updated: "8/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Backup Repository Encryption
 
-In this article
 
 Veeam Backup for AWS allows you to enable encryption at the repository level. Veeam Backup for AWS encrypts backup files stored in backup repositories the same way as Veeam Backup & Replication encrypts backup files stored in backup repositories. To learn what algorithms Veeam Backup & Replication uses to encrypt backup files, see the Veeam Backup & Replication User Guide, section [Data Encryption](https://helpcenter.veeam.com/docs/vbr/userguide/data_encryption.html?ver=13).
 
@@ -19,6 +19,4 @@ To enable encryption for a backup repository added to Veeam Backup for AWS, conf
 
 [![Backup Repository Encryption](images/s3_repo_encryption.webp)](images/s3_repo_encryption.webp "Backup Repository Encryption")
 
-Page updated 8/8/2025
 
-Page content applies to build 10.0.0.232

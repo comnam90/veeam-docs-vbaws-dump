@@ -1,5 +1,5 @@
 ---
-title: "worker_configuration_network_prod"
+title: "Step 3. Specify Network Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/worker_configuration_network_prod.html"
@@ -7,8 +7,8 @@ last_updated: "1/5/2026"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Specify Network Settings
 
-In this article
 
 At the Network step of the wizard, do the following:
 
@@ -37,6 +37,4 @@ For the list of specific endpoints required to perform backup and restore operat
 
 [![Adding Worker Configuration](images/woker_config_prod_networks.webp)](images/woker_config_prod_networks.webp "Adding Worker Configuration")
 
-Page updated 1/5/2026
 
-Page content applies to build 10.0.0.232

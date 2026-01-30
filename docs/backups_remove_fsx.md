@@ -1,5 +1,5 @@
 ---
-title: "backups_remove_fsx"
+title: "Removing FSx Backups"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backups_remove_fsx.html"
@@ -7,8 +7,8 @@ last_updated: "9/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# Removing FSx Backups
 
-In this article
 
 Veeam Backup for AWS applies the [configured retention policy settings](add_policy_schedule_retention_fsx.md) to automatically remove FSx file system backups and backup copies created by backup policies. If necessary, you can also remove the backed-up data manually.
 
@@ -28,6 +28,4 @@ If you want to remove only specific manual backup, follow the instructions provi
 
 [![Removing FSx Backups](images/remove_backups_fsx.webp)](images/remove_backups_fsx.webp "Removing FSx Backups")
 
-Page updated 9/26/2025
 
-Page content applies to build 10.0.0.232

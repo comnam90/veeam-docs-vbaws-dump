@@ -1,5 +1,5 @@
 ---
-title: "encryption_aws_cmks"
+title: "AWS KMS Encryption"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/encryption_aws_cmks.html"
@@ -7,8 +7,8 @@ last_updated: "10/23/2024"
 product_version: "10.0.0.232"
 ---
 
+# AWS KMS Encryption
 
-In this article
 
 |  |
 | --- |
@@ -43,6 +43,4 @@ Depending on the operation performed for an encrypted RDS instance or an EC2 ins
 | Important |
 | If you back up, replicate or restore data of an unencrypted RDS instance or EC2 instance, and if you want to encrypt the backed-up or restored data, you must grant to the IAM role that Veeam Backup for AWS uses to perform the operation permissions to access only the KMS key with which you want to encrypt the data. To learn how to grant to an IAM role permissions to use a KMS key, see [this Veeam KB article](https://www.veeam.com/kb3057#cmk). |
 
-Page updated 10/23/2024
 
-Page content applies to build 10.0.0.232

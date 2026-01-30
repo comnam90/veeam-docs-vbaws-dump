@@ -1,5 +1,5 @@
 ---
-title: "add_s3_bucket"
+title: "Step 5. Specify Amazon S3 Bucket"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_s3_bucket.html"
@@ -7,8 +7,8 @@ last_updated: "10/14/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Specify Amazon S3 Bucket
 
-In this article
 
 At the Bucket step of the wizard, do the following:
 
@@ -44,6 +44,4 @@ If you want to enable immutability settings for the bucket, select the Enable im
 
 ![Step 5. Specify Amazon S3 Bucket](images/add_s3_bucket.webp "Add Amazon S3 repository - Bucket")
 
-Page updated 10/14/2025
 
-Page content applies to build 10.0.0.232

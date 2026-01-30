@@ -1,5 +1,5 @@
 ---
-title: "restore_rds_point"
+title: "Step 2. Select Restore Point"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_rds_point.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 2. Select Restore Point
 
-In this article
 
 At the Instances step of the wizard, you can add DB instances and Aurora DB clusters to the restore session and select restore points to be used to perform restore for each added RDS resource. By default, Veeam Backup for AWS uses the most recent valid restore point. However, you can restore an RDS resource to an earlier state.
 
@@ -30,6 +30,4 @@ To help you choose a restore point, Veeam Backup for AWS provides the following 
 
 [![Restoring RDS Resources](images/rds_restore_point.webp)](images/rds_restore_point.webp "Restoring RDS Resources")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

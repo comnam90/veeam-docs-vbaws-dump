@@ -1,5 +1,5 @@
 ---
-title: "iam_roles_check"
+title: "Checking IAM Role Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/iam_roles_check.html"
@@ -7,8 +7,8 @@ last_updated: "12/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Checking IAM Role Permissions
 
-In this article
 
 It is recommended that you check whether IAM roles specified to perform operations in Veeam Backup for AWS have all the required permissions — otherwise, the operations may fail to complete successfully. The check must be performed not only when you specify a new IAM role to perform an operation, but also after you make any changes in your AWS account and want to ensure that the permissions granted to the existing IAM roles remain sufficient.
 
@@ -85,6 +85,4 @@ The IAM user must have the following permissions:
 
 [![Checking IAM Role Permissions](images/iam_roles_permissions_grant.webp)](images/iam_roles_permissions_grant.webp "Checking IAM Role Permissions")
 
-Page updated 12/2/2025
 
-Page content applies to build 10.0.0.232

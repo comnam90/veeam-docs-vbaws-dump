@@ -1,5 +1,5 @@
 ---
-title: "application_items_restore"
+title: "Performing Application Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/application_items_restore.html"
@@ -7,8 +7,8 @@ last_updated: "11/5/2025"
 product_version: "10.0.0.232"
 ---
 
+# Performing Application Restore
 
-In this article
 
 Veeam Backup & Replication provides auxiliary tools — Veeam Explorers — that allow you to restore application items directly from image-level backups of EC2 instances. You can restore items of the following applications: Microsoft Entra ID, Microsoft Exchange, Microsoft SharePoint, Microsoft SQL Server, Oracle, PostgreSQL and MongoDB. For more information on Veeam Explorers, see the [Veeam Explorers User Guide](https://helpcenter.veeam.com/docs/backup/explorers/explorers_introduction.html?ver=120).
 
@@ -32,6 +32,4 @@ To perform application restore, do the following:
 
 [![Restore application items](images/restore_application_items.webp)](images/restore_application_items.webp "Restore application items")
 
-Page updated 11/5/2025
 
-Page content applies to build 10.0.0.232

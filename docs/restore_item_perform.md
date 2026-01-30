@@ -1,5 +1,5 @@
 ---
-title: "restore_item_perform"
+title: "Performing File-Level Recovery"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_item_perform.html"
@@ -7,8 +7,8 @@ last_updated: "12/15/2025"
 product_version: "10.0.0.232"
 ---
 
+# Performing File-Level Recovery
 
-In this article
 
 In case a disaster strikes, you can recover corrupted or missing files of an EC2 instance from a cloud-native snapshot or image-level backup.
 
@@ -38,6 +38,4 @@ To recover files and folders of a protected EC2 instance, do the following:
 6. [Choose files and folders to recover](restore_item_save.md).
 7. [Stop the recovery session](restore_item_stop.md).
 
-Page updated 12/15/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "restore_items_vpc_point"
+title: "Step 2. Select Restore Point and Items to Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_items_vpc_point.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 2. Select Restore Point and Items to Restore
 
-In this article
 
 At the Restore List step of the wizard, select VPC configuration items you want to restore and a restore point that will be used to restore the selected items. By default, Veeam Backup for AWS uses the most recent valid restore point. However, you can restore the VPC configuration data to an earlier state.
 
@@ -26,6 +26,4 @@ At the Restore List step of the wizard, select VPC configuration items you want 
 
 [![Restoring VPC Configuration Items](images/vpc_restore_items_point.webp)](images/vpc_restore_items_point.webp "Restoring VPC Configuration Items")
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

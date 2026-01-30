@@ -1,5 +1,5 @@
 ---
-title: "perform_config_backup"
+title: "Performing Configuration Backup"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/perform_config_backup.html"
@@ -7,8 +7,8 @@ last_updated: "8/8/2024"
 product_version: "10.0.0.232"
 ---
 
+# Performing Configuration Backup
 
-In this article
 
 During configuration backup, data from configuration database of an appliance is exported and saved to a backup file in a repository. The configuration database contains the following information: existing backup policies, protected AWS resources, created worker instance configurations and profiles, added IAM roles and users, logged session records and so on.
 
@@ -22,6 +22,4 @@ In This Section
 * [Performing Configuration Backup Using Console](config_backup_console.md)
 * [Performing Configuration Backup Using Web UI](config_backup_ui.md)
 
-Page updated 8/8/2024
 
-Page content applies to build 10.0.0.232

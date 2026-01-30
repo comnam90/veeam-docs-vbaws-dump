@@ -1,5 +1,5 @@
 ---
-title: "add_policy_retry_notification_redshift"
+title: "Step 8. Configure General Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_retry_notification_redshift.html"
@@ -7,8 +7,8 @@ last_updated: "3/14/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 8. Configure General Settings
 
-In this article
 
 At the General Settings step of the wizard, you can enable automatic retries and specify notification settings for the backup policy.
 
@@ -51,6 +51,4 @@ If you do not select the check box, Veeam Backup for AWS will send a notificatio
 
 [![Creating Redshift Backup Policy](images/backup_add_retry_notification_redshift.webp)](images/backup_add_retry_notification_redshift.webp "Creating Redshift Backup Policy")
 
-Page updated 3/14/2025
 
-Page content applies to build 10.0.0.232

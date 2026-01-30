@@ -1,5 +1,5 @@
 ---
-title: "efs_restore_ui"
+title: "EFS Restore Using Web UI"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/efs_restore_ui.html"
@@ -7,8 +7,8 @@ last_updated: "12/12/2025"
 product_version: "10.0.0.232"
 ---
 
+# EFS Restore Using Web UI
 
-In this article
 
 Veeam Backup for AWS offers the following restore options:
 
@@ -22,6 +22,4 @@ You can restore EFS file system data to the most recent state or to any availabl
 | Important |
 | Veeam Backup for AWS supports restoring EFS file systems only to the same AWS accounts to which the source file system belong. |
 
-Page updated 12/12/2025
 
-Page content applies to build 10.0.0.232

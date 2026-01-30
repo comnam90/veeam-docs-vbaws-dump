@@ -1,5 +1,5 @@
 ---
-title: "repository_add_folder"
+title: "Step 3. Configure Repository Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/repository_add_folder.html"
@@ -7,8 +7,8 @@ last_updated: "12/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Configure Repository Settings
 
-In this article
 
 At the Bucket step of the wizard, specify an IAM role that will be used to access the created repository, choose an Amazon S3 bucket in which the repository will be created, and review immutability settings for the repository.
 
@@ -86,6 +86,4 @@ For more information on the S3 Versioning and S3 Object Lock features, see [AWS 
 | Note |
 | As soon as you click Next, Veeam Backup for AWS will check the repository ownership. If the backup repository is already managed by another backup appliance, you will receive a warning. To learn how to eliminate this warning, see [Eliminating Repository Ownership Warning](repository_owner.md). |
 
-Page updated 12/10/2025
 
-Page content applies to build 10.0.0.232

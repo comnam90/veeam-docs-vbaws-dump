@@ -1,5 +1,5 @@
 ---
-title: "backup_retention"
+title: "Retention Policies"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_retention.html"
@@ -7,8 +7,8 @@ last_updated: "12/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Retention Policies
 
-In this article
 
 Cloud-native snapshots, snapshot replicas and image-level backups created by backup policies are not kept forever — they are removed according to retention policy settings specified while creating the policies.
 
@@ -40,6 +40,4 @@ Related Topics
 * [Creating FSx Backup Policies](add_policy_schedule_retention_fsx.md)
 * [Editing VPC Configuration Backup Policy](vpc_policy_retention.md)
 
-Page updated 12/8/2025
 
-Page content applies to build 10.0.0.232

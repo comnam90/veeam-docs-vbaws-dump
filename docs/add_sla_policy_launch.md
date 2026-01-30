@@ -1,5 +1,5 @@
 ---
-title: "add_sla_policy_launch"
+title: "Step 1. Launch Add SLA-Based Policy Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_sla_policy_launch.html"
@@ -7,8 +7,8 @@ last_updated: "11/3/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 1. Launch Add SLA-Based Policy Wizard
 
-In this article
 
 To launch the Add SLA-Based Policy wizard, do the following:
 
@@ -17,6 +17,4 @@ To launch the Add SLA-Based Policy wizard, do the following:
 
 [![Creating SLA-Based EC2 Policy](images/add_sla_policy_launch.webp)](images/add_sla_policy_launch.webp "Creating SLA-Based EC2 Policy")
 
-Page updated 11/3/2025
 
-Page content applies to build 10.0.0.232

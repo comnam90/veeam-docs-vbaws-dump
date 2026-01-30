@@ -1,5 +1,5 @@
 ---
-title: "certificates_settings"
+title: "Replacing Security Certificates"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/certificates_settings.html"
@@ -7,8 +7,8 @@ last_updated: "7/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Replacing Security Certificates
 
-In this article
 
 To establish secure data communications between the backup appliance and web browsers running on user workstations, Veeam Backup for AWS uses Transport Layer Security (TLS) certificates.
 
@@ -48,6 +48,4 @@ Complete the New Certificate Wizard.
 
 [![Replacing Security Certificates](images/settings_certificate_upload.webp)](images/settings_certificate_upload.webp "Replacing Security Certificates")
 
-Page updated 7/4/2025
 
-Page content applies to build 10.0.0.232

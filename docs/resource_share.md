@@ -1,5 +1,5 @@
 ---
-title: "resource_share"
+title: "Step 4. Create Resource Share"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/resource_share.html"
@@ -7,8 +7,8 @@ last_updated: "9/6/2024"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Create Resource Share
 
-In this article
 
 If you have multiple AWS accounts and want to deploy worker instances in [production accounts](worker_settings.md), you can create a single resource share in one AWS account for all subnets to which the worker instances will be connected. The resource share can be further used to share these subnets with other AWS accounts belonging to the same organization. For information, see [AWS Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-sharing.html).
 
@@ -32,6 +32,4 @@ To obtain the IDs, you can either look them up in the AWS Management Console, or
 
 1. At the Review and create step, review the configured settings and click Create resource share.
 
-Page updated 9/6/2024
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "add_sla_policy_finish"
+title: "Step 11. Finish Working with Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_sla_policy_finish.html"
@@ -7,8 +7,8 @@ last_updated: "11/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 11. Finish Working with Wizard
 
-In this article
 
 At the Summary step of the wizard, it is recommended that you run the backup policy configuration check before you click Finish — to do that, click Test Configuration. Depending on the option selected at [step 3](add_policy_scope.md) of the wizard, the following will happen:
 
@@ -24,6 +24,4 @@ Veeam Backup for AWS will display the Test policy configuration window where you
 
 [![Creating SLA-Based EC2 Policy](images/add_sla_policy_finish.webp)](images/add_sla_policy_finish.webp "Creating SLA-Based EC2 Policy")
 
-Page updated 11/21/2025
 
-Page content applies to build 10.0.0.232

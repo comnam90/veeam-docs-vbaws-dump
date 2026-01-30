@@ -1,5 +1,5 @@
 ---
-title: "add_sla_policy_retry_notification"
+title: "Step 9. Configure General Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_sla_policy_retry_notification.html"
@@ -7,8 +7,8 @@ last_updated: "11/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 9. Configure General Settings
 
-In this article
 
 At the General Settings step of the wizard, you can enable automatic retries, schedule health checks and specify notification settings for the backup policy.
 
@@ -43,6 +43,4 @@ Use a semicolon to separate multiple recipient addresses. Do not use spaces afte
 
 [![Creating SLA-Based EC2 Policy](images/add_sla_policy_general_settings.webp)](images/add_sla_policy_general_settings.webp "Creating SLA-Based EC2 Policy")
 
-Page updated 11/21/2025
 
-Page content applies to build 10.0.0.232

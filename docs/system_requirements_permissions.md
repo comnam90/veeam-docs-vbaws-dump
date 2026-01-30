@@ -1,5 +1,5 @@
 ---
-title: "system_requirements_permissions"
+title: "IAM Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/system_requirements_permissions.html"
@@ -7,8 +7,8 @@ last_updated: "11/7/2025"
 product_version: "10.0.0.232"
 ---
 
+# IAM Permissions
 
-In this article
 
 To perform data protection and disaster recovery operations, you must specify IAM roles whose permissions Veeam Backup for AWS will use to access AWS services and resources.
 
@@ -26,6 +26,4 @@ In This Section
 * [Full List of IAM Permissions](full_list_permissions.md)
 * [IAM Permissions Changelog](permissions_changelog.md)
 
-Page updated 11/7/2025
 
-Page content applies to build 10.0.0.232

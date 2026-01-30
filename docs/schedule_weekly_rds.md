@@ -1,5 +1,5 @@
 ---
-title: "schedule_weekly_rds"
+title: "Specifying Weekly Schedule"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/schedule_weekly_rds.html"
@@ -7,8 +7,8 @@ last_updated: "7/25/2025"
 product_version: "10.0.0.232"
 ---
 
+# Specifying Weekly Schedule
 
-In this article
 
 To create a weekly schedule for the backup policy, at the Schedule step of the wizard, do the following:
 
@@ -40,6 +40,4 @@ If a restore point is older than the specified time limit, Veeam Backup for AWS 
 
 [![Creating RDS Backup Policy](images/rds_backup_weekly_schedule.webp)](images/rds_backup_weekly_schedule.webp "Creating RDS Backup Policy")
 
-Page updated 7/25/2025
 
-Page content applies to build 10.0.0.232
