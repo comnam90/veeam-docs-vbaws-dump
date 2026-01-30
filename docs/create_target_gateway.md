@@ -1,5 +1,5 @@
 ---
-title: "create_target_gateway"
+title: "Step 2. Create Virtual Private Target Gateway"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/create_target_gateway.html"
@@ -7,8 +7,8 @@ last_updated: "10/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 2. Create Virtual Private Target Gateway
 
-In this article
 
 To establish a VPN connection between the VPC of the backup appliance and your on-premises network, create a virtual private target gateway on the AWS side and attach the gateway to the VPC:
 
@@ -32,6 +32,4 @@ Note that after you create the VPN connection, you will not be able to change th
 1. At the Details step, select the VPC from the list of available VPCs.
 2. Click Attach to VPC.
 
-Page updated 10/10/2025
 
-Page content applies to build 10.0.0.232

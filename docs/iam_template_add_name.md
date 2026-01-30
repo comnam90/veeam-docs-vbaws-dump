@@ -1,5 +1,5 @@
 ---
-title: "iam_template_add_name"
+title: "Step 2. Specify IAM Role Name and Template Format"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/iam_template_add_name.html"
@@ -7,8 +7,8 @@ last_updated: "7/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 2. Specify IAM Role Name and Template Format
 
-In this article
 
 At the IAM Role Settings step of the wizard, specify the following settings:
 
@@ -20,6 +20,4 @@ At the IAM Role Settings step of the wizard, specify the following settings:
 
 [![Creating IAM Role Template](images/iam_template_add_launch.webp)](images/iam_template_add_launch.webp "Creating IAM Role Template")
 
-Page updated 7/4/2025
 
-Page content applies to build 10.0.0.232

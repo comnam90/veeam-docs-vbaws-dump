@@ -1,5 +1,5 @@
 ---
-title: "vpc_policy_notification"
+title: "Step 5. Specify Email Notification Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/vpc_policy_notification.html"
@@ -7,8 +7,8 @@ last_updated: "8/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Specify Email Notification Settings
 
-In this article
 
 At the Settings step of the wizard, you can specify email notification settings for the VPC Backup policy.
 
@@ -34,6 +34,4 @@ Use a semicolon to separate multiple recipient addresses. Do not use spaces afte
 
 [![Editing VPC Configuration Backup Policy](images/vpc_policy_notifications.webp)](images/vpc_policy_notifications.webp "Editing VPC Configuration Backup Policy")
 
-Page updated 8/21/2025
 
-Page content applies to build 10.0.0.232

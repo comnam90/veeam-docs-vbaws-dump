@@ -1,5 +1,5 @@
 ---
-title: "sla_add_snapshot_settings"
+title: "Step 3. Configure Snapshot Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/sla_add_snapshot_settings.html"
@@ -7,8 +7,8 @@ last_updated: "11/24/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Configure Snapshot Settings
 
-In this article
 
 At the Snapshots step of the wizard, you can configure the following snapshot settings:
 
@@ -28,6 +28,4 @@ When you combine multiple types of snapshot schedules, Veeam Backup for AWS re-u
 
 [![Adding SLA Template](images/sla_add_snapshot_settings.webp)](images/sla_add_snapshot_settings.webp "Adding SLA Template")
 
-Page updated 11/24/2025
 
-Page content applies to build 10.0.0.232

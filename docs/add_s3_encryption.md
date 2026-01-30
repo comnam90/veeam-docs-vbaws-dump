@@ -1,5 +1,5 @@
 ---
-title: "add_s3_encryption"
+title: "Step 6. Enable Data Encryption"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_s3_encryption.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 6. Enable Data Encryption
 
-In this article
 
 At the Encryption step of the wizard, choose whether you want to encrypt backups stored in the created repository.
 
@@ -39,6 +39,4 @@ For a password to be displayed in the list of available passwords, it must be ad
 
 ![Step 6. Enable Data Encryption](images/add_s3_encryption.webp "Add Amazon S3 repository - Encryption")
 
-Page updated 9/2/2025
 
-Page content applies to build 10.0.0.232

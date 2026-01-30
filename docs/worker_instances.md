@@ -1,5 +1,5 @@
 ---
-title: "worker_instances"
+title: "Worker Instances"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/worker_instances.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "10.0.0.232"
 ---
 
+# Worker Instances
 
-In this article
 
 To perform most data protection and disaster recovery operations (such as creating EC2 and RDS image-level backups, restoring backed-up data, EFS indexing or retention tasks), Veeam Backup for AWS uses worker instances. Worker instances are temporary Linux-based EC2 instances that are responsible for the interaction between the backup appliance, AWS services and other Veeam Backup for AWS components. Worker instances process backup workload and distribute backup traffic when transferring data to backup repositories.
 
@@ -70,6 +70,4 @@ You can configure the following worker instance settings:
 3. [Specify instance types that Veeam Backup for AWS will use to deploy worker instances in specific AWS Regions](worker_profiles.md).
 4. [Assign AWS tags to worker instances to help you differentiate the instances](worker_tags.md).
 
-Page updated 12/9/2025
 
-Page content applies to build 10.0.0.232

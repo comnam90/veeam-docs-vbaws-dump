@@ -1,5 +1,5 @@
 ---
-title: "role_permissions_restore_rds"
+title: "RDS Instance Restore IAM Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/role_permissions_restore_rds.html"
@@ -7,8 +7,8 @@ last_updated: "11/14/2025"
 product_version: "10.0.0.232"
 ---
 
+# RDS Instance Restore IAM Permissions
 
-In this article
 
 To perform RDS instance restore operations, IAM roles and IAM users specified in the [restore settings](restore_rds_account.md), or IAM roles specified in the [organization settings](organization_add_settings.md), must meet the following requirements:
 
@@ -22,6 +22,4 @@ To perform RDS instance restore operations, IAM roles and IAM users specified in
 
 To learn how to create IAM roles and assign them the required permissions, see [Appendix A. Creating IAM Roles in AWS](create_iam_policy_role.md).
 
-Page updated 11/14/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "sla_add"
+title: "Adding SLA Templates"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/sla_add.html"
@@ -7,8 +7,8 @@ last_updated: "11/11/2025"
 product_version: "10.0.0.232"
 ---
 
+# Adding SLA Templates
 
-In this article
 
 To add an SLA template, do the following:
 
@@ -19,6 +19,4 @@ To add an SLA template, do the following:
 5. [Specify an SLA threshold and configure health check settings](sla_add_general_settings.md).
 6. [Finish working with the wizard](sla_add_finish.md).
 
-Page updated 11/11/2025
 
-Page content applies to build 10.0.0.232

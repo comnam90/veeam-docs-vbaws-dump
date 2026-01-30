@@ -1,5 +1,5 @@
 ---
-title: "restore_item_type_efs"
+title: "Step 2. Choose Restore Type"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_item_type_efs.html"
@@ -7,8 +7,8 @@ last_updated: "10/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 2. Choose Restore Type
 
-In this article
 
 At the Restore Type step of the wizard, choose whether you want to specify the exact paths to files and folders that you want to recover, or to select specific files and folders in the file-level recovery browser.
 
@@ -19,6 +19,4 @@ At the Restore Type step of the wizard, choose whether you want to specify the e
 
 [![Restoring EFS Files and Folders](images/restore_item_type_efs.webp)](images/restore_item_type_efs.webp "Restoring EFS Files and Folders")
 
-Page updated 10/2/2025
 
-Page content applies to build 10.0.0.232

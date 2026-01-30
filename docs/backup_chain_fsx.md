@@ -1,5 +1,5 @@
 ---
-title: "backup_chain_fsx"
+title: "Backup Chain"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_chain_fsx.html"
@@ -7,8 +7,8 @@ last_updated: "8/6/2024"
 product_version: "10.0.0.232"
 ---
 
+# Backup Chain
 
-In this article
 
 During every backup session, Veeam Backup for AWS creates a cloud-native backup for each FSx file system added to the backup policy. To create the backup, Veeam Backup for AWS uses the [AWS Backup service](https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html).
 
@@ -42,6 +42,4 @@ Veeam Backup for AWS creates and maintains a FSx backup copy chain in the same w
 * The first created backup copy of the processed file system becomes a starting point in the backup copy chain.
 * Backup copies created during subsequent backup sessions store only those data blocks that have changed since the previous backup session.
 
-Page updated 8/6/2024
 
-Page content applies to build 10.0.0.232

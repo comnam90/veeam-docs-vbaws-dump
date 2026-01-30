@@ -1,5 +1,5 @@
 ---
-title: "organization_remove"
+title: "Removing Organizations"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/organization_remove.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Removing Organizations
 
-In this article
 
 Veeam Backup for AWS allows you to permanently remove an AWS Organization from the configuration database if it is no longer used to perform data protection and disaster recovery operations:
 
@@ -27,6 +27,4 @@ Veeam Backup for AWS allows you to permanently remove an AWS Organization from t
 
 [![Removing AWS Organizations](images/organizations_remove.webp)](images/organizations_remove.webp "Removing AWS Organizations")
 
-Page updated 8/20/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "overview_efs"
+title: "Protecting EFS File Systems"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/overview_efs.html"
@@ -7,8 +7,8 @@ last_updated: "9/6/2024"
 product_version: "10.0.0.232"
 ---
 
+# Protecting EFS File Systems
 
-In this article
 
 With Veeam Backup for AWS, you can perform the following operations to protect EFS file systems:
 
@@ -62,6 +62,4 @@ Related Topics
 
 [EFS Restore](restore_hiw_efs.md)
 
-Page updated 9/6/2024
 
-Page content applies to build 10.0.0.232

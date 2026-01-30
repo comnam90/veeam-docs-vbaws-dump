@@ -1,5 +1,5 @@
 ---
-title: "sla_storage_clone"
+title: "Cloning SLA and Storage Templates"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/sla_storage_clone.html"
@@ -7,8 +7,8 @@ last_updated: "11/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Cloning SLA and Storage Templates
 
-In this article
 
 Veeam Backup for AWS allows you to create a new policy template based on the settings of an existing one:
 
@@ -20,6 +20,4 @@ Veeam Backup for AWS allows you to create a new policy template based on the set
 
 [![Cloning Policy Template](images/policy_templates_clone.webp)](images/policy_templates_clone.webp "Cloning Policy Template")
 
-Page updated 11/4/2025
 
-Page content applies to build 10.0.0.232

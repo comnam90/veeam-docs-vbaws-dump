@@ -1,5 +1,5 @@
 ---
-title: "redshift_serverless_restore_ui"
+title: "Redshift Serverless Restore Using Web UI"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/redshift_serverless_restore_ui.html"
@@ -7,8 +7,8 @@ last_updated: "12/12/2025"
 product_version: "10.0.0.232"
 ---
 
+# Redshift Serverless Restore Using Web UI
 
-In this article
 
 In case of a disaster, you can restore a Redshift Serverless namespace from a cloud-native backup. Veeam Backup for AWS allows you to restore only one Redshift Serverless namespace at a time to the original, any existing or a new namespace. To learn how Redshift Serverless restore works, see [Redshift Serverless Restore](restore_hiw_redshift_serverless.md).
 
@@ -30,6 +30,4 @@ To restore a protected Redshift Serverless namespace, do the following:
 7. [Specify a restore reason](restore_reason_redshift_serverless.md).
 8. [Finish working with the wizard](restore_finish_redshift_serverless.md).
 
-Page updated 12/12/2025
 
-Page content applies to build 10.0.0.232

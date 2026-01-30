@@ -1,5 +1,5 @@
 ---
-title: "repositories_add_s3endpoint"
+title: "Step 5. Specify VPC Interface Endpoint"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/repositories_add_s3endpoint.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Specify VPC Interface Endpoint
 
-In this article
 
 [This step applies only if you have enabled the [private network deployment](enable_private_network_deployment.md) functionality]
 
@@ -23,6 +23,4 @@ For an S3 interface endpoint to be displayed in the Interface VPC endpoint list,
 
 [![Specifying Repository Settings](images/repo_add_specify_endpoint.webp)](images/repo_add_specify_endpoint.webp "Specifying Repository Settings")
 
-Page updated 8/20/2025
 
-Page content applies to build 10.0.0.232

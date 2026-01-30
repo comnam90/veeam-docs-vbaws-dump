@@ -1,5 +1,5 @@
 ---
-title: "policies_priority"
+title: "Setting Policy Priority"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/policies_priority.html"
@@ -7,8 +7,8 @@ last_updated: "11/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Setting Policy Priority
 
-In this article
 
 By default, Veeam Backup for AWS runs backup policies in the order you create them. However, you can set the backup policy priority manually:
 
@@ -28,6 +28,4 @@ By default, Veeam Backup for AWS runs backup policies in the order you create th
 
 [![Setting Policy Priority](images/backup_policies_priority.webp)](images/backup_policies_priority.webp "Setting Policy Priority")
 
-Page updated 11/4/2025
 
-Page content applies to build 10.0.0.232

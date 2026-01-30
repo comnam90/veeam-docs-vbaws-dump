@@ -1,5 +1,5 @@
 ---
-title: "add_policy_target_settings_backups_rds"
+title: "Configuring Image-Level Backup Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_target_settings_backups_rds.html"
@@ -7,8 +7,8 @@ last_updated: "12/11/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Image-Level Backup Settings
 
-In this article
 
 In the Backups section of the Targets step of the wizard, you can instruct Veeam Backup for AWS to create image-level backups of the processed DB instances and to copy backups to a long-term archive storage.
 
@@ -88,6 +88,4 @@ If you want worker instances to operate in a private network, enable the [privat
 
 [![Creating RDS Backup Policy](images/rds_backup_target_backup.webp)](images/rds_backup_target_backup.webp "Creating RDS Backup Policy")
 
-Page updated 12/11/2025
 
-Page content applies to build 10.0.0.232

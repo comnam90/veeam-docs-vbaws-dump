@@ -1,5 +1,5 @@
 ---
-title: "restore_hiw_redshift_serverless"
+title: "Redshift Serverless Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_hiw_redshift_serverless.html"
@@ -7,8 +7,8 @@ last_updated: "4/25/2025"
 product_version: "10.0.0.232"
 ---
 
+# Redshift Serverless Restore
 
-In this article
 
 |  |
 | --- |
@@ -23,6 +23,4 @@ To restore a Redshift Serverless namespace from a cloud-native backup, Veeam Bac
 
 To learn how to restore a Redshift Serverless namespace from a Redshift Serverless backup, see [Redshift Serverless Restore](redshift_serverless_restore.md).
 
-Page updated 4/25/2025
 
-Page content applies to build 10.0.0.232

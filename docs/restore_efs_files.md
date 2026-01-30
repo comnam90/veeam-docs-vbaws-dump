@@ -1,5 +1,5 @@
 ---
-title: "restore_efs_files"
+title: "Performing EFS File-Level Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_efs_files.html"
@@ -7,8 +7,8 @@ last_updated: "8/7/2025"
 product_version: "10.0.0.232"
 ---
 
+# Performing EFS File-Level Restore
 
-In this article
 
 You can perform EFS file-level restore only using the Veeam Backup for AWS Web UI. However, you can launch the EFS file-level recovery wizard directly from the Veeam Backup & Replication console. To do that, do the following:
 
@@ -22,6 +22,4 @@ Veeam Backup & Replication will open the EFS File-level Recovery wizard in a web
 
 [![Restore EFS files - Launch](images/restore_efs_files.webp)](images/restore_efs_files.webp "Restore EFS files - Launch")
 
-Page updated 8/7/2025
 
-Page content applies to build 10.0.0.232

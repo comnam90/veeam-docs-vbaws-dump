@@ -1,5 +1,5 @@
 ---
-title: "restore_entire_vpc_mode"
+title: "Step 4. Choose Restore Mode"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_vpc_mode.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Choose Restore Mode
 
-In this article
 
 At the Restore Mode step of the wizard, choose whether you want to restore the selected VPC configuration to the original or to a custom location. If you select the Restore to new location, or with different settings option, specify the target AWS Region where to restore the VPC configuration.
 
@@ -19,6 +19,4 @@ At the Restore Mode step of the wizard, choose whether you want to restore the s
 
 [![Restoring VPC Configuration](images/vpc_restore_entire_mode.webp)](images/vpc_restore_entire_mode.webp "Restoring VPC Configuration")
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

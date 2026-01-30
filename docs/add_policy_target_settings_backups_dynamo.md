@@ -1,5 +1,5 @@
 ---
-title: "add_policy_target_settings_backups_dynamo"
+title: "Configuring Backup Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_target_settings_backups_dynamo.html"
@@ -7,8 +7,8 @@ last_updated: "10/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Backup Settings
 
-In this article
 
 To specify backup vaults that will be used to store backups of the selected DynamoDB tables, do the following:
 
@@ -33,6 +33,4 @@ For a backup vault to be displayed in the list of available backup vaults, it mu
 
 [![Creating DynamoDB Backup Policy](images/backup_add_backup_settings_dynamodb.webp)](images/backup_add_backup_settings_dynamodb.webp "Creating DynamoDB Backup Policy")
 
-Page updated 10/8/2025
 
-Page content applies to build 10.0.0.232

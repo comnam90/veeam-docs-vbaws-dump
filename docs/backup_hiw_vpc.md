@@ -1,5 +1,5 @@
 ---
-title: "backup_hiw_vpc"
+title: "VPC Configuration Backup"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_hiw_vpc.html"
@@ -7,8 +7,8 @@ last_updated: "4/25/2025"
 product_version: "10.0.0.232"
 ---
 
+# VPC Configuration Backup
 
-In this article
 
 Veeam Backup for AWS performs VPC configuration backup in the following way:
 
@@ -25,6 +25,4 @@ Related Topics
 * [Backup Chain](backup_chain_vpc.md)
 * [VPC Configuration Backup Retention](retention_backup_vpc.md)
 
-Page updated 4/25/2025
 
-Page content applies to build 10.0.0.232

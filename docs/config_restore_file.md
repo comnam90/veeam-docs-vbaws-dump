@@ -1,5 +1,5 @@
 ---
-title: "config_restore_file"
+title: "Step 2. Choose Backup File"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/config_restore_file.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 2. Choose Backup File
 
-In this article
 
 At the Backup File step of the wizard, choose whether you want to use an exported backup file or a backup file stored in a backup repository.
 
@@ -27,6 +27,4 @@ For a backup repository to be displayed in the list of available repositories, i
 
 [![Restoring Configuration Data](images/config_backup_file.webp)](images/config_backup_file.webp "Restoring Configuration Data")
 
-Page updated 8/20/2025
 
-Page content applies to build 10.0.0.232

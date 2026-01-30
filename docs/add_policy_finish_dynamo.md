@@ -1,5 +1,5 @@
 ---
-title: "add_policy_finish_dynamo"
+title: "Step 10. Finish Working with Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_finish_dynamo.html"
@@ -7,8 +7,8 @@ last_updated: "8/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 10. Finish Working with Wizard
 
-In this article
 
 At the Summary step of the wizard, it is recommended that you run the backup policy configuration check before you click Finish — to do that, click Test Configuration. Depending on the option selected at [step 3](add_policy_scope_dynamo.md) of the wizard, the following will happen:
 
@@ -24,6 +24,4 @@ Veeam Backup for AWS will display the Test policy configuration window where you
 
 [![Creating DynamoDB Backup Policy](images/backup_add_finish_dynamodb.webp)](images/backup_add_finish_dynamodb.webp "Creating DynamoDB Backup Policy")
 
-Page updated 8/21/2025
 
-Page content applies to build 10.0.0.232

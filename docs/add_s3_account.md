@@ -1,5 +1,5 @@
 ---
-title: "add_s3_account"
+title: "Step 3. Specify AWS Account Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_s3_account.html"
@@ -7,8 +7,8 @@ last_updated: "10/14/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Specify AWS Account Settings
 
-In this article
 
 At the Account step of the wizard, do the following:
 
@@ -29,6 +29,4 @@ For a server to be displayed in the Gateway server list, it must be added to the
 
 ![Step 3. Specify AWS Account Settings](images/add_s3_account.webp "Add Amazon S3 repository - Account")
 
-Page updated 10/14/2025
 
-Page content applies to build 10.0.0.232

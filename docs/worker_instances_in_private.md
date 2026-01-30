@@ -1,5 +1,5 @@
 ---
-title: "worker_instances_in_private"
+title: "Worker Instances in Private Environment"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/worker_instances_in_private.html"
@@ -7,8 +7,8 @@ last_updated: "12/11/2025"
 product_version: "10.0.0.232"
 ---
 
+# Worker Instances in Private Environment
 
-In this article
 
 Veeam Backup for AWS automatically deploys worker instances in Amazon EC2 for the duration of backup, restore and retention processes and removes it immediately after the processes complete. Veeam Backup for AWS deploys one worker instance per each processed AWS resource. To minimize cross-region traffic charges, depending on the data protection or disaster recovery operation, Veeam Backup for AWS deploys the worker instance in [specific locations](workers_location.md).
 
@@ -228,6 +228,4 @@ It is recommended that you specify the full IPv4 address range of the VPC in the
 
 For detailed instructions on how to create interface endpoints, set up VPC peering connections and add routing, see [Configuring Private Networks](configuring_private_networks.md).
 
-Page updated 12/11/2025
 
-Page content applies to build 10.0.0.232

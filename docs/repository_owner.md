@@ -1,5 +1,5 @@
 ---
-title: "repository_owner"
+title: "Eliminating Repository Ownership Warning"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/repository_owner.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Eliminating Repository Ownership Warning
 
-In this article
 
 Due to technical limitations, a backup repository that is already added to a backup appliance cannot be added to other backup appliances. Otherwise, retention sessions running on different appliances may corrupt backup files stored in this repository, which may result in unpredictable data loss. For this reason, Veeam Backup for AWS checks whether a repository is managed by any appliances as soon as you click Next at the at the Bucket step of the wizard.
 
@@ -26,6 +26,4 @@ If the backup repository is already added to another backup appliance, Veeam Bac
 
 [![Eliminating Warning](images/repository_owner.webp)](images/repository_owner.webp "Eliminating Warning")
 
-Page updated 8/20/2025
 
-Page content applies to build 10.0.0.232

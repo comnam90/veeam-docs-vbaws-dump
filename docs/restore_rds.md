@@ -1,5 +1,5 @@
 ---
-title: "restore_rds"
+title: "Restoring RDS Instances"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_rds.html"
@@ -7,8 +7,8 @@ last_updated: "12/11/2025"
 product_version: "10.0.0.232"
 ---
 
+# Restoring RDS Instances
 
-In this article
 
 You can recover corrupted DB instances and Aurora DB clusters in the Veeam Backup for AWS Web UI only. However, you can launch the RDS Restore wizard directly from the Veeam Backup & Replication console to start the restore operation:
 
@@ -25,6 +25,4 @@ Veeam Backup & Replication will open the RDS Restore wizard in a web browser. Co
 
 [![Restore to Amazon RDS](images/restore_rds.webp)](images/restore_rds.webp "Restore to Amazon RDS")
 
-Page updated 12/11/2025
 
-Page content applies to build 10.0.0.232

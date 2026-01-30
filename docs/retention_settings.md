@@ -1,5 +1,5 @@
 ---
-title: "retention_settings"
+title: "Configuring Global Retention Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/retention_settings.html"
@@ -7,8 +7,8 @@ last_updated: "7/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Global Retention Settings
 
-In this article
 
 You can configure global retention settings to specify for how long the following data must be retained in the configuration database:
 
@@ -67,6 +67,4 @@ If you select this option, Veeam Backup for AWS will remove all session records 
 
 [![Specifying Global Retention](images/settings_retention.webp)](images/settings_retention.webp "Specifying Global Retention")
 
-Page updated 7/4/2025
 
-Page content applies to build 10.0.0.232

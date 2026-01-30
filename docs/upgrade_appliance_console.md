@@ -1,5 +1,5 @@
 ---
-title: "upgrade_appliance_console"
+title: "Updating Appliances Using Console"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/upgrade_appliance_console.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Updating Appliances Using Console
 
-In this article
 
 Starting from version 6a, you can upgrade backup appliances from the Veeam Backup & Replication console only. Upgrade to Veeam Backup for AWS version 10 is supported from Veeam Backup for AWS version 4 or later. To upgrade from an earlier version, you must first perform upgrade to version 4 as described in section [Installing Updates](updates_install.md).
 
@@ -43,6 +43,4 @@ To learn how to modify permissions of the Default Backup Restore IAM role, see [
 
 [![Upgrade appliance](images/appliance_upgrade.webp)](images/appliance_upgrade.webp "Upgrade appliance")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

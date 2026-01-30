@@ -1,5 +1,5 @@
 ---
-title: "iam_roles_remove"
+title: "Removing IAM Roles"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/iam_roles_remove.html"
@@ -7,8 +7,8 @@ last_updated: "7/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Removing IAM Roles
 
-In this article
 
 Veeam Backup for AWS allows you to permanently remove an IAM role from the configuration database if it is no longer used to perform data protection and disaster recovery operations:
 
@@ -27,6 +27,4 @@ Veeam Backup for AWS allows you to permanently remove an IAM role from the confi
 
 [![Removing IAM Roles](images/iam_roles_remove.webp)](images/iam_roles_remove.webp "Removing IAM Roles")
 
-Page updated 7/29/2025
 
-Page content applies to build 10.0.0.232

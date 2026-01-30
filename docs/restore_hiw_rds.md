@@ -1,5 +1,5 @@
 ---
-title: "restore_hiw_rds"
+title: "RDS Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_hiw_rds.html"
@@ -7,8 +7,8 @@ last_updated: "11/28/2025"
 product_version: "10.0.0.232"
 ---
 
+# RDS Restore
 
-In this article
 
 Veeam Backup for AWS offers the following restore operations:
 
@@ -17,6 +17,4 @@ Veeam Backup for AWS offers the following restore operations:
 
 You can restore RDS instance data to the most recent state or to any available restore point.
 
-Page updated 11/28/2025
 
-Page content applies to build 10.0.0.232

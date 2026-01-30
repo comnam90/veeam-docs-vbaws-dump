@@ -1,5 +1,5 @@
 ---
-title: "add_policy_target_settings_backup_copy_efs"
+title: "Enabling Additional Backup Copy"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_target_settings_backup_copy_efs.html"
@@ -7,8 +7,8 @@ last_updated: "10/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Enabling Additional Backup Copy
 
-In this article
 
 If you want to copy EFS file system backups to other AWS Regions, do the following:
 
@@ -42,6 +42,4 @@ To configure mapping for all source AWS Regions at once, click Set Mapping for A
 
 [![Creating EFS Backup Policy](images/backup_add_backup_copy_efs.webp)](images/backup_add_backup_copy_efs.webp "Creating EFS Backup Policy")
 
-Page updated 10/8/2025
 
-Page content applies to build 10.0.0.232

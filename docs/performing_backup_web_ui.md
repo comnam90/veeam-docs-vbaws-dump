@@ -1,5 +1,5 @@
 ---
-title: "performing_backup_web_ui"
+title: "Performing Backup Using Web UI"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/performing_backup_web_ui.html"
@@ -7,8 +7,8 @@ last_updated: "11/24/2025"
 product_version: "10.0.0.232"
 ---
 
+# Performing Backup Using Web UI
 
-In this article
 
 Veeam Backup for AWS runs backup policies for every data protection operation. A backup policy is a collection of settings that define the way backup operations are performed: what data to back up, where to store backups, when to start the backup process, and so on.
 
@@ -26,6 +26,4 @@ In This Section
 * [Performing VPC Configuration Backup](perform_vpc_backup.md)
 * [Managing Backup Policies](policies_ec2_manage.md)
 
-Page updated 11/24/2025
 
-Page content applies to build 10.0.0.232

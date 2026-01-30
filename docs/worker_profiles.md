@@ -1,5 +1,5 @@
 ---
-title: "worker_profiles"
+title: "Managing Worker Profiles"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/worker_profiles.html"
@@ -7,8 +7,8 @@ last_updated: "11/12/2025"
 product_version: "10.0.0.232"
 ---
 
+# Managing Worker Profiles
 
-In this article
 
 Worker profiles are instance types of worker instances that Veeam Backup for AWS deploys in a specific AWS Region to perform backup, restore, archive and health check operations. Veeam Backup for AWS deploys one worker instance per each AWS resource added to a backup policy or restore task. The profile of each deployed worker instance is selected based on the performed operation and the size of EBS volumes attached to the processed instance.
 
@@ -32,6 +32,4 @@ In This Section
 * [Editing Profiles](worker_edit_profile.md)
 * [Removing Profiles](worker_remove_profile.md)
 
-Page updated 11/12/2025
 
-Page content applies to build 10.0.0.232

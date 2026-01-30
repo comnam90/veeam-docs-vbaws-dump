@@ -1,5 +1,5 @@
 ---
-title: "sla_template_hiw"
+title: "SLA Templates"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/sla_template_hiw.html"
@@ -7,8 +7,8 @@ last_updated: "1/8/2026"
 product_version: "10.0.0.232"
 ---
 
+# SLA Templates
 
-In this article
 
 An SLA template is a collection of settings that allows you to protect your data according to a periodic backup schedule in a way the data protection complies with SLA standards in your company. These standards are defined by a specific target SLA value that indicates how much data you can afford to lose in case a disaster strikes, which allows you to troubleshoot backup issues and facilitate backup infrastructure audit.
 
@@ -26,6 +26,4 @@ Related Topics
 * [Data Protection Windows](snapshot_backup_window.md)
 * [Monitoring SLA-Based Policy Performance](sla_monitoring.md)
 
-Page updated 1/8/2026
 
-Page content applies to build 10.0.0.232

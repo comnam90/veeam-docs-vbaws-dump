@@ -1,5 +1,5 @@
 ---
-title: "restore_rds_cluster_settings"
+title: "Configuring Settings for Aurora DB Clusters"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_rds_cluster_settings.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Settings for Aurora DB Clusters
 
-In this article
 
 A number of settings that you can configure for a restored cluster depends on the capacity type that you plan to choose for the cluster. AWS supports Aurora DB clusters of 2 different capacity types:
 
@@ -88,6 +88,4 @@ For a DB parameter group to be displayed in the list, the group must be created 
 
 [![Restoring RDS Resources](images/rds_restore_settings_cluster.webp)](images/rds_restore_settings_cluster.webp "Restoring RDS Resources")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

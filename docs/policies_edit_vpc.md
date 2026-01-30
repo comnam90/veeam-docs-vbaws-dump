@@ -1,5 +1,5 @@
 ---
-title: "policies_edit_vpc"
+title: "Editing VPC Configuration Backup Policy"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/policies_edit_vpc.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Editing VPC Configuration Backup Policy
 
-In this article
 
 To configure the VPC Configuration Backup policy settings, do the following:
 
@@ -19,6 +19,4 @@ To configure the VPC Configuration Backup policy settings, do the following:
 5. [Specify notification settings for the backup policy](vpc_policy_notification.md).
 6. [Finish working with the wizard](vpc_policy_finish.md).
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

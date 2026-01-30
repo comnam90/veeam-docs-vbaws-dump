@@ -1,5 +1,5 @@
 ---
-title: "email_settings"
+title: "Configuring Global Notification Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/email_settings.html"
@@ -7,8 +7,8 @@ last_updated: "7/25/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Global Notification Settings
 
-In this article
 
 You can specify email notification settings for automated delivery of backup policy results and daily reports. Every daily report contains cumulative statistics on all backup and restore sessions, as well as retention sessions performed within the past 24-hour period.
 
@@ -102,6 +102,4 @@ When registering the application, make sure that the redirect URL specified for 
 
 [![Configuring Email Notifications](images/settings_email.webp)](images/settings_email.webp "Configuring Email Notifications")
 
-Page updated 7/25/2025
 
-Page content applies to build 10.0.0.232

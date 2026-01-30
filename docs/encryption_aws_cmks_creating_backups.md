@@ -1,5 +1,5 @@
 ---
-title: "encryption_aws_cmks_creating_backups"
+title: "Creating Image-Level Backups"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/encryption_aws_cmks_creating_backups.html"
@@ -7,8 +7,8 @@ last_updated: "5/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Creating Image-Level Backups
 
-In this article
 
 The process of creating an image-level backup of an EC2 instance with encrypted EBS volumes differs depending on whether a worker instance processing EBS volume data is deployed in the same AWS account or not:
 
@@ -51,6 +51,4 @@ To access the data, Veeam Backup for AWS uses an IAM role specified to deploy wo
 
 [![Creating Image-Level Backups](images/cmk_s3_different.webp)](images/cmk_s3_different.webp "Creating Image-Level Backups")
 
-Page updated 5/21/2025
 
-Page content applies to build 10.0.0.232

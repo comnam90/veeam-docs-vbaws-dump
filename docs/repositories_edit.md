@@ -1,5 +1,5 @@
 ---
-title: "repositories_edit"
+title: "Editing Backup Repository Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/repositories_edit.html"
@@ -7,8 +7,8 @@ last_updated: "10/14/2025"
 product_version: "10.0.0.232"
 ---
 
+# Editing Backup Repository Settings
 
-In this article
 
 The settings that you can modify for a backup repository depend on whether the repository has been added to the backup infrastructure using the Veeam Backup & Replication console or the Veeam Backup for AWS Web UI.
 
@@ -59,6 +59,4 @@ For each backup repository, you can modify settings configured while adding the 
 
 [![Editing Repository Settings](images/repo_edit.webp)](images/repo_edit.webp "Editing Repository Settings")
 
-Page updated 10/14/2025
 
-Page content applies to build 10.0.0.232

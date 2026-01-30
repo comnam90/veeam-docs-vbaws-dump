@@ -1,5 +1,5 @@
 ---
-title: "configure_routing_network_prod"
+title: "Step 3. Configure Routing"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/configure_routing_network_prod.html"
@@ -7,8 +7,8 @@ last_updated: "8/2/2023"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Configure Routing
 
-In this article
 
 If you have created a peering connection between two different VPCs, you must add routes to the route tables associated with the subnets of the accepter and requester VPC to enable private traffic between those VPCs.
 
@@ -28,6 +28,4 @@ To obtain the ID, you can look it up on the Peering connections page in the VPC 
 
 1. Click Save changes.
 
-Page updated 8/2/2023
 
-Page content applies to build 10.0.0.232

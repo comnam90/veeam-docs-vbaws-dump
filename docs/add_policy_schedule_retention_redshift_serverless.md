@@ -1,5 +1,5 @@
 ---
-title: "add_policy_schedule_retention_redshift_serverless"
+title: "Step 5. Specify Policy Scheduling Options"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_schedule_retention_redshift_serverless.html"
@@ -7,8 +7,8 @@ last_updated: "7/7/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Specify Policy Scheduling Options
 
-In this article
 
 You can instruct Veeam Backup for AWS to start the backup policy automatically according to a specific backup schedule. The backup schedule defines how often data of the namespaces added to the backup policy must be backed up.
 
@@ -27,6 +27,4 @@ Combining multiple schedule types together allows you to retain restore points f
 | Note |
 | If you do not specify the backup schedule, after you configure the backup policy, you will need to start it manually to create Redshift Serverless namespaces backups. For information on how to start backup policies, see [Starting and Stopping Policies](policies_start_stop.md). |
 
-Page updated 7/7/2025
 
-Page content applies to build 10.0.0.232

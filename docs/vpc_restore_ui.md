@@ -1,5 +1,5 @@
 ---
-title: "vpc_restore_ui"
+title: "VPC Configuration Restore Using Web UI"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/vpc_restore_ui.html"
@@ -7,8 +7,8 @@ last_updated: "11/7/2025"
 product_version: "10.0.0.232"
 ---
 
+# VPC Configuration Restore Using Web UI
 
-In this article
 
 Veeam Backup for AWS offers the following disaster recovery operations:
 
@@ -26,6 +26,4 @@ Related Topics
 
 [Exporting VPC Configuration](export_vpc.md)
 
-Page updated 11/7/2025
 
-Page content applies to build 10.0.0.232

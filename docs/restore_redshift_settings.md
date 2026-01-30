@@ -1,5 +1,5 @@
 ---
-title: "restore_redshift_settings"
+title: "Step 6. Configure Restore Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_redshift_settings.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 6. Configure Restore Settings
 
-In this article
 
 [This step applies only if you have selected the Restore to original location with different settings option at the Restore Mode step of the wizard]
 
@@ -54,6 +54,4 @@ If you set the toggle to Off, the cluster will be restored without any IAM role 
 
 [![Restoring Redshift Clusters](images/redshift_restore_settings.webp)](images/redshift_restore_settings.webp "Restoring Redshift Clusters")
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

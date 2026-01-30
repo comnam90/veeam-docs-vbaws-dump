@@ -1,5 +1,5 @@
 ---
-title: "recovery"
+title: "Performing Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/recovery.html"
@@ -7,8 +7,8 @@ last_updated: "10/24/2025"
 product_version: "10.0.0.232"
 ---
 
+# Performing Restore
 
-In this article
 
 In various disaster recovery scenarios, you can perform the following restore operations using backed-up data:
 
@@ -28,6 +28,4 @@ In various disaster recovery scenarios, you can perform the following restore op
 * [Restore to Google Cloud](restore_to_google.md) — restore EC2 instances from image-level backups to Google Cloud as VM instances.
 * [Restore to Nutanix AHV](restore_to_nutanix.md) — restore EC2 instances from image-level backups to Nutanix AHV as Nutanix AHV VMs.
 
-Page updated 10/24/2025
 
-Page content applies to build 10.0.0.232

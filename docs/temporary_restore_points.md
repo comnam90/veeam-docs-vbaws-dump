@@ -1,5 +1,5 @@
 ---
-title: "temporary_restore_points"
+title: "Reused and Temporary Snapshots"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/temporary_restore_points.html"
@@ -7,8 +7,8 @@ last_updated: "1/8/2026"
 product_version: "10.0.0.232"
 ---
 
+# Reused and Temporary Snapshots
 
-In this article
 
 When running an SLA-based backup policy, Veeam Backup for AWS produces image-level backups differently, depending on the [snapshot and backup settings](sla_add.md) configured for the SLA template that is assigned to this policy.
 
@@ -40,6 +40,4 @@ Related Topics
 * [Changed Block Tracking](cbt.md)
 * [CBT Impact on Snapshot Retention](cbt_retention.md)
 
-Page updated 1/8/2026
 
-Page content applies to build 10.0.0.232

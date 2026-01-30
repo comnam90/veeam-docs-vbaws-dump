@@ -1,5 +1,5 @@
 ---
-title: "retention_backup_fsx"
+title: "FSx Backup Retention"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/retention_backup_fsx.html"
@@ -7,8 +7,8 @@ last_updated: "8/6/2024"
 product_version: "10.0.0.232"
 ---
 
+# FSx Backup Retention
 
-In this article
 
 For FSx file system backups, Veeam Backup for AWS retains restore points for the period of time specified in [backup scheduling settings](add_policy_schedule_retention_fsx.md).
 
@@ -21,6 +21,4 @@ During every successful backup session, Veeam Backup for AWS creates a restore p
 | Note |
 | Veeam Backup for AWS does not apply retention policy to FSx backups created manually. To learn how to remove them, see [Removing FSx Backups Created Manually](backups_remove_individual_fsx.md). |
 
-Page updated 8/6/2024
 
-Page content applies to build 10.0.0.232

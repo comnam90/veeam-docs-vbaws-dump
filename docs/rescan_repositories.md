@@ -1,5 +1,5 @@
 ---
-title: "rescan_repositories"
+title: "Rescanning Backup Repositories"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/rescan_repositories.html"
@@ -7,8 +7,8 @@ last_updated: "7/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Rescanning Backup Repositories
 
-In this article
 
 Veeam Backup & Replication periodically rescans standard backup repositories for newly created restore points and metadata — the results of every rescan session are displayed in the History view under the System node. A rescan operation is launched automatically every 24 hours or in the following cases:
 
@@ -27,6 +27,4 @@ If multiple repositories are present in the backup infrastructure, you can perfo
 
 [![Rescan Repository](images/rescanning_repository.webp)](images/rescanning_repository.webp "Rescan Repository")
 
-Page updated 7/8/2025
 
-Page content applies to build 10.0.0.232

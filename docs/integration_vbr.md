@@ -1,5 +1,5 @@
 ---
-title: "integration_vbr"
+title: "Integration with Veeam Backup & Replication"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/integration_vbr.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Integration with Veeam Backup & Replication
 
-In this article
 
 Starting from version 7.0, Veeam Backup for AWS is part of the Veeam Backup & Replication solution. Veeam Plug-In for AWS extends the Veeam Backup & Replication functionality and allows you to add backup appliances to Veeam Backup & Replication. With Veeam Plug-In for AWS, you can manage data protection and recovery operations for all these appliances from a single Veeam Backup & Replication console.
 
@@ -39,6 +39,4 @@ Related Topics
 * [Protecting Redshift Serverless](overview_redshift_serverless.md)
 * [Protecting FSx File Systems](overview_fsx.md)
 
-Page updated 8/20/2025
 
-Page content applies to build 10.0.0.232

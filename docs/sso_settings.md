@@ -1,5 +1,5 @@
 ---
-title: "sso_settings"
+title: "Configuring SSO Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/sso_settings.html"
@@ -7,8 +7,8 @@ last_updated: "7/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring SSO Settings
 
-In this article
 
 Veeam Backup for AWS supports single sign-on (SSO) authentication based on the SAML 2.0 protocol. SSO authentication scheme allows a user to log in to different software systems with the same credentials using the identity provider service.
 
@@ -51,6 +51,4 @@ After you configure SSO settings, you can add user accounts that will be able to
 
 [![Configuring SSO Settings](images/sso_settings.webp)](images/sso_settings.webp "Configuring SSO Settings")
 
-Page updated 7/4/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "cbt"
+title: "Changed Block Tracking"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/cbt.html"
@@ -7,8 +7,8 @@ last_updated: "12/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Changed Block Tracking
 
-In this article
 
 The changed block tracking (CBT) mechanism allows Veeam Backup for AWS to reduce the amount of data read from processed EBS volumes, and to increase the speed and efficiency of incremental backups:
 
@@ -35,6 +35,4 @@ Related Topics
 
 [CBT Impact on Snapshot Retention](cbt_retention.md)
 
-Page updated 12/8/2025
 
-Page content applies to build 10.0.0.232

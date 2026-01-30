@@ -1,5 +1,5 @@
 ---
-title: "update_role"
+title: "Updating IAM Roles"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/update_role.html"
@@ -7,8 +7,8 @@ last_updated: "4/15/2025"
 product_version: "10.0.0.232"
 ---
 
+# Updating IAM Roles
 
-In this article
 
 When you update the backup appliance to a newer version, the improvements and new features instantly become available in Veeam Backup for AWS. However, to meet new requirements, IAM roles must be assigned missing permissions manually either using the Veeam Backup for AWS Web UI or the AWS Management Console.
 
@@ -19,6 +19,4 @@ To update the IAM role, run a permission check for this role at the IAM Roles ta
 | Note |
 | The [Default Backup Restore IAM role](deploying_appliances.md) is updated automatically during the upgrade of backup appliances from the Veeam Backup & Replication console. For more information, see [Updating Appliances Using Console](upgrade_appliance_console.md#default_role). |
 
-Page updated 4/15/2025
 
-Page content applies to build 10.0.0.232

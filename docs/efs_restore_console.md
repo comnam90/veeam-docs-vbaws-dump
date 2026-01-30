@@ -1,5 +1,5 @@
 ---
-title: "efs_restore_console"
+title: "EFS Restore Using Console"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/efs_restore_console.html"
@@ -7,8 +7,8 @@ last_updated: "10/6/2025"
 product_version: "10.0.0.232"
 ---
 
+# EFS Restore Using Console
 
-In this article
 
 Veeam Backup & Replication offers the following restore operations:
 
@@ -22,6 +22,4 @@ You can restore EFS file system data to the most recent state or to any availabl
 | Important |
 | You can restore an EFS file system only to the same AWS account to which the source file system belongs. |
 
-Page updated 10/6/2025
 
-Page content applies to build 10.0.0.232

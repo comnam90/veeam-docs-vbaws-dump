@@ -1,5 +1,5 @@
 ---
-title: "updates_history"
+title: "Viewing Updates History"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/updates_history.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Viewing Updates History
 
-In this article
 
 To see the results of the update installation performed on the backup appliance, do the following:
 
@@ -23,6 +23,4 @@ To download logs for the installed updates, select the necessary date in the Dat
 
 [![Viewing Updates History](images/updates_hitory.webp)](images/updates_hitory.webp "Viewing Updates History")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "add_policy_scope_efs"
+title: "Step 3. Specify Data Protection Scope"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_scope_efs.html"
@@ -7,8 +7,8 @@ last_updated: "9/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Specify Data Protection Scope
 
-In this article
 
 At the Sources step of the wizard, define the scope of resources that will be available for data protection:
 
@@ -47,6 +47,4 @@ Related Topics
 
 [IAM Roles](accounts_iam_roles.md)
 
-Page updated 9/26/2025
 
-Page content applies to build 10.0.0.232

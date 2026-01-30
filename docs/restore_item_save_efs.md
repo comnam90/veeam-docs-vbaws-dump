@@ -1,5 +1,5 @@
 ---
-title: "restore_item_save_efs"
+title: "Step 10. Choose Items to Recover"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_item_save_efs.html"
@@ -7,8 +7,8 @@ last_updated: "10/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 10. Choose Items to Recover
 
-In this article
 
 [This step applies only if you have selected the Browse files option at the Restore Type step of the wizard]
 
@@ -37,6 +37,4 @@ As soon as you click Restore, Veeam Backup for AWS will restore the selected fil
 
 [![Restoring EFS Files and Folders](images/restore_item_flr_select_efs.webp)](images/restore_item_flr_select_efs.webp "Restoring EFS Files and Folders")
 
-Page updated 10/2/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "overview_redshift_serverless"
+title: "Protecting Redshift Serverless"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/overview_redshift_serverless.html"
@@ -7,8 +7,8 @@ last_updated: "6/25/2025"
 product_version: "10.0.0.232"
 ---
 
+# Protecting Redshift Serverless
 
-In this article
 
 Veeam Backup for AWS allows you to create cloud-native backups of Redshift Serverless namespaces and store them in the source AWS Region. An Amazon Redshift Serverless backup captures the data of the processed Redshift Serverless namespace and its associated workgroup at a specific point of time. Redshift Serverless backups are taken using native [AWS capabilities](https://docs.aws.amazon.com/redshift/latest/mgmt/serverless-snapshots-recovery-points.html).
 
@@ -58,6 +58,4 @@ Related Topics
 
 [Redshift Serverless Restore](restore_hiw_redshift_serverless.md)
 
-Page updated 6/25/2025
 
-Page content applies to build 10.0.0.232

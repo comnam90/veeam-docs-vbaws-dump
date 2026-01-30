@@ -1,5 +1,5 @@
 ---
-title: "restore_mode_dynamo"
+title: "Step 4. Choose Restore Mode"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_mode_dynamo.html"
@@ -7,8 +7,8 @@ last_updated: "10/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Choose Restore Mode
 
-In this article
 
 At the Restore Mode step of the wizard, choose whether you want to restore the selected DynamoDB table to the original or to a custom location. If you select the Restore to a new location, or with different settings option, specify the target AWS Region where the restored table will reside.
 
@@ -29,6 +29,4 @@ Veeam Backup for AWS does not support restoring of provisioned throughput capaci
 
 [![Restoring DynamoDB Tables](images/restore_mode_dynamodb.webp)](images/restore_mode_dynamodb.webp "Restoring DynamoDB Tables")
 
-Page updated 10/2/2025
 
-Page content applies to build 10.0.0.232

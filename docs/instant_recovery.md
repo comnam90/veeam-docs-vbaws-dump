@@ -1,5 +1,5 @@
 ---
-title: "instant_recovery"
+title: "Instant Recovery"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/instant_recovery.html"
@@ -7,8 +7,8 @@ last_updated: "8/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Instant Recovery
 
-In this article
 
 Veeam Backup & Replication allows you to use the Instant Recovery feature to restore EC2 instances from image-level backups to VMware vSphere and Microsoft Hyper-V environments, and to Nutanix AHV clusters. For more information, see the [Veeam Backup & Replication User Guide](https://helpcenter.veeam.com/docs/vbr/userguide/instant_recovery.html?ver=13) and [Veeam Backup for Nutanix AHV User Guide](https://helpcenter.veeam.com/docs/vbahv/userguide/instant_recovery_ahv.html?ver=8), section Instant Recovery.
 
@@ -30,6 +30,4 @@ To perform Instant Recovery, do the following:
 
 [![Instant Recovery to VMware vSphere, vSphere or to Nutanix AHV](images/instant_recovery.webp)](images/instant_recovery.webp "Instant Recovery to VMware vSphere, vSphere or to Nutanix AHV")
 
-Page updated 8/8/2025
 
-Page content applies to build 10.0.0.232

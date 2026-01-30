@@ -1,5 +1,5 @@
 ---
-title: "backups_view_redshift_serverless"
+title: "Redshift Serverless Data"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backups_view_redshift_serverless.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Redshift Serverless Data
 
-In this article
 
 After a backup policy successfully creates a restore point of a Redshift Serverless namespace according to the specified schedule, or after you create a backup of a Redshift Serverless namespace manually, Veeam Backup for AWS adds the namespace to the resource list on the Protected Data page.
 
@@ -36,6 +36,4 @@ On the Protected Data page, you can also perform the following actions:
 
 [![Managing Backed-Up Redshift Serverless Data](images/redshift_serverless_backedup_data.webp)](images/redshift_serverless_backedup_data.webp "Managing Backed-Up Redshift Serverless Data")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

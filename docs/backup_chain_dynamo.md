@@ -1,5 +1,5 @@
 ---
-title: "backup_chain_dynamo"
+title: "Backup Chain"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_chain_dynamo.html"
@@ -7,8 +7,8 @@ last_updated: "8/6/2024"
 product_version: "10.0.0.232"
 ---
 
+# Backup Chain
 
-In this article
 
 During every backup session, Veeam Backup for AWS creates a new cloud-native backup for each DynamoDB table added to the backup policy. To create the backup, Veeam Backup for AWS uses the [AWS Backup service](https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html). A sequence of cloud-native backups created during a set of backup sessions makes up a backup chain.
 
@@ -29,6 +29,4 @@ If you enable backup copying for a backup policy, Veeam Backup for AWS will make
 
 Veeam Backup for AWS creates and maintains a DynamoDB backup copy chain in the same way as a regular DynamoDB backup chain — during every backup copy session Veeam Backup for AWS creates a full backup in the backup copy chain.
 
-Page updated 8/6/2024
 
-Page content applies to build 10.0.0.232

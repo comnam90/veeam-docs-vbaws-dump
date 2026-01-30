@@ -1,5 +1,5 @@
 ---
-title: "accounts_iam_roles"
+title: "Managing IAM Roles"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/accounts_iam_roles.html"
@@ -7,8 +7,8 @@ last_updated: "8/12/2025"
 product_version: "10.0.0.232"
 ---
 
+# Managing IAM Roles
 
-In this article
 
 |  |
 | --- |
@@ -33,6 +33,4 @@ In This Section
 * [Checking IAM Role Permissions](iam_roles_check.md)
 * [Removing IAM Roles](iam_roles_remove.md)
 
-Page updated 8/12/2025
 
-Page content applies to build 10.0.0.232

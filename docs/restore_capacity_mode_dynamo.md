@@ -1,5 +1,5 @@
 ---
-title: "restore_capacity_mode_dynamo"
+title: "Step 7. Choose Capacity Mode"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_capacity_mode_dynamo.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 7. Choose Capacity Mode
 
-In this article
 
 [Applies only if you have selected the Restore to new location, or with different settings option at the Restore Mode step of the wizard]
 
@@ -23,6 +23,4 @@ If you have selected the Provisioned capacity mode option, specify the value of 
 
 [![Restoring DynamoDB Tables](images/restore_capacity_mode_dynamodb.webp)](images/restore_capacity_mode_dynamodb.webp "Restoring DynamoDB Tables")
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

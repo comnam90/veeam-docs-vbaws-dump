@@ -1,5 +1,5 @@
 ---
-title: "restore_vpc_console"
+title: "Performing VPC Configuration Restore Using Console"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_vpc_console.html"
@@ -7,8 +7,8 @@ last_updated: "10/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Performing VPC Configuration Restore Using Console
 
-In this article
 
 You can recover corrupted Amazon VPC configurations in the Veeam Backup for AWS UI only. However, you can launch the VPC Restore wizard directly from the Veeam Backup & Replication console to start the restore operation:
 
@@ -27,6 +27,4 @@ Veeam Backup & Replication will open the VPC Restore wizard in a web browser. Co
 
 [![Restore VPC configuration](images/restore_vpc.webp)](images/restore_vpc.webp "Restore VPC configuration")
 
-Page updated 10/8/2025
 
-Page content applies to build 10.0.0.232

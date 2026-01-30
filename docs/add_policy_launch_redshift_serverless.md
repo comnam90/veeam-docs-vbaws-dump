@@ -1,5 +1,5 @@
 ---
-title: "add_policy_launch_redshift_serverless"
+title: "Step 1. Launch Add Redshift Serverless Policy Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_launch_redshift_serverless.html"
@@ -7,8 +7,8 @@ last_updated: "1/13/2026"
 product_version: "10.0.0.232"
 ---
 
+# Step 1. Launch Add Redshift Serverless Policy Wizard
 
-In this article
 
 To launch the Add Redshift Serverless Policy wizard, do the following:
 
@@ -17,6 +17,4 @@ To launch the Add Redshift Serverless Policy wizard, do the following:
 
 [![Creating Redshift Backup Policy](images/redshift_backup_launch.webp)](images/redshift_backup_launch.webp "Creating Redshift Backup Policy")
 
-Page updated 1/13/2026
 
-Page content applies to build 10.0.0.232

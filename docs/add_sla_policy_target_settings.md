@@ -1,5 +1,5 @@
 ---
-title: "add_sla_policy_target_settings"
+title: "Step 6. Specify Protection Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_sla_policy_target_settings.html"
@@ -7,8 +7,8 @@ last_updated: "1/8/2026"
 product_version: "10.0.0.232"
 ---
 
+# Step 6. Specify Protection Settings
 
-In this article
 
 At the Protection Settings step of the wizard, select an SLA and a storage template that will be assigned to the policy:
 
@@ -32,6 +32,4 @@ For a storage template to be displayed in the list, it must be added to Veeam Ba
 
 [![Creating SLA-Based EC2 Policy](images/add_sla_policy_templates.webp)](images/add_sla_policy_templates.webp "Creating SLA-Based EC2 Policy")
 
-Page updated 1/8/2026
 
-Page content applies to build 10.0.0.232

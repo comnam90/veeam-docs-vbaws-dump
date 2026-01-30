@@ -1,5 +1,5 @@
 ---
-title: "edit_appliance"
+title: "Editing Appliance Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/edit_appliance.html"
@@ -7,8 +7,8 @@ last_updated: "11/7/2025"
 product_version: "10.0.0.232"
 ---
 
+# Editing Appliance Settings
 
-In this article
 
 For each backup appliance managed by the backup server, you can modify the settings configured while adding the appliance to the backup infrastructure:
 
@@ -37,6 +37,4 @@ Alternatively, you can right-click the appliance and select Properties.
 
 [![Edit appliance](images/edit_aws_server.webp)](images/edit_aws_server.webp "Edit appliance")
 
-Page updated 11/7/2025
 
-Page content applies to build 10.0.0.232

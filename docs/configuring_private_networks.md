@@ -1,5 +1,5 @@
 ---
-title: "configuring_private_networks"
+title: "Configuring Private Networks"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/configuring_private_networks.html"
@@ -7,8 +7,8 @@ last_updated: "11/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Private Networks
 
-In this article
 
 If you want worker instances to operate in a private environment — that is, to allow Veeam Backup for AWS to deploy worker instances with disabled auto-assignment of Public IPv4 addresses — you must configure specific endpoints for services used by the backup appliance to perform backup and restore operations:
 
@@ -47,6 +47,4 @@ To configure private networks, use either of the following options:
 | Note |
 | Following the provided instructions is not the only way to configure connectivity between your VPCs. Keep in mind that there exists a number of other possible workarounds. |
 
-Page updated 11/26/2025
 
-Page content applies to build 10.0.0.232

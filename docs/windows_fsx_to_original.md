@@ -1,5 +1,5 @@
 ---
-title: "windows_fsx_to_original"
+title: "Restoring to Original Location"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/windows_fsx_to_original.html"
@@ -7,8 +7,8 @@ last_updated: "11/19/2025"
 product_version: "10.0.0.232"
 ---
 
+# Restoring to Original Location
 
-In this article
 
 [This step applies only if you have selected the Restore to original location option at the Restore Mode step of the wizard, and if the selected file system is an Amazon FSx for Windows File Server file system joined to a self-managed Microsoft Active Directory (AD)]
 
@@ -23,6 +23,4 @@ For more information on Microsoft Active Directory in FSx for Windows File Serve
 
 [![Restoring FSx File Systems](images/restore_general_settings_ad_fsx.webp)](images/restore_general_settings_ad_fsx.webp "Restoring FSx File Systems")
 
-Page updated 11/19/2025
 
-Page content applies to build 10.0.0.232

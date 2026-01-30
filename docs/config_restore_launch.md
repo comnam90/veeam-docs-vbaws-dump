@@ -1,5 +1,5 @@
 ---
-title: "config_restore_launch"
+title: "Step 1. Launch Configuration Restore Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/config_restore_launch.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 1. Launch Configuration Restore Wizard
 
-In this article
 
 To launch the Configuration Restore wizard, do the following:
 
@@ -18,6 +18,4 @@ To launch the Configuration Restore wizard, do the following:
 
 [![Restoring Configuration Data](images/config_backup_restore.webp)](images/config_backup_restore.webp "Restoring Configuration Data")
 
-Page updated 8/20/2025
 
-Page content applies to build 10.0.0.232

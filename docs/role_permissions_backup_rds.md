@@ -1,5 +1,5 @@
 ---
-title: "role_permissions_backup_rds"
+title: "RDS Backup IAM Role Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/role_permissions_backup_rds.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# RDS Backup IAM Role Permissions
 
-In this article
 
 Veeam Backup for AWS uses RDS Backup IAM roles to perform the following operations:
 
@@ -42,6 +42,4 @@ Permissions Required to Create RDS Image-Level Backups
 | --- |
 | {     "Version": "2012-10-17",     "Statement": [         {             "Effect": "Allow",             "Action": [                 "ec2:AuthorizeSecurityGroupEgress",                 "ec2:AuthorizeSecurityGroupIngress",                 "ec2:TerminateInstances",                 "ec2:StartInstances",                 "ec2:RunInstances",                 "ec2:CreateKeyPair",                 "ec2:CreateSecurityGroup",                 "ec2:CreateTags",                 "ec2:DeleteKeyPair",                 "ec2:DeleteSecurityGroup",                 "ec2:DescribeAccountAttributes",                 "ec2:DescribeImages",                 "ec2:DescribeInstances",                 "ec2:DescribeInstanceAttribute",                 "ec2:DescribeInternetGateways",                 "ec2:DescribeKeyPairs",                 "ec2:DescribeRouteTables",                 "ec2:DescribeSecurityGroups",                 "ec2:DescribeSubnets",                 "ec2:DescribeVpcEndpoints",                 "ec2:ModifyInstanceAttribute",                 "ec2:RevokeSecurityGroupEgress",                 "ec2:RevokeSecurityGroupIngress",                 "iam:GetInstanceProfile",                 "iam:GetRole",                 "iam:ListInstanceProfilesForRole",                 "iam:PassRole",                 "rds:DescribeOptionGroups",                 "rds:ModifyDBInstance",                 "s3:CreateBucket",                 "s3:DeleteBucket",                 "s3:DeleteObject",                 "s3:GetObject",                 "s3:ListAllMyBuckets",                 "s3:ListBucket",                 "s3:PutBucketPolicy",                 "servicequotas:listServiceQuotas",                 "ssm:GetCommandInvocation",                 "ssm:GetParameter",                 "ssm:SendCommand",                 "sqs:SendMessage"             ],             "Resource": "\*"         }     ]  } |
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

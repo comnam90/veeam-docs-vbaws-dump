@@ -1,5 +1,5 @@
 ---
-title: "role_permissions_prod_acc"
+title: "Worker Deployment Role Permissions in Production Accounts"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/role_permissions_prod_acc.html"
@@ -7,8 +7,8 @@ last_updated: "10/23/2025"
 product_version: "10.0.0.232"
 ---
 
+# Worker Deployment Role Permissions in Production Accounts
 
-In this article
 
 |  |
 | --- |
@@ -55,6 +55,4 @@ Related Topics
 * [Worker Deployment Options](worker_options.md)
 * [Worker Configuration IAM Role](role_permissions_service_prod_acc.md)
 
-Page updated 10/23/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "overview_fsx"
+title: "Protecting FSx File Systems"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/overview_fsx.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "10.0.0.232"
 ---
 
+# Protecting FSx File Systems
 
-In this article
 
 With Veeam Backup for AWS, you can perform the following operations to protect FSx file systems:
 
@@ -90,6 +90,4 @@ Related Topics
 
 [FSx Restore](restore_hiw_fsx.md)
 
-Page updated 12/9/2025
 
-Page content applies to build 10.0.0.232

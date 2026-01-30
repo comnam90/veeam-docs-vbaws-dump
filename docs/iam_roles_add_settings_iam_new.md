@@ -1,5 +1,5 @@
 ---
-title: "iam_roles_add_settings_iam_new"
+title: "Specifying Settings for New IAM Role"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/iam_roles_add_settings_iam_new.html"
@@ -7,8 +7,8 @@ last_updated: "10/14/2025"
 product_version: "10.0.0.232"
 ---
 
+# Specifying Settings for New IAM Role
 
-In this article
 
 [This step applies only if you have selected the Create new IAM role option]
 
@@ -46,6 +46,4 @@ The IAM user must have the following permissions:
 
 [![New IAM Role](images/iam_roles_add_new.webp)](images/iam_roles_add_new.webp "New IAM Role")
 
-Page updated 10/14/2025
 
-Page content applies to build 10.0.0.232

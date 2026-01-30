@@ -1,5 +1,5 @@
 ---
-title: "restore_entire_type_efs"
+title: "Step 6. Configure General Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_type_efs.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 6. Configure General Settings
 
-In this article
 
 [This step applies only if you have selected the Restore to new location, or with different settings option at the Restore Mode step of the wizard]
 
@@ -34,6 +34,4 @@ To specify configuration settings, do the following:
 
 [![Restoring EFS File Systems](images/restore_entire_general_settings_efs.webp)](images/restore_entire_general_settings_efs.webp "Restoring EFS File Systems")
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

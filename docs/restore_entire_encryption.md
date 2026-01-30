@@ -1,5 +1,5 @@
 ---
-title: "restore_entire_encryption"
+title: "Step 6. Enable Encryption"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_encryption.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 6. Enable Encryption
 
-In this article
 
 [This step applies only if you have selected the Restore to new location, or with different settings option at the Restore Mode step of the wizard]
 
@@ -26,6 +26,4 @@ For a KMS key to be displayed in the list of available encryption keys, it must 
 
 [![Restoring Entire EC2 Instance](images/restore_entire_encryption.webp)](images/restore_entire_encryption.webp "Restoring Entire EC2 Instance")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

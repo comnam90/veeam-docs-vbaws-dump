@@ -1,5 +1,5 @@
 ---
-title: "system_requirements_aws_services"
+title: "AWS Services"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/system_requirements_aws_services.html"
@@ -7,8 +7,8 @@ last_updated: "11/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# AWS Services
 
-In this article
 
 To perform backup and restore operations, the [AWS Plug-In for Veeam Backup & Replication](aws_plugin.md), [backup appliance](backup_appliances.md) and [worker instances](worker_instances.md) must have outbound internet access to the following AWS services.
 
@@ -79,6 +79,4 @@ AWS Services Required For Worker Instances
 
 [![Backup Infrastructure](images/solution_architecture.webp)](images/solution_architecture.webp "Backup Infrastructure")
 
-Page updated 11/26/2025
 
-Page content applies to build 10.0.0.232

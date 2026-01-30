@@ -1,5 +1,5 @@
 ---
-title: "create_vpn_connection"
+title: "Step 5. Create VPN Connection"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/create_vpn_connection.html"
@@ -7,8 +7,8 @@ last_updated: "10/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Create VPN Connection
 
-In this article
 
 To enable access to your on-premises network, create a VPN connection between the created virtual private gateway and the customer gateway:
 
@@ -29,6 +29,4 @@ To enable access to your on-premises network, create a VPN connection between th
 | Tip |
 | When you create a VPN connection, AWS generates a sample configuration file that can be further used to configure a customer gateway device. To download the file, do the following:   1. In the Amazon VPC console, navigate to Virtual Private Network > Site-to-Site VPN Connections. 2. From the VPN connections drop-down list, select the created connection and click Download configuration.  1. In the Download configuration window, select the vendor, class and operating system of the customer gateway device, and the IKE version that is used for the VPN connection. Then, click Download.   To learn how to configure a customer gateway device, see [AWS Documentation](https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html). |
 
-Page updated 10/10/2025
 
-Page content applies to build 10.0.0.232

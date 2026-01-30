@@ -1,5 +1,5 @@
 ---
-title: "restore_rds_database_workers"
+title: "Step 3. Specify Account Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_rds_database_workers.html"
@@ -7,8 +7,8 @@ last_updated: "7/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Specify Account Settings
 
-In this article
 
 At the Account step of the wizard, choose whether you want to use an IAM role of a standalone AWS account or an AWS account of an AWS Organization to allow Veeam Backup & Replication to perform the restore operation. For information on the permissions that the IAM role must have to perform the restore operation, see [RDS Database Restore IAM Permissions](role_permissions_restore_db.md).
 
@@ -47,6 +47,4 @@ For an AWS account to be displayed in the list of available accounts, it must be
 
 [![Restoring RDS Databases](images/database_restore_account.webp)](images/database_restore_account.webp "Restoring RDS Databases")
 
-Page updated 7/21/2025
 
-Page content applies to build 10.0.0.232

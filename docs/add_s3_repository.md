@@ -1,5 +1,5 @@
 ---
-title: "add_s3_repository"
+title: "Creating New Repositories"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_s3_repository.html"
@@ -7,8 +7,8 @@ last_updated: "6/26/2024"
 product_version: "10.0.0.232"
 ---
 
+# Creating New Repositories
 
-In this article
 
 To add a new repository, do the following:
 
@@ -22,6 +22,4 @@ To add a new repository, do the following:
 8. [Wait for the repository to be added to the backup infrastructure](add_s3_apply.md).
 9. [Finish working with the wizard](add_s3_finish.md).
 
-Page updated 6/26/2024
 
-Page content applies to build 10.0.0.232

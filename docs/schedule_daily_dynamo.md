@@ -1,5 +1,5 @@
 ---
-title: "schedule_daily_dynamo"
+title: "Specifying Daily Schedule"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/schedule_daily_dynamo.html"
@@ -7,8 +7,8 @@ last_updated: "10/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Specifying Daily Schedule
 
-In this article
 
 To create a daily schedule for the backup policy, at the Schedule step of the wizard, do the following:
 
@@ -36,6 +36,4 @@ If a restore point is older than the specified time limit, Veeam Backup for AWS 
 
 [![Creating DynamoDB Backup Policy](images/schedule_daily_dynamodb.webp)](images/schedule_daily_dynamodb.webp "Creating DynamoDB Backup Policy")
 
-Page updated 10/8/2025
 
-Page content applies to build 10.0.0.232

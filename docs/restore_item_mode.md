@@ -1,5 +1,5 @@
 ---
-title: "restore_item_mode"
+title: "Step 3. Specify Restore Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_item_mode.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Specify Restore Settings
 
-In this article
 
 At the Restore Settings step of the wizard, choose whether you want to restore files and folders to the original location, and to deploy worker instances in the production account.
 
@@ -52,6 +52,4 @@ In both cases, you will have to assign additional permissions to the IAM role th
 
 [![Restoring EC2 Files and Folders](images/flr_restore_mode.webp)](images/flr_restore_mode.webp "Restoring EC2 Files and Folders")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

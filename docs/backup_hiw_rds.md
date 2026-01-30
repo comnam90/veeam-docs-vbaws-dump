@@ -1,5 +1,5 @@
 ---
-title: "backup_hiw_rds"
+title: "RDS Backup"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_hiw_rds.html"
@@ -7,8 +7,8 @@ last_updated: "11/28/2025"
 product_version: "10.0.0.232"
 ---
 
+# RDS Backup
 
-In this article
 
 Veeam Backup for AWS performs RDS backup in the following way:
 
@@ -42,6 +42,4 @@ Related Topics
 * [Snapshot Chain](snapshot_chain_rds.md)
 * [Backup Chain](backup_chain_rds.md)
 
-Page updated 11/28/2025
 
-Page content applies to build 10.0.0.232

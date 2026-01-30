@@ -1,5 +1,5 @@
 ---
-title: "backup_appliances"
+title: "Backup Appliances"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_appliances.html"
@@ -7,8 +7,8 @@ last_updated: "8/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Backup Appliances
 
-In this article
 
 A backup appliance is a Linux-based EC2 instance where Veeam Backup for AWS is installed.
 
@@ -51,6 +51,4 @@ The backup appliance uses the following components:
 * Self Backup service — allows Veeam Backup for AWS to back up and restore the configuration database of the backup appliance.
 * REST API service — allows users to perform operations with Veeam Backup for AWS entities using HTTP requests and standard HTTP methods. For more information, see the [Veeam Backup for AWS REST API Reference](https://helpcenter.veeam.com/references/vbaws/9/rest/1.7-rev0/tag/SectionOverview).
 
-Page updated 8/8/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "sla_edit"
+title: "Editing SLA Templates"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/sla_edit.html"
@@ -7,8 +7,8 @@ last_updated: "11/28/2025"
 product_version: "10.0.0.232"
 ---
 
+# Editing SLA Templates
 
-In this article
 
 For each SLA template, you can modify settings configured while creating the template:
 
@@ -31,6 +31,4 @@ Note that when you modify snapshot or backup settings for an SLA template or ass
 
 [![Editing SLA Template](images/sla_edit.webp)](images/sla_edit.webp "Editing SLA Template")
 
-Page updated 11/28/2025
 
-Page content applies to build 10.0.0.232

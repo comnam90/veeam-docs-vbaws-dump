@@ -1,5 +1,5 @@
 ---
-title: "restore_hiw_efs"
+title: "EFS Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_hiw_efs.html"
@@ -7,8 +7,8 @@ last_updated: "10/10/2024"
 product_version: "10.0.0.232"
 ---
 
+# EFS Restore
 
-In this article
 
 Veeam Backup for AWS offers the following restore options:
 
@@ -47,6 +47,4 @@ The file-level recovery browser displays the file system tree of the backed-up E
 
 To learn how to restore individual files and folders stored in a file system from an EFS backup or backup copy, see [EFS Restore](efs_restore.md).
 
-Page updated 10/10/2024
 
-Page content applies to build 10.0.0.232

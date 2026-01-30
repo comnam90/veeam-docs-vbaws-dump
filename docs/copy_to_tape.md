@@ -1,5 +1,5 @@
 ---
-title: "copy_to_tape"
+title: "Copying Backups to Tapes"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/copy_to_tape.html"
@@ -7,8 +7,8 @@ last_updated: "8/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Copying Backups to Tapes
 
-In this article
 
 Veeam Backup & Replication allows you to automate copying of image-level backups of EC2 instances to tape devices and lets you specify scheduling, archiving and media automation options. For more information on supported tape libraries, see the Veeam Backup & Replication User Guide, section [Tape Devices Support](https://helpcenter.veeam.com/docs/vbr/userguide/tape_device_support.html?ver=13).
 
@@ -22,6 +22,4 @@ To copy EC2 instance backups to tapes, create a backup to tape job as described 
 
 [![Copy backups to tape](images/backup_to_tape.webp)](images/backup_to_tape.webp "Copy backups to tape")
 
-Page updated 8/8/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "restore_hiw_fsx"
+title: "FSx Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_hiw_fsx.html"
@@ -7,8 +7,8 @@ last_updated: "4/24/2024"
 product_version: "10.0.0.232"
 ---
 
+# FSx Restore
 
-In this article
 
 |  |
 | --- |
@@ -23,6 +23,4 @@ To restore an FSx file system from a backup, Veeam Backup for AWS performs the f
 
 To learn how to restore an Amazon FSx file system from an FSx backup or a backup copy, see [FSx Restore](fsx_restore.md).
 
-Page updated 4/24/2024
 
-Page content applies to build 10.0.0.232

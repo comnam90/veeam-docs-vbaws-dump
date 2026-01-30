@@ -1,5 +1,5 @@
 ---
-title: "role_permissions_restore"
+title: "Restore IAM Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/role_permissions_restore.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Restore IAM Permissions
 
-In this article
 
 To allow Veeam Backup for AWS to perform restore of AWS resources, IAM roles and IAM users whose one-time access keys are specified for restore operations must have specific permissions that depend on the type of AWS resources being restored:
 
@@ -22,6 +22,4 @@ To allow Veeam Backup for AWS to perform restore of AWS resources, IAM roles and
 * [FSx Restore IAM Permissions](role_permissions_restore_fsx.md)
 * [VPC Configuration Restore IAM Permissions](role_permissions_restore_vpc.md)
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

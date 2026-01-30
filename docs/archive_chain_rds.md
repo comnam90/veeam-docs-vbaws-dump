@@ -1,5 +1,5 @@
 ---
-title: "archive_chain_rds"
+title: "Archive Backup Chain"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/archive_chain_rds.html"
@@ -7,8 +7,8 @@ last_updated: "12/5/2025"
 product_version: "10.0.0.232"
 ---
 
+# Archive Backup Chain
 
-In this article
 
 |  |
 | --- |
@@ -37,6 +37,4 @@ Related Topics
 
 [Enabling Backup Archiving](backup_archiving_rds.md)
 
-Page updated 12/5/2025
 
-Page content applies to build 10.0.0.232

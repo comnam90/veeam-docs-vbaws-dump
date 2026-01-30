@@ -1,5 +1,5 @@
 ---
-title: "sla_add_launch"
+title: "Step 1. Launch Add SLA Template Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/sla_add_launch.html"
@@ -7,8 +7,8 @@ last_updated: "7/28/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 1. Launch Add SLA Template Wizard
 
-In this article
 
 To launch the Add SLA Template wizard, do the following:
 
@@ -20,6 +20,4 @@ To launch the Add SLA Template wizard, do the following:
 
 [![Adding SLA Template](images/sla_add_launch.webp)](images/sla_add_launch.webp "Adding SLA Template")
 
-Page updated 7/28/2025
 
-Page content applies to build 10.0.0.232

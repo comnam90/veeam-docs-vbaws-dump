@@ -1,5 +1,5 @@
 ---
-title: "add_policy_target_settings_replica"
+title: "Configuring Snapshot Replica Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_target_settings_replica.html"
@@ -7,8 +7,8 @@ last_updated: "9/22/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Snapshot Replica Settings
 
-In this article
 
 If you want to replicate cloud-native snapshots to other AWS accounts or regions, do the following:
 
@@ -42,6 +42,4 @@ Related Resources
 
 [AWS Key Management Service concepts](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html)
 
-Page updated 9/22/2025
 
-Page content applies to build 10.0.0.232

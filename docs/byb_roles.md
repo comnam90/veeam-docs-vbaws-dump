@@ -1,5 +1,5 @@
 ---
-title: "byb_roles"
+title: "Before You Begin"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/byb_roles.html"
@@ -7,8 +7,8 @@ last_updated: "4/30/2025"
 product_version: "10.0.0.232"
 ---
 
+# Before You Begin
 
-In this article
 
 When you deploy a backup appliance, Veeam Backup for AWS automatically creates a specific IAM role named Impersonation role — and attaches this role to the backup appliance. The Impersonation IAM role is then used to assume other IAM roles added to Veeam Backup for AWS to perform operations in your infrastructure, and is automatically assigned the sts:AssumeRole permission required to assume these roles.
 
@@ -57,6 +57,4 @@ Where <Role ARN> is the ARN either of the Impersonation IAM role that you have c
 
 1. Click Update policy. Note that it may take up to 5 minutes for AWS to update the trust policy.
 
-Page updated 4/30/2025
 
-Page content applies to build 10.0.0.232

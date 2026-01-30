@@ -1,5 +1,5 @@
 ---
-title: "config_restore_console"
+title: "Restoring Configuration Data Using Console"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/config_restore_console.html"
@@ -7,8 +7,8 @@ last_updated: "4/30/2025"
 product_version: "10.0.0.232"
 ---
 
+# Restoring Configuration Data Using Console
 
-In this article
 
 To restore the configuration database of a backup appliance using the Veeam Backup & Replication console, do the following:
 
@@ -27,6 +27,4 @@ To restore the configuration database of a backup appliance using the Veeam Back
 8. [Wait for the restore process to complete](restore_config_restore.md).
 9. [Finish working with the wizard](restore_config_summary.md).
 
-Page updated 4/30/2025
 
-Page content applies to build 10.0.0.232

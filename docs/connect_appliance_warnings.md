@@ -1,5 +1,5 @@
 ---
-title: "connect_appliance_warnings"
+title: "Eliminating Warnings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/connect_appliance_warnings.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Eliminating Warnings
 
-In this article
 
 If Veeam Backup & Replication encounters an issue while verifying the connection to the specified backup appliance, you may get one of the following warnings.
 
@@ -59,6 +59,4 @@ If the certificate installed on the backup appliance is not trusted, Veeam Backu
 
 ![Eliminating Warnings](images/eliminating_warnings.webp "Add appliance - Eliminating warnings")
 
-Page updated 9/2/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "add_policy_cost_rds"
+title: "Step 10. Review Estimated Cost"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_cost_rds.html"
@@ -7,8 +7,8 @@ last_updated: "12/5/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 10. Review Estimated Cost
 
-In this article
 
 [This step applies only if you have created a schedule for the backup policy at the Schedule step of the wizard]
 
@@ -44,6 +44,4 @@ Related Resources
 
 [How AWS Pricing Works](https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/welcome.html)
 
-Page updated 12/5/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "restore_entire_ami"
+title: "Restoring to Original Location"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_ami.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Restoring to Original Location
 
-In this article
 
 [This step applies only if you have selected the Restore to original option at the Restore Mode step of the wizard, and if the original Amazon machine image (AMI) that was used to launch the source instance has not been found]
 
@@ -23,6 +23,4 @@ By default, Veeam Backup for AWS automatically chooses an AMI whose configuratio
 
 [![Restoring Entire EC2 Instance](images/restore_entire_ami.webp)](images/restore_entire_ami.webp "Restoring Entire EC2 Instance")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

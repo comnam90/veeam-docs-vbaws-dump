@@ -1,5 +1,5 @@
 ---
-title: "updates_check"
+title: "Checking for Updates"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/updates_check.html"
@@ -7,8 +7,8 @@ last_updated: "11/6/2025"
 product_version: "10.0.0.232"
 ---
 
+# Checking for Updates
 
-In this article
 
 Veeam Backup for AWS automatically notifies you about newly released product versions, product updates, and software package updates available for the operating system running on the backup appliance. To learn which outbound internet access is required for the backup appliance to download information on available updates, see [Ports](ports.md#appliance).
 
@@ -29,6 +29,4 @@ Related Topics
 * [Installing Updates](updates_install.md)
 * [Viewing Updates History](updates_history.md)
 
-Page updated 11/6/2025
 
-Page content applies to build 10.0.0.232

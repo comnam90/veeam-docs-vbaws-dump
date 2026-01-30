@@ -1,5 +1,5 @@
 ---
-title: "add_policy_processing_settings_rds"
+title: "Step 6. Specify Processing Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_processing_settings_rds.html"
@@ -7,8 +7,8 @@ last_updated: "7/30/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 6. Specify Processing Settings
 
-In this article
 
 [This step applies only if you have enabled image-level backups at the Targets step of the wizard]
 
@@ -23,6 +23,4 @@ By default, the selected account will be used to access all databases of the DB 
 
 [![Creating RDS Backup Policy](images/rds_backup_credentials.webp)](images/rds_backup_credentials.webp "Creating RDS Backup Policy")
 
-Page updated 7/30/2025
 
-Page content applies to build 10.0.0.232

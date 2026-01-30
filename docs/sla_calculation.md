@@ -1,5 +1,5 @@
 ---
-title: "sla_calculation"
+title: "How Veeam Backup for AWS Estimates SLA Compliance"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/sla_calculation.html"
@@ -7,8 +7,8 @@ last_updated: "12/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# How Veeam Backup for AWS Estimates SLA Compliance
 
-In this article
 
 To estimate SLA compliance for an SLA-based backup policy, Veeam Backup for AWS performs the following steps:
 
@@ -41,6 +41,4 @@ For example, if an SLA-based backup policy configured to produce daily snapshots
 
 To learn how to edit SLA template settings, see [Managing SLA Templates](sla_edit.md).
 
-Page updated 12/1/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "restore_hiw_ec2"
+title: "EC2 Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_hiw_ec2.html"
@@ -7,8 +7,8 @@ last_updated: "4/16/2025"
 product_version: "10.0.0.232"
 ---
 
+# EC2 Restore
 
-In this article
 
 Veeam Backup for AWS offers the following restore options:
 
@@ -18,6 +18,4 @@ Veeam Backup for AWS offers the following restore options:
 
 You can restore EC2 instance data to the most recent state or to any available restore point.
 
-Page updated 4/16/2025
 
-Page content applies to build 10.0.0.232

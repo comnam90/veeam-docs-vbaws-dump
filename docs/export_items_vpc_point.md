@@ -1,5 +1,5 @@
 ---
-title: "export_items_vpc_point"
+title: "Step 2. Select Restore Point"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/export_items_vpc_point.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 2. Select Restore Point
 
-In this article
 
 At the Export List step of the wizard, select the VPC configuration items you want to export and a restore point that will be used to export the selected VPC configuration items. By default, Veeam Backup for AWS uses the most recent valid restore point. However, you can export the VPC configuration data to an earlier state.
 
@@ -31,6 +31,4 @@ At the Export List step of the wizard, select the VPC configuration items you wa
 
 [![Exporting VPC Configuration Items](images/vpc_export_items_point.webp)](images/vpc_export_items_point.webp "Exporting VPC Configuration Items")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

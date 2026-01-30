@@ -1,5 +1,5 @@
 ---
-title: "role_permissions_repo"
+title: "Repository IAM Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/role_permissions_repo.html"
@@ -7,8 +7,8 @@ last_updated: "11/12/2024"
 product_version: "10.0.0.232"
 ---
 
+# Repository IAM Permissions
 
-In this article
 
 To allow Veeam Backup for AWS to create backup repositories in Amazon S3 buckets and to access the repository when performing backup and restore operations, IAM roles specified in the [repository settings](repository_add_folder.md) must meet the following requirements:
 
@@ -36,6 +36,4 @@ To learn how to modify role trust policies, see [AWS Documentation](https://docs
 
 To learn how to create IAM roles and assign them the required permissions, see [Appendix A. Creating IAM Roles in AWS](create_iam_policy_role.md).
 
-Page updated 11/12/2024
 
-Page content applies to build 10.0.0.232

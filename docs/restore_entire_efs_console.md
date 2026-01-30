@@ -1,5 +1,5 @@
 ---
-title: "restore_entire_efs_console"
+title: "Performing Entire File System Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_efs_console.html"
@@ -7,8 +7,8 @@ last_updated: "10/6/2025"
 product_version: "10.0.0.232"
 ---
 
+# Performing Entire File System Restore
 
-In this article
 
 You can recover corrupted EFS file systems in the Veeam Backup for AWS Web UI. However, you can launch the EFS Restore wizard directly from the Veeam Backup & Replication console. To do that, do the following:
 
@@ -22,6 +22,4 @@ Veeam Backup & Replication will open the EFS Restore wizard in a web browser. Co
 
 [![Restore to Amazon EFS](images/restore_efs.webp)](images/restore_efs.webp "Restore to Amazon EFS")
 
-Page updated 10/6/2025
 
-Page content applies to build 10.0.0.232

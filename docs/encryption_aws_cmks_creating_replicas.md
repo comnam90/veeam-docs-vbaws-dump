@@ -1,5 +1,5 @@
 ---
-title: "encryption_aws_cmks_creating_replicas"
+title: "Creating Snapshot Replicas"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/encryption_aws_cmks_creating_replicas.html"
@@ -7,8 +7,8 @@ last_updated: "5/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Creating Snapshot Replicas
 
-In this article
 
 The process of creating a snapshot replica of an encrypted RDS instance and an EC2 instance with encrypted EBS volumes differs depending on whether you create snapshot replicas within the same AWS account to which the instance belongs or not:
 
@@ -98,6 +98,4 @@ To copy the shared encrypted snapshot, Veeam Backup for AWS uses an IAM role spe
 
 [![Creating Snapshor Replicas](images/cmk_replicas_different.webp)](images/cmk_replicas_different.webp "Creating Snapshor Replicas")
 
-Page updated 5/21/2025
 
-Page content applies to build 10.0.0.232

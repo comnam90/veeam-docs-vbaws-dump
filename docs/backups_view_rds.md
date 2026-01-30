@@ -1,5 +1,5 @@
 ---
-title: "backups_view_rds"
+title: "RDS Data"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backups_view_rds.html"
@@ -7,8 +7,8 @@ last_updated: "12/11/2025"
 product_version: "10.0.0.232"
 ---
 
+# RDS Data
 
-In this article
 
 After a backup policy successfully creates a restore point of an RDS resource according to the specified schedule, or after you create a snapshot of an RDS resource manually, Veeam Backup for AWS adds the resource to the resource list on the Protected Data page.
 
@@ -43,6 +43,4 @@ On the Protected Data page, you can also perform the following actions:
 
 [![Managing Backed-Up RDS Data](images/rds_backedup_data.webp)](images/rds_backedup_data.webp "Managing Backed-Up RDS Data")
 
-Page updated 12/11/2025
 
-Page content applies to build 10.0.0.232

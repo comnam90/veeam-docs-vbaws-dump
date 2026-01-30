@@ -1,5 +1,5 @@
 ---
-title: "create_vpc_peering_connection_prod"
+title: "Step 2. Create VPC Peering Connection"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/create_vpc_peering_connection_prod.html"
@@ -7,8 +7,8 @@ last_updated: "10/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 2. Create VPC Peering Connection
 
-In this article
 
 If you have created interface endpoints and S3 interface endpoints in subnets of two different VPCs, you must create a peering connection between the accepter and requester VPC to enable route traffic between those VPCs using private IP addresses.
 
@@ -28,6 +28,4 @@ To create a VPC peering connection, do the following:
 
 1. To enable route traffic between the requester and accepter VPC, select the created peering connection in the Peering connections list and click Actions > Accept request.
 
-Page updated 10/10/2025
 
-Page content applies to build 10.0.0.232

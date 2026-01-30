@@ -1,5 +1,5 @@
 ---
-title: "accounts_vba_users"
+title: "Managing User Accounts"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/accounts_vba_users.html"
@@ -7,8 +7,8 @@ last_updated: "10/24/2025"
 product_version: "10.0.0.232"
 ---
 
+# Managing User Accounts
 
-In this article
 
 Veeam Backup for AWS controls access to its functionality with the help of user roles. A role defines what operations users can perform and what range of data is available to them in Veeam Backup for AWS.
 
@@ -52,6 +52,4 @@ In This Section
 * [Changing User Passwords](accounts_vba_users_password.md)
 * [Enabling Multi-Factor Authentication](accounts_vba_users_mfa.md)
 
-Page updated 10/24/2025
 
-Page content applies to build 10.0.0.232

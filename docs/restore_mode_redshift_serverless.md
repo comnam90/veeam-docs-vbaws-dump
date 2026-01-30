@@ -1,5 +1,5 @@
 ---
-title: "restore_mode_redshift_serverless"
+title: "Step 4. Choose Restore Mode"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_mode_redshift_serverless.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Choose Restore Mode
 
-In this article
 
 At the Restore Mode step of the wizard, choose either of the following options:
 
@@ -19,6 +19,4 @@ If you select the Restore to new namespace option, you will need to perform addi
 
 [![Restoring Redshift Serverless](images/restore_mode_redshift_serverless.webp)](images/restore_mode_redshift_serverless.webp "Restoring Redshift Serverless")
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "restore_config_backup"
+title: "Step 2. Choose Backup File"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_config_backup.html"
@@ -7,8 +7,8 @@ last_updated: "10/3/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 2. Choose Backup File
 
-In this article
 
 At the Configuration Backup step of the wizard, do the following:
 
@@ -25,6 +25,4 @@ For a repository to be displayed in the list of available repositories, it must 
 
 ![Step 2. Choose Backup File](images/restore_config_backup.webp)
 
-Page updated 10/3/2025
 
-Page content applies to build 10.0.0.232

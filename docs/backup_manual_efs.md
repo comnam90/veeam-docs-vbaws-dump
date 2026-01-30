@@ -1,5 +1,5 @@
 ---
-title: "backup_manual_efs"
+title: "Creating EFS Backups Manually"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_manual_efs.html"
@@ -7,8 +7,8 @@ last_updated: "9/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# Creating EFS Backups Manually
 
-In this article
 
 Veeam Backup for AWS allows you to manually create backups of Amazon EFS file systems. You can instruct Veeam Backup for AWS to store the created backups in the same AWS Regions where the processed file systems reside, or in a different AWS Region.
 
@@ -75,6 +75,4 @@ If you choose to add custom tags to created backups, Veeam Backup for AWS will a
 
 [![Creating EFS Backup Manually](images/backup_manual_efs.webp)](images/backup_manual_efs.webp "Creating EFS Backup Manually")
 
-Page updated 9/26/2025
 
-Page content applies to build 10.0.0.232

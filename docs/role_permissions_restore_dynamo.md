@@ -1,5 +1,5 @@
 ---
-title: "role_permissions_restore_dynamo"
+title: "DynamoDB Restore IAM Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/role_permissions_restore_dynamo.html"
@@ -7,8 +7,8 @@ last_updated: "2/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# DynamoDB Restore IAM Permissions
 
-In this article
 
 To perform DynamoDB restore operations, IAM roles and IAM users specified in the [restore settings](restore_account_dynamo.md), or IAM roles specified in the [organization settings](organization_add_settings.md), must meet the following requirements:
 
@@ -31,6 +31,4 @@ To learn how to modify role trust policies, see [AWS Documentation](https://docs
 
 To learn how to create IAM roles and assign them the required permissions, see [Appendix A. Creating IAM Roles in AWS](create_iam_policy_role.md).
 
-Page updated 2/10/2025
 
-Page content applies to build 10.0.0.232

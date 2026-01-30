@@ -1,5 +1,5 @@
 ---
-title: "sla_add_general_settings_2"
+title: "How Health Check Works"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/sla_add_general_settings_2.html"
@@ -7,8 +7,8 @@ last_updated: "11/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# How Health Check Works
 
-In this article
 
 When Veeam Backup for AWS saves a new backup restore point to a backup repository, it calculates CRC values for metadata in the backup chain and saves these values to the chain metadata, together with the instance data. When performing a health check, Veeam Backup for AWS verifies the availability of data blocks and uses the saved values to ensure that the restore points being verified are consistent.
 
@@ -30,6 +30,4 @@ Depending on the detected data inconsistency, Veeam Backup for AWS performs the 
 
 All restore points marked as incomplete will be deleted according to the specified retention policy settings.
 
-Page updated 11/21/2025
 
-Page content applies to build 10.0.0.232

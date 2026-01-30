@@ -1,5 +1,5 @@
 ---
-title: "repositories_add_encryption"
+title: "Step 4. Enable Data Encryption"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/repositories_add_encryption.html"
@@ -7,8 +7,8 @@ last_updated: "10/14/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Enable Data Encryption
 
-In this article
 
 [This step applies only if you have selected the Create new folder option at the Bucket step of the wizard, or if you have selected an existing folder with encryption enabled at the repository level]
 
@@ -36,6 +36,4 @@ For a KMS key to be displayed in the list of available encryption keys, it must 
 
 [![Specifying Encryption Settings](images/repo_add_encryption_existing.webp)](images/repo_add_encryption_existing.webp "Specifying Encryption Settings")
 
-Page updated 10/14/2025
 
-Page content applies to build 10.0.0.232

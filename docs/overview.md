@@ -1,5 +1,5 @@
 ---
-title: "overview"
+title: "Solution Architecture"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/overview.html"
@@ -7,8 +7,8 @@ last_updated: "12/9/2025"
 product_version: "10.0.0.232"
 ---
 
+# Solution Architecture
 
-In this article
 
 The Veeam Backup for AWS architecture includes the following components:
 
@@ -23,6 +23,4 @@ The Veeam Backup for AWS architecture includes the following components:
 
 [![Backup Infrastructure](images/solution_architecture.webp)](images/solution_architecture.webp "Backup Infrastructure")
 
-Page updated 12/9/2025
 
-Page content applies to build 10.0.0.232

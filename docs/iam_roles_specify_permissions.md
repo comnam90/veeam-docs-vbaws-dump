@@ -1,5 +1,5 @@
 ---
-title: "iam_roles_specify_permissions"
+title: "Step 4. Specify IAM Role Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/iam_roles_specify_permissions.html"
@@ -7,8 +7,8 @@ last_updated: "10/14/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Specify IAM Role Permissions
 
-In this article
 
 At the Permissions step of the wizard, you can define specific operations that Veeam Backup for AWS will be able to perform using the permissions of the created IAM role. Depending on the option that you have selected at the Type step of the wizard, Veeam Backup for AWS will do either of the following:
 
@@ -60,6 +60,4 @@ Note that if you do not specify any management roles and resource permissions fo
 
 [![Specify IAM Role Permissions](images/specify_iam_role_permissions_new.webp)](images/specify_iam_role_permissions_new.webp "Specify IAM Role Permissions")
 
-Page updated 10/14/2025
 
-Page content applies to build 10.0.0.232

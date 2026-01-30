@@ -1,5 +1,5 @@
 ---
-title: "add_policy_target_settings_backup_copy_fsx"
+title: "Enabling Additional Backup Copy"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_target_settings_backup_copy_fsx.html"
@@ -7,8 +7,8 @@ last_updated: "10/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Enabling Additional Backup Copy
 
-In this article
 
 [This step applies only if you have selected file systems resided in default AWS Regions at the Sources step of the wizard. There is a limitation on the AWS Backup service side — cross-region copying of FSx backups is not supported for [opt-in Regions](https://docs.aws.amazon.com/controltower/latest/userguide/opt-in-region-considerations.html)]
 
@@ -45,6 +45,4 @@ To configure mapping for all source AWS Regions at once, click Set Mapping for A
 
 [![Creating FSx Backup Policy](images/backup_add_backup_copy_fsx.webp)](images/backup_add_backup_copy_fsx.webp "Creating FSx Backup Policy")
 
-Page updated 10/8/2025
 
-Page content applies to build 10.0.0.232

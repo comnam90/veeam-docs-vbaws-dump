@@ -1,5 +1,5 @@
 ---
-title: "worker_role_backup"
+title: "Specifying IAM Role"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/worker_role_backup.html"
@@ -7,8 +7,8 @@ last_updated: "7/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Specifying IAM Role
 
-In this article
 
 Out of the box, Veeam Backup for AWS uses the permissions of the Default Backup Restore role to deploy worker instances — the role is preconfigured and has all the required permissions. Therefore, the default backup account is an AWS account to which the backup appliance belongs. However, you can specify another IAM role to change the backup account.
 
@@ -31,6 +31,4 @@ For an IAM role to be displayed in the list of available IAM roles, it must be a
 
 [![Specifying IAM Role for Worker Instances](images/workers_iam_role.webp)](images/workers_iam_role.webp "Specifying IAM Role for Worker Instances")
 
-Page updated 7/4/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "restore_account_dynamo"
+title: "Step 3. Specify Account Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_account_dynamo.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Specify Account Settings
 
-In this article
 
 At the Account step of the wizard, choose whether you want to use an IAM role of a standalone AWS account, an AWS account of an AWS Organization, or one-time access keys of an IAM user to allow Veeam Backup & Replication to perform the restore operation. For information on the permissions that the IAM role or IAM user must have to perform the restore operation, see [DynamoDB Restore IAM Permissions](role_permissions_restore_dynamo.md).
 
@@ -45,6 +45,4 @@ To specify one-time access keys to be used for the restore operation, select the
 
 [![Restoring DynamoDB Tables](images/restore_account_dynamo.webp)](images/restore_account_dynamo.webp "Restoring DynamoDB Tables")
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

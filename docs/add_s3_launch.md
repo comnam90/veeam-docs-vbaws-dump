@@ -1,5 +1,5 @@
 ---
-title: "add_s3_launch"
+title: "Step 1. Launch Add External Repository Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_s3_launch.html"
@@ -7,8 +7,8 @@ last_updated: "8/11/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 1. Launch Add External Repository Wizard
 
-In this article
 
 To launch the Add External Repository wizard, do the following:
 
@@ -27,6 +27,4 @@ Alternatively, you can right-click the External Repositories node and select Add
 
 ![Step 1. Launch Add External Repository Wizard](images/add_s3_launch.webp "Add Amazon S3 repository")
 
-Page updated 8/11/2025
 
-Page content applies to build 10.0.0.232

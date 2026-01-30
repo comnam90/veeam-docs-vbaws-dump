@@ -1,5 +1,5 @@
 ---
-title: "private_network_deployment"
+title: "Private Network Deployment"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/private_network_deployment.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Private Network Deployment
 
-In this article
 
 The private deployment feature allows you to increase the security of your environment by retaining network traffic within a private network.
 
@@ -19,6 +19,4 @@ In This Section
 * [Backup Appliances in Private Environment](appliance_in_private.md)
 * [Worker Instances in Private Environment](worker_instances_in_private.md)
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

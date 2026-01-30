@@ -1,5 +1,5 @@
 ---
-title: "remove_appliance"
+title: "Removing Appliances"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/remove_appliance.html"
@@ -7,8 +7,8 @@ last_updated: "8/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Removing Appliances
 
-In this article
 
 Veeam Plug-In for AWS allows you to permanently remove backup appliances from the backup infrastructure.
 
@@ -34,6 +34,4 @@ Alternatively, you can right-click the appliance and select Remove.
 
 [![Remove Appliance](images/remove_aws_server.webp)](images/remove_aws_server.webp "Remove Appliance")
 
-Page updated 8/8/2025
 
-Page content applies to build 10.0.0.232

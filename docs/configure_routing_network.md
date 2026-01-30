@@ -1,5 +1,5 @@
 ---
-title: "configure_routing_network"
+title: "Step 3. Configure Routing"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/configure_routing_network.html"
@@ -7,8 +7,8 @@ last_updated: "10/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Configure Routing
 
-In this article
 
 If you have created a peering connection between two different VPCs, you must add routes to the route tables associated with the subnets of the accepter and requester VPC to enable private traffic between those VPCs.
 
@@ -33,6 +33,4 @@ To obtain the ID, you can look it up on the Peering connections page in the VPC 
 | Note |
 | For Veeam Backup for AWS to be able to deploy worker instances based on VPC networks and subnets for which you have created VPC interface endpoints, you will have to add the necessary worker configurations as described in section [Managing Worker Configurations](worker_settings.md). If you do not add specific worker configurations, Veeam Backup for AWS will use either the default or the [most appropriate network settings](workers_location.md) of AWS Regions. |
 
-Page updated 10/10/2025
 
-Page content applies to build 10.0.0.232

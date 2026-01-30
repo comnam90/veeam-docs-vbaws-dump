@@ -1,5 +1,5 @@
 ---
-title: "restore_item_restore_point_efs"
+title: "Step 9. Select Restore Point"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_item_restore_point_efs.html"
@@ -7,8 +7,8 @@ last_updated: "3/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 9. Select Restore Point
 
-In this article
 
 [This step applies only if you have selected the Browse files option at the Restore Type step of the wizard]
 
@@ -28,6 +28,4 @@ The Restore Points list shows only restore points that are associated with creat
 
 [![Restoring EFS Files and Folders](images/restore_item_flr_select_rp.webp)](images/restore_item_flr_select_rp.webp "Restoring EFS Files and Folders")
 
-Page updated 3/10/2025
 
-Page content applies to build 10.0.0.232

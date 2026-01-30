@@ -1,5 +1,5 @@
 ---
-title: "organization_edit"
+title: "Editing Organization Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/organization_edit.html"
@@ -7,8 +7,8 @@ last_updated: "7/25/2025"
 product_version: "10.0.0.232"
 ---
 
+# Editing Organization Settings
 
-In this article
 
 For each AWS Organization added to Veeam Backup for AWS, you can modify settings configured while adding the organization:
 
@@ -30,6 +30,4 @@ Note that you cannot remove a limited scope of organizational units that are spe
 
 [![Editing AWS Organization Settings](images/organizations_edit.webp)](images/organizations_edit.webp "Editing AWS Organization Settings")
 
-Page updated 7/25/2025
 
-Page content applies to build 10.0.0.232

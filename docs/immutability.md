@@ -1,5 +1,5 @@
 ---
-title: "immutability"
+title: "Immutability"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/immutability.html"
@@ -7,8 +7,8 @@ last_updated: "12/15/2025"
 product_version: "10.0.0.232"
 ---
 
+# Immutability
 
-In this article
 
 Veeam Backup for AWS allows you to protect EC2, RDS and VPC configuration data stored in backup repositories from deletion by making the data temporarily immutable. To do that, Veeam Backup for AWS uses [Amazon S3 Object Lock](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html) — once imposed, S3 Object Lock prevents objects from being deleted or overwritten for a specific immutability period. The immutability period is set based on the retention policy configured in the backup policy settings.
 
@@ -38,6 +38,4 @@ To protect backups created with Veeam Backup for AWS from deletion by making the
 1. [Add a backup repository with immutability enabled](repositories_add_ui.md#enable_efs_indexing).
 2. Create a backup policy and specify the backup repository with immutability enabled as the target location for image-level backups. For more information, see [Creating Scheduled-Based Backup Policies](policies_create.md), [Creating SLA-Based EC2 Backup Policies](ec2_sla_create.md), [Creating RDS Backup Policies](policies_create_rds.md), [Editing VPC Configuration Backup Policy](policies_edit_vpc.md).
 
-Page updated 12/15/2025
 
-Page content applies to build 10.0.0.232

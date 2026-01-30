@@ -1,5 +1,5 @@
 ---
-title: "rescan_appliance"
+title: "Rescanning Appliances"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/rescan_appliance.html"
@@ -7,8 +7,8 @@ last_updated: "7/9/2025"
 product_version: "10.0.0.232"
 ---
 
+# Rescanning Appliances
 
-In this article
 
 If a backup appliance becomes unavailable, you can rescan the appliance:
 
@@ -29,6 +29,4 @@ Veeam Backup & Replication will remove all data collected from the appliance con
 
 [![Rescan appliance](images/aws_server_sync.webp)](images/aws_server_sync.webp "Rescan appliance")
 
-Page updated 7/9/2025
 
-Page content applies to build 10.0.0.232

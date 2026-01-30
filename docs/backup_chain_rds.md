@@ -1,5 +1,5 @@
 ---
-title: "backup_chain_rds"
+title: "Backup Chain"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_chain_rds.html"
@@ -7,8 +7,8 @@ last_updated: "10/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Backup Chain
 
-In this article
 
 The forever forward incremental backup method is not implemented for DB instances — during every backup session Veeam Backup for AWS creates a full backup in the regular backup chain.
 
@@ -23,6 +23,4 @@ Related Topics
 * [Archive Backup Chain](archive_chain_rds.md)
 * [RDS Backup Retention](retention_backup_rds.md)
 
-Page updated 10/8/2025
 
-Page content applies to build 10.0.0.232

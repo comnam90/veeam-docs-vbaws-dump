@@ -1,5 +1,5 @@
 ---
-title: "restore_config_info"
+title: "Step 3. Review Backup File Info"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_config_info.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Review Backup File Info
 
-In this article
 
 At the Backup Contents step of the wizard, Veeam Backup & Replication will analyze the content of the selected backup and display the following information:
 
@@ -23,6 +23,4 @@ At the Backup Contents step of the wizard, review the provided information and c
 
 ![Step 3. Review Backup File Info](images/restore_config_info.webp)
 
-Page updated 9/2/2025
 
-Page content applies to build 10.0.0.232

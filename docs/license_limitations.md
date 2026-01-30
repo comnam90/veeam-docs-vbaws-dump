@@ -1,5 +1,5 @@
 ---
-title: "license_limitations"
+title: "Limitations"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/license_limitations.html"
@@ -7,8 +7,8 @@ last_updated: "11/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Limitations
 
-In this article
 
 Keep in mind the following limitations and considerations:
 
@@ -21,6 +21,4 @@ To obtain an additional license, contact a Veeam sales representative at [Sales 
 
 * If an instance has not been backed up within the past 31 days, Veeam Backup for AWS automatically revokes the license unit from the instance. If you need to manually revoke a license unit, follow the instructions provided in section [Revoking License Units](lic_revoke.md#plugin).
 
-Page updated 11/4/2025
 
-Page content applies to build 10.0.0.232

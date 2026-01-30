@@ -1,5 +1,5 @@
 ---
-title: "overview_vpc_configurations"
+title: "Protecting VPC Configurations"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/overview_vpc_configurations.html"
@@ -7,8 +7,8 @@ last_updated: "6/7/2024"
 product_version: "10.0.0.232"
 ---
 
+# Protecting VPC Configurations
 
-In this article
 
 To protect Amazon VPC configurations, Veeam Backup for AWS retrieves configuration data through API and saves this data to the configuration database. You can also instruct Veeam Backup for AWS to store copies of VPC configuration backups in a backup repository. For more information on how VPC configuration backup works, see [VPC Configuration Backup](backup_hiw_vpc.md).
 
@@ -28,6 +28,4 @@ Related Topics
 * [Exporting VPC Configuration](exporting_vpc_configuration.md)
 * [VPC Configuration Restore](restore_hiw_vpc.md)
 
-Page updated 6/7/2024
 
-Page content applies to build 10.0.0.232

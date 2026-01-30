@@ -1,5 +1,5 @@
 ---
-title: "install_unattended"
+title: "Installing and Uninstalling Plug-In in Unattended Mode"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/install_unattended.html"
@@ -7,8 +7,8 @@ last_updated: "11/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Installing and Uninstalling Plug-In in Unattended Mode
 
-In this article
 
 You can install or uninstall Veeam Plug-In for AWS in the unattended mode using the command line interface. The unattended mode does not require user interaction — the installation runs automatically in the background, and you do not have to respond to the installation wizard prompts. You can use it to automate processes in large-scale environments.
 
@@ -44,6 +44,4 @@ The following command-line parameters are used to run the setup file:
 | /acceptrequiredsoftware | Yes | Confirms that you accept the license agreements for each required software that Veeam will install. |
 | /uninstall | No | Uninstalls the plug-in.  Example: ”AWSPlugin\_13.10.0.225.exe /silent /accepteula /acceptlicensingpolicy /acceptthirdpartylicenses /acceptrequiredsoftware /uninstall” |
 
-Page updated 11/20/2025
 
-Page content applies to build 10.0.0.232

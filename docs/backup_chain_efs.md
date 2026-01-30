@@ -1,5 +1,5 @@
 ---
-title: "backup_chain_efs"
+title: "Backup Chain"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_chain_efs.html"
@@ -7,8 +7,8 @@ last_updated: "5/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Backup Chain
 
-In this article
 
 During every backup session, Veeam Backup for AWS creates a cloud-native backup for each EFS file system added to the backup policy. To create the backup, Veeam Backup for AWS uses the [AWS Backup service](https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html).
 
@@ -50,6 +50,4 @@ EFS indexes always contain full file catalogs of the processed file system. Ther
 
 The period of time during which EFS indexes are kept in the indexing chain is defined by time stamps that were saved in the index metadata when creating the indexes. For more information, see [EFS Backup Retention](retention_backup_efs.md).
 
-Page updated 5/21/2025
 
-Page content applies to build 10.0.0.232

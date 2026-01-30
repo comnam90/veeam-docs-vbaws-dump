@@ -1,5 +1,5 @@
 ---
-title: "restore_config_summary"
+title: "Step 8. Finish Working with Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_config_summary.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 8. Finish Working with Wizard
 
-In this article
 
 At the Summary step of the wizard, click Finish to finalize the process of configuration data restore.
 
@@ -16,6 +16,4 @@ If Veeam Backup & Replication encounters an issue while performing configuration
 
 ![Step 8. Finish Working with Wizard](images/restore_config_summary.webp)
 
-Page updated 9/2/2025
 
-Page content applies to build 10.0.0.232

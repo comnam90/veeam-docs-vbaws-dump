@@ -1,5 +1,5 @@
 ---
-title: "backups_compare_vpc"
+title: "Comparing VPC Configuration Backups"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backups_compare_vpc.html"
@@ -7,8 +7,8 @@ last_updated: "9/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# Comparing VPC Configuration Backups
 
-In this article
 
 You can compare the attributes of the current Amazon VPC configuration to the attributes of a backed-up Amazon VPC configuration. To do that:
 
@@ -25,6 +25,4 @@ By default, Veeam Backup for AWS uses the most recent valid restore point. Howev
 
 [![Comparing VPC Configuration Backups](images/vpc_backup_compare.webp)](images/vpc_backup_compare.webp "Comparing VPC Configuration Backups")
 
-Page updated 9/26/2025
 
-Page content applies to build 10.0.0.232

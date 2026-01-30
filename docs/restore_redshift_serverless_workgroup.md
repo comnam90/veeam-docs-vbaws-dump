@@ -1,5 +1,5 @@
 ---
-title: "restore_redshift_serverless_workgroup"
+title: "Step 5. Configure Workgroup Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_redshift_serverless_workgroup.html"
@@ -7,8 +7,8 @@ last_updated: "11/19/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Configure Workgroup Settings
 
-In this article
 
 [This step applies only if you have selected the Restore to new namespace option at the Restore Mode step of the wizard]
 
@@ -51,6 +51,4 @@ The new workgroup will be added to the AWS infrastructure only after you complet
 
 [![Restoring Redshift Serverless](images/redshift_serverless_workgroup_settings.webp)](images/redshift_serverless_workgroup_settings.webp "Restoring Redshift Serverless")
 
-Page updated 11/19/2025
 
-Page content applies to build 10.0.0.232

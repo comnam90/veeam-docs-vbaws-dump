@@ -1,5 +1,5 @@
 ---
-title: "encryption_aws_cmks_restoring_from_backups"
+title: "Restoring From Image-Level Backups"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/encryption_aws_cmks_restoring_from_backups.html"
@@ -7,8 +7,8 @@ last_updated: "5/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Restoring From Image-Level Backups
 
-In this article
 
 The process of restoring an EC2 instance with encrypted EBS volumes from an image-level backup differs depending on whether a worker instance is deployed in the same AWS account to which you perform restore or not:
 
@@ -52,6 +52,4 @@ To create and encrypt EBS volumes, Veeam Backup for AWS uses an IAM role specifi
 
 [![Restoring From Image-Level Backups](images/cmk_restore_s3_different.webp)](images/cmk_restore_s3_different.webp "Restoring From Image-Level Backups")
 
-Page updated 5/21/2025
 
-Page content applies to build 10.0.0.232

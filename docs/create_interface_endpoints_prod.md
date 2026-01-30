@@ -1,5 +1,5 @@
 ---
-title: "create_interface_endpoints_prod"
+title: "Step 1. Create Interface Endpoints"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/create_interface_endpoints_prod.html"
@@ -7,8 +7,8 @@ last_updated: "10/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 1. Create Interface Endpoints
 
-In this article
 
 To allow Veeam Backup for AWS to create image-level backups of EC2 instances, to perform restore operations and to save EFS indexes to backup repositories, you must configure specific VPC interface endpoints for all subnets to which worker instances deployed for these operations will be connected. For the list of VPC interface endpoints required for backup and restore operations, see [Configuring Private Networks](configuring_private_networks.md#worker_operations).
 
@@ -75,6 +75,4 @@ To create an S3 interface VPC endpoint, do the following:
 
 For more information on interface endpoints for Amazon S3, see [AWS Documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/privatelink-interface-endpoints.html).
 
-Page updated 10/10/2025
 
-Page content applies to build 10.0.0.232

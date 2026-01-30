@@ -1,5 +1,5 @@
 ---
-title: "add_policy_target_settings_backups_efs"
+title: "Configuring Backup Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_target_settings_backups_efs.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Backup Settings
 
-In this article
 
 To specify backup vaults used to store backups of the selected EFS file systems, do the following:
 
@@ -35,6 +35,4 @@ To configure mapping for all AWS Regions within the selected organization at onc
 
 [![Creating EFS Backup Policy](images/backup_add_backup_settings_efs.webp)](images/backup_add_backup_settings_efs.webp "Creating EFS Backup Policy")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

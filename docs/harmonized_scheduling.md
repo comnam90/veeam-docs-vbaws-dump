@@ -1,5 +1,5 @@
 ---
-title: "harmonized_scheduling"
+title: "Enabling Harmonized Scheduling"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/harmonized_scheduling.html"
@@ -7,8 +7,8 @@ last_updated: "10/27/2025"
 product_version: "10.0.0.232"
 ---
 
+# Enabling Harmonized Scheduling
 
-In this article
 
 When you combine multiple types of schedules, Veeam Backup for AWS applies the harmonization mechanism that allows you to leverage restore points for long-term retentions instead of taking a new restore point every time. The mechanism simplifies the backup schedule, optimizes the backup performance and reduces the cost of retaining restore points.
 
@@ -64,6 +64,4 @@ By the moment the backup session completes, the number of restore points with th
 
 [![Enabling Harmonized Scheduling](images/retention_snapshots_weekly_rp_removed.webp)](images/retention_snapshots_weekly_rp_removed.webp "Enabling Harmonized Scheduling")
 
-Page updated 10/27/2025
 
-Page content applies to build 10.0.0.232

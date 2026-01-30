@@ -1,5 +1,5 @@
 ---
-title: "worker_settings_test"
+title: "Testing Configurations for FLR"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/worker_settings_test.html"
@@ -7,8 +7,8 @@ last_updated: "7/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Testing Configurations for FLR
 
-In this article
 
 When performing [file-level recovery](restore_item_perform.md) for an EC2 instance, Veeam Backup for AWS deploys a worker instance, attaches and mounts EBS volumes of the EC2 instance to the worker instance and launches file-level recovery browser to allow users to browse, download and restore files and folders. To make sure whether worker network settings are configured properly, and the file-level recovery browser is accessible from your local machine, it is recommended that you run a file-level recovery test before you start file-level recovery operations in an AWS Region.
 
@@ -41,6 +41,4 @@ If you do not click End Test within 30 minutes after Veeam Backup for AWS displa
 
 [![Testing Configurations for FLR](images/workers_test_flr_browser.webp)](images/workers_test_flr_browser.webp)
 
-Page updated 7/4/2025
 
-Page content applies to build 10.0.0.232

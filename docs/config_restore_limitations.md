@@ -1,5 +1,5 @@
 ---
-title: "config_restore_limitations"
+title: "Before You Begin"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/config_restore_limitations.html"
@@ -7,8 +7,8 @@ last_updated: "8/16/2024"
 product_version: "10.0.0.232"
 ---
 
+# Before You Begin
 
-In this article
 
 Before you restore the configuration database of a backup appliance, consider the following:
 
@@ -24,6 +24,4 @@ Before you restore the configuration database of a backup appliance, consider th
 * The appliance to which you restore the configuration preserves its TLS certificate.
 * [Applies only if you restore the configuration to another backup appliance] During restore, Veeam Backup & Replication removes the initial appliance and its repositories from the backup infrastructure. If the restore operation fails, re-add the appliance and its repositories to the backup infrastructure.
 
-Page updated 8/16/2024
 
-Page content applies to build 10.0.0.232

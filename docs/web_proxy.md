@@ -1,5 +1,5 @@
 ---
-title: "web_proxy"
+title: "Configuring HTTP Proxy for Veeam Updater"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/web_proxy.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring HTTP Proxy for Veeam Updater
 
-In this article
 
 To check for available software package updates for Veeam Backup for AWS, the Veeam Updater service running on the backup appliance connects to the Veeam Update Repository over the internet. If the backup appliance is not connected to the internet, you can instruct Veeam Backup for AWS to use an HTTP proxy that will allow Veeam Updater to access to the required resources.
 
@@ -37,6 +37,4 @@ To configure connection to the internet through an HTTP proxy, do the following:
 
 [![Configuring Web Proxy](images/web_proxy.webp)](images/web_proxy.webp "Configuring Web Proxy")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

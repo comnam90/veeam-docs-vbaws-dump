@@ -1,5 +1,5 @@
 ---
-title: "backup_repositories"
+title: "Backup Repositories"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_repositories.html"
@@ -7,8 +7,8 @@ last_updated: "8/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Backup Repositories
 
-In this article
 
 A backup repository is a folder in an Amazon S3 bucket where Veeam Backup for AWS stores EC2 and RDS image-level backups, additional copies of Amazon VPC backups, indexes of EFS file systems and configuration backups of standalone backup appliances.
 
@@ -27,6 +27,4 @@ For enhanced data security, Veeam Backup for AWS allows you to enable encryption
 
 Veeam Backup for AWS also supports scenarios where data is backed up to S3 buckets with enabled Amazon S3 default encryption. You can add the S3 bucket to the backup infrastructure and use it as a target location for image-level backups. For information on Amazon S3 default encryption, see [AWS Documentation](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/default-bucket-encryption.html).
 
-Page updated 8/8/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "vpc_policy_regions_manual"
+title: "Adding AWS Regions Manually"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/vpc_policy_regions_manual.html"
@@ -7,8 +7,8 @@ last_updated: "8/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Adding AWS Regions Manually
 
-In this article
 
 To add an AWS Region to the VPC Backup policy, or to choose another IAM role for collecting VPC configuration data, do the following:
 
@@ -42,6 +42,4 @@ The IAM user whose access keys are used to update the IAM role must have the fol
 
 [![Editing VPC Configuration Backup Policy](images/vpc_policy_regions.webp)](images/vpc_policy_regions.webp "Editing VPC Configuration Backup Policy")
 
-Page updated 8/21/2025
 
-Page content applies to build 10.0.0.232

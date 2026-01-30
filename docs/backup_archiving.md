@@ -1,5 +1,5 @@
 ---
-title: "backup_archiving"
+title: "Enabling Backup Archiving"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_archiving.html"
@@ -7,8 +7,8 @@ last_updated: "10/27/2025"
 product_version: "10.0.0.232"
 ---
 
+# Enabling Backup Archiving
 
-In this article
 
 When you combine multiple types of schedules, you can enable the archiving mechanism to instruct Veeam Backup for AWS to store backed-up data in the secure, low-cost and long-term S3 Glacier Flexible Retrieval and S3 Glacier Deep Archive storage classes. The mechanism is the most useful in the following cases:
 
@@ -83,6 +83,4 @@ For more information on how Veeam Backup for AWS transforms archive backup chain
 
 [![Enabling Backup Archiving](images/backup_archiving_monthly_retention.webp)](images/backup_archiving_monthly_retention.webp "Enabling Backup Archiving")
 
-Page updated 10/27/2025
 
-Page content applies to build 10.0.0.232

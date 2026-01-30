@@ -1,5 +1,5 @@
 ---
-title: "backups_view_ec2"
+title: "EC2 Data"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backups_view_ec2.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# EC2 Data
 
-In this article
 
 After a backup policy successfully creates a restore point of an EC2 instance according to the specified schedule, or after you create a snapshot of an EC2 instance manually, Veeam Backup for AWS adds the instance to the resource list on the Protected Data page.
 
@@ -45,6 +45,4 @@ On the Protected Data page, you can also perform the following actions:
 
 [![Managing Backed-Up EC2 Data](images/protected_data.webp)](images/protected_data.webp "Managing Backed-Up EC2 Data")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "vpc_policy_regions"
+title: "Step 2. Select AWS Regions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/vpc_policy_regions.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 2. Select AWS Regions
 
-In this article
 
 At the Regions step of the wizard, select AWS Regions whose VPC configuration you want to back up.
 
@@ -16,6 +16,4 @@ Veeam Backup for AWS allows you to automatically collect and back up VPC configu
 
 You can also configure the VPC Configuration Backup policy to protect configuration data for AWS Regions that are not specified in the settings of any backup policy, or choose another IAM role whose permissions Veeam Backup for AWS will use to collect the VPC configuration data of the automatically protected AWS Regions. To do that, [manually add AWS Regions](vpc_policy_regions_manual.md) to the VPC Backup policy and configure backup settings for them.
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

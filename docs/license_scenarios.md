@@ -1,5 +1,5 @@
 ---
-title: "license_scenarios"
+title: "Scenarios"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/license_scenarios.html"
@@ -7,8 +7,8 @@ last_updated: "8/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Scenarios
 
-In this article
 
 Backup appliances managed by a Veeam Backup & Replication server use the same license that is installed on the backup server. To learn what types of licenses and licensing models are incorporated in Veeam solutions, see:
 
@@ -34,6 +34,4 @@ Veeam Backup for AWS stores information on protected workloads licensed by Veeam
 
 Note that the loss of connection with Veeam Backup & Replication does not affect restore processes and creating of snapshots manually.
 
-Page updated 8/8/2025
 
-Page content applies to build 10.0.0.232

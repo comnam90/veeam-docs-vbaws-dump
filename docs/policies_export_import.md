@@ -1,5 +1,5 @@
 ---
-title: "policies_export_import"
+title: "Exporting and Importing Schedule-Based Policies"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/policies_export_import.html"
@@ -7,8 +7,8 @@ last_updated: "8/6/2025"
 product_version: "10.0.0.232"
 ---
 
+# Exporting and Importing Schedule-Based Policies
 
-In this article
 
 Veeam Backup for AWS allows you to use settings of an existing schedule-based backup policy as a template for creating other backup policies. You can export a backup policy to a .JSON file, modify the necessary settings in the file, and then import the policy to the same or a different backup appliance.
 
@@ -35,6 +35,4 @@ To import a schedule-based backup policy from a .JSON file:
 
 [![Exporting and Importing Schedule-Based Policies](images/policies_import.webp)](images/policies_import.webp)
 
-Page updated 8/6/2025
 
-Page content applies to build 10.0.0.232

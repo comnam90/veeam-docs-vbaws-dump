@@ -1,5 +1,5 @@
 ---
-title: "restore_config_data"
+title: "Step 5. Choose Restore Options"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_config_data.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Choose Restore Options
 
-In this article
 
 By default, Veeam Backup & Replication restores configuration data for the existing infrastructure components, created backup policies, configured global settings. At the Restore Options step of the wizard, you can choose whether you want to restore VPC configuration backups, portal users of the source backup appliance and session logs as well.
 
@@ -21,6 +21,4 @@ If you select the VPC backup configuration check box, Veeam Backup & Replication
 
 ![Step 5. Choose Restore Options](images/restore_config_data.webp)
 
-Page updated 9/2/2025
 
-Page content applies to build 10.0.0.232

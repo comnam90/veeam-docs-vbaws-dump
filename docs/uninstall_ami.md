@@ -1,5 +1,5 @@
 ---
-title: "uninstall_ami"
+title: "Deleting AWS Resources"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/uninstall_ami.html"
@@ -7,8 +7,8 @@ last_updated: "10/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Deleting AWS Resources
 
-In this article
 
 When you deploy a backup appliance from the Amazon Machine Image (AMI), Veeam Backup for AWS creates a number of resources while operating in AWS, and these resources are not removed from infrastructure automatically when you delete the backup appliance. To uninstall Veeam Backup for AWS, you must locate and delete the following resources from your infrastructure:
 
@@ -26,6 +26,4 @@ To delete a resource, do the following:
 3. Navigate to AWS service to which the AWS resource belong.
 4. Select the AWS resource that you want to remove, and click Delete.
 
-Page updated 10/10/2025
 
-Page content applies to build 10.0.0.232

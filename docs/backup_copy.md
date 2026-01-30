@@ -1,5 +1,5 @@
 ---
-title: "backup_copy"
+title: "Creating Backup Copy Jobs"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_copy.html"
@@ -7,8 +7,8 @@ last_updated: "8/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Creating Backup Copy Jobs
 
-In this article
 
 Backup copy is a technology that helps you copy and store backed-up data of EC2 instances in different locations. Storing data in different locations increases its availability and ensures that data can be recovered in case a disaster strikes.
 
@@ -27,6 +27,4 @@ To create a backup copy job, do the following:
 
 [![Create backup copy job](images/backup_copy.webp)](images/backup_copy.webp "Create backup copy job")
 
-Page updated 8/8/2025
 
-Page content applies to build 10.0.0.232

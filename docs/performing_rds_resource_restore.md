@@ -1,5 +1,5 @@
 ---
-title: "performing_rds_resource_restore"
+title: "Performing RDS Instance Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/performing_rds_resource_restore.html"
@@ -7,8 +7,8 @@ last_updated: "12/12/2025"
 product_version: "10.0.0.232"
 ---
 
+# Performing RDS Instance Restore
 
-In this article
 
 In case of a disaster, you can restore a DB instance or an Aurora DB cluster from a cloud-native snapshot or snapshot replica. Veeam Backup for AWS allows you to restore one or more RDS resources at a time, to the original location or to a new location.
 
@@ -31,6 +31,4 @@ To restore a protected RDS resource, do the following:
 8. [Specify a restore reason](restore_rds_reason.md).
 9. [Finish working with the wizard](restore_rds_finish.md).
 
-Page updated 12/12/2025
 
-Page content applies to build 10.0.0.232

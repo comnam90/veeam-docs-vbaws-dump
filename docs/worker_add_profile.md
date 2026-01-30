@@ -1,5 +1,5 @@
 ---
-title: "worker_add_profile"
+title: "Adding Profiles"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/worker_add_profile.html"
@@ -7,8 +7,8 @@ last_updated: "7/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Adding Profiles
 
-In this article
 
 For each AWS Region in which worker instances will be deployed, you can add a custom set of worker profiles:
 
@@ -28,6 +28,4 @@ As soon as you click Finish, Veeam Backup for AWS will create a separate set of 
 
 [![Adding Worker Profiles](images/worker_profile_add.webp)](images/worker_profile_add.webp "Adding Worker Profiles")
 
-Page updated 7/4/2025
 
-Page content applies to build 10.0.0.232

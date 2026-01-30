@@ -1,5 +1,5 @@
 ---
-title: "deploying_appliances"
+title: "Deploying Backup Appliance"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/deploying_appliances.html"
@@ -7,8 +7,8 @@ last_updated: "10/24/2025"
 product_version: "10.0.0.232"
 ---
 
+# Deploying Backup Appliance
 
-In this article
 
 |  |
 | --- |
@@ -47,6 +47,4 @@ Related Topics
 
 [Connecting to Existing Appliances](connect_appliance.md)
 
-Page updated 10/24/2025
 
-Page content applies to build 10.0.0.232

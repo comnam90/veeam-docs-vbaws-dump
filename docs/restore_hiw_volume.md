@@ -1,5 +1,5 @@
 ---
-title: "restore_hiw_volume"
+title: "Volume Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_hiw_volume.html"
@@ -7,8 +7,8 @@ last_updated: "9/12/2024"
 product_version: "10.0.0.232"
 ---
 
+# Volume Restore
 
-In this article
 
 To restore EBS volumes from cloud-native snapshots, manual cloud-native snapshots and snapshot replicas, Veeam Backup for AWS uses native [AWS capabilities](https://docs.aws.amazon.com/prescriptive-guidance/latest/backup-recovery/restore.html). To restore EBS volumes from image-level backups, Veeam Backup for AWS performs the following steps:
 
@@ -29,6 +29,4 @@ The number of empty EBS volumes equals the number of volumes you selected to res
 
 To learn how to restore EBS volumes attached to an EC2 instance from a cloud-native snapshot, snapshot replica or an image-level backup, see [Performing Volume-Level Restore](restore_volume_perform.md).
 
-Page updated 9/12/2024
 
-Page content applies to build 10.0.0.232

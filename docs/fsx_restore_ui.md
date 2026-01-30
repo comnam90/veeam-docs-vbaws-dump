@@ -1,5 +1,5 @@
 ---
-title: "fsx_restore_ui"
+title: "FSx Restore Using Web UI"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/fsx_restore_ui.html"
@@ -7,8 +7,8 @@ last_updated: "12/12/2025"
 product_version: "10.0.0.232"
 ---
 
+# FSx Restore Using Web UI
 
-In this article
 
 In case of a disaster, you can restore a FSx file system from a FSx backup or backup copy. Veeam Backup for AWS allows you to restore one or more file systems at a time, to the original location or to a new location. To learn how FSx restore works, see [FSx Restore](restore_hiw_fsx.md).
 
@@ -31,6 +31,4 @@ To restore a protected FSx file system, do the following:
 8. [Specify a restore reason](restore_reason_fsx.md).
 9. [Finish working with the wizard](restore_finish_fsx.md).
 
-Page updated 12/12/2025
 
-Page content applies to build 10.0.0.232

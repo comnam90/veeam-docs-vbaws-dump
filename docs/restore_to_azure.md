@@ -1,5 +1,5 @@
 ---
-title: "restore_to_azure"
+title: "Restoring to Microsoft Azure"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_to_azure.html"
@@ -7,8 +7,8 @@ last_updated: "8/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Restoring to Microsoft Azure
 
-In this article
 
 Veeam Backup & Replication allows you to restore Amazon EC2 instances from image-level backups created with Veeam Backup for AWS to Microsoft Azure as Azure VMs. You can restore EC2 instances to any available restore point. For more information, see the Veeam Backup & Replication User Guide, section [Restore to Microsoft Azure](https://helpcenter.veeam.com/docs/vbr/userguide/restore_azure.html?ver=13).
 
@@ -32,6 +32,4 @@ To restore an EC2 instance to Microsoft Azure, do the following:
 
 [![Restore to Azure](images/restore_to_azure.webp)](images/restore_to_azure.webp "Restore to Azure")
 
-Page updated 8/8/2025
 
-Page content applies to build 10.0.0.232

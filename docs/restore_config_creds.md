@@ -1,5 +1,5 @@
 ---
-title: "restore_config_creds"
+title: "Step 6. Specify User Credentials"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_config_creds.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 6. Specify User Credentials
 
-In this article
 
 [This step applies only if you have selected the Local users option at the Restore Options step of the wizard]
 
@@ -25,6 +25,4 @@ For a user to be displayed in the Credentials list, it must be added to the Cred
 
 ![Step 6. Specify User Credentials](images/restore_config_creds.webp)
 
-Page updated 9/2/2025
 
-Page content applies to build 10.0.0.232

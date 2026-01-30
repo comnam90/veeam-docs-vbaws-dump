@@ -1,5 +1,5 @@
 ---
-title: "restore_item_before_you_begin"
+title: "Before You Begin"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_item_before_you_begin.html"
@@ -7,8 +7,8 @@ last_updated: "12/15/2025"
 product_version: "10.0.0.232"
 ---
 
+# Before You Begin
 
-In this article
 
 Before you start file-level recovery, consider the following limitations and prerequisites:
 
@@ -67,6 +67,4 @@ Where the <service-account-id> is an AWS ID of the trusted [backup account](work
 
 To learn how to create interface VPC endpoints, see [AWS Documentation](https://docs.aws.amazon.com/vpc/latest/privatelink/create-interface-endpoint.html).
 
-Page updated 12/15/2025
 
-Page content applies to build 10.0.0.232

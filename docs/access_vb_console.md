@@ -1,5 +1,5 @@
 ---
-title: "access_vb_console"
+title: "Accessing Web UI from Console"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/access_vb_console.html"
@@ -7,8 +7,8 @@ last_updated: "7/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Accessing Web UI from Console
 
-In this article
 
 To access the Veeam Backup for AWS Web UI from the Veeam Backup & Replication console, do the following:
 
@@ -22,6 +22,4 @@ Veeam Backup & Replication will open the Veeam Backup for AWS Web UI in your def
 
 [![Open Web UI](images/open_web_console.webp)](images/open_web_console.webp "Open Web UI")
 
-Page updated 7/8/2025
 
-Page content applies to build 10.0.0.232

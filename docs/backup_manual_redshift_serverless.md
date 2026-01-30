@@ -1,5 +1,5 @@
 ---
-title: "backup_manual_redshift_serverless"
+title: "Creating Redshift Serverless Backups Manually"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_manual_redshift_serverless.html"
@@ -7,8 +7,8 @@ last_updated: "9/23/2025"
 product_version: "10.0.0.232"
 ---
 
+# Creating Redshift Serverless Backups Manually
 
-In this article
 
 Veeam Backup for AWS allows you to manually create backups of Redshift Serverless namespaces. You can instruct Veeam Backup for AWS to store the created backups only in the same AWS Regions where the processed Redshift Serverless namespaces reside.
 
@@ -54,6 +54,4 @@ If you choose to add custom tags to created backups, Veeam Backup for AWS will a
 
 [![Creating Redshift Serverless Snapshot Manually](images/backup_manual_redshift_serverless.webp)](images/backup_manual_redshift_serverless.webp "Creating Redshift Serverless Snapshot Manually")
 
-Page updated 9/23/2025
 
-Page content applies to build 10.0.0.232

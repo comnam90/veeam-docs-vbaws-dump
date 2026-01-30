@@ -1,5 +1,5 @@
 ---
-title: "enable_swap_partition"
+title: "Appendix D. Enabling Swap Partition"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/enable_swap_partition.html"
@@ -7,8 +7,8 @@ last_updated: "10/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Appendix D. Enabling Swap Partition
 
-In this article
 
 |  |
 | --- |
@@ -143,6 +143,4 @@ You can identify the newly added volume by the absence by the mount point. Save 
 | --- |
 | sudo sysctl -p /etc/sysctl.d/99-sysctl.conf |
 
-Page updated 10/10/2025
 
-Page content applies to build 10.0.0.232

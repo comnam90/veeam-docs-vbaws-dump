@@ -1,5 +1,5 @@
 ---
-title: "sla_monitoring"
+title: "Monitoring SLA-Based Policy Performance"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/sla_monitoring.html"
@@ -7,8 +7,8 @@ last_updated: "12/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Monitoring SLA-Based Policy Performance
 
-In this article
 
 Veeam Backup for AWS allows you to monitor the protection status of all EC2 instances included into a specific SLA-based backup policy. As soon as Veeam Backup for AWS finishes all sessions that run during the past 24 hours, the SLA details for that period are automatically added to the SLA Compliance Overview chart on the Sessions page. The chart shows whether the target SLA was met for different types of restore points (snapshots, snapshot replicas, backups and archived backups) created by the SLA-based backup policy.
 
@@ -39,6 +39,4 @@ To view session details for a protected EC2 instance, click the necessary EC2 in
 
 [![Monitoring SLA-Based Policy Performance](images/sla_monitoring.webp)](images/sla_monitoring.webp "Monitoring SLA-Based Policy Performance")
 
-Page updated 12/8/2025
 
-Page content applies to build 10.0.0.232

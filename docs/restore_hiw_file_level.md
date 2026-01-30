@@ -1,5 +1,5 @@
 ---
-title: "restore_hiw_file_level"
+title: "File-Level Recovery"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_hiw_file_level.html"
@@ -7,8 +7,8 @@ last_updated: "11/28/2025"
 product_version: "10.0.0.232"
 ---
 
+# File-Level Recovery
 
-In this article
 
 To recover files and folders of a backed-up EC2 instance, Veeam Backup for AWS performs the following steps:
 
@@ -36,6 +36,4 @@ The file-level recovery browser displays the file system tree of the backed-up E
 
 To learn how to restore individual files and folders of an EC2 instance from a cloud-native snapshot or an image-level backup, see [Performing File-Level Recovery](restore_item_perform.md).
 
-Page updated 11/28/2025
 
-Page content applies to build 10.0.0.232

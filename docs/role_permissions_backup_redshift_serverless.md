@@ -1,5 +1,5 @@
 ---
-title: "role_permissions_backup_redshift_serverless"
+title: "Redshift Serverless Backup IAM Role Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/role_permissions_backup_redshift_serverless.html"
@@ -7,8 +7,8 @@ last_updated: "4/28/2025"
 product_version: "10.0.0.232"
 ---
 
+# Redshift Serverless Backup IAM Role Permissions
 
-In this article
 
 Veeam Backup for AWS uses Redshift Serverless Backup IAM roles to perform the following operations:
 
@@ -35,6 +35,4 @@ To perform these operations, IAM roles specified in the [organization settings](
 
 To learn how to create IAM roles and assign them the required permissions, see [Appendix A. Creating IAM Roles in AWS](create_iam_policy_role.md).
 
-Page updated 4/28/2025
 
-Page content applies to build 10.0.0.232

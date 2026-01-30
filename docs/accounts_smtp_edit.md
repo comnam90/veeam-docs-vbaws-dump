@@ -1,5 +1,5 @@
 ---
-title: "accounts_smtp_edit"
+title: "Editing SMTP Accounts"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/accounts_smtp_edit.html"
@@ -7,8 +7,8 @@ last_updated: "7/25/2025"
 product_version: "10.0.0.232"
 ---
 
+# Editing SMTP Accounts
 
-In this article
 
 For each SMTP account, you can modify the settings configured while adding the account:
 
@@ -23,6 +23,4 @@ Complete the Edit Account wizard.
 
 [![Editing SMTP Accounts](images/smtp_edit_account.webp)](images/smtp_edit_account.webp "Editing SMTP Accounts")
 
-Page updated 7/25/2025
 
-Page content applies to build 10.0.0.232

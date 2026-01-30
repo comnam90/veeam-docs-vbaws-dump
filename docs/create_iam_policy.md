@@ -1,5 +1,5 @@
 ---
-title: "create_iam_policy"
+title: "Appendix B. Creating IAM Policies in AWS"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/create_iam_policy.html"
@@ -7,8 +7,8 @@ last_updated: "10/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Appendix B. Creating IAM Policies in AWS
 
-In this article
 
 |  |
 | --- |
@@ -39,6 +39,4 @@ The JSON policy document must include permissions required for an IAM role to wh
 
 After you create a policy, you can attach it to IAM roles as described in section [Appendix A. Creating IAM Roles in AWS](create_iam_policy_role.md).
 
-Page updated 10/10/2025
 
-Page content applies to build 10.0.0.232

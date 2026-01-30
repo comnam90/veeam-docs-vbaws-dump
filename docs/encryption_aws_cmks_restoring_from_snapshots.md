@@ -1,5 +1,5 @@
 ---
-title: "encryption_aws_cmks_restoring_from_snapshots"
+title: "Restoring From Snapshots and Replicas"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/encryption_aws_cmks_restoring_from_snapshots.html"
@@ -7,8 +7,8 @@ last_updated: "5/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Restoring From Snapshots and Replicas
 
-In this article
 
 The process of restoring an RDS or EC2 instance from an encrypted cloud-native snapshot differs depending on whether you perform restore to the original location where the cloud-native snapshot was stored or to a new location:
 
@@ -172,6 +172,4 @@ To copy and re-encrypt the snapshot, create and encrypt the RDS instance, Veeam 
 
 [![Restoring From Snapshots and Replicas](images/cmk_restore_snapshots_account_region_rds.webp)](images/cmk_restore_snapshots_account_region_rds.webp "Restoring From Snapshots and Replicas")
 
-Page updated 5/21/2025
 
-Page content applies to build 10.0.0.232

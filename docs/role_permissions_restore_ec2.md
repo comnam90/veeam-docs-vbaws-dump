@@ -1,5 +1,5 @@
 ---
-title: "role_permissions_restore_ec2"
+title: "EC2 Restore IAM Permissions"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/role_permissions_restore_ec2.html"
@@ -7,8 +7,8 @@ last_updated: "3/25/2025"
 product_version: "10.0.0.232"
 ---
 
+# EC2 Restore IAM Permissions
 
-In this article
 
 To perform EC2 restore operations, IAM roles and IAM users specified in the [entire EC2 instance restore settings](restore_entire_account.md) and [volume-level restore settings](restore_volume_account.md), or IAM roles specified in the [organization settings](organization_add_settings.md), must meet the following requirements:
 
@@ -30,6 +30,4 @@ If you plan to instruct Veeam Backup for AWS to deploy worker instances in produ
 | --- |
 | {     "Version": "2012-10-17",     "Statement": [         {             "Effect": "Allow",             "Action": [                 "ec2:CreateKeyPair",                 "ec2:DeleteKeyPair",                 "ec2:DescribeAccountAttributes",                 "iam:GetRole",                 "iam:ListInstanceProfilesForRole",                 "servicequotas:ListServiceQuotas",                 "sqs:CreateQueue",                 "sqs:DeleteMessage",                 "sqs:DeleteQueue",                 "sqs:ListQueues",                 "sqs:ReceiveMessage",                 "sqs:SendMessage",                 "sqs:SetQueueAttributes",                 "ssm:GetCommandInvocation",                 "ssm:GetParameter",                 "ssm:SendCommand"             ],             "Resource": "\*"         }     ]  } |
 
-Page updated 3/25/2025
 
-Page content applies to build 10.0.0.232

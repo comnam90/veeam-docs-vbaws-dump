@@ -1,5 +1,5 @@
 ---
-title: "overview_dynamo"
+title: "Protecting DynamoDB Tables"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/overview_dynamo.html"
@@ -7,8 +7,8 @@ last_updated: "6/25/2025"
 product_version: "10.0.0.232"
 ---
 
+# Protecting DynamoDB Tables
 
-In this article
 
 With Veeam Backup for AWS, you can perform the following operations to protect DynamoDB tables:
 
@@ -63,6 +63,4 @@ Related Topics
 
 [DynamoDB Restore](restore_hiw_dynamodb.md)
 
-Page updated 6/25/2025
 
-Page content applies to build 10.0.0.232

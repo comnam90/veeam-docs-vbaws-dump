@@ -1,5 +1,5 @@
 ---
-title: "cbt_retention"
+title: "CBT Impact on Snapshot Retention"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/cbt_retention.html"
@@ -7,8 +7,8 @@ last_updated: "1/8/2026"
 product_version: "10.0.0.232"
 ---
 
+# CBT Impact on Snapshot Retention
 
-In this article
 
 If CBT can be used, Veeam Backup for AWS does not remove the cloud-native snapshot used as a source for the image-level backup from the snapshot chain until the next image-level backup session completes. Therefore, at some point you may discover that Veeam Backup for AWS ignores retention policy settings and keeps an additional restore point in the snapshot chain.
 
@@ -48,6 +48,4 @@ Related Topics
 
 [Changed Block Tracking](cbt.md)
 
-Page updated 1/8/2026
 
-Page content applies to build 10.0.0.232

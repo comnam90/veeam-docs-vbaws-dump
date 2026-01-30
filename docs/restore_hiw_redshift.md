@@ -1,5 +1,5 @@
 ---
-title: "restore_hiw_redshift"
+title: "Redshift Clusters Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_hiw_redshift.html"
@@ -7,8 +7,8 @@ last_updated: "11/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# Redshift Clusters Restore
 
-In this article
 
 |  |
 | --- |
@@ -23,6 +23,4 @@ To restore a Redshift cluster from a backup, Veeam Backup for AWS performs the f
 
 To learn how to restore a Redshift cluster from a Redshift backup, see [Redshift Clusters Restore](redshift_restore.md).
 
-Page updated 11/26/2025
 
-Page content applies to build 10.0.0.232

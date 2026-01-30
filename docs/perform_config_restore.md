@@ -1,5 +1,5 @@
 ---
-title: "perform_config_restore"
+title: "Performing Configuration Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/perform_config_restore.html"
@@ -7,8 +7,8 @@ last_updated: "9/15/2025"
 product_version: "10.0.0.232"
 ---
 
+# Performing Configuration Restore
 
-In this article
 
 Veeam Backup for AWS offers restore of the configuration database that can be helpful in the following situations:
 
@@ -27,6 +27,4 @@ In This Section
 * [Restoring Configuration Data Using Console](config_restore_console.md)
 * [Restoring Configuration Data Using Web UI](config_restore_web_ui.md)
 
-Page updated 9/15/2025
 
-Page content applies to build 10.0.0.232

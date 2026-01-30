@@ -1,5 +1,5 @@
 ---
-title: "restore_item_save"
+title: "Step 6. Choose Items to Recover"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_item_save.html"
@@ -7,8 +7,8 @@ last_updated: "10/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 6. Choose Items to Recover
 
-In this article
 
 In the file-level recovery browser, you can find and recover items (files and folders) of the selected EC2 instance. All recovered items are either saved as a single .ZIP archive to the default download directory on a local machine from which you access the browser, or restored to the original EC2 instance.
 
@@ -38,6 +38,4 @@ As soon as you click Restore or Download, Veeam Backup for AWS will recover the 
 
 [![Restoring EC2 Files and Folders](images/restore_item_list.webp)](images/restore_item_list.webp "Restoring EC2 Files and Folders")
 
-Page updated 10/2/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "iam_template_add"
+title: "Creating IAM Role Templates"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/iam_template_add.html"
@@ -7,8 +7,8 @@ last_updated: "3/19/2025"
 product_version: "10.0.0.232"
 ---
 
+# Creating IAM Role Templates
 
-In this article
 
 To create an IAM role template, do the following:
 
@@ -17,6 +17,4 @@ To create an IAM role template, do the following:
 3. [Specify IAM role permissions](iam_template_specify_permissions.md).
 4. [Finish working with the wizard](iam_template_add_review.md).
 
-Page updated 3/19/2025
 
-Page content applies to build 10.0.0.232

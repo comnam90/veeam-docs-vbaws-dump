@@ -1,5 +1,5 @@
 ---
-title: "restore_hiw_rds_database"
+title: "Database Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_hiw_rds_database.html"
@@ -7,8 +7,8 @@ last_updated: "1/6/2026"
 product_version: "10.0.0.232"
 ---
 
+# Database Restore
 
-In this article
 
 To restore databases of Microsoft SQL Server and PostgreSQL DB instances from an image-level backup, Veeam Backup for AWS performs the following steps:
 
@@ -30,6 +30,4 @@ To learn how to restore databases of a SQL Server DB instance from an image-leve
 | Note |
 | Due to [AWS technical limitations](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-initialize.html), the next run of the backup policy protecting the source DB instance may take more time to complete in case the restore operation completes successfully, depending on the specified target AWS Region and target DB instance. For more information, see [Performing RDS Database Restore](restore_rds_database_settings.md). |
 
-Page updated 1/6/2026
 
-Page content applies to build 10.0.0.232

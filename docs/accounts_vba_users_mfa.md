@@ -1,5 +1,5 @@
 ---
-title: "accounts_vba_users_mfa"
+title: "Enabling Multi-Factor Authentication"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/accounts_vba_users_mfa.html"
@@ -7,8 +7,8 @@ last_updated: "4/30/2025"
 product_version: "10.0.0.232"
 ---
 
+# Enabling Multi-Factor Authentication
 
-In this article
 
 Multi-factor authentication (MFA) in Veeam Backup for AWS is based on the Time-based One-Time Password (TOTP) method that requires users to verify their identity by providing a temporary six-digit code sent by an authentication application to a trusted device.
 
@@ -36,6 +36,4 @@ You can use any application that supports the TOTP protocol.
 
 [![Enabling MFA Settings](images/mfa.webp)](images/mfa.webp "Enabling MFA Settings")
 
-Page updated 4/30/2025
 
-Page content applies to build 10.0.0.232

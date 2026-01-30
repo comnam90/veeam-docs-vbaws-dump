@@ -1,5 +1,5 @@
 ---
-title: "backups_remove_individual_efs"
+title: "Removing EFS Backups Created Manually"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backups_remove_individual_efs.html"
@@ -7,8 +7,8 @@ last_updated: "9/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# Removing EFS Backups Created Manually
 
-In this article
 
 To remove all backups created for an EFS file system manually, follow the instructions provided in the [Removing EFS Backups](backups_remove_efs.md) section. If you want to remove a specific EFS backup created manually, do the following:
 
@@ -23,6 +23,4 @@ Related Topics
 * [Creating EFS Backups Manually](backup_manual_efs.md)
 * [Removing EFS Backups](backups_remove_efs.md)
 
-Page updated 9/26/2025
 
-Page content applies to build 10.0.0.232

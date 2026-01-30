@@ -1,5 +1,5 @@
 ---
-title: "policies_create_fsx"
+title: "Creating FSx Backup Policies"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/policies_create_fsx.html"
@@ -7,8 +7,8 @@ last_updated: "7/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Creating FSx Backup Policies
 
-In this article
 
 To create a backup policy, do the following:
 
@@ -23,6 +23,4 @@ To create a backup policy, do the following:
 9. [Review estimated cost of the selected FSx file systems](add_policy_cost_fsx.md).
 10. [Finish working with the wizard](add_policy_finish_fsx.md).
 
-Page updated 7/29/2025
 
-Page content applies to build 10.0.0.232

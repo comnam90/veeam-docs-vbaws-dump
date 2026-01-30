@@ -1,5 +1,5 @@
 ---
-title: "enable_private_network_deployment"
+title: "Configuring Private Network Deployment"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/enable_private_network_deployment.html"
@@ -7,8 +7,8 @@ last_updated: "12/11/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Private Network Deployment
 
-In this article
 
 If you want [worker instances](worker_instances.md) to operate in a private network, you can enable the private network deployment functionality and instruct Veeam Backup for AWS to deploy worker instances without public IPv4 addresses. In this case, worker instances will communicate with the Amazon S3 service through a private S3 endpoint specified in repository settings for data protection and recovery tasks.
 
@@ -47,6 +47,4 @@ To check whether you have configured all the necessary settings correctly, run y
 
 [![Enabling Private Network Deployment](images/enabling_private_network.webp)](images/enabling_private_network.webp "Enabling Private Network Deployment")
 
-Page updated 12/11/2025
 
-Page content applies to build 10.0.0.232

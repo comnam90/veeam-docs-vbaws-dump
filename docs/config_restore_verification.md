@@ -1,5 +1,5 @@
 ---
-title: "config_restore_verification"
+title: "Step 6. View Configuration Check Results"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/config_restore_verification.html"
@@ -7,8 +7,8 @@ last_updated: "8/20/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 6. View Configuration Check Results
 
-In this article
 
 After the restore process is over, Veeam Backup for AWS will run a number of verification checks to confirm that the configuration data has been restored successfully. At the Configuration Check step of the wizard, wait for the verification checks to complete and check whether Veeam Backup for AWS encountered any configuration issues.
 
@@ -43,6 +43,4 @@ After you resolve all issues, click Recheck to ensure the backup appliance is no
 
 [![Restoring Configuration Data](images/config_restore_checks_issue.webp)](images/config_restore_checks_issue.webp "Restoring Configuration Data")
 
-Page updated 8/20/2025
 
-Page content applies to build 10.0.0.232

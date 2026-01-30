@@ -1,5 +1,5 @@
 ---
-title: "add_sla_policy_source_settings"
+title: "Step 4. Configure Backup Source Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_sla_policy_source_settings.html"
@@ -7,8 +7,8 @@ last_updated: "1/8/2026"
 product_version: "10.0.0.232"
 ---
 
+# Step 4. Configure Backup Source Settings
 
-In this article
 
 At the Resources step of the wizard, select AWS Regions where EC2 instances that you plan to back up, choose EC2 instances to back up, and specify EBS volumes of the selected EC2 instances to exclude from the backup policy.
 
@@ -92,6 +92,4 @@ If you exclude an AWS tag from the backup scope, Veeam Backup for AWS will regul
 
 [![Creating SLA-Based EC2 Policy](images/add_sla_policy_volumes.webp)](images/add_sla_policy_volumes.webp "Creating SLA-Based EC2 Policy")
 
-Page updated 1/8/2026
 
-Page content applies to build 10.0.0.232

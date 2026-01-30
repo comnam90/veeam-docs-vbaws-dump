@@ -1,5 +1,5 @@
 ---
-title: "worker_tags"
+title: "Adding Worker Tags"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/worker_tags.html"
@@ -7,8 +7,8 @@ last_updated: "7/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Adding Worker Tags
 
-In this article
 
 For all worker instances that are deployed in specific AWS Regions for the duration of backup, restore and retention processes, you can assign custom AWS tags, which may help you differentiate worker instances that have the same or similar names:
 
@@ -34,6 +34,4 @@ For more information on tag limitations, see [AWS Documentation](https://docs.aw
 
 [![Adding Worker Tagging](images/worker_tagging.webp)](images/worker_tagging.webp "Adding Worker Tagging")
 
-Page updated 7/4/2025
 
-Page content applies to build 10.0.0.232

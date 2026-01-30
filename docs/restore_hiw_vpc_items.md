@@ -1,5 +1,5 @@
 ---
-title: "restore_hiw_vpc_items"
+title: "Selected Items Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_hiw_vpc_items.html"
@@ -7,8 +7,8 @@ last_updated: "9/12/2024"
 product_version: "10.0.0.232"
 ---
 
+# Selected Items Restore
 
-In this article
 
 To restore specific items of the VPC configuration from a backup, Veeam Backup for AWS performs the following steps:
 
@@ -31,6 +31,4 @@ In case any VPC configuration items on which the selected items depend are missi
 
 To learn how to restore restores the selected VPC configuration items from a VPC configuration backup, see [Performing Selected Items Restore](vpc_items_restore.md).
 
-Page updated 9/12/2024
 
-Page content applies to build 10.0.0.232

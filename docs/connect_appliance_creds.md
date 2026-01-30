@@ -1,5 +1,5 @@
 ---
-title: "connect_appliance_creds"
+title: "Step 6. Specify User Credentials"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/connect_appliance_creds.html"
@@ -7,8 +7,8 @@ last_updated: "9/2/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 6. Specify User Credentials
 
-In this article
 
 At the Credentials step of the wizard, specify a user whose credentials Veeam Backup & Replication will use to connect to the backup appliance.
 
@@ -26,6 +26,4 @@ For a user to be displayed in the Credentials list, it must be added to the Cred
 | Note |
 | As soon as you click Next, Veeam Backup & Replication will verify connection to the specified backup appliance. If the version of the appliance is not compatible with the Veeam Backup & Replication version or if the TLS certificate used to connect to the Veeam Backup for AWS Web UI is not trusted, you will receive a warning. To learn how to eliminate this warning, see [Eliminating Warnings](connect_appliance_warnings.md). |
 
-Page updated 9/2/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "backups_remove_individual_redshift"
+title: "Removing Redshift Clusters Backups Created Manually"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backups_remove_individual_redshift.html"
@@ -7,8 +7,8 @@ last_updated: "9/26/2025"
 product_version: "10.0.0.232"
 ---
 
+# Removing Redshift Clusters Backups Created Manually
 
-In this article
 
 To remove all backups created for a Redshift cluster manually, follow the instructions provided in the [Removing Redshift Backups](backups_remove_redshift.md) section. If you want to remove a specific Redshift backup created manually, do the following:
 
@@ -23,6 +23,4 @@ Related Topics
 * [Creating Redshift Backups Manually](backup_manual_redshift.md)
 * [Removing Redshift Backups](backups_remove_redshift.md)
 
-Page updated 9/26/2025
 
-Page content applies to build 10.0.0.232

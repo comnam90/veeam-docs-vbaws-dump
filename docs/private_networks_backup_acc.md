@@ -1,5 +1,5 @@
 ---
-title: "private_networks_backup_acc"
+title: "Configuring Private Networks for Backup Account"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/private_networks_backup_acc.html"
@@ -7,8 +7,8 @@ last_updated: "5/31/2024"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Private Networks for Backup Account
 
-In this article
 
 For Veeam Backup for AWS to be able to deploy worker instances in a private environment in the [backup account](worker_options.md#backup), perform the following steps:
 
@@ -18,6 +18,4 @@ For Veeam Backup for AWS to be able to deploy worker instances in a private envi
 
 [![Private Networks](images/private_networks.webp)](images/private_networks.webp "Private Networks")
 
-Page updated 5/31/2024
 
-Page content applies to build 10.0.0.232

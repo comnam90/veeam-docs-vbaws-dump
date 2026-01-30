@@ -1,5 +1,5 @@
 ---
-title: "seciruty_groups_workers"
+title: "Step 5. Create Security Groups"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/seciruty_groups_workers.html"
@@ -7,8 +7,8 @@ last_updated: "4/25/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Create Security Groups
 
-In this article
 
 Security groups associated with shared subnets are not automatically propagated to other AWS accounts during resource sharing. That is why if you have created a single resource share in one AWS account for all subnets to which worker instances will be connected, you must create security groups in each production account — these groups will be associated with worker instances connected to the shared subnets.
 
@@ -36,6 +36,4 @@ To obtain the ID, you can look it up on the Your VPCs page in the VPC console.
 | Important |
 | After you create a security group, you must either add a new worker configuration or edit the network settings of an existing one to specify the created security group for each production account in which worker instances will be deployed. To learn how to do that, see [Adding Configurations for Production Accounts](worker_add_config_prod.md#region). |
 
-Page updated 4/25/2025
 
-Page content applies to build 10.0.0.232

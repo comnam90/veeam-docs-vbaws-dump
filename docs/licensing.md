@@ -1,5 +1,5 @@
 ---
-title: "licensing"
+title: "Licensing"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/licensing.html"
@@ -7,8 +7,8 @@ last_updated: "11/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# Licensing
 
-In this article
 
 Veeam Backup for AWS is licensed per protected instance. An instance is defined as a single AWS resource — an EC2 instance, RDS resource, DynamoDB table, Redshift cluster, Redshift Serverless namespace, EFS or FSx file system. An instance is considered to be protected if it has a restore point (snapshot or backup) created by a backup policy during the past 31 days. Each protected instance consumes 1 license unit. However, if an instance has only manually created snapshots or backups, it does not consume any license units.
 
@@ -42,6 +42,4 @@ In This Section
 * [Viewing License Information](lic_view.md)
 * [Revoking License Units](lic_revoke.md)
 
-Page updated 11/4/2025
 
-Page content applies to build 10.0.0.232

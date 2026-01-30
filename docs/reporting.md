@@ -1,5 +1,5 @@
 ---
-title: "reporting"
+title: "Viewing Session Statistics"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/reporting.html"
@@ -7,8 +7,8 @@ last_updated: "11/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Viewing Session Statistics
 
-In this article
 
 For each performed data protection or disaster recovery operation, Veeam Backup for AWS starts a new session and stores its records in the configuration database.
 
@@ -41,6 +41,4 @@ You can track real-time statistics of all running and completed operations on th
 
 [![Viewing Sessions](images/sessions_view.webp)](images/sessions_view.webp "Viewing Sessions")
 
-Page updated 11/21/2025
 
-Page content applies to build 10.0.0.232

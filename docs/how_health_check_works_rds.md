@@ -1,5 +1,5 @@
 ---
-title: "how_health_check_works_rds"
+title: "How Health Check Works"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/how_health_check_works_rds.html"
@@ -7,8 +7,8 @@ last_updated: "7/4/2025"
 product_version: "10.0.0.232"
 ---
 
+# How Health Check Works
 
-In this article
 
 When Veeam Backup for AWS saves a new backup restore point to a backup repository, it calculates CRC values for metadata in the backup chain and saves these values to the chain metadata, together with the instance data. When performing a health check, Veeam Backup for AWS verifies the availability of data blocks and uses the saved values to ensure that the restore points being verified are consistent.
 
@@ -31,6 +31,4 @@ Depending on the detected data inconsistency, Veeam Backup for AWS performs the 
 
 * If the health check detects corrupted disk blocks in a full or an incremental restore point, Veeam Backup for AWS marks the restore point that includes the corrupted data blocks and all subsequent affected incremental restore points as incomplete in the configuration database. During the next backup policy session, Veeam Backup for AWS copies not only those data blocks that have changed since the previous backup session but also data blocks that have been corrupted, and saves these data blocks to the latest restore point that has been created during the current session.
 
-Page updated 7/4/2025
 
-Page content applies to build 10.0.0.232

@@ -1,5 +1,5 @@
 ---
-title: "backup_hiw_ec2"
+title: "EC2 Backup"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_hiw_ec2.html"
@@ -7,8 +7,8 @@ last_updated: "11/25/2025"
 product_version: "10.0.0.232"
 ---
 
+# EC2 Backup
 
-In this article
 
 Veeam Backup for AWS performs EC2 backup in the following way:
 
@@ -53,6 +53,4 @@ Related Topics
 * [Backup Chain](backup_chain.md)
 * [Retention Policies](backup_retention.md)
 
-Page updated 11/25/2025
 
-Page content applies to build 10.0.0.232

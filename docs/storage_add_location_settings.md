@@ -1,5 +1,5 @@
 ---
-title: "storage_add_location_settings"
+title: "Step 3. Configure Location Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/storage_add_location_settings.html"
@@ -7,8 +7,8 @@ last_updated: "11/24/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 3. Configure Location Settings
 
-In this article
 
 At the Location step of the wizard, you can specify target locations where Veeam Backup for AWS will keep restore points produced by all SLA-based backup policies that will have this storage template assigned.
 
@@ -46,6 +46,4 @@ For an archive backup repository to be displayed in the list of available reposi
 
 [![Adding Storage Template](images/storage_add_location_settings.webp)](images/storage_add_location_settings.webp "Adding Storage Template")
 
-Page updated 11/24/2025
 
-Page content applies to build 10.0.0.232

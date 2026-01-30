@@ -1,5 +1,5 @@
 ---
-title: "restore_volume_workers_prod"
+title: "Enabling Worker Deployment in Production Account"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_volume_workers_prod.html"
@@ -7,8 +7,8 @@ last_updated: "11/21/2025"
 product_version: "10.0.0.232"
 ---
 
+# Enabling Worker Deployment in Production Account
 
-In this article
 
 [This step applies only if you restore volumes from image-level backups using either the IAM role or the Organization account option]
 
@@ -33,6 +33,4 @@ In both cases, you will have to assign additional permissions to the IAM role th
 
 [![Restoring EBS Volumes](images/restore_volume_account_keys.webp)](images/restore_volume_account_keys.webp "Restoring EBS Volumes")
 
-Page updated 11/21/2025
 
-Page content applies to build 10.0.0.232

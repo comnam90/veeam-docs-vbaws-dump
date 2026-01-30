@@ -1,5 +1,5 @@
 ---
-title: "restore_item_finish"
+title: "Step 5. Start Recovery Session"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_item_finish.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 5. Start Recovery Session
 
-In this article
 
 At the Summary step of the wizard, review summary information and click Finish.
 
@@ -31,6 +31,4 @@ In the FLR Running Sessions window you can track the progress of the recovery se
 
 [![Restoring EC2 Files and Folders](images/restore_item_flr_session_view.webp)](images/restore_item_flr_session_view.webp "Restoring EC2 Files and Folders")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

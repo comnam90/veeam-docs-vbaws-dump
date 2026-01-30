@@ -1,5 +1,5 @@
 ---
-title: "add_policy_target_settings_rds_replica"
+title: "Configuring Snapshot Replica Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_target_settings_rds_replica.html"
@@ -7,8 +7,8 @@ last_updated: "10/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Configuring Snapshot Replica Settings
 
-In this article
 
 If you want to replicate cloud-native snapshots to other AWS accounts or regions, do the following:
 
@@ -43,6 +43,4 @@ For a KMS key to be displayed in the list of available encryption keys, it must 
 
 [![Creating RDS Backup Policy](images/rds_backup_target_encryption.webp)](images/rds_backup_target_encryption.webp "Creating RDS Backup Policy")
 
-Page updated 10/8/2025
 
-Page content applies to build 10.0.0.232

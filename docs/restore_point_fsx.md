@@ -1,5 +1,5 @@
 ---
-title: "restore_point_fsx"
+title: "Step 2. Select Restore Point"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_point_fsx.html"
@@ -7,8 +7,8 @@ last_updated: "10/1/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 2. Select Restore Point
 
-In this article
 
 At the File System step of the wizard, you can add FSx file systems to the restore session and select restore points to be used to perform the restore operation for each added file system. By default, Veeam Backup for AWS uses the most recent valid restore point. However, you can restore a file system to an earlier state.
 
@@ -35,6 +35,4 @@ To help you choose a restore point, Veeam Backup for AWS provides the following 
 
 [![Restoring FSx File Systems](images/restore_point_fsx.webp)](images/restore_point_fsx.webp "Restoring FSx File Systems")
 
-Page updated 10/1/2025
 
-Page content applies to build 10.0.0.232

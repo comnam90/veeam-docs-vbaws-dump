@@ -1,5 +1,5 @@
 ---
-title: "sizing_guide"
+title: "Sizing and Scalability Guidelines"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/sizing_guide.html"
@@ -7,8 +7,8 @@ last_updated: "11/29/2023"
 product_version: "10.0.0.232"
 ---
 
+# Sizing and Scalability Guidelines
 
-In this article
 
 This section is intended for professionals who search for a best practice answer to sizing-related issues, and assumes you have already read the whole Veeam Backup for AWS User Guide.
 
@@ -19,6 +19,4 @@ Be aware that a best practice is not the only answer available. It will fit in t
 | Important |
 | You must also consider the [AWS service quotas](https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html) associated with your AWS accounts, as well as the performance of [AWS instances of specific types](https://aws.amazon.com/ec2/instance-types/). Some of the options may look good; however, make sure to take into account disk size, speed and burst credits. |
 
-Page updated 11/29/2023
 
-Page content applies to build 10.0.0.232

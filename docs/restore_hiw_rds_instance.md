@@ -1,5 +1,5 @@
 ---
-title: "restore_hiw_rds_instance"
+title: "RDS Instance Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_hiw_rds_instance.html"
@@ -7,8 +7,8 @@ last_updated: "7/10/2024"
 product_version: "10.0.0.232"
 ---
 
+# RDS Instance Restore
 
-In this article
 
 To restore a DB instance from a snapshot, Veeam Backup for AWS performs the following steps using native [AWS capabilities](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.RestoringFromSnapshot.html):
 
@@ -26,6 +26,4 @@ To restore an Aurora DB cluster from a snapshot, Veeam Backup for AWS performs t
 
 To learn how to restore a DB instance or an Aurora DB cluster from a cloud-native snapshot or snapshot replica, see [RDS Restore](rds_restore.md).
 
-Page updated 7/10/2024
 
-Page content applies to build 10.0.0.232

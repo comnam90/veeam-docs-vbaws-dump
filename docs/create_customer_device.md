@@ -1,5 +1,5 @@
 ---
-title: "create_customer_device"
+title: "Step 1. Create Customer Gateway"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/create_customer_device.html"
@@ -7,8 +7,8 @@ last_updated: "10/10/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 1. Create Customer Gateway
 
-In this article
 
 A customer gateway device is a physical device or software application in your on-premises network. A customer gateway is a resource in AWS representing the customer gateway device in the on-premises network. For more information, see [AWS Documentation](https://docs.aws.amazon.com/vpn/latest/s2svpn/how_it_works.html#CustomerGatewayDevice).
 
@@ -29,6 +29,4 @@ To provide information on a customer gateway device to AWS, create a customer ga
 
 1. Click Create customergateway.
 
-Page updated 10/10/2025
 
-Page content applies to build 10.0.0.232

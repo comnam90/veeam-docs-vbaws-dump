@@ -1,5 +1,5 @@
 ---
-title: "backup_manual_dynamo"
+title: "Creating DynamoDB Backups Manually"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_manual_dynamo.html"
@@ -7,8 +7,8 @@ last_updated: "10/8/2025"
 product_version: "10.0.0.232"
 ---
 
+# Creating DynamoDB Backups Manually
 
-In this article
 
 Veeam Backup for AWS allows you to manually create backups of DynamoDB tables. You can instruct Veeam Backup for AWS to store the created backups in the same AWS Regions where the processed DynamoDB tables reside, or in a different AWS Region.
 
@@ -69,6 +69,4 @@ If you choose to add custom tags to the created backups, Veeam Backup for AWS wi
 
 [![Creating DynamoDB Backup Manually](images/backup_manual_dynamodb.webp)](images/backup_manual_dynamodb.webp "Creating DynamoDB Backup Manually")
 
-Page updated 10/8/2025
 
-Page content applies to build 10.0.0.232

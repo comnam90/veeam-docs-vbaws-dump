@@ -1,5 +1,5 @@
 ---
-title: "updates_install"
+title: "Installing Updates"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/updates_install.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Installing Updates
 
-In this article
 
 To download and install new available product and software package updates using the Veeam Updater service, you can use either of the following options:
 
@@ -95,6 +95,4 @@ Related Topics
 
 [Viewing Updates History](updates_history.md)
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232

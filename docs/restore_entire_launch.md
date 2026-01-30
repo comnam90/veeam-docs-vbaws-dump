@@ -1,5 +1,5 @@
 ---
-title: "restore_entire_launch"
+title: "Step 1. Launch Instance Restore Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_launch.html"
@@ -7,8 +7,8 @@ last_updated: "9/29/2025"
 product_version: "10.0.0.232"
 ---
 
+# Step 1. Launch Instance Restore Wizard
 
-In this article
 
 To launch the Instance Restore wizard, do the following.
 
@@ -21,6 +21,4 @@ Alternatively, click the link in the Restore Points column. Then, in the Availab
 
 [![Restoring Entire EC2 Instance](images/restore_entire_launch.webp)](images/restore_entire_launch.webp "Restoring Entire EC2 Instance")
 
-Page updated 9/29/2025
 
-Page content applies to build 10.0.0.232
