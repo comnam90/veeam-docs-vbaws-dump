@@ -1,13 +1,13 @@
 ---
-title: "Step 7. Specify Instance Settings"
+title: "Step 7. Configure Instance Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_settings.html"
-last_updated: "4/24/2025"
+last_updated: "1/30/2026"
 product_version: "10.0.0.232"
 ---
 
-# Step 7. Specify Instance Settings
+# Step 7. Configure Instance Settings
 
 
 The list of settings that you can configure for the restored EC2 instance depends on the option you choose at the Choose Restore Mode step of the wizard.
