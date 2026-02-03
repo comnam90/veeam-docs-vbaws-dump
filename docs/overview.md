@@ -3,7 +3,7 @@ title: "Solution Architecture"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/overview.html"
-last_updated: "12/9/2025"
+last_updated: "1/29/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -20,6 +20,7 @@ The Veeam Backup for AWS architecture includes the following components:
 * [Worker instances](worker_instances.md)
 * [Additional repositories and tape devices](additional_repos_and_tape_devices.md#tape_devices)
 * [Gateway servers](gateway_servers.md)
+* [Mount Servers](mount_servers.md)
 
 [![Backup Infrastructure](images/solution_architecture.webp)](images/solution_architecture.webp "Backup Infrastructure")
 
