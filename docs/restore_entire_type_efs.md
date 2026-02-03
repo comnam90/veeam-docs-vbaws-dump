@@ -1,13 +1,13 @@
 ---
-title: "Step 6. Configure General Settings"
+title: "Step 6. Configure File System Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_type_efs.html"
-last_updated: "10/1/2025"
+last_updated: "1/30/2026"
 product_version: "10.0.0.232"
 ---
 
-# Step 6. Configure General Settings
+# Step 6. Configure File System Settings
 
 
 [This step applies only if you have selected the Restore to new location, or with different settings option at the Restore Mode step of the wizard]
