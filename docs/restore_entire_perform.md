@@ -3,7 +3,7 @@ title: "Performing EC2 Instance Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_perform.html"
-last_updated: "12/15/2025"
+last_updated: "1/30/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -27,7 +27,7 @@ To restore a protected EC2 instance, do the following:
 4. [Specify account settings for restore](restore_entire_account.md).
 5. [Choose a restore mode](restore_entire_mode.md).
 6. [Enable encryption for EBS volumes](restore_entire_encryption.md).
-7. [Specify EC2 instance settings](restore_entire_type.md).
+7. [Configure EC2 instance settings](restore_entire_type.md).
 8. [Configure network settings](restore_entire_network.md).
 9. [Specify a restore reason](restore_entire_reason.md).
 10. [Finish working with the wizard](restore_entire_finish.md).

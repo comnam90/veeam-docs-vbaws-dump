@@ -3,7 +3,7 @@ title: "Step 6. Enable Data Encryption"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_s3_encryption.html"
-last_updated: "9/2/2025"
+last_updated: "1/29/2026"
 product_version: "10.0.0.232"
 ---
 

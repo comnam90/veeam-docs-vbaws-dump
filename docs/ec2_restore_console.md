@@ -3,7 +3,7 @@ title: "EC2 Restore Using Console"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/ec2_restore_console.html"
-last_updated: "10/6/2025"
+last_updated: "1/28/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -14,7 +14,7 @@ Veeam Backup & Replication offers the following restore operations:
 
 * [Instance restore](restoring_to_amazon.md) — restore an entire EC2 instance.
 * [Guest OS file restore](guest_file_recovery.md) — restore individual files and folders of an EC2 instance.
-* [Application restore](application_items_restore.md) — restore applications such as Microsoft Entra ID, Microsoft Exchange, Microsoft SharePoint and Microsoft SQL Server.
+* [Application item restore](application_items_restore.md) — restore applications such as Microsoft Entra ID, Microsoft Exchange, Microsoft SharePoint and Microsoft SQL Server.
 
 You can restore EC2 instance data to the most recent state or to any available restore point.
 

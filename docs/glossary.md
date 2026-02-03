@@ -3,7 +3,7 @@ title: "Glossary"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/glossary.html"
-last_updated: "12/10/2025"
+last_updated: "2/2/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -67,6 +67,10 @@ I
 * image-level backup — a restore point that captures the whole image of the processed AWS resource (including OS data, application data and so on) at a specific point in time. See also [EC2 Backup](backup_chain.md).
 * Impersonation IAM role — a specific IAM role created on the backup appliance after its deployment and used to assume IAM roles added to Veeam Backup for AWS to perform operations in the backup infrastructure. See also [Managing IAM Roles](byb_roles.md).
 * immutability — a Veeam Backup for AWS functionality that enables protecting restore points stored in backup repositories from deletion or loss as a result of malware, ransomware or any other malicious actions. See also [Immutability](immutability.md).
+
+M
+
+* mount server — an auxiliary backup infrastructure component that provides access between the backup server and repositories added to the backup infrastructure. See also [Managing Backup Repositories](add_s3_mount_server.md).
 
 N
 

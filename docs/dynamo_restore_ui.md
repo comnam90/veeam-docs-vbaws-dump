@@ -3,7 +3,7 @@ title: "DynamoDB Restore Using Web UI"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/dynamo_restore_ui.html"
-last_updated: "12/12/2025"
+last_updated: "1/30/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -26,7 +26,7 @@ To restore a protected DynamoDB table, do the following:
 3. [Specify account settings for restore](restore_account_dynamo.md).
 4. [Choose a restore mode](restore_mode_dynamo.md).
 5. [Enable encryption for the restored table](restore_encryption_dynamo.md).
-6. [Specify configuration settings](restore_type_dynamo.md).
+6. [Configure table settings](restore_type_dynamo.md).
 7. [Choose capacity mode for the restored table](restore_capacity_mode_dynamo.md).
 8. [Specify a restore reason](restore_reason_dynamo.md).
 9. [Finish working with the wizard](restore_finish_dynamo.md).
