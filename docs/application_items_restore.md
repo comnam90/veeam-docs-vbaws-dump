@@ -1,16 +1,16 @@
 ---
-title: "Performing Application Restore"
+title: "Performing Application Item Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/application_items_restore.html"
-last_updated: "11/5/2025"
+last_updated: "1/28/2026"
 product_version: "10.0.0.232"
 ---
 
-# Performing Application Restore
+# Performing Application Item Restore
 
 
-Veeam Backup & Replication provides auxiliary tools — Veeam Explorers — that allow you to restore application items directly from image-level backups of EC2 instances. You can restore items of the following applications: Microsoft Entra ID, Microsoft Exchange, Microsoft SharePoint, Microsoft SQL Server, Oracle, PostgreSQL and MongoDB. For more information on Veeam Explorers, see the [Veeam Explorers User Guide](https://helpcenter.veeam.com/docs/backup/explorers/explorers_introduction.html?ver=120).
+Veeam Backup & Replication provides auxiliary tools — Veeam Explorers — that allow you to restore application items directly from image-level backups of EC2 instances. You can restore items of the following applications: Microsoft Entra ID, Microsoft Exchange, Microsoft SharePoint, Microsoft SQL Server, Oracle, PostgreSQL and MongoDB. For more information on Veeam Explorers, the Veeam Backup & Replication User Guide, section [Veeam Explorers Overview](https://helpcenter.veeam.com/docs/vbr/userguide/explorers_introduction.html?zoom_highlight=explorers&ver=13).
 
 |  |
 | --- |
@@ -23,7 +23,7 @@ To perform application restore, do the following:
 2. Navigate to Backups > External Repository.
 3. Expand the backup policy that protects an EC2 instance whose application item you want to restore, select the necessary instance and click Application Items on the ribbon. Then, select the necessary application.
 4. In the restore wizard, select a backup that will be used to restore the application, specify a restore reason and click Browse.
-5. In the Veeam Explorer application, perform the steps described in the [Veeam Explorers User Guide](https://helpcenter.veeam.com/docs/vbr/userguide/explorers_introduction.html?ver=13).
+5. In the Veeam Explorer application, perform the steps described in the Veeam Backup & Replication User Guide, section [Veeam Explorers Overview](https://helpcenter.veeam.com/docs/vbr/userguide/explorers_introduction.html?zoom_highlight=explorers&ver=13).
 
 |  |
 | --- |

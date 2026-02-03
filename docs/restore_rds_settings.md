@@ -1,13 +1,13 @@
 ---
-title: "Step 6. Configure Restore Settings"
+title: "Step 6. Configure RDS Resource Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_rds_settings.html"
-last_updated: "7/23/2024"
+last_updated: "1/30/2026"
 product_version: "10.0.0.232"
 ---
 
-# Step 6. Configure Restore Settings
+# Step 6. Configure RDS Resource Settings
 
 
 [This step applies only if you have selected the Restore to new location, or with different settings option at the Restore Mode step of the wizard]

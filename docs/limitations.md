@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/limitations.html"
-last_updated: "12/15/2025"
+last_updated: "1/27/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -146,7 +146,7 @@ When protecting DynamoDB tables, consider the following:
 
 * Veeam Backup for AWS supports backup of only those DynamoDB table properties that are described in section [Protecting DynamoDB Tables](overview_dynamo.md#table_parameters).
 
-* Veeam Backup for AWS supports creating cloud-native backups for DynamoDB tables only to the same AWS accounts where the source tables belong.
+* Veeam Backup for AWS supports creating cloud-native backups for DynamoDB tables only to the same AWS accounts to which the source tables belong.
 
 For Veeam Backup for AWS to be able to create cloud-native backups for DynamoDB tables, you must configure the AWS Backup settings to enable both the Opt-in service and the advanced features for Amazon DynamoDB backups. Otherwise, Veeam Backup for AWS will automatically enable these settings for each AWS Region specified in the backup policy settings in your AWS account while performing backup operations. For more information on advanced DynamoDB backup, see [AWS Documentation](https://docs.aws.amazon.com/aws-backup/latest/devguide/advanced-ddb-backup.html).
 
@@ -160,7 +160,7 @@ EFS Backup
 
 When protecting EFS file systems, consider the following:
 
-* Veeam Backup for AWS supports creating cloud-native backups for EFS file systems only to the same AWS accounts where the source file systems belong.
+* Veeam Backup for AWS supports creating cloud-native backups for EFS file systems only to the same AWS accounts to which the source file systems belong.
 
 * Veeam Backup for AWS does not support storing cloud-native backups in [logically air-gapped vaults](https://docs.aws.amazon.com/aws-backup/latest/devguide/logicallyairgappedvault.html) and in backup vaults with the [AWS Backup Vault Lock](https://docs.aws.amazon.com/aws-backup/latest/devguide/vault-lock.html) feature enabled.
 
@@ -174,7 +174,7 @@ When protecting FSx file systems, consider the following:
 
 * Veeam Backup for AWS supports backup of only those FSx file system properties that are described in section [Protecting FSx File Systems](overview_fsx.md#parameters).
 
-* Veeam Backup for AWS supports creating cloud-native backups for FSx file systems only to the same AWS accounts where the source file systems belong.
+* Veeam Backup for AWS supports creating cloud-native backups for FSx file systems only to the same AWS accounts to which the source file systems belong.
 
 For Veeam Backup for AWS to be able to create cloud-native backups for FSx file systems, you must enable the Opt-in service for the FSx resource type in the AWS Backup settings. Otherwise, Veeam Backup for AWS will automatically enable the service for each AWS Region specified in the backup policy settings in your AWS account while performing backup operations.
 
@@ -254,6 +254,7 @@ Redshift Restore
 When restoring Redshift clusters, consider the following:
 
 * Veeam Backup for AWS supports restoring Amazon Redshift clusters only to the same AWS accounts to which the source clusters belong and the same AWS Region where the source clusters reside.
+* Veeam Backup for AWS supports restoring only those Redshift cluster properties that are described in section [Protecting Redshift Clusters](overview_redshift.md#properties).
 
 * Veeam Backup for AWS does not support restoring Amazon Redshift clusters with the Multi-AZ deployment. These clusters will be restored as clusters with the Single-AZ deployment.
 
@@ -262,6 +263,7 @@ Redshift Serverless Restore
 When restoring Redshift Serverless namespaces, consider the following:
 
 * Veeam Backup for AWS supports restoring Amazon Redshift Serverless namespaces only to the same AWS accounts to which the source namespaces belong and the same AWS Region where the source namespaces reside.
+* Veeam Backup for AWS supports restoring only those Redshift Serverless namespace properties listed in section [Protecting Redshift Serverless](overview_redshift_serverless.md#properties).
 * Veeam Backup for AWS does not support restoring Amazon Redshift Serverless namespaces to provisioned clusters.
 * Veeam Backup for AWS does not support restoring tables of Amazon Redshift Serverless namespaces.
 
@@ -270,6 +272,7 @@ DynamoDB Restore
 When restoring DynamoDB tables, consider the following:
 
 * Veeam Backup for AWS supports restoring DynamoDB tables only to the same AWS account to which the source tables belong.
+* Veeam Backup for AWS supports restoring only those DynamoDB table properties that are described in section [Protecting DynamoDB Tables](overview_dynamo.md#table_parameters).
 
 * The [AWS Backup](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/backuprestore_HowItWorksAWS.html) service does not support copying DynamoDB cloud-native backups stored in a cold storage tier to another AWS Region. These means that you will only be able to use these backups to restore tables to the same AWS Region in which the backups reside after being transitioned from a warm storage tier.
 
@@ -285,7 +288,7 @@ When restoring FSx file systems, consider the following:
 
 * Veeam Backup for AWS supports restoring FSx file systems only to the same AWS accounts to which the source file systems belong.
 
-* Veeam Backup for AWS does not support restoring file system properties described in section [Protecting FSx File Systems](overview_fsx.md#table_parameters).
+* Veeam Backup for AWS supports restoring only those FSx file system properties that are described in section [Protecting FSx File Systems](overview_fsx.md#table_parameters).
 
 * Veeam Backup for AWS does not support restoring Amazon FSx for Windows File Server file systems that use AWS Secrets Manager to store service account credentials when joined to a self-managed Microsoft Active Directory (AD).
 

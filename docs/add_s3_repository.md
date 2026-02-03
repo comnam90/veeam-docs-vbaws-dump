@@ -3,7 +3,7 @@ title: "Creating New Repositories"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_s3_repository.html"
-last_updated: "6/26/2024"
+last_updated: "1/29/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -18,8 +18,9 @@ To add a new repository, do the following:
 4. [Specify an IAM role](add_s3_role.md).
 5. [Specify an Amazon S3 bucket](add_s3_bucket.md).
 6. [Enable data encryption](add_s3_encryption.md).
-7. [Specify an S3 interface endpoint](add_s3_s3endpoint.md).
-8. [Wait for the repository to be added to the backup infrastructure](add_s3_apply.md).
-9. [Finish working with the wizard](add_s3_finish.md).
+7. [Specify mount server settings](add_s3_mount_server.md).
+8. [Specify an S3 interface endpoint](add_s3_s3endpoint.md).
+9. [Wait for the repository to be added to the backup infrastructure](add_s3_apply.md).
+10. [Finish working with the wizard](add_s3_finish.md).
 
 
