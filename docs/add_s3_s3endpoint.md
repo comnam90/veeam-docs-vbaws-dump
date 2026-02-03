@@ -1,13 +1,13 @@
 ---
-title: "Step 7. Specify VPC Interface Endpoint"
+title: "Step 8. Specify VPC Interface Endpoint"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_s3_s3endpoint.html"
-last_updated: "9/2/2025"
+last_updated: "1/29/2026"
 product_version: "10.0.0.232"
 ---
 
-# Step 7. Specify VPC Interface Endpoint
+# Step 8. Specify VPC Interface Endpoint
 
 
 [This step applies only if you have enabled the [private network deployment](enable_private_network_deployment.md) functionality]
@@ -21,6 +21,6 @@ For an S3 interface endpoint to be displayed in the Interface VPC endpoint list,
 | Important |
 | S3 gateway endpoints are not supported when using the private network deployment functionality. |
 
-![Step 7. Specify VPC Interface Endpoint](images/add_s3_endpoint.webp "Add Amazon S3 repository - S3 endpoint")
+![Step 8. Specify VPC Interface Endpoint](images/add_s3_endpoint.webp "Add Amazon S3 repository - S3 endpoint")
 
 
