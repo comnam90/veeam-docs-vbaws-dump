@@ -3,7 +3,7 @@ title: "Integration with Veeam Backup & Replication"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/integration_vbr.html"
-last_updated: "8/20/2025"
+last_updated: "2/13/2026"
 product_version: "10.0.0.232"
 ---
 

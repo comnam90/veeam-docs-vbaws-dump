@@ -3,7 +3,7 @@ title: "Solution Architecture"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/overview.html"
-last_updated: "1/29/2026"
+last_updated: "2/13/2026"
 product_version: "10.0.0.232"
 ---
 

@@ -3,7 +3,7 @@ title: "Ports"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/ports.html"
-last_updated: "1/21/2026"
+last_updated: "2/13/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -30,7 +30,7 @@ As Veeam Plug-In for AWS is installed on the same machine where Veeam Backup & R
 | [Route 53 Resolver](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-dns.html#AmazonDNS) | UDP | 53 | [Optional] Default port required to perform DNS resolution if you plan to use a custom DNS server for your VPC. |
 | Veeam Plug-In for AWS | Backup appliance, [AWS services](system_requirements_aws_services.md#plug-in) | TCP/HTTPS | 443 | Port used for communication with AWS and Veeam Backup for AWS. |
 | AWS CheckIP service | TCP/HTTPS | 443 | Required to get the public IP address of the Veeam Backup & Replication server during the deployment of Veeam Plug-In for AWS. |
-| Veeam Backup & Replication console and Veeam ONE server | Veeam Plug-In for AWS | TCP | 9402 | Port used to connect to Veeam Plug-In for AWS. |
+| Veeam Backup & Replication console and Veeam ONE server | Veeam Plug-In for AWS | TCP/HTTPS | 443 | Port used to connect to Veeam Plug-In for AWS. |
 
 To open network ports, you must add rules to security groups associated with Veeam Backup for AWS components:
 
