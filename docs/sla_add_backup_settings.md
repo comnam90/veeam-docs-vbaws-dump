@@ -3,7 +3,7 @@ title: "Step 4. Configure Backup Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/sla_add_backup_settings.html"
-last_updated: "11/24/2025"
+last_updated: "2/13/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -21,7 +21,7 @@ At the Backups step of the wizard, you can configure the following backup settin
 
 1. In the Changed block tracking section, you can enable the changed block tracking (CBT) mechanism that allows Veeam Backup for AWS to reduce the amount of data read from processed EBS volumes.
 
-Enabling CBT increases the speed and efficiency of backup operations but can incur additional costs of storing restore points in AWS. For more information, see [Snapshot Handling for Image-Level Backups](temporary_restore_points.md).
+Enabling CBT increases the speed and efficiency of backup operations but can incur additional costs of storing restore points in AWS. For more information, see [Reused and Temporary Snapshots](temporary_restore_points.md).
 
 1. In the Archives section, you can instruct Veeam Backup for AWS to store backed-up data in the low-cost, long-term archive storage, and to keep the archived data for a specific time period.
 
