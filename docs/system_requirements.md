@@ -3,7 +3,7 @@ title: "System Requirements"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/system_requirements.html"
-last_updated: "11/28/2025"
+last_updated: "3/2/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -36,9 +36,10 @@ Version Compatibility
 
 The following table lists compatible versions of Veeam Backup & Replication, Veeam Plug-In for AWS and Veeam Backup for AWS.
 
+Version Compatibility
+
 | Veeam Backup & Replication Build | Veeam Plug-In for AWS Build | Veeam Backup for AWS Build |
-| --- | --- | --- |
-| 13.0.1.180 | 13.10.0.225 | 10.0.0.232 |
+| 13.0.1.180 and later | 13.10.0.225 and later | 10.0.0.232 |
 | 13.0.0.4967 | 13.9.1.467 | 9.1.0.45 |
 | 12.3.2.3617 | 12.9.0.281 |
 | 12.3.1.1139 | 9.0.0.304 |
