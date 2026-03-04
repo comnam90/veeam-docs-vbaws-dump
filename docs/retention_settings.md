@@ -3,7 +3,7 @@ title: "Configuring Global Retention Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/retention_settings.html"
-last_updated: "7/4/2025"
+last_updated: "2/17/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -41,8 +41,8 @@ If you select this option, Veeam Backup for AWS will remove obsolete snapshots o
 
 |  |
 | --- |
-| Note |
-| When Veeam Backup for AWS removes an obsolete snapshot from the configuration database, it also removes the snapshot from AWS. |
+| Notes |
+| * When Veeam Backup for AWS removes an obsolete snapshot from the configuration database, it also removes the snapshot from AWS.  * If your backup appliance is managed by a Veeam Backup & Replication server, the backup server becomes the owner of the appliance repositories. As a result, it will remove obsolete cloud-native snapshots and snapshot replicas according to the obsolete snapshot retention settings configured on the backup appliance. For more information on how Veeam Backup & Replication handles retention policies, see the Veeam Backup & Replication User Guide, section [Managing Retention Policy](https://helpcenter.veeam.com/docs/vbr/userguide/external_repository_retention.html?ver=13). |
 
 Configuring Retention Settings for Session Records
 

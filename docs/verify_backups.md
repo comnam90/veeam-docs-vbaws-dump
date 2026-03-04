@@ -3,7 +3,7 @@ title: "Verifying Backups"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/verify_backups.html"
-last_updated: "11/11/2025"
+last_updated: "3/2/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -16,7 +16,7 @@ To create a SureBackup job, do the following:
 
 1. In the Veeam Backup & Replication console, open the Home view.
 2. Navigate to Jobs and click SureBackup Job on the ribbon.
-3. At the Name step of the New SureBackup Job wizard, select the Backup verification and content scan only verification mode, and then complete the wizard as described in the Veeam Backup & Replication, section [Creating SureBackup Jobs](https://helpcenter.veeam.com/docs/vbr/userguide/surebackup_job_joblink_vm.html?ver=13).
+3. At the Name step of the New SureBackup Job wizard, select the Backup verification and content scan only verification mode, and then complete the wizard as described in the Veeam Backup & Replication, section [Creating SureBackup Jobs](https://helpcenter.veeam.com/docs/vbr/userguide/surebackup_job_name_vm.html?ver=13).
 
 If any of the verification checks fail for a restore point, Veeam Backup & Replication will mark both this restore point and all subsequent points in the backup chain as Infected. To learn how to manage infected restore points, see Veeam Backup & Replication User Guide, section [Managing Malware Status](https://helpcenter.veeam.com/docs/vbr/userguide/malware_detection_managing_status.html?ver=13).
 
