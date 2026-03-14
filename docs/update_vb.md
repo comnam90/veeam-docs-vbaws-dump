@@ -1,25 +1,21 @@
 ---
-title: "Updating Veeam Backup for AWS"
+title: "Uprade and Update"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/update_vb.html"
-last_updated: "11/6/2025"
+last_updated: "3/11/2026"
 product_version: "10.0.0.232"
 ---
 
-# Updating Veeam Backup for AWS
+# Uprade and Update
 
 
-Veeam Backup for AWS allows you to check for new product versions and available software package updates. It is recommended that you timely install available software package updates to avoid performance issues while working with the product. For example, timely installed security updates may help you prevent potential security issues and reduce the risk of compromising sensitive data.
-
-|  |
-| --- |
-| Important |
-| Updating backup appliances in the unattended mode or using third-party tools is not supported. |
+This section describes how to upgrade Veeam Plug-In for AWS and the backup appliance using the Veeam Backup & Replication console, as well as how to install software package updates on the backup appliance using the Veeam Backup for AWS Web UI.
 
 In This Section
 
-* [Updating Appliances Using Console](upgrade_appliance_console.md)
-* [Updating Appliances Using Web UI](upgrade_appliance_ui.md)
+* [Upgrading Plug-In](upgrading_plugin.md)
+* [Upgrading Backup Appliances](upgrade_appliance_console.md)
+* [Updating Backup Appliances](upgrade_appliance_ui.md)
 
 
