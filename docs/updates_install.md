@@ -3,7 +3,7 @@ title: "Installing Updates"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/updates_install.html"
-last_updated: "9/29/2025"
+last_updated: "3/11/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -20,7 +20,7 @@ You can also [set a reminder to send update notifications](#reminder).
 |  |
 | --- |
 | Important |
-| * Updating standalone backup appliances manually is not supported. You can update these appliances using the Veeam Updater service only.  * Installing software package updates on the backup appliance managed by a Veeam Backup for AWS server is supported using the Veeam Updater service only. |
+| * Updating standalone backup appliances manually is not supported. You can update these appliances using the Veeam Updater service only.  * Installing software package updates on the backup appliance managed by a Veeam Backup & Replication server is supported using the Veeam Updater service only. |
 
 Installing Updates
 
