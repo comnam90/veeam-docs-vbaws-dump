@@ -3,7 +3,7 @@ title: "Backup Appliance"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/appliance_aws.html"
-last_updated: "6/25/2025"
+last_updated: "3/13/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -16,8 +16,9 @@ General Recommendations
 
 The following recommendations and examples apply to the latest Veeam Backup for AWS builds.
 
+General Recommendations
+
 | Instance Type | Recommended Maximum Number of Protected EC2 Instances |
-| --- | --- |
 | T3.medium (default - 2 vCPU, 4 GB RAM) | 1,000 |
 | T3.2xlarge (medium - 8 vCPU, 32 GB RAM) | 5,000 |
 | C5.9xlarge (large - 36 vCPU, 72 GB RAM) | 10,000 |
@@ -30,8 +31,9 @@ When defining the instance type and amount of RAM required for proper functionin
 
 The RAM consumed by a backup policy depends on the data protection scenario.
 
+General Recommendations
+
 | Backup Policy Configuration | RAM Utilization (Default) | Additional RAM (per Workload) |
-| --- | --- | --- |
 | EC2 Backup Policy | | |
 | Snapshots only | 105 MB | 1 MB |
 | Snapshots and snapshot replicas | 130 MB | 1 MB |
@@ -64,8 +66,9 @@ Consider the following example. You configure a number of backup policies to pro
 
 The amount of RAM utilized by policies running on a backup appliance (Utilized RAM) depends on the total amount of RAM allocated to the backup appliance, the number of configured backup policies and the number of workloads protected by one policy. However, consider that the actual amount of RAM available for policy execution (Free RAM) will also be affected by the OS and Veeam services operation.
 
+RAM Sizing Examples
+
 | Total RAM | Number of Backup Policies | Workloads per Backup Policy | Utilized RAM1 | Free RAM2 |
-| --- | --- | --- | --- | --- |
 | 4 GB | 5 | 50 | (150 + (50 \* 3)) \* 5  = ~ 1.5 GB | 4 GB - 1.5 GB - 4 GB \* 0.05  = 2.3 GB |
 | 8 GB | 20 | 50 | (150 + (50 \* 3)) \* 20  = ~ 6 GB | 8 GB - 1.5 GB - 8 GB \* 0.05  = 6.1 GB |
 | 16 GB | 50 | 30 | (150 + (30 \* 3)) \* 50  = ~ 12 GB | 16 GB - 1.5 GB - 16 GB \* 0.05  = 13.7 GB |
@@ -78,8 +81,9 @@ The amount of RAM utilized by policies running on a backup appliance (Utilized R
 
 CPU Sizing Examples
 
+CPU Sizing Examples
+
 | Amount of vCPUs | Number of Snapshots Taken Simultaneously |
-| --- | --- |
 | EC2 CPU | |
 | 2 vCPU | < 300 |
 | 4 vCPU | < 600 |
@@ -108,9 +112,15 @@ Logging Recommendations
 
 You can modify the following logging options in the configuration file /etc/veeam/awsbackup/config.ini:
 
-|  |
-| --- |
-| [LogOptions] |
+Logging Recommendations
+
+| Parameter | Recommended Value | Description |
+| LogLevel | Normal | Specifies the level of detail written to log files. |
+| LogsArchivesMaxCount | 100 | Specifies the maximum number of archived appliance log files that can be stored. |
+| LogsArchivesMaxSizeMb | 1000 | Specifies the maximum size of each archived appliance log file in MB. |
+| WorkerLogsLifeTime | 36500:00:00:00 | Specifies how long worker log files are retained.   Note: The recommended value equals approximately 100 years, which effectively prevents automatic deletion of worker log files. However, such a long retention may eventually lead to memory shortage and make the backup appliance unavailable |
+| WorkerLogsMaxArchivesCount | 2147483647 | Specifies the maximum number of archived worker log files that can be stored.   Note: The recommended value means there is no limit on the number of archived log files. |
+| WorkerLogsMaxSizeMb | 2147483647 | Specifies the maximum size of each worker log file in MB.  Note: The recommended value means there is no limit on the size for worker log files. |
 
 If the log files grow too large, you can remove them from the /mnt/vcb-storage/logs or /var/log/veeam folder, or open a [support case](https://helpcenter.veeam.com/docs/vbaws/guide/logs.html) to remove the unnecessary data.
 
@@ -125,8 +135,9 @@ When you connect an existing backup appliance to the backup infrastructure, the 
 * Retrieving data from the backup appliance.
 * Saving the retrieved data to the Veeam Backup & Replication database.
 
+Time Consumption
+
 | Protected Workloads | Snapshots | Backups | Backup Policy Sessions | Workload Processing Sessions | Time Consumption |
-| --- | --- | --- | --- | --- | --- |
 | 1,000 | 100,000 | 100,000 | 8,000 | 400,000 | about 2 hours\* |
 | 2,000 | 200,000 | 200,000 | 16,000 | 800,000 | about 3 hours\* |
 | 4,000 | 400,000 | 400,000 | 32,000 | 1,600,000 | about 5 hours\* |
