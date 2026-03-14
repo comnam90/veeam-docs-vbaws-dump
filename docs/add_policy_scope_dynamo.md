@@ -3,7 +3,7 @@ title: "Step 3. Specify Data Protection Scope"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_scope_dynamo.html"
-last_updated: "8/21/2025"
+last_updated: "3/12/2026"
 product_version: "10.0.0.232"
 ---
 
