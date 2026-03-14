@@ -3,7 +3,7 @@ title: "Step 1. Launch New Veeam Backup for AWS Appliance Wizard"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/deploy_appliance_launch.html"
-last_updated: "8/11/2025"
+last_updated: "3/11/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -20,7 +20,7 @@ Alternatively, you can right-click the Managed Servers node and select Add Serve
 1. In the Add Server window:
 
 1. [Applies only if you have several cloud plug-ins installed] Click Veeam cloud-native backup appliance.
-2. Choose Veeam Backup for AWS.
+2. Select Veeam Backup for AWS.
 
 ![Step 1. Launch New Veeam Backup for AWS Appliance Wizard](images/add_server_launch.webp "Add server - Launch")
 
