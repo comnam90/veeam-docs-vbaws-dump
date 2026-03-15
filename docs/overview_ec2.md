@@ -3,7 +3,7 @@ title: "Protecting EC2 Instances"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/overview_ec2.html"
-last_updated: "12/12/2025"
+last_updated: "3/12/2026"
 product_version: "10.0.0.232"
 ---
 
