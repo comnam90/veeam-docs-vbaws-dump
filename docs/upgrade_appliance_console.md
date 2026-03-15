@@ -1,23 +1,25 @@
 ---
-title: "Updating Appliances Using Console"
+title: "Upgrading Backup Appliances"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/upgrade_appliance_console.html"
-last_updated: "9/29/2025"
+last_updated: "3/11/2026"
 product_version: "10.0.0.232"
 ---
 
-# Updating Appliances Using Console
+# Upgrading Backup Appliances
 
 
-Starting from version 6a, you can upgrade backup appliances from the Veeam Backup & Replication console only. Upgrade to Veeam Backup for AWS version 10 is supported from Veeam Backup for AWS version 4 or later. To upgrade from an earlier version, you must first perform upgrade to version 4 as described in section [Installing Updates](updates_install.md).
+Veeam Backup for AWS allows you to check for new product versions and available software package updates. It is recommended that you timely install available software package updates to avoid performance issues while working with the product. For example, timely installed security updates may help you prevent potential security issues and reduce the risk of compromising sensitive data.
 
 |  |
 | --- |
 | Important |
 | Before you upgrade a backup appliance, check whether the Veeam Backup for AWS version is compatible with the current version of Veeam Plug-In for AWS. For more information, see [System Requirements](system_requirements.md#versions). |
 
-Veeam Plug-In for AWS allows you to download and install new available Veeam Backup for AWS versions and product updates:
+How to Perform Upgrade
+
+To upgrade Veeam Backup for AWS, do the following:
 
 1. In the Veeam Backup & Replication console, open the Backup Infrastructure view.
 2. Navigate to Managed Servers.
