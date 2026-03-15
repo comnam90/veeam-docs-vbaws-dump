@@ -3,7 +3,7 @@ title: "DynamoDB Restore Using Web UI"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/dynamo_restore_ui.html"
-last_updated: "1/30/2026"
+last_updated: "3/12/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -15,7 +15,7 @@ In case of a disaster, you can restore a DynamoDB table from a DynamoDB backup o
 |  |
 | --- |
 | Important |
-| * Veeam Backup for AWS supports restoring DynamoDB tables only to the same AWS account where the source tables reside.  * Veeam Backup for AWS supports restoring only those DynamoDB table properties that are described in section [Protecting DynamoDB Tables](overview_dynamo.md#table_parameters). |
+| * Veeam Backup for AWS supports restoring DynamoDB tables only to the same AWS account where the source tables reside.  * Veeam Backup for AWS supports restoring only those DynamoDB table properties that are described in section [Protecting DynamoDB Tables](overview_dynamo.md#table_parameters). * The [AWS Backup](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/backuprestore_HowItWorksAWS.html) service does not support copying DynamoDB cloud-native backups stored in a cold storage tier to another AWS Region. These means that you will only be able to use these backups to restore tables to the same AWS Region in which the backups reside after being transitioned from a warm storage tier. |
 
 How to Perform DynamoDB Restore
 
