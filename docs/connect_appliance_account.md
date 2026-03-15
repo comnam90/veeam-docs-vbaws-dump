@@ -3,7 +3,7 @@ title: "Step 3. Specify AWS Account Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/connect_appliance_account.html"
-last_updated: "8/11/2025"
+last_updated: "3/12/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -26,6 +26,6 @@ For more information on regions and availability zones, see [AWS Documentation](
 | Important |
 | To check the availability of the region, Veeam Backup & Replication by default establishes a temporary test connection with the US East (N. Virginia) region using endpoints of the [AWS Security Token Service (STS)](https://docs.aws.amazon.com/general/latest/gr/sts.html) and [Amazon Elastic Compute Cloud (EC2)](https://docs.aws.amazon.com/general/latest/gr/ec2-service.html) AWS services. That is why the backup server must have access to this AWS Region. If you want to change the default region for a test connection, open a [support case](logs.md). |
 
-![Step 3. Specify AWS Account Settings](images/add_server_account.webp "Add aplliance - Account")
+![Step 3. Specify AWS Account Settings](images/add_server_account.webp "Add applliance - Account")
 
 
