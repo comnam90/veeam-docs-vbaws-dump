@@ -3,7 +3,7 @@ title: "Creating Snapshot Replicas"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/encryption_aws_cmks_creating_replicas.html"
-last_updated: "5/21/2025"
+last_updated: "3/12/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -32,7 +32,7 @@ To copy the encrypted snapshot, Veeam Backup for AWS uses an IAM role specified 
 | Important |
 | If you do not specify a target KMS key in the backup policy settings, Veeam Backup for AWS will not create a snapshot replica for the encrypted instance, and the backup session will complete with warnings. |
 
-[![Creating Snapshor Replicas](images/cmk_replicas_same.webp)](images/cmk_replicas_same.webp "Creating Snapshor Replicas")
+[![Creating Snapshot Replicas](images/cmk_replicas_same.webp)](images/cmk_replicas_same.webp "Creating Snapshot Replicas")
 
 Creating Snapshot Replica in Another AWS Account
 
@@ -67,7 +67,7 @@ To copy the shared encrypted snapshot, Veeam Backup for AWS uses an IAM role spe
 | Important |
 | Note that if you do not specify a target KMS key in the backup policy settings, Veeam Backup for AWS will not create a snapshot replica for the encrypted instance, and the backup session will complete with warnings. |
 
-[![Creating Snapshor Replicas](images/cmk_replicas_different_ec2.webp)](images/cmk_replicas_different_ec2.webp "Creating Snapshor Replicas")
+[![Creating Snapshot Replicas](images/cmk_replicas_different_ec2.webp)](images/cmk_replicas_different_ec2.webp "Creating Snapshot Replicas")
 
 Creating Snapshot Replica of RDS Instance
 
@@ -96,6 +96,6 @@ To copy the shared encrypted snapshot, Veeam Backup for AWS uses an IAM role spe
 | Important |
 | If you do not specify a target KMS key in the backup policy settings, Veeam Backup for AWS will not create a snapshot replica for the encrypted instance, and the backup session will complete with warnings. |
 
-[![Creating Snapshor Replicas](images/cmk_replicas_different.webp)](images/cmk_replicas_different.webp "Creating Snapshor Replicas")
+[![Creating Snapshot Replicas](images/cmk_replicas_different.webp)](images/cmk_replicas_different.webp "Creating Snapshot Replicas")
 
 
