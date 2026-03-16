@@ -3,7 +3,7 @@ title: "Worker Deployment Options"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/worker_options.html"
-last_updated: "12/9/2025"
+last_updated: "3/12/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -64,8 +64,9 @@ Additionally, if you want to distribute workload across multiple AWS accounts an
 
 To deploy worker instances in production accounts, Veeam Backup for AWS employs the following IAM roles:
 
+Worker Deployment in Production Accounts
+
 | Role | Permissions | Settings |
-| --- | --- | --- |
 | An IAM role that is used to perform an operation (that is, a backup or restore IAM role) | Depending on the operation, the role must be assigned additional permissions listed in either of the following sections:   * [EFS Backup IAM Role Permissions](role_permissions_backup_efs.md) * [RDS Backup IAM Role Permissions](role_permissions_backup_rds.md) * [EC2 Backup IAM Role Permissions](role_permissions_backup_ec2.md) * [EC2 Restore IAM Permissions](role_permissions_restore_ec2.md) | Depending on the operation, you must specify this IAM role in the backup policy or restore settings as described in either of the following sections:   * [Creating EFS Backup Policies](add_policy_scope_efs.md#role) * [Creating EC2 Backup Policies](add_policy_scope.md#role) * [Performing RDS Backup](add_policy_scope_rds.md#role) * [Performing Entire EC2 Instance Restore](restore_entire_account.md#roles) * [Performing Volume-Level Restore](restore_volume_account.md#roles) * [Performing RDS Database Restore](restore_rds_database_workers.md) |
 | An IAM role that is attached to the deployed worker instances and further used by Veeam Backup for AWS to communicate with the instances (that is, a worker IAM role) | Depending on the operation, the role must be assigned permissions listed in either of the following sections:   * [Worker Deployment Role Permissions in Production Accounts](role_permissions_prod_acc.md) * [FLR Worker IAM Role Permissions](role_permissions_flr_prod.md) | Depending on the operation, you must specify this IAM role when enabling worker deployment in production accounts in the backup policy or restore settings, as described in either of the following sections:   * [Creating EFS Backup Policies](add_policy_indexing_efs.md#enable_efs_indexing) * [Creating RDS Backup Policies](add_policy_target_settings_backups_rds.md) * [Creating EC2 Backup Policies](add_policy_target_settings_backups.md#workers) * [Performing RDS Database Restore](restore_rds_database_workers.md#worker) * [Performing Entire EC2 Instance Restore](restore_entire_account.md#workers) * [Performing Volume-Level Restore](restore_volume_account.md#workers) * [Performing File-Level Recovery](restore_item_mode.md#workers) |
 
