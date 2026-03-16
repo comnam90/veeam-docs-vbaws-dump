@@ -3,7 +3,7 @@ title: "Glossary"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/glossary.html"
-last_updated: "2/2/2026"
+last_updated: "3/11/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -83,7 +83,7 @@ O
 P
 
 * parameter group — a set of settings containing database engine configuration values applied to RDS resources. See also [RDS Restore Using Web UI](restore_rds_instance_settings.md).
-* product updates — updates for Veeam Backup for AWS components that deliver new features and improvements. See also [Updating Appliances Using Console](upgrade_appliance_console.md).
+* product updates — updates for Veeam Backup for AWS components that deliver new features and improvements. See also [Upgrading Backup Appliances](upgrade_appliance_console.md).
 * production account — an AWS account in which Veeam Backup for AWS deploys worker instances to perform operations with processed AWS resources belonging to the same AWS account. See also [Worker Deployment Options](worker_options.md#production).
 
 R
