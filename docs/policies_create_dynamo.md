@@ -3,12 +3,17 @@ title: "Creating DynamoDB Backup Policies"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/policies_create_dynamo.html"
-last_updated: "7/29/2025"
+last_updated: "3/12/2026"
 product_version: "10.0.0.232"
 ---
 
 # Creating DynamoDB Backup Policies
 
+
+|  |
+| --- |
+| Important |
+| Before you create a DynamoDB backup policy, check the limitations and prerequisites described in section [Before You Begin](add_dynamo_policy_byb.md). |
 
 To create a backup policy, do the following:
 

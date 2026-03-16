@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/limitations.html"
-last_updated: "1/27/2026"
+last_updated: "3/12/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -280,7 +280,9 @@ When restoring DynamoDB tables, consider the following:
 
 EFS Restore
 
-Veeam Backup for AWS supports restoring EFS file systems only to the same AWS account to which the source file systems belong.
+When restoring EFS file systems, consider the following:
+
+* Veeam Backup for AWS supports restoring EFS file systems only to the same AWS account to which the source file systems belong.
 
 FSx Restore
 
