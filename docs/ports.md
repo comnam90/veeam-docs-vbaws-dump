@@ -3,7 +3,7 @@ title: "Ports"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/ports.html"
-last_updated: "2/13/2026"
+last_updated: "3/13/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -12,8 +12,9 @@ product_version: "10.0.0.232"
 
 As Veeam Plug-In for AWS is installed on the same machine where Veeam Backup & Replication runs, it uses the same ports as those described in the Veeam Backup & Replication User Guide, section [Ports](https://helpcenter.veeam.com/docs/vbr/userguide/used_ports.html?ver=13) —  in addition to the ports listed in the following table.
 
+Ports
+
 | From | To | Protocol | Port | Notes |
-| --- | --- | --- | --- | --- |
 | Web browser (local machine) | Backup appliance | TCP/HTTPS | 443 | Required to access the Web UI component from a user workstation. |
 | SSH | 22 | [Optional] Required to connect to the backup appliance using SSH. |
 | TCP/HTTPS | 11005 | [Optional] Default port required to communicate with the public REST API service running on the backup appliance. For more information on Veeam Backup for AWS REST API, see the [Veeam Backup for AWS REST API Reference](https://helpcenter.veeam.com/references/vbaws/10/rest/1.8-rev0/tag/SectionAbout).  To learn how to change the port number, see the [Configuring Security Settings](https://helpcenter.veeam.com/references/vbaws/10/rest/1.8-rev0/tag/SectionOverview#section/Configuring-Security-Settings) section in the Veeam Backup for AWS REST API Reference. |

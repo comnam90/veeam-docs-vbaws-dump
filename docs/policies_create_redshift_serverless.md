@@ -3,17 +3,12 @@ title: "Creating Redshift Serverless Backup Policies"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/policies_create_redshift_serverless.html"
-last_updated: "3/12/2026"
+last_updated: "3/18/2026"
 product_version: "10.0.0.232"
 ---
 
 # Creating Redshift Serverless Backup Policies
 
-
-|  |
-| --- |
-| Important |
-| Before you create a Redshift Serverless policy, check the limitations and prerequisites described in section [Before You Begin](add_redshift_serverless_policy_byb.md). |
 
 To create a backup policy, do the following:
 

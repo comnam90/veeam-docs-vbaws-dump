@@ -3,14 +3,17 @@ title: "Before You Begin"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_schedule_based_policy_byb.html"
-last_updated: "3/12/2026"
+last_updated: "3/18/2026"
 product_version: "10.0.0.232"
 ---
 
 # Before You Begin
 
 
-Before you protect EC2 instances, consider the following:
+Before you protect EC2 instances, consider the following prerequisites and requirements:
+
+* If you plan to create image-level backups of EC2 instances, backup infrastructure components that will take part in the backup process must be added to the backup infrastructure and configured properly. These include [backup repositories](repositories_add_ui.md) and [worker instances](workers.md).
+* If you plan to create transactionally consistent backups of EC2 instances, check the requirements for application-aware processing and guest scripting. For more information, see sections [Creating Schedule-Based EC2 Backup Policies](add_policy_guest_processing.md) and [Creating SLA-Based EC2 Backup Policies](add_sla_policy_guest_processing.md).
 
 * Veeam Backup for AWS prioritizes SLA-based backup policies over schedule-based backup policies. If an EC2 instance is included into both a schedule-based and an SLA-based backup policy, it will be processed by the SLA-based backup policy only.
 
