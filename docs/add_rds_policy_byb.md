@@ -3,7 +3,7 @@ title: "Before You Begin"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_rds_policy_byb.html"
-last_updated: "3/12/2026"
+last_updated: "3/18/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -11,6 +11,8 @@ product_version: "10.0.0.232"
 
 
 Before you protect RDS resources, consider the following:
+
+* If you plan to create image-level backups of RDS resources, backup infrastructure components that will take part in the backup process must be added to the backup infrastructure and configured properly. These include [backup repositories](repositories_add_ui.md) and [worker instances](workers.md).
 
 * Veeam Backup for AWS supports creating image-level backups for Microsoft SQL Server and PostgreSQL DB instances only. However, the size of each database hosted on a protected Microsoft SQL Server DB instance must not exceed 5 TiB.
 
