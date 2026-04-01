@@ -3,7 +3,7 @@ title: "Step 1. Create Customer Gateway"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/create_customer_device.html"
-last_updated: "10/10/2025"
+last_updated: "3/31/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -27,6 +27,6 @@ To provide information on a customer gateway device to AWS, create a customer ga
 4. From the Certificate ARN drop-down list, specify the Amazon Resource Name of a private certificate that will be used to connect to the gateway.
 5. [Optional] In the Device field, specify a name for the customer gateway device.
 
-1. Click Create customergateway.
+1. Click Create customer gateway.
 
 
