@@ -3,7 +3,7 @@ title: "Considerations and Limitations"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/limitations.html"
-last_updated: "3/12/2026"
+last_updated: "3/31/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -40,7 +40,7 @@ Backup Repositories
 
 When managing backup repositories, consider the following:
 
-* Veeam Backup for AWS supports storing image-level backups backups only in the S3 Standard, S3 Glacier Flexible Retrieval and S3 Glacier Deep Archive storage classes. The S3 Standard-IA and S3 One Zone-IA storage classes are not supported.
+* Veeam Backup for AWS supports storing image-level backups only in the S3 Standard, S3 Glacier Flexible Retrieval and S3 Glacier Deep Archive storage classes. The S3 Standard-IA and S3 One Zone-IA storage classes are not supported.
 
 When you add a backup repository of the S3 Glacier Flexible Retrieval or S3 Glacier Deep Archive storage class, Veeam Backup for AWS does not create any S3 Glacier vaults in your AWS environment — it assigns the selected storage class to backups stored in the repository. That is why these backups remain in Amazon S3 and cannot be accessed directly through the Amazon S3 Glacier service.
 
@@ -68,8 +68,8 @@ AWS Organizations
 
 When performing data protection operations with resources within AWS Organizations, consider the following:
 
-* Veeam Backup for AWS does not support taking manual snapshot and backups using IAM roles specified in the [organization settings](organization_add_settings.md).
-* Veeam Backup for AWS does not support cloud-native snapshots replication of EC2 instances and RDS resources using IAM roles specified in the organization settings.
+* Veeam Backup for AWS does not support taking manual snapshots and backups using IAM roles specified in the [organization settings](organization_add_settings.md).
+* Veeam Backup for AWS does not support cloud-native snapshot replication of EC2 instances and RDS resources using IAM roles specified in the organization settings.
 * Veeam Backup for AWS does not support managing backup repositories using IAM roles specified in the organization settings.
 
 EC2 Backup
@@ -110,7 +110,7 @@ For the list of supported PostgreSQL versions, see [Protecting RDS Resources](ov
 
 The IAM role that is associated with the SQLSERVER\_BACKUP\_RESTORE option must have the permissions required to access temporary Amazon S3 buckets. The IAM role must also have a trust relationship and a permissions policy attached to allow the Amazon RDS service to assume the role. For more information on the backup and restore option, see [AWS Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Appendix.SQLServer.Options.BackupRestore.html#Appendix.SQLServer.Options.BackupRestore.Add).
 
-* [Applies only if you plan to back up Microsoft SQL Server DB instances] If you plan to enable the [private network deployment](enable_private_network_deployment.md) functionality, Veeam Backup for AWS must be able to connect to the public s3.<region>.amazonaws.com endpoint to access temporary Amazon S3 buckets. Otherwise, backup policies processing DB instances will fail to produce image-level backups. For more information on the temporary buckets, see [Performing RDS Backup](backup_hiw_rds.md).
+* [Applies only if you plan to back up Microsoft SQL Server DB instances] If you plan to enable the [private network deployment](enable_private_network_deployment.md) functionality, Veeam Backup for AWS must be able to connect to the public s3..amazonaws.com endpoint to access temporary Amazon S3 buckets. Otherwise, backup policies processing DB instances will fail to produce image-level backups. For more information on the temporary buckets, see [Performing RDS Backup](backup_hiw_rds.md).
 
 * Veeam Backup for AWS runs retention sessions at 4:00 AM by default, according to the time zone set on the backup appliance. If you schedule backup policies to execute at 4:00 AM, the backup policies and retention tasks will be queued.
 
@@ -197,7 +197,7 @@ VPC Backup
 
 When protecting VPC configurations, consider the following:
 
-* Veeam Backup for AWS does not support creating backups for the following VPC configuration components: VPC Traffic Mirroring, AWS Network Firewall, Route 53 Resolver DNS Firewall, AWS Verified Access, VPC Flow Logs, carrier gateways, customer IP pools, transit gateway policy tables, and core networks in route tables.
+* Veeam Backup for AWS does not support creating backups for the following VPC configuration components: VPC Traffic Mirroring, AWS Network Firewall, Route 53 Resolver DNS Firewall, AWS Verified Access, VPC Flow Logs, carrier gateways, customer IP pools, transit gateway policy tables, or core networks in route tables.
 
 * Veeam Backup for AWS runs retention sessions at 4:00 AM by default, according to the time zone set on the backup appliance. If you schedule backup policies to execute at 4:00 AM, the backup policies and retention tasks will be queued.
 
@@ -220,11 +220,11 @@ For more information on Amazon EBS Multi-Attach, see [AWS Documentation](https:/
 * [Applies only if you plan to restore EC2 instances to the original location] If [stop protection](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-stop-protection.html) or [termination protection](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/terminating-instances.html#Using_ChangingDisableAPITermination) is enabled on an EC2 instance, Veeam Backup for AWS will not be able to restore the instance and will raise an error notifying that you must disable stop protection or termination protection on the source instance.
 * [Applies only if you plan to restore EC2 instances to the original location] Veeam Backup for AWS does not support restoring EC2 instances if the source instances with termination protection and stop protection enabled still exist in AWS.
 
-* Veeam Backup for AWS does not support restore of IPv6 addresses, tags of Elastic IP addresses and prefixes assigned to Amazon EC2 network interfaces attached to EC2 instances.
+* Veeam Backup for AWS does not support restore of IPv6 addresses, tags of Elastic IP addresses or prefixes assigned to Amazon EC2 network interfaces attached to EC2 instances.
 
 RDS Restore
 
-When restoring RDS resources, consider the following
+When restoring RDS resources, consider the following:
 
 * When restoring Aurora DB clusters that are part of an Amazon Aurora global database, Veeam Backup for AWS restores only the primary clusters in the primary AWS Region. Secondary clusters must be created manually in the AWS Management Console after the restore operation completes.
 
@@ -237,12 +237,12 @@ To learn how to add DB instances to Amazon Aurora DB clusters, see [AWS Document
 * Veeam Backup for AWS does not support restoring RDS resources to the original location if the IAM role specified for the restore operation belongs to an AWS account that differs from the AWS account to which the source resources belong.
 * Veeam Backup for AWS does not support restoring RDS resources to the original location if deletion protection is enabled for the source resource.
 
-* [Applies only if you perform restore databases of Microsoft SQL Server and PostgreSQL DB instances from image-level backups] Keep in mind the following:
+* [Applies only if you restore databases of Microsoft SQL Server and PostgreSQL DB instances from image-level backups] Keep in mind the following:
 
 * The database account that you specify for the restore operation will become the owner of all restored databases.
 * Veeam Backup for AWS does not support restoring original database accounts, including their predefined roles and access privileges. Therefore, you will have to manually recreate these accounts on the restored databases and reassign their privileges after the restore process completes.
 
-* [Applies only if you perform restore databases of Microsoft SQL Server DB instances from image-level backups] Keep in mind the following:
+* [Applies only if you restore databases of Microsoft SQL Server DB instances from image-level backups] Keep in mind the following:
 
 * The target DB instance must be set to the same time zone as the source DB instance. Otherwise, your applications may encounter data consistency issues.
 * The target DB instance must run the same or a later engine version as the source DB instance. Otherwise, the restore operation will fail to complete successfully.
@@ -274,7 +274,7 @@ When restoring DynamoDB tables, consider the following:
 * Veeam Backup for AWS supports restoring DynamoDB tables only to the same AWS account to which the source tables belong.
 * Veeam Backup for AWS supports restoring only those DynamoDB table properties that are described in section [Protecting DynamoDB Tables](overview_dynamo.md#table_parameters).
 
-* The [AWS Backup](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/backuprestore_HowItWorksAWS.html) service does not support copying DynamoDB cloud-native backups stored in a cold storage tier to another AWS Region. These means that you will only be able to use these backups to restore tables to the same AWS Region in which the backups reside after being transitioned from a warm storage tier.
+* The [AWS Backup](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/backuprestore_HowItWorksAWS.html) service does not support copying DynamoDB cloud-native backups stored in a cold storage tier to another AWS Region. This means that you will only be able to use these backups to restore tables to the same AWS Region in which the backups reside after being transitioned from a warm storage tier.
 
 * You can change the Time to Live (TTL) setting for DynamoDB tables only an hour after the restore operation completes.
 
@@ -298,7 +298,7 @@ VPC Restore
 
 When restoring VPC configurations, consider the following:
 
-* Veeam Backup for AWS does not support restoring entire VPC configurations to a new location for the following VPC configuration items: Client VPN endpoints, customer gateways and load balancer listeners that use authentication certificates and specific components of route tables (core networks, routes to local gateways, network interfaces, instances and carrier gateways).
+* Veeam Backup for AWS does not support restoring entire VPC configurations to a new location for the following VPC configuration items: Client VPN endpoints, customer gateways or load balancer listeners that use authentication certificates or specific components of route tables (core networks, routes to local gateways, network interfaces, instances or carrier gateways).
 * Veeam Backup for AWS does not support restoring specific VPC configuration items to a new location.
 
 SureBackup
