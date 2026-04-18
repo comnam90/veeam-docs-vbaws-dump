@@ -3,46 +3,41 @@ title: "Configuring Global Retention Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/retention_settings.html"
-last_updated: "2/17/2026"
+last_updated: "4/15/2026"
 product_version: "10.0.0.232"
 ---
 
 # Configuring Global Retention Settings
 
 
-You can configure global retention settings to specify for how long the following data must be retained in the configuration database:
+You can configure global retention settings to specify for how long the following data will be retained by Veeam Backup for AWS:
 
 * [Obsolete snapshots and replicas](#snapshots)
 * [Session records](#sessions)
 
 Configuring Retention Settings for Obsolete Snapshots and Replicas
 
-If an instance is no longer processed by a backup policy (for example, it was removed from the backup policy or the backup policy no longer exists), its cloud-native snapshots and snapshot replicas become obsolete. Retention policy settings configured when creating backup policies do not apply to obsolete snapshots — these snapshots are removed from the configuration database according to their own retention settings.
+When you create a backup policy, you can configure a retention period for cloud-native snapshots and snapshot replicas produced by this policy. However, you may need to define a time limit that applies to all backup policies to save space in the configuration database of the backup appliance. To do that, you can configure global snapshot retention settings to instruct Veeam Backup for AWS to remove all obsolete snapshots from both the configuration database and AWS.
 
 |  |
 | --- |
-| Note |
-| Global retention settings apply to all EC2 and RDS cloud-native snapshots, as well as to snapshot replicas created by the Veeam backup service. If an instance is still processed by a backup policy, but some of its cloud-native snapshots and snapshot replicas are older than the number of days (or months) specified in the global retention settings, these cloud-native snapshots and snapshot replicas will not be removed from Veeam Backup for AWS. |
+| Notes |
+| * Cloud-native snapshots and snapshot replicas are considered obsolete if the backup policy that produced them is disabled or no longer exists, the backup schedule used to create them is disabled, or the resource is no longer in the backup policy scope. * Obsolete snapshot retention settings apply to all EC2 and RDS cloud-native snapshots, as well as to snapshot replicas produced by Veeam Backup for AWS (you can identify these snapshots by the Veeam backup appliance ID tag). The only exception is [snapshots created manually](snapshot_manual.md) — to learn how to remove these snapshots, see [Removing EC2 Backups and Snapshots](backups_remove_manual_snapshots.md).  * If your backup appliance is managed by a Veeam Backup & Replication server, the backup server becomes the owner of the appliance repositories. As a result, it will remove obsolete cloud-native snapshots and snapshot replicas according to the obsolete snapshot retention settings configured on the backup appliance. For more information on how Veeam Backup & Replication handles retention policies, see the Veeam Backup & Replication User Guide, section [Managing Retention Policy](https://helpcenter.veeam.com/docs/vbr/userguide/external_repository_retention.html?ver=13). |
 
 To configure retention settings for obsolete snapshots and replicas, do the following:
 
 1. Switch to the Configuration page.
+2. Navigate to General > Retention.
+3. In the Obsolete snapshots retention section, select the After option to specify the number of days (or months) during which Veeam Backup for AWS will keep obsolete snapshots in the configuration database and AWS.
 
-1. Navigate to General > Retention.
-2. In the Obsolete snapshots retention section, select one of the following options:
-
-* Select the Never option if you do not want Veeam Backup for AWS to remove obsolete snapshots and replicas.
-
-* Select the After option to specify the number of days (or months) during which Veeam Backup for AWS must keep obsolete snapshots in the configuration database. For days, the number must be between 15 and 36135. For months, the number must be between 1 and 1188.
-
-If you select this option, Veeam Backup for AWS will remove obsolete snapshots of an instance as soon as the specified period is over.
+The number must be between 15 and 36135 for days, between 1 and 1188 for months and between 1 and 99 for years.
 
 1. Click Save.
 
 |  |
 | --- |
 | Notes |
-| * When Veeam Backup for AWS removes an obsolete snapshot from the configuration database, it also removes the snapshot from AWS.  * If your backup appliance is managed by a Veeam Backup & Replication server, the backup server becomes the owner of the appliance repositories. As a result, it will remove obsolete cloud-native snapshots and snapshot replicas according to the obsolete snapshot retention settings configured on the backup appliance. For more information on how Veeam Backup & Replication handles retention policies, see the Veeam Backup & Replication User Guide, section [Managing Retention Policy](https://helpcenter.veeam.com/docs/vbr/userguide/external_repository_retention.html?ver=13). |
+| * Use the Never option if you do not want Veeam Backup for AWS to apply any global retention settings to obsolete snapshots. In this case, Veeam Backup for AWS will remove obsolete snapshots according to retention settings configured for backup policies.  * If your backup appliance is managed by a Veeam Backup & Replication server, the backup server becomes the owner of the appliance repositories. As a result, it will remove obsolete cloud-native snapshots and snapshot replicas according to the obsolete snapshot retention settings configured on the backup appliance. For more information on how Veeam Backup & Replication handles retention policies, see the Veeam Backup & Replication User Guide, section [Managing Retention Policy](https://helpcenter.veeam.com/docs/vbr/userguide/external_repository_retention.html?ver=13). |
 
 Configuring Retention Settings for Session Records
 

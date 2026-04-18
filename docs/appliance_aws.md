@@ -3,7 +3,7 @@ title: "Backup Appliance"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/appliance_aws.html"
-last_updated: "3/13/2026"
+last_updated: "4/15/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -116,11 +116,11 @@ Logging Recommendations
 
 | Parameter | Recommended Value | Description |
 | LogLevel | Normal | Specifies the level of detail written to log files. |
-| LogsArchivesMaxCount | 100 | Specifies the maximum number of archived appliance log files that can be stored. |
-| LogsArchivesMaxSizeMb | 1000 | Specifies the maximum size of each archived appliance log file in MB. |
-| WorkerLogsLifeTime | 36500:00:00:00 | Specifies how long worker log files are retained.   Note: The recommended value equals approximately 100 years, which effectively prevents automatic deletion of worker log files. However, such a long retention may eventually lead to memory shortage and make the backup appliance unavailable |
-| WorkerLogsMaxArchivesCount | 2147483647 | Specifies the maximum number of archived worker log files that can be stored.   Note: The recommended value means there is no limit on the number of archived log files. |
-| WorkerLogsMaxSizeMb | 2147483647 | Specifies the maximum size of each worker log file in MB.  Note: The recommended value means there is no limit on the size for worker log files. |
+| LogsArchivesMaxCount | 50 | Specifies the maximum number of archived appliance log files that can be stored. |
+| LogsArchivesMaxSizeMb | 200 | Specifies the maximum size of each archived appliance log file in MB. |
+| WorkerLogsLifeTime | 180:00:00:00 | Specifies how long worker log files are retained.   Note: The recommended value equals 180 days. If you increase this value, make sure that the backup appliance has enough free disk space to store worker log files. |
+| WorkerLogsMaxArchivesCount | 360 | Specifies the maximum number of archived worker log files that can be stored. |
+| WorkerLogsMaxSizeMb | 1024 | Specifies the maximum total size of archived worker log files per EC2 instance in MB. |
 
 If the log files grow too large, you can remove them from the /mnt/vcb-storage/logs or /var/log/veeam folder, or open a [support case](https://helpcenter.veeam.com/docs/vbaws/guide/logs.html) to remove the unnecessary data.
 
