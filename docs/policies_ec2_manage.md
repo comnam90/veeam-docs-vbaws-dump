@@ -3,14 +3,14 @@ title: "Managing Backup Policies"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/policies_ec2_manage.html"
-last_updated: "8/6/2025"
+last_updated: "4/20/2026"
 product_version: "10.0.0.232"
 ---
 
 # Managing Backup Policies
 
 
-You can manage and edit created backup policies, and view each backup policy details in Veeam Backup for AWS. You can also remove backup policies that you do not use anymore, export existing or import new backup policies.
+You can manage existing backup policies and view the details of each backup policy in Veeam Backup for AWS. You can also remove backup policies that you do not use anymore, export existing or import new backup policies.
 
 In This Section
 
