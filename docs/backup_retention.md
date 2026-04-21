@@ -3,7 +3,7 @@ title: "Retention Policies"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_retention.html"
-last_updated: "12/8/2025"
+last_updated: "4/20/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -22,12 +22,12 @@ The snapshot chain can contain only the allowed number of restore points. If the
 
 Restore points in the backup chain (either standard or archive) can be stored in the backup repository for the allowed period of time. If a restore point is older than the specified time limit, Veeam Backup for AWS removes it from the backup chain. For more information, see sections [EC2 Snapshot Retention](retention_snapshots.md), [EC2 Backup Retention](retention_backup.md), [RDS Backup Retention](retention_backup_rds.md), [Redshift Backup Retention](retention_backup_redshift.md), [DynamoDB Backup Retention](retention_backup_dynamo.md), [EFS Backup Retention](retention_backup_efs.md), [FSx Backup Retention](retention_backup_fsx.md) and [VPC Configuration Backup Retention](retention_backup_vpc.md).
 
+You can also specify global retention settings for obsolete snapshots and replicas. For more information, see [Configuring Global Retention Settings](retention_settings.md#snapshots).
+
 |  |
 | --- |
-| Note |
-| When configuring policy scheduling, consider that Veeam Backup for AWS runs retention sessions at 4:00 AM by default, according to the time zone set on the backup appliance. If you schedule backup policies to execute at 4:00 AM, the backup policies and retention tasks will be queued. |
-
-You can also specify global retention settings for obsolete snapshots and replicas. For more information, see [Configuring Global Retention Settings](retention_settings.md#snapshots).
+| Notes |
+| * When configuring policy scheduling, consider that Veeam Backup for AWS runs retention sessions at 4:00 AM by default, according to the time zone set on the backup appliance. If you schedule backup policies to execute at 4:00 AM, the backup policies and retention tasks will be queued. * If your backup appliance is managed by a Veeam Backup & Replication server, the backup server becomes the owner of the backup repositories. As a result, Veeam Backup & Replication will prioritize retention settings configured for the backup server over retention settings configured for backup policies. For more information on how Veeam Backup & Replication handles retention policies, see the Veeam Backup & Replication User Guide, section [Managing Retention Policy](https://helpcenter.veeam.com/docs/vbr/userguide/external_repository_retention.html?ver=13). |
 
 Related Topics
 
