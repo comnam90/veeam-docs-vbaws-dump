@@ -3,7 +3,7 @@ title: "Configuring Global Retention Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/retention_settings.html"
-last_updated: "4/15/2026"
+last_updated: "4/20/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -22,7 +22,7 @@ When you create a backup policy, you can configure a retention period for cloud-
 |  |
 | --- |
 | Notes |
-| * Cloud-native snapshots and snapshot replicas are considered obsolete if the backup policy that produced them is disabled or no longer exists, the backup schedule used to create them is disabled, or the resource is no longer in the backup policy scope. * Obsolete snapshot retention settings apply to all EC2 and RDS cloud-native snapshots, as well as to snapshot replicas produced by Veeam Backup for AWS (you can identify these snapshots by the Veeam backup appliance ID tag). The only exception is [snapshots created manually](snapshot_manual.md) — to learn how to remove these snapshots, see [Removing EC2 Backups and Snapshots](backups_remove_manual_snapshots.md).  * If your backup appliance is managed by a Veeam Backup & Replication server, the backup server becomes the owner of the appliance repositories. As a result, it will remove obsolete cloud-native snapshots and snapshot replicas according to the obsolete snapshot retention settings configured on the backup appliance. For more information on how Veeam Backup & Replication handles retention policies, see the Veeam Backup & Replication User Guide, section [Managing Retention Policy](https://helpcenter.veeam.com/docs/vbr/userguide/external_repository_retention.html?ver=13). |
+| * Cloud-native snapshots and snapshot replicas are considered obsolete if the backup policy that produced them is disabled or no longer exists, the backup schedule used to create them is disabled, or the resource is no longer in the backup policy scope. * Obsolete snapshot retention settings apply to all EC2 and RDS cloud-native snapshots, as well as to snapshot replicas produced by Veeam Backup for AWS (you can identify these snapshots by the Veeam backup appliance ID tag). The only exception is [snapshots created manually](snapshot_manual.md) — to learn how to remove these snapshots, see [Removing EC2 Backups and Snapshots](backups_remove_manual_snapshots.md).  * Veeam Backup for AWS does not prioritize global retention settings over retention settings configured for backup policies. If snapshots or snapshot replicas produced by a backup policy are older than the global retention period, these snapshots will not be removed based on the global retention settings. |
 
 To configure retention settings for obsolete snapshots and replicas, do the following:
 
@@ -36,8 +36,8 @@ The number must be between 15 and 36135 for days, between 1 and 1188 for months 
 
 |  |
 | --- |
-| Notes |
-| * Use the Never option if you do not want Veeam Backup for AWS to apply any global retention settings to obsolete snapshots. In this case, Veeam Backup for AWS will remove obsolete snapshots according to retention settings configured for backup policies.  * If your backup appliance is managed by a Veeam Backup & Replication server, the backup server becomes the owner of the appliance repositories. As a result, it will remove obsolete cloud-native snapshots and snapshot replicas according to the obsolete snapshot retention settings configured on the backup appliance. For more information on how Veeam Backup & Replication handles retention policies, see the Veeam Backup & Replication User Guide, section [Managing Retention Policy](https://helpcenter.veeam.com/docs/vbr/userguide/external_repository_retention.html?ver=13). |
+| Tip |
+| Use the Never option if you do not want Veeam Backup for AWS to apply any global retention settings to obsolete snapshots. In this case, Veeam Backup for AWS will remove obsolete snapshots according to retention settings configured for backup policies. |
 
 Configuring Retention Settings for Session Records
 

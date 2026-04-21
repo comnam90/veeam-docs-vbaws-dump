@@ -3,7 +3,7 @@ title: "Step 7. Configure Repository Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/connect_appliance_repo.html"
-last_updated: "2/17/2026"
+last_updated: "4/20/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -50,14 +50,14 @@ For a password to be displayed in the Use the following password for encrypted b
 
 For Veeam Backup & Replication to be able to decrypt data stored in the repository, the IAM user whose permissions will be used to access the repository must also have permissions to access KMS keys. For more information on the required permissions, see [Plug-in Permissions](req_permissions.md#kms_permissions).
 
-After you finish working with the wizard, all the added repositories will be displayed in the Backup Infrastructure view under the External Repositories node.
+After you finish working with the wizard, all the configured repositories will be displayed in the Backup Infrastructure view under the External Repositories node.
 
 |  |
 | --- |
 | Notes |
-| * After you add your backup appliance to the backup infrastructure, the backup server becomes the owner of the appliance repositories. As a result, it will remove obsolete cloud-native snapshots and snapshot replicas according to the [obsolete snapshot retention settings](retention_settings.md#snapshots) configured on the backup appliance. For more information on how Veeam Backup & Replication handles retention policies, see the Veeam Backup & Replication User Guide, section [Managing Retention Policy](https://helpcenter.veeam.com/docs/vbr/userguide/external_repository_retention.html?ver=13). * If some of the repositories are already added to the backup infrastructure of another backup server, you will be prompted to claim the ownership of these repositories. To learn how to claim the ownership, see the Veeam Backup & Replication User Guide, section [Ownership](https://helpcenter.veeam.com/docs/vbr/userguide/external_repository_ownership.html?ver=13). |
+| * After you finish adding your backup appliance to the backup infrastructure, the backup server will become the owner of the configured repositories. As a result, Veeam Backup & Replication will prioritize retention settings configured for the backup server over retention settings configured for backup policies. To learn how Veeam Backup & Replication handles retention policies, see the Veeam Backup & Replication User Guide, section [Managing Retention Policy](https://helpcenter.veeam.com/docs/vbr/userguide/external_repository_retention.html?ver=13)  * If some of the repositories are already added to the backup infrastructure of another backup server, you will be prompted to claim the ownership of these repositories. To learn how to claim the ownership, see the Veeam Backup & Replication User Guide, section [Ownership](https://helpcenter.veeam.com/docs/vbr/userguide/external_repository_ownership.html?ver=13). |
 
-![Step 7. Configure Repository Settings](images/add_server_repos.webp "Add appliance - Repository")
+![Step 7. Configure Repository Settings](images/add_server_repos.webp)
 
 Related Topics
 

@@ -3,7 +3,7 @@ title: "Immutability"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/immutability.html"
-last_updated: "12/15/2025"
+last_updated: "4/20/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -25,7 +25,7 @@ Before you start creating immutable backups, keep in mind the following limitati
 
 * Veeam Backup for AWS does not support changes made to immutability settings in the AWS Management Console for buckets that are already used as target locations for image-level backups.
 
-* An IAM role that you plan to specify to create the immutable backup repository and further to access the repository when performing data protection and recovery tasks must be assigned permissions to collect immutability settings of Amazon S3 buckets and to create immutable backups. For more information on the required permissions, see [Repository IAM Role Permissions](role_permissions_repo.md).
+* An IAM role that will be used to create the immutable backup repository and to access the repository when performing data protection and recovery tasks must be assigned permissions to collect immutability settings of Amazon S3 buckets and to create immutable backups. For more information on the required permissions, see [Repository IAM Role Permissions](role_permissions_repo.md).
 
 * Veeam Backup for AWS does not support storing indexes of EFS file systems and backups of the appliance configuration database in immutable repositories.
 * You cannot manually remove immutable data from immutable repositories using the Veeam Backup for AWS Web UI, as described in sections [Removing EC2 Backups and Snapshots](backups_remove.md), [Removing RDS Backups and Snapshots](snapshots_remove_rds.md) and [Removing VPC Configuration Backups](backups_remove_vpc.md).
