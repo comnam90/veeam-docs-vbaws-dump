@@ -3,7 +3,7 @@ title: "Block Generation"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/block_generation.html"
-last_updated: "12/15/2025"
+last_updated: "4/20/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -19,9 +19,9 @@ A generation is a period of up to 25 days, during which all created data blocks 
 | Note |
 | Veeam Backup for AWS initiates a dedicated generation for each type of the backup schedule configured in the [EC2 backup policy settings](add_policy_schedule_retention.md) or in the [RDS backup policy settings](add_policy_schedule_retention_rds.md). |
 
-How Block Generation Works
+How Block Generations Work
 
-Block Generation works in the following way:
+The Block Generation mechanism works in the following way:
 
 1. During the first backup session, Veeam Backup for AWS creates a full backup in a backup repository and adds 25 days to its retention period to define the immutability period of the data blocks in this backup. The full backup becomes a starting point in the first generation of the immutable backup chain.
 2. During subsequent backup sessions, Veeam Backup for AWS copies only those data blocks that have changed since the previous backup session, and stores these data blocks to incremental backups in the backup repository. The content of each incremental backup depends on the content of the full backup and the preceding incremental backups in the immutable backup chain. To calculate the immutability period, Veeam Backup for AWS adds <25 - N> days to the retention period of these backups, where N is the number of days since the first backup in the generation was created.
@@ -47,9 +47,9 @@ Consider the following example. You want a backup policy to create image-level b
 According to the specified scheduling settings, Veeam Backup for AWS will create image-level backups in the following way:
 
 1. On March 1, a backup session will start at 7:00 AM to create the full backup in the immutable backup chain. Veeam Backup for AWS will add 25 days to the retention period specified in the backup policy settings. Thus, the immutability period of the data blocks in the full backup will be calculated as 55 days, and the immutability expiration date of these blocks will become April 25. The backup will be removed according to the retention policy on March 31.
-2. On March 8, Veeam Backup for AWS will create a new incremental backup at 7:00 AM and add 18 days to the retention period specified in the backup policy settings. Thus, the immutability period of the data blocks in the incremental backup will calculated as 48 days, and the immutability expiration date of these blocks will remain April 25. The backup will be removed according to the retention policy on April 7.
+2. On March 8, Veeam Backup for AWS will create a new incremental backup at 7:00 AM and add 18 days to the retention period specified in the backup policy settings. Thus, the immutability period of the data blocks in the incremental backup will be calculated as 48 days, and the immutability expiration date of these blocks will remain April 25. The backup will be removed according to the retention policy on April 7.
 3. On March 15-22, Veeam Backup for AWS will continue creating incremental backups and adding <25 - N> days to the retention period specified in the backup policy settings. Thus, the immutability expiration date of these blocks will remain April 25. Backups created on March 15 and March 22 will be removed according to the retention policy on April 14 and April 21, respectively.
-4. On March 29, Veeam Backup for AWS will create a new backup at 7:00 AM. During the backup session, Veeam Backup for AWS will initiate a new block generation period, and apply the new generation to the newly created backup. Thus, the immutability period of the data blocks in the backup will calculated as 55 days, and the immutability expiration date of these blocks will become May 23. The backup will be removed according to the retention policy on April 29.
+4. On March 29, Veeam Backup for AWS will create a new backup at 7:00 AM. During the backup session, Veeam Backup for AWS will initiate a new block generation period, and apply the new generation to the newly created backup. Thus, the immutability period of the data blocks in the backup will be calculated as 55 days, and the immutability expiration date of these blocks will become May 23. The backup will be removed according to the retention policy on April 29.
 5. On March 31, Veeam Backup for AWS will apply the retention policy and remove the full backup created on March 1 from the chain. Unused data blocks of the removed backup will be deleted on April 26 after the immutability period expires.
 
 
