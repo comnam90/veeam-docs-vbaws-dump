@@ -3,7 +3,7 @@ title: "Step 7. Configure Repository Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/connect_appliance_repo.html"
-last_updated: "4/20/2026"
+last_updated: "4/21/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -55,7 +55,7 @@ After you finish working with the wizard, all the configured repositories will b
 |  |
 | --- |
 | Notes |
-| * After you finish adding your backup appliance to the backup infrastructure, the backup server will become the owner of the configured repositories. As a result, Veeam Backup & Replication will prioritize retention settings configured for the backup server over retention settings configured for backup policies. To learn how Veeam Backup & Replication handles retention policies, see the Veeam Backup & Replication User Guide, section [Managing Retention Policy](https://helpcenter.veeam.com/docs/vbr/userguide/external_repository_retention.html?ver=13)  * If some of the repositories are already added to the backup infrastructure of another backup server, you will be prompted to claim the ownership of these repositories. To learn how to claim the ownership, see the Veeam Backup & Replication User Guide, section [Ownership](https://helpcenter.veeam.com/docs/vbr/userguide/external_repository_ownership.html?ver=13). |
+| * If some of the repositories are already added to the backup infrastructure of another backup server, you will be prompted to claim the ownership of these repositories. To learn how to claim the ownership, see the Veeam Backup & Replication User Guide, section [Ownership](https://helpcenter.veeam.com/docs/vbr/userguide/external_repository_ownership.html?ver=13).  * After you finish adding your backup appliance to the backup infrastructure, the backup server will become the owner of the configured repositories. As a result, Veeam Backup & Replication will prioritize retention settings configured for the backup server over retention settings configured for backup policies. To learn how Veeam Backup & Replication handles retention policies, see the Veeam Backup & Replication User Guide, section [Managing Retention Policy](https://helpcenter.veeam.com/docs/vbr/userguide/external_repository_retention.html?ver=13). |
 
 ![Step 7. Configure Repository Settings](images/add_server_repos.webp)
 
