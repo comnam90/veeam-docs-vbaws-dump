@@ -3,7 +3,7 @@ title: "Redshift Serverless Restore Using Web UI"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/redshift_serverless_restore_ui.html"
-last_updated: "12/12/2025"
+last_updated: "4/27/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -16,8 +16,6 @@ In case of a disaster, you can restore a Redshift Serverless namespace from a cl
 | --- |
 | Important |
 | * Veeam Backup for AWS supports restoring Redshift Serverless namespaces only to the same AWS accounts to which the source namespaces belong and to the same AWS Region where the source namespaces reside.  * Veeam Backup for AWS supports restoring only those Redshift Serverless namespace properties listed in section [Protecting Redshift Serverless](overview_redshift_serverless.md#properties).  * Veeam Backup for AWS does not support restoring Amazon Redshift Serverless namespaces to provisioned clusters. * Veeam Backup for AWS does not support restoring tables of Amazon Redshift Serverless namespaces. |
-
-How to Perform Redshift Restore
 
 To restore a protected Redshift Serverless namespace, do the following:
 
