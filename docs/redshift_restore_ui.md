@@ -3,7 +3,7 @@ title: "Redshift Clusters Restore Using Web UI"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/redshift_restore_ui.html"
-last_updated: "12/12/2025"
+last_updated: "4/27/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -16,8 +16,6 @@ In case of a disaster, you can restore a Redshift cluster from a Redshift backup
 | --- |
 | Important |
 | * Veeam Backup for AWS supports restoring Redshift clusters only to the same AWS accounts to which the source clusters belong and to the same AWS Region where the source cluster resides.  * Veeam Backup for AWS supports restoring only those Redshift cluster properties that are described in section [Protecting Redshift Clusters](overview_redshift.md#properties).  * Veeam Backup for AWS does not support restoring Amazon Redshift clusters with the Multi-AZ deployment. These clusters will be restored as clusters with the Single-AZ deployment. |
-
-How to Perform Redshift Restore
 
 To restore a protected Redshift cluster, do the following:
 
