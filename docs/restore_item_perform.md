@@ -3,7 +3,7 @@ title: "Performing File-Level Recovery"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_item_perform.html"
-last_updated: "12/15/2025"
+last_updated: "4/27/2026"
 product_version: "10.0.0.232"
 ---
 
