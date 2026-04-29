@@ -3,7 +3,7 @@ title: "Performing Entire File System Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_efs_web_ui.html"
-last_updated: "1/30/2026"
+last_updated: "4/27/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -11,8 +11,6 @@ product_version: "10.0.0.232"
 
 
 In case of a disaster, you can restore an entire EFS file system from an EFS backup or backup copy. Veeam Backup for AWS allows you to restore one or more EFS file systems at a time, to the original location or to a new location.
-
-How to Perform File System Restore
 
 To restore a protected EFS file system, do the following:
 

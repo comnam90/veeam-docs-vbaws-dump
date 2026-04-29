@@ -3,7 +3,7 @@ title: "Performing RDS Database Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/performing_rds_database_restore.html"
-last_updated: "3/12/2026"
+last_updated: "4/27/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -16,8 +16,6 @@ In case of a disaster, you can restore corrupted databases of Microsoft SQL Serv
 | --- |
 | Important |
 | [Applies only to Microsoft SQL Server DB instances] Veeam Backup for AWS does not support restoring databases that contain the FILESTREAM file group. |
-
-How to Perform Database Restore
 
 To restore databases of a protected DB instance, do the following:
 

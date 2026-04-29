@@ -3,7 +3,7 @@ title: "Performing EC2 Instance Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_perform.html"
-last_updated: "1/30/2026"
+last_updated: "4/27/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -16,8 +16,6 @@ In case of a disaster, you can restore an entire EC2 instance from a cloud-nativ
 | --- |
 | Important |
 | Before you start the restore operation, check the limitations and prerequisites described in section [Before You Begin](restore_entire_before_you_begin.md). |
-
-How to Perform Instance Restore
 
 To restore a protected EC2 instance, do the following:
 

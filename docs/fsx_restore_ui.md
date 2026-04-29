@@ -3,7 +3,7 @@ title: "FSx Restore Using Web UI"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/fsx_restore_ui.html"
-last_updated: "1/30/2026"
+last_updated: "4/27/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -16,8 +16,6 @@ In case of a disaster, you can restore a FSx file system from a FSx backup or ba
 | --- |
 | Important |
 | * Veeam Backup for AWS supports restoring FSx file systems only to the same AWS accounts to which the source file systems belong.  * Veeam Backup for AWS supports restoring only those FSx file system properties that are described in section [Protecting FSx File Systems](overview_fsx.md#parameters).  * Veeam Backup for AWS supports restoring Amazon FSx for Windows File Server file systems. However, before you start a restore operation, it is recommended that you use the Amazon FSx Active Directory Validation tool to check the connection between the file systems that you plan to restore and the Microsoft Active Directories to which these file systems will be joined. To learn how to use the validation tool, see [AWS Documentation](https://docs.aws.amazon.com/fsx/latest/WindowsGuide/aws-ad-integration-fsxW.html). * Veeam Backup for AWS does not support restoring Amazon FSx for Windows File Server file systems that use AWS Secrets Manager to store service account credentials when joined to a self-managed Microsoft Active Directory (AD). |
-
-How to Perform File System Restore
 
 To restore a protected FSx file system, do the following:
 

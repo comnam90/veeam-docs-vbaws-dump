@@ -3,7 +3,7 @@ title: "Performing Entire Configuration Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/vpc_entire_restore.html"
-last_updated: "7/3/2025"
+last_updated: "4/27/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -16,8 +16,6 @@ In case of unexpected configuration changes, you can restore entire Amazon VPC c
 | --- |
 | Important |
 | Restore to a new location is not supported for the following VPC configuration items:   * Client VPN endpoints. * Customer gateways and load balancer listeners that use authentication certificates. |
-
-How to Perform Entire VPC Configuration Restore
 
 To restore the entire VPC configuration, do the following:
 

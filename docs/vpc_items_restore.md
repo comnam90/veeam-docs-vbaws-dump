@@ -3,7 +3,7 @@ title: "Performing Selected Items Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/vpc_items_restore.html"
-last_updated: "4/9/2025"
+last_updated: "4/27/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -11,8 +11,6 @@ product_version: "10.0.0.232"
 
 
 In case of unexpected configuration changes, you can restore only specific items of the Amazon VPC configuration from a VPC configuration backup. Veeam Backup for AWS allows you to restore these items to the original location only.
-
-How to Perform Selected Items Restore
 
 To restore specific items of the VPC configuration, do the following:
 

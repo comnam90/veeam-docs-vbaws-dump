@@ -3,7 +3,7 @@ title: "Performing File-Level Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_item_perform_efs.html"
-last_updated: "10/2/2025"
+last_updated: "4/27/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -11,8 +11,6 @@ product_version: "10.0.0.232"
 
 
 In case a disaster strikes, you can recover corrupted or missing files of an EFS file system from an EFS backup or backup copy. Veeam Backup for AWS allows you to restore files and folders to the original file system or to another file system.
-
-How to Perform EFS File-Level Recover
 
 To recover files and folders of a protected file system, do the following:
 

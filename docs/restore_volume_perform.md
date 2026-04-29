@@ -3,7 +3,7 @@ title: "Performing Volume Restore"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_volume_perform.html"
-last_updated: "12/12/2025"
+last_updated: "4/27/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -16,8 +16,6 @@ In case a disaster strikes, you can restore corrupted EBS volumes of an EC2 inst
 | --- |
 | Notes |
 | * Veeam Backup for AWS does not attach restored EBS volumes to any EC2 instances — the volumes are placed to the specified location as standalone EBS volumes. * To restore an EC2 instance from a backup that is stored in an archive backup repository, you must retrieve the archived data first. You can either retrieve the archived data manually before you begin the restore operation, or launch the data retrieval process right from the Volume Restore wizard. To learn how to retrieve data manually, see [Retrieving EC2 Data From Archive](data_retrieval.md). |
-
-How to Perform Volume Restore
 
 To restore EBS volumes of a protected EC2 instance, do the following:
 
