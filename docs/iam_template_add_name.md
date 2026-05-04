@@ -3,7 +3,7 @@ title: "Step 2. Specify IAM Role Name and Template Format"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/iam_template_add_name.html"
-last_updated: "7/4/2025"
+last_updated: "4/30/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -12,7 +12,7 @@ product_version: "10.0.0.232"
 
 At the IAM Role Settings step of the wizard, specify the following settings:
 
-1. In the AWS role name field, specify a name that will be assigned to the IAM role in AWS.
+1. In the AWS role name field, enter a name that will be assigned to the IAM role in AWS.
 2. Use the Template format drop-down list to choose whether you want the template to be exported to a CloudFormation template or a JSON policy document:
 
 * Select the CloudFormation option to export the created template to a .CFORM file. You can further upload the file to the CloudFormation service and use it to create the necessary IAM role automatically, as described in [AWS Documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html).
