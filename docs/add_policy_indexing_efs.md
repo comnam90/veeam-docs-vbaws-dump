@@ -3,7 +3,7 @@ title: "Step 5. Enable EFS Indexing"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/add_policy_indexing_efs.html"
-last_updated: "9/26/2025"
+last_updated: "5/5/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -17,7 +17,7 @@ To learn how indexing works, see [EFS Backup](backup_hiw_efs.md).
 |  |
 | --- |
 | Note |
-| To perform indexing of the EFS file systems, Veeam Backup for AWS deploys a worker instance per each processed file system in the same AWS account where the file system resides — production account. By default, the most appropriate network settings of AWS Regions are used to deploy these worker instances. However, you can add [specific worker configurations](worker_add_config_prod.md) that will be used to deploy worker instances used for EFS indexing operations. |
+| To perform indexing of the EFS file systems, Veeam Backup for AWS deploys a worker instance per each processed file system in the AWS account to which the file system belongs — production account. By default, the most appropriate network settings of AWS Regions are used to deploy these worker instances. However, you can add [specific worker configurations](worker_add_config_prod.md) that will be used to deploy worker instances used for EFS indexing operations. |
 
 Limitations and Requirements
 
