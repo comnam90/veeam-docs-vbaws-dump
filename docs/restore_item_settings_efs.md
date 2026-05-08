@@ -3,7 +3,7 @@ title: "Step 3. Configure Restore Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_item_settings_efs.html"
-last_updated: "4/30/2026"
+last_updated: "5/5/2026"
 product_version: "10.0.0.232"
 ---
 
