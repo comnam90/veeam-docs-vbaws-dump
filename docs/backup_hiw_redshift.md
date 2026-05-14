@@ -3,7 +3,7 @@ title: "Redshift Clusters Backup"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/backup_hiw_redshift.html"
-last_updated: "4/2/2025"
+last_updated: "5/5/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -12,7 +12,7 @@ product_version: "10.0.0.232"
 
 Veeam Backup for AWS performs Redshift clusters backup in the following way:
 
-1. Veeam Backup for AWS uses the [AWS Backup service](https://docs.aws.amazon.com/redshift/latest/mgmt/managing-aws-backup.html) to create a cloud-native backup of the Redshift cluster, and saves this backup to the specified backup vault in the same AWS Region in which the source cluster resides.
+1. Veeam Backup for AWS uses the [AWS Backup service](https://docs.aws.amazon.com/redshift/latest/mgmt/managing-aws-backup.html) to create a cloud-native backup of the Redshift cluster and saves this backup to the specified backup vault in the same AWS Region in which the source cluster resides.
 2. The backup is assigned AWS tags upon creation. Keys and values of AWS tags contain encrypted metadata that helps Veeam Backup for AWS identify the related cluster backup.
 
 Related Topics
