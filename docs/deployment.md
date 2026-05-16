@@ -3,7 +3,7 @@ title: "Deployment"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/deployment.html"
-last_updated: "2/13/2026"
+last_updated: "5/5/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -29,7 +29,6 @@ This step applies only to Veeam Backup & Replication versions prior to 12. Versi
 
 Related Topics
 
-* [Failure and Recovery](failure_recovery.md)
-* [Appendix E. Uninstalling Backup Appliances Deployed from AWS Marketplace](uninstall.md)
+[Appendix E. Uninstalling Backup Appliances Deployed from AWS Marketplace](uninstall.md)
 
 
