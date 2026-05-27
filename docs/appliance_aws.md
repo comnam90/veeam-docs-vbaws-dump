@@ -3,7 +3,7 @@ title: "Backup Appliance"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/appliance_aws.html"
-last_updated: "4/15/2026"
+last_updated: "5/25/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -115,18 +115,22 @@ You can modify the following logging options in the configuration file /etc/veea
 Logging Recommendations
 
 | Parameter | Recommended Value | Description |
-| LogLevel | Normal | Specifies the level of detail written to log files. |
+| LogLevel | Normal | Specifies the level of detail written to log files.  Note: Higher log levels produce more detailed logs, which may increase their number and size. |
 | LogsArchivesMaxCount | 50 | Specifies the maximum number of archived appliance log files that can be stored. |
 | LogsArchivesMaxSizeMb | 200 | Specifies the maximum size of each archived appliance log file in MB. |
-| WorkerLogsLifeTime | 180:00:00:00 | Specifies how long worker log files are retained.   Note: The recommended value equals 180 days. If you increase this value, make sure that the backup appliance has enough free disk space to store worker log files. |
+| WorkerLogsLifeTime | 180:00:00:00 | Specifies how long worker log files are retained.   Note: The recommended value equals 180 days. If you increase this value, make sure that the backup appliance has enough free volume space to store worker log files. |
 | WorkerLogsMaxArchivesCount | 360 | Specifies the maximum number of archived worker log files that can be stored. |
-| WorkerLogsMaxSizeMb | 1024 | Specifies the maximum total size of archived worker log files per EC2 instance in MB. |
+| WorkerLogsMaxSizeMb | 1024 | Specifies the maximum total size of archived worker log files per protected AWS resource in MB.  Note: Make sure that the backup appliance has enough free volume space to store worker log files for all protected resources. |
 
 If the log files grow too large, you can remove them from the /mnt/vcb-storage/logs or /var/log/veeam folder, or open a [support case](https://helpcenter.veeam.com/docs/vbaws/guide/logs.html) to remove the unnecessary data.
 
 Veeam Backup & Replication Integration
 
 When you connect a backup appliance to the backup infrastructure, its backup policies, cloud-native snapshots, image-level backups, backup repositories and sessions are imported into the Veeam Backup & Replication database.
+
+Placement Recommendations
+
+You can connect multiple backup appliances to a single Veeam Backup & Replication server. However, when working in an AWS account with cross-region data transfer, it is recommended to use one Veeam Backup & Replication server per region, to help you avoid latency issues and meet potential data residency regulations.
 
 Time Consumption
 
