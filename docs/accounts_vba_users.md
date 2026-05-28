@@ -3,7 +3,7 @@ title: "Managing User Accounts"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/accounts_vba_users.html"
-last_updated: "10/24/2025"
+last_updated: "5/25/2026"
 product_version: "10.0.0.232"
 ---
 
@@ -12,7 +12,7 @@ product_version: "10.0.0.232"
 
 Veeam Backup for AWS controls access to its functionality with the help of user roles. A role defines what operations users can perform and what range of data is available to them in Veeam Backup for AWS.
 
-There are 4 user roles that you can assign to users working with Veeam Backup for AWS. Actions a user can perform depend on the role.
+There are 4 user roles that you can assign to users working with Veeam Backup for AWS:
 
 * Portal Administrator — can perform all configuration actions, and can also act as a Portal Operator and Restore Operator.
 * Portal Operator — can create and edit backup policies, perform backup and restore operations, manage protected data and track session statistics.
@@ -26,18 +26,21 @@ There are 4 user roles that you can assign to users working with Veeam Backup fo
 
 The following table describes the functionality available to users with different roles in the Veeam Backup for AWS UI.
 
+Managing User Accounts
+
 | Tab | Functionality | Portal Administrator | Portal Operator | Restore Operator | Read-Only User |
-| --- | --- | --- | --- | --- | --- |
 | Overview | Dashboard | Full | Full | N/A | Full |
 | Resources | Infrastructure | Full | Full | N/A | N/A |
 | Policies | Backup policies | Full | Full | N/A | Read only |
 | Backup repositories | Full | Full | N/A | Read only |
+| Database accounts (RDS backup) | Full | Full | N/A | Read only |
 | Protected Data | Restore | Full | Full | Full | N/A |
+| Database accounts (RDS restore) | Full | Full | Full | N/A |
 | File-level recovery | Full | Full | Read only | N/A |
 | Remove | Full | Full | N/A | N/A |
 | Sessions | Session log | Full | Full | Full | Full |
 | Stop session execution | Full | Full | N/A | N/A |
-| Configuration | | | | |  |
+| Configuration | | | | |
 | Accounts | IAM roles, SMTP accounts, Portal Users | Full | N/A | N/A | N/A |
 | Repositories | Backup repositories | Full | N/A | N/A | N/A |
 | Workers | Worker instances | Full | N/A | N/A | N/A |

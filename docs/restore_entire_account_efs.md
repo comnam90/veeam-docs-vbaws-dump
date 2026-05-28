@@ -3,14 +3,14 @@ title: "Step 3. Specify Account Settings"
 product: "vbaws"
 doc_type: "guide"
 source_url: "https://helpcenter.veeam.com/docs/vbaws/guide/restore_entire_account_efs.html"
-last_updated: "10/1/2025"
+last_updated: "5/25/2026"
 product_version: "10.0.0.232"
 ---
 
 # Step 3. Specify Account Settings
 
 
-At the Account step of the wizard, choose whether you want to use an IAM role of a standalone AWS account, an AWS account of an AWS Organization, or one-time access keys of an IAM user to allow Veeam Backup & Replication to perform the restore operation. For information on the permissions that the IAM role or IAM user must have to perform the restore operation, see [EFS Restore IAM Permissions](role_permissions_restore_efs.md).
+At the Account step of the wizard, choose whether you want to use an IAM role of a standalone AWS account, an AWS account of an AWS Organization, or one-time access keys of an IAM user to allow Veeam Backup for AWS to perform the restore operation. For information on the permissions that the IAM role or IAM user must have to perform the restore operation, see [EFS Restore IAM Permissions](role_permissions_restore_efs.md).
 
 |  |
 | --- |
